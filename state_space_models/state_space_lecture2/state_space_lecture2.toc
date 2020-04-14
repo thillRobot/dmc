@@ -1,0 +1,8 @@
+\beamer@sectionintoc {1}{ Mass Spring System with Displacement Input}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Mass Spring Model}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{ State Space Model }{4}{0}{1}
+\beamer@sectionintoc {2}{Mass Spring System Damper with Displacement Input}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Mass Spring Damper Model}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{ State Space Model - Problem! }{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{ State Space Model - Fixed}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{ State Space Model - Output Equation }{8}{0}{2}

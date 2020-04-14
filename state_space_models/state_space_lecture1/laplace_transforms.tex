@@ -1,0 +1,102 @@
+% Lecture Template for ME3001-001-Tristan Hill - Spring 2017 - Fall 2017
+% 
+% Mechanical Engineering Analysis with MATLAB
+%
+% Introduction to Analysis
+
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{color,soul}
+\usepackage{fancyvrb}
+\usepackage{framed}
+%\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{amssymb }
+\usepackage{amsmath}
+
+
+
+\pagestyle{plain}
+\setlength\parindent{0pt}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+% assignment number 
+\newcommand{\NUM}{1 } 
+\newcommand{\VSpaceSize}{2mm} 
+\newcommand{\HSpaceSize}{2mm} 
+
+%newcommand{\Lagr}{\mathcal{L}}
+
+\DeclareMathOperator{\Lagr}{\mathcal{L}}
+
+
+\definecolor{mygray}{rgb}{.6, .6, .6}
+
+\setulcolor{red} 
+\setstcolor{green} 
+\sethlcolor{mygray} 
+
+\begin{document}
+
+\textbf{ \LARGE ME 3050 Lecture - Laplace Transform and Properties} \vspace{3mm}\\
+\textbf{ \hspace*{5mm}Tristan W. Hill - Tennessee Technological University - Spring 2020 } \vspace{3mm}\\
+
+\Large
+\begin{itemize}
+
+\item \textbf{ \LARGE The Laplace Transform is an Integral Transform: } \\
+
+Given a function $x(t)$ in the time domain where $t\geq0$, \\ the Laplace Transform is defined as follows: \\
+
+\scalebox{1.25}{$X(s)=\Lagr{\{x(t)\}}=\displaystyle\int_0^{\infty} x(t)e^{-st}dt$}\\
+
+And its inverse is similarly defined as: \\
+
+ \scalebox{1.25}{$\Lagr^{-1}{\{X(s)\}}=x(t)$}\\
+
+The Laplace Domain variable $s$ is a complex number: \scalebox{1.5}{$s=\sigma+j\omega$} \\
+
+It is useful to find the laplace transform of the derivative of a function: \\
+
+\scalebox{1.25}{$\Lagr{\{\frac{d}{dt}(x(t))\} }=\Lagr{\{\dot{x}(t)\}} =s\Lagr{\{x(t)\} }-x(t=0)$} \\
+
+\scalebox{1.25}{$\hspace{52mm} =sX(s)-x(t=0)$} \\
+
+\scalebox{1.25}{$\hspace{52mm} =sX(s)-x_0$} \\\\
+
+\scalebox{1.25}{$\Lagr{\{\frac{d^2}{dt^2}(x(t))\} }=\Lagr{\{\ddot{x}(t)\}} = s^2\Lagr{\{x(t)\} }-sx(t=0)-\dot{x}(t=0)$}\\
+
+\scalebox{1.25}{$\hspace{52mm} = s^2X(s)-sx(t=0)-\dot{x}(t=0)$} \\
+
+\scalebox{1.25}{$\hspace{52mm} = s^2X(s)-sx_0-\dot{x}_0$}
+
+\end{itemize}
+
+\end{document}
+
+
+

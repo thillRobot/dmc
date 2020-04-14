@@ -1,0 +1,123 @@
+% Lecture Template for ME3001-001-Tristan Hill - Spring 2017 - Fall 2017
+% 
+% Mechanical Engineering Analysis with MATLAB
+%
+% Introduction to Analysis
+
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{color,soul}
+\usepackage{fancyvrb}
+\usepackage{framed}
+\usepackage{wasysym}
+\usepackage{multicol}
+\usepackage{ amssymb }
+
+
+
+\pagestyle{plain}
+\setlength\parindent{0pt}
+\hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={My title},    % title
+    pdfauthor={Author},     % author
+    pdfsubject={Subject},   % subject of the document
+    pdfcreator={Creator},   % creator of the document
+    pdfproducer={Producer}, % producer of the document
+    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=red,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue           % color of external links
+}
+
+% assignment number 
+\newcommand{\NUM}{1 } 
+\newcommand{\VSpaceSize}{2mm} 
+\newcommand{\HSpaceSize}{2mm} 
+
+\newcommand{\Lagr}{\mathcal{L}}
+
+\definecolor{mygray}{rgb}{.6, .6, .6}
+
+\setulcolor{red} 
+\setstcolor{green} 
+\sethlcolor{mygray} 
+
+\begin{document}
+
+\textbf{ \LARGE ME 3050 Lecture - Laplace Transforms} \vspace{3mm}\\
+\textbf{ \hspace*{5mm}Tristan W. Hill - Tennessee Technological University - Spring 2020 } \vspace{3mm}\\
+
+\Large
+\begin{itemize}
+
+\item \textbf{ \LARGE Partial Fraction Expansion leads to a General Form: } \\
+
+\scalebox{1.5}{$X(s)=\frac{N(s)}{D(s)}=\frac{b_ms^m+b_{m-1}+...+b_1s+b_0}{s^n+a_{n-1}s^{n-1}+...+a_1s+a_0}$\hspace{5mm}$n\geq m$} \vspace{5mm}\\
+
+\item \textbf{ \LARGE Case 1 - Distinct Roots: n roots are real and distinct} \vspace{5mm}\\
+\Large
+
+	The general form is factored:\\
+	
+	\scalebox{1.5}{$X(s)=\frac{N(s)}{(s+r_1)(s+r_2)...(s+r_n)}$} \vspace{5mm}\\
+
+	The fraction will expand to: \\
+
+	\scalebox{1.5}{$X(s)=\frac{C_1}{(s+r_1)}+\frac{C_2}{(s+r_2)}+...+\frac{C_n}{(s+r_n)}$} \vspace{5mm}\\
+
+	Where:\\
+
+	\scalebox{1.5}{$\displaystyle C_i=\lim_{s\rightarrow-r_i}\{ X(s)(s+r_i) \} $} \vspace{5mm}\\
+
+	And this leads to a solution: \\
+
+	\scalebox{1.5}{$x(t)=C_1e^{-r_1t}+C_2e^{-r_2t}+...+C_ne^{-r_nt}$}
+
+\newpage
+\item \textbf{ \LARGE Case 2 - Repeated Roots: \\ p number of roots have the same value $(s =-r)$ and remaining roots are distinct and real distinct} \vspace{5mm}\\
+\Large
+	
+	
+	\scalebox{1.25}{$X(s)=\frac{N(s)}{(s+r_1)^p(s+r_{p+1})(s+r_{p+2})...(s+r_n)}$} \vspace{5mm}\\
+
+	The fraction will expand to: \\
+
+	\scalebox{1.25}{$X(s)=\frac{C_1}{(s+r_1)^p}+\frac{C_2}{(s+r_1)^{p-1}}+...$} \vspace{5mm}\\
+\scalebox{1.25}{$ +\frac{C_p}{(s+r_1)}+\frac{C_{p+1}}{(s+r_{p+1})}+...+\frac{C_n}{(s+r_n)}$} \vspace{5mm}\\
+
+	Coefficients for the repeated root are:\\
+
+	\scalebox{1.25}{$\displaystyle C_1=\lim_{s\rightarrow-r_i}\{X(s)(s+r_i)^p\}$} \vspace{5mm}\\
+	\scalebox{1.25}{$\displaystyle C_2=\lim_{s\rightarrow-r_i}\{\frac{d}{ds}X(s)(s+r_i)^p\}$} \vspace{5mm}\\
+\scalebox{1.25}{$\displaystyle C_i=\lim_{s\rightarrow-r_i}\{\frac{1}{(i-1)!}\frac{d^{(i-1)}}{ds^{(i-1)}}X(s)(s+r_i)^p\}$} \vspace{5mm}\\
+
+	Coefficients for the distinct roots are the same as in Case 1:\\
+
+	And this leads to a solution: \\
+
+	\scalebox{1.5}{$x(t)=C_1\frac{t^{p-1}}{(p-1)!}e^{-r_1t}+C_2\frac{t^{p-2}}{(p-2)!}e^{-r_1t}+...$} \vspace{5mm}\\
+\scalebox{1.5}{$...+C_{p}e^{-r_1t}+C_{p+1}e^{-r_{p+1}t}...+C_ne^{-r_nt}$}
+
+
+
+
+\end{itemize}
+
+\end{document}
+
+
+
