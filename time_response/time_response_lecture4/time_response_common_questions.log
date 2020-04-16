@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.29)  16 APR 2020 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.1.29)  16 APR 2020 09:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**time_response_lecture4.tex
-(./time_response_lecture4.tex
+**time_response_common_questions.tex
+(./time_response_common_questions.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -724,8 +724,8 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen261
 \FrameSep=\dimen262
 )
-(./time_response_lecture4.aux)
-\openout1 = `time_response_lecture4.aux'.
+(./time_response_common_questions.aux)
+\openout1 = `time_response_common_questions.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
@@ -822,9 +822,9 @@ LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
 LaTeX Info: Redefining \nameref on input line 46.
 
-(./time_response_lecture4.out) (./time_response_lecture4.out)
+(./time_response_common_questions.out) (./time_response_common_questions.out)
 \@outlinefile=\write5
-\openout5 = `time_response_lecture4.out'.
+\openout5 = `time_response_common_questions.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 46.
@@ -894,7 +894,7 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./time_response_lecture4.nav)
+ (./time_response_common_questions.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -902,12 +902,12 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 102.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 102.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -915,13 +915,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Oheaviside.jpg, id=77, 514.92375pt x 791.95876pt>
 File: Oheaviside.jpg Graphic file (type jpg)
 <use Oheaviside.jpg>
-Package pdftex.def Info: Oheaviside.jpg  used on input line 102.
+Package pdftex.def Info: Oheaviside.jpg  used on input line 104.
 (pdftex.def)             Requested size: 51.49538pt x 79.20052pt.
 
-Overfull \hbox (5.01883pt too wide) detected at line 102
+Overfull \hbox (5.01883pt too wide) detected at line 104
 \OT1/cmss/m/it/12 f[]\OT1/cmss/m/n/12 (\OT1/cmss/m/it/12 t\OT1/cmss/m/n/12 ) = 
 \OT1/cmss/m/it/12 Fu[]\OT1/cmss/m/n/12 (\OT1/cmss/m/it/12 t\OT1/cmss/m/n/12 ) =
  []
+ []
+
+
+Overfull \vbox (4.9592pt too high) detected at line 104
  []
 
 [3
@@ -931,7 +935,7 @@ Overfull \hbox (5.01883pt too wide) detected at line 102
 ] [5
 
 ]
-Overfull \vbox (0.8041pt too high) detected at line 158
+Overfull \vbox (0.8041pt too high) detected at line 160
  []
 
 [6
@@ -940,31 +944,31 @@ Overfull \vbox (0.8041pt too high) detected at line 158
 
 ]
 \tf@nav=\write6
-\openout6 = `time_response_lecture4.nav'.
+\openout6 = `time_response_common_questions.nav'.
 
 \tf@toc=\write7
-\openout7 = `time_response_lecture4.toc'.
+\openout7 = `time_response_common_questions.toc'.
 
 \tf@snm=\write8
-\openout8 = `time_response_lecture4.snm'.
+\openout8 = `time_response_common_questions.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
- (./time_response_lecture4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
-Package rerunfilecheck Info: File `time_response_lecture4.out' has not changed.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+ (./time_response_common_questions.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package rerunfilecheck Info: File `time_response_common_questions.out' has not 
+changed.
 (rerunfilecheck)             Checksum: 80940166C01F56283FC9964D5AF93979;569.
  ) 
 Here is how much of TeX's memory you used:
  18235 strings out of 494923
- 340796 string characters out of 6180742
+ 340916 string characters out of 6180742
  442723 words of memory out of 5000000
  21131 multiletter control sequences out of 15000+600000
  13347 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 48i,19n,57p,818b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,19n,57p,826b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -976,7 +980,7 @@ pe1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb>
-Output written on time_response_lecture4.pdf (7 pages, 247511 bytes).
+Output written on time_response_common_questions.pdf (7 pages, 247694 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  145 compressed objects within 2 object streams
