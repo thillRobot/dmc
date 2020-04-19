@@ -2,8 +2,9 @@
 \beamer@subsectionintoc {1}{1}{Harmonic Input Function}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Why Study Frequency Response?}{4}{0}{1}
 \beamer@sectionintoc {2}{Review Complex Numbers}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{The Roots of the System can be Complex}{5}{0}{2}
-\beamer@sectionintoc {3}{T3: Finding the Time Value with Time Constant}{6}{0}{3}
-\beamer@subsectionintoc {3}{1}{T3: Finding the Time Value with Time Constant}{6}{0}{3}
-\beamer@sectionintoc {4}{T4: Stability of a Second Order System}{7}{0}{4}
-\beamer@subsectionintoc {4}{1}{T4: Stability of a Second Order System}{7}{0}{4}
+\beamer@subsectionintoc {2}{1}{The Complex Plane}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Complex Number Algebra}{6}{0}{2}
+\beamer@sectionintoc {3}{T3: Finding the Time Value with Time Constant}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{T3: Finding the Time Value with Time Constant}{7}{0}{3}
+\beamer@sectionintoc {4}{T4: Stability of a Second Order System}{8}{0}{4}
+\beamer@subsectionintoc {4}{1}{T4: Stability of a Second Order System}{8}{0}{4}

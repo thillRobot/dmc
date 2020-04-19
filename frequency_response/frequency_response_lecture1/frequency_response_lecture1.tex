@@ -135,16 +135,41 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 
 \section{Review Complex Numbers}
 
-\subsection{The Roots of the System can be Complex}
+\subsection{The Complex Plane}
 \frame{
-\frametitle{The Roots of the System can be Complex}
+\frametitle{The Complex Plane}
 
 In an underdamped system the roots of the characteristic polynomial are complex. Before we proceed we need to review some rules of arithmetic and complex numbers. \vspccc
 
+\begin{multicols}{2}
 \includegraphics[scale=0.175]{lecture1_fig1.png}
 
+\small
+\hspccc Cartesian Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=x+jy$}\vspc
+\hspccc Polar Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|\angle\theta$}\vspc
+\hspccc Exponential Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|e^{j\theta}=|\mathbf{P}|\left(cos\theta+jsin\theta\right)$}\vspc
+\end{multicols}
 
 }
+
+
+
+\subsection{Complex Number Algebra}
+\frame{
+\frametitle{Complex Number Algebra}
+ 
+ Consider two points $\mathbf{P_1}$ and $\mathbf{P_2}$ on the complex plane. \vspc
+ 
+ \scalebox{1}{$\mathbf{P_1}=x_1+jy_1$\hspc and \hspc$\mathbf{P_2}=x_2+jy_2$} \vspccc
+\renewcommand{\arraystretch}{1.75}
+ \begin{tabular}{cc}
+ Addition:& \scalebox{1}{$\mathbf{P_1}+\mathbf{P_2}=(x_1+x_2)+j(y_1+y_2)$}\\
+ Multiplication:& \scalebox{1}{$\mathbf{P_1P_2}=|\mathbf{P_1P_2}|\angle\left(\theta_1+\theta_2\right)$}\\
+ Divsion:&\scalebox{1}{$\frac{\mathbf{P_1}}{\mathbf{P_2}}=(x_1+x_2)+j(y_1+y_2)$}\\
+\end{tabular}
+
+}
+
 
 % section 3: Stability and the Roots
 
