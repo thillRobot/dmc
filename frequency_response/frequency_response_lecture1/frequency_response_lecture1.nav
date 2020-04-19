@@ -51,10 +51,14 @@
 \headcommand {\beamer@subsectionentry {0}{3}{5}{12}{Amplitude Ratio}}
 \headcommand {\slideentry {3}{5}{1}{12/12}{Amplitude Ratio}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {3}{5}{2}{13/13}{Amplitude Ratio}{0}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{13}{Amplitude Ratio and Phase Angle}}
+\headcommand {\slideentry {3}{6}{1}{13/13}{Amplitude Ratio and Phase Angle}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@partpages {1}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\beamer@sectionpages {8}{13}}
-\headcommand {\beamer@documentpages {13}}
-\headcommand {\gdef \inserttotalframenumber {13}}
+\headcommand {\slideentry {3}{6}{2}{14/14}{Amplitude Ratio and Phase Angle}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@partpages {1}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\beamer@sectionpages {8}{14}}
+\headcommand {\beamer@documentpages {14}}
+\headcommand {\gdef \inserttotalframenumber {14}}

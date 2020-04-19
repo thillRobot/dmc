@@ -134,7 +134,7 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 \frame{
 \frametitle{Frequency Response and Transfer Function}
 
-A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that describes the {\bf input-output} relationship of the system. Under sinusoidal excitation (input) with frequency $\omega$ if the system is stable the transient affects in the response (output) will eventually dissappear leaving the {\bf steady state sinusoidal response} of the same frequency as the input but with a phase shift w.r.t. the input.
+A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that describes the {\bf input-output} relationship of the system. Under sinusoidal excitation (input) with frequency $\omega$ if the system is stable the transient affects in the response (output) will eventually disappear leaving the {\bf steady state sinusoidal response} of the same frequency as the input but with a phase shift w.r.t. the input.
 
 }
 
@@ -152,9 +152,9 @@ In an underdamped system the roots of the characteristic polynomial are complex.
 \includegraphics[scale=0.175]{lecture1_fig1.png}
 
 \small
-\hspccc Cartesian Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=x+jy$}\vspc
-\hspccc Polar Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|\angle\theta$}\vspc
-\hspccc Exponential Reprentation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|e^{j\theta}=|\mathbf{P}|\left(cos\theta+jsin\theta\right)$}\vspc
+\hspccc Cartesian Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=x+jy$}\vspc
+\hspccc Polar Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|\angle\theta$}\vspc
+\hspccc Exponential Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|e^{j\theta}=|\mathbf{P}|\left(cos\theta+jsin\theta\right)$}\vspc
 \end{multicols}
 
 }
@@ -172,7 +172,7 @@ In an underdamped system the roots of the characteristic polynomial are complex.
  \begin{tabular}{cc}
  Addition:& \scalebox{1}{$\mathbf{P_1}+\mathbf{P_2}=(x_1+x_2)+j(y_1+y_2)$}\\
  Multiplication:& \scalebox{1}{$\mathbf{P_1P_2}=|\mathbf{P_1P_2}|\angle\left(\theta_1+\theta_2\right)$}\\
- Divsion:&\scalebox{1}{$\frac{\mathbf{P_1}}{\mathbf{P_2}}=(x_1+x_2)+j(y_1+y_2)$}\\
+ Division:&\scalebox{1}{$\frac{\mathbf{P_1}}{\mathbf{P_2}}=(x_1+x_2)+j(y_1+y_2)$}\\
 \end{tabular}
 
 }
@@ -225,7 +225,7 @@ This considers a {\it generalized} input function $f(t)$ and zero ICs.
 
 \small
 
-Our model is now excited by a sinusodal input (forcing) function. \vspc
+Our model is now excited by a sinusoidal input (forcing) function. \vspc
 
 \scalebox{1}{$\tau\dot{y}+y=f(t)=Asin\left(\omega t\right)$} \vspcc
 
@@ -252,10 +252,10 @@ Substituting and take the inverse Laplace transform. \vspc
 
 \small
 \scalebox{1}{$y(t)=\frac{A\omega\tau}{1+\omega^2\tau^2}\big( e^{\frac{-t}{\tau}}-cos\omega t+\frac{1}{\omega\tau}sin\omega t\big) $} \vspcc
-After some amount of time passes, the transient term will dissappear leaving just the sinusoidal terms. \vspcc
+After some amount of time passes, the transient term will disappear leaving just the sinusoidal terms. \vspcc
 
 \scalebox{1}{$y(t)=\frac{A}{1+\omega^2\tau^2}\big(sin\omega t - \omega\tau cos\omega t\big) $} \vspccc
-This is re-written as a single sinusiodal term with a phase shift. \vspc
+This is re-written as a single sinusoidal term with a phase shift. \vspc
 
 \begin{framed}
 Steady State Frequency Response of First Order System\vspc
@@ -280,8 +280,27 @@ Fortunately we can find the {\bf amplitude ratio} and {\bf phase shift} directly
 
 \scalebox{1}{$T(s)=\frac{1}{\tau s+1}$}\hspccc let \scalebox{1}{$s=j\omega\hspccc\implies\hspccc T(j\omega)=\frac{1}{\tau j\omega+1}$} \vspc
 
-\scalebox{1}{$|T(j\omega)|=\frac{|1|}{|\tau j\omega+1|}=\frac{1}{\sqrt{\left(\tau\omega\right)^2+1^2}}=\frac{1}{\sqrt{1+\tau^2\omega^2}}$} \hspccc Does this look familiar? \vspc 
+\scalebox{1}{$|T(j\omega)|=\frac{|1|}{|\tau j\omega+1|}=\frac{1}{\sqrt{\left(\tau\omega\right)^2+1^2}}=\frac{1}{\sqrt{1+\tau^2\omega^2}}$} \hspccc \hspccc Look familiar? \vspc 
 
+}
+
+\subsection{Amplitude Ratio and Phase Angle}
+\frame{
+\frametitle{Amplitude Ratio and Phase Angle}
+
+\small
+
+\scalebox{1}{$|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}=M$}\vspc
+
+\scalebox{1}{$\angle T\left(j\omega\right)=\angle 1-\angle\left(1+j\omega\tau\right)=tan^{-1}\left(\frac{0}{1}\right)-tan^{-1}\left(\frac{\omega\tau}{1}\right)=-tan^{-1}\left(\frac{\omega\tau}{1}\right)=\phi$}\vspcc
+
+Substitute $s=j\omega$ into the transfer function and solve for the magnitude and phase angle of this complex number which represent the magnitude ratio and phase shift. \vspc
+
+Therefore the steady state response is written as follows.  \vspc
+
+\scalebox{1}{$y_{ss}\left(t\right)=A|T\left(j\omega\right)|sin\left(\omega t+\angle T\left(j\omega\right)\right)=MAsin\left(\omega t+\phi\right)$}\vspcc
+
+Wasn't that fun? Can you believe we used to do that on the board?!?! \vspc
 }
 
 % references is not a section for now, for looks and it would be a waste of space
