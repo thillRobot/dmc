@@ -47,7 +47,7 @@
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
 
-\newcommand{\Lagr}{\mathcal{L}} % lagrangian
+\newcommand{\LT}{\mathcal{L}} % lagrangian
 
 \newcommand{\LNUM}{1} %Lecture number 1
 
@@ -130,6 +130,13 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 
 }
 
+\subsection{Frequency Response and Transfer Function}
+\frame{
+\frametitle{Frequency Response and Transfer Function}
+
+A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that describes the {\bf input-output} relationship of the system. Under sinusoidal excitation (input) with frequency $\omega$ if the system is stable the transient affects in the response (output) will eventually dissappear leaving the {\bf steady state sinusoidal response} of the same frequency as the input but with a phase shift w.r.t. the input.
+
+}
 
 % section 2: Review Complex Numbers
 
@@ -171,22 +178,43 @@ In an underdamped system the roots of the characteristic polynomial are complex.
 }
 
 
-% section 3: Stability and the Roots
+% section 3: Frequency Response of First Order Systems
 
-\section{T3: Finding the Time Value with Time Constant}
+\section{Frequency Response of First Order Systems}
 
-\subsection{T3: Finding the Time Value with Time Constant}
+\subsection{Frequency Response of First Order Systems}
 \frame{
-\frametitle{T3: Finding the Time Value with Time Constant}
+\frametitle{Frequency Response of First Order Systems}
 
-In problem b) it asks for the time at which the response equation reaches a certain value. There  are different ways to find this value.
+\includegraphics[scale=.15]{porsche.png}
 
-\begin{itemize}
-\item Plot the response curve and locate the value graphically. This might not be accurate.\vspc
-\item Use a `root-finding' method to locate the value. \vspc
-\item Solve for the value with algebra. This is easy for this system.\vspc
-\end{itemize}
+Consider our $1^{\underline{st}}$ order mass damper system. \vspc
 
+\scalebox{1}{$m\dot{v}+cv=f(t)$} \hspcc with a {\bf time constant} \scalebox{1}{$\tau=\frac{m}{c}$} \vspcc
+
+The system is commonly re-written as shown below. \vspc
+
+\scalebox{1}{$m\dot{v}+cv=f(t)\hspc\rightarrow\hspc\tau\dot{y}+y=f(t)$} \vspc
+
+}
+
+\subsection{Obtain the Transfer Function}
+\frame{
+\frametitle{Obtain the Transfer Function}
+
+\scalebox{1}{$\tau\dot{y}+y=f(t)$} \vspcc
+
+Take the Laplace transform of the ODE. \vspcc
+
+\scalebox{1}{$\LT\{\tau\dot{y}+y\}=\LT\{f(t)\}$} \vspcc
+
+\scalebox{1}{$\tau\left(sY(s)+y_0)\right)+Y(s)=F(s)$}\hspccc The initial conditions are zero. \vspcc
+
+\begin{framed}
+\scalebox{1}{$T(s)=\frac{Y(s)}{F(s)}=\frac{1}{\tau s+1}$}\hspccc First Order Transfer Function
+\end{framed}
+
+This considers a {\it generalized} input function $f(t)$ and zero ICs.
 }
 
 % section 3: Stability and the Roots
