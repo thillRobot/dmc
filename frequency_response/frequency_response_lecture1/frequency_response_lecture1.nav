@@ -39,17 +39,22 @@
 \headcommand {\beamer@subsectionentry {0}{3}{2}{9}{Obtain the Transfer Function}}
 \headcommand {\slideentry {3}{2}{1}{9/9}{Obtain the Transfer Function}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {8}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\sectionentry {4}{T4: Stability of a Second Order System}{10}{T4: Stability of a Second Order System}{0}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{10}{T4: Stability of a Second Order System}}
-\headcommand {\slideentry {4}{1}{1}{10/10}{T4: Stability of a Second Order System}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{10}{Sinusoidal Input Function}}
+\headcommand {\slideentry {3}{3}{1}{10/10}{Sinusoidal Input Function}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{1}{2}{11/11}{T4: Stability of a Second Order System}{0}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{11}{Steady State Time Response}}
+\headcommand {\slideentry {3}{4}{1}{11/11}{Steady State Time Response}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\beamer@subsectionpages {11}{11}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{12}{Amplitude Ratio}}
+\headcommand {\slideentry {3}{5}{1}{12/12}{Amplitude Ratio}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {3}{5}{2}{13/13}{Amplitude Ratio}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@partpages {1}{13}}
+\headcommand {\beamer@subsectionpages {12}{13}}
+\headcommand {\beamer@sectionpages {8}{13}}
+\headcommand {\beamer@documentpages {13}}
+\headcommand {\gdef \inserttotalframenumber {13}}

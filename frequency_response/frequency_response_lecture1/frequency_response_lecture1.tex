@@ -202,6 +202,8 @@ The system is commonly re-written as shown below. \vspc
 \frame{
 \frametitle{Obtain the Transfer Function}
 
+\small
+
 \scalebox{1}{$\tau\dot{y}+y=f(t)$} \vspcc
 
 Take the Laplace transform of the ODE. \vspcc
@@ -217,26 +219,69 @@ Take the Laplace transform of the ODE. \vspcc
 This considers a {\it generalized} input function $f(t)$ and zero ICs.
 }
 
-% section 3: Stability and the Roots
-
-\section{T4: Stability of a Second Order System}
-
-\subsection{T4: Stability of a Second Order System}
+\subsection{Sinusoidal Input Function}
 \frame{
-\frametitle{T4: Stability of a Second Order System}
+\frametitle{Sinusoidal Input Function}
 
+\small
 
-Our model  $m\ddot{x}+c\dot{x}+kx=0$ is stable is the roots of the characteristic equation lie {\it to the right} of the imaginary axis of the complex plane (if the Real part of the root is positive). This makes sense because a positive $\alpha$ would cause the response to go to $\infty$.\vspc
+Our model is now excited by a sinusodal input (forcing) function. \vspc
+
+\scalebox{1}{$\tau\dot{y}+y=f(t)=Asin\left(\omega t\right)$} \vspcc
+
+Take the Laplace Transform of the equation. \vspc
+
+\scalebox{1}{$\tau sY(s)+Y(s)=\frac{A\omega}{s^2+\omega^2}$}  \vspc
+
+Solve for $Y(s)$ and expand. \vspc
+
+\scalebox{1}{$Y(s)=\frac{A\omega}{\left(s^2+\omega^2\right)\left(\tau s+1\right)}=\frac{C_1}{\tau s+1}+\frac{C_2s}{\left(s^2+\omega^2\right)}+\frac{C_3\omega}{\left(s^2+\omega^2\right)}$} \vspc
+
+Now solve for the coefficients.\vspc
+
+\scalebox{1}{$C_1=\frac{A\omega\tau^2}{1+\omega^2\tau^2}\hspccc,\hspc C_2=\frac{-A\omega\tau}{1+\omega^2\tau^2}\hspccc,\hspc C_3=\frac{A}{1+\omega^2\tau^2}$} \vspc
+
+Substituting and take the inverse Laplace transform. \vspc
+\scalebox{1}{$y(t)=\frac{A\omega\tau}{1+\omega^2\tau^2}\big( e^{\frac{-t}{\tau}}-cos\omega t+\frac{1}{\omega\tau}sin\omega t\big) $}
+
+}
+
+\subsection{Steady State Time Response}
+\frame{
+\frametitle{Steady State Time Response}
+
+\small
+\scalebox{1}{$y(t)=\frac{A\omega\tau}{1+\omega^2\tau^2}\big( e^{\frac{-t}{\tau}}-cos\omega t+\frac{1}{\omega\tau}sin\omega t\big) $} \vspcc
+After some amount of time passes, the transient term will dissappear leaving just the sinusoidal terms. \vspcc
+
+\scalebox{1}{$y(t)=\frac{A}{1+\omega^2\tau^2}\big(sin\omega t - \omega\tau cos\omega t\big) $} \vspccc
+This is re-written as a single sinusiodal term with a phase shift. \vspc
 
 \begin{framed}
-This is called the \textbf{Routh-Hurwitz stability conditions}\vspcc
-
-A second order model of the form $a_2s^2+a_1s+a_0=0$ \vspc
-
-if $a_2$, $a_1$, and $a_0$ have the {\it same sign}. \vspc
+Steady State Frequency Response of First Order System\vspc
+\scalebox{1}{$y(t)=\frac{A}{\sqrt{1+\omega^2\tau^2}}sin\left(\omega t+\phi\right) \hspccc,\hspc \phi=-tan^{-1}\omega\tau$}
 \end{framed}
 
-This is in your reference handout and discussed on page 488 of System Dynamics, Palm III, Third Edition
+}
+
+\subsection{Amplitude Ratio}
+\frame{
+\frametitle{Amplitude Ratio}
+
+\small
+
+\scalebox{1}{$y(t)=\frac{A}{\sqrt{1+\omega^2\tau^2}}sin\left(\omega t+\phi\right) \hspccc,\hspc \phi=-tan^{-1}\omega\tau$} \vspccc
+
+Notice that the system responds at the same frequency as the input but with a different amplitude and a phase shift. The ratio of the response amplitude to the input amplitude is called the {\bf amplitude ratio, M}. \vspc
+
+\scalebox{1}{$M=\frac{\frac{A}{\sqrt{1+\omega^2\tau^2}}}{A}=\frac{1}{\sqrt{1+\omega^2\tau^2}}$} \vspc
+
+Fortunately we can find the {\bf amplitude ratio} and {\bf phase shift} directly from the transfer function. Recall the transfer function we derived. \vspc
+
+\scalebox{1}{$T(s)=\frac{1}{\tau s+1}$}\hspccc let \scalebox{1}{$s=j\omega\hspccc\implies\hspccc T(j\omega)=\frac{1}{\tau j\omega+1}$} \vspc
+
+\scalebox{1}{$|T(j\omega)|=\frac{|1|}{|\tau j\omega+1|}=\frac{1}{\sqrt{\left(\tau\omega\right)^2+1^2}}=\frac{1}{\sqrt{1+\tau^2\omega^2}}$} \hspccc Does this look familiar? \vspc 
+
 }
 
 % references is not a section for now, for looks and it would be a waste of space
