@@ -1,7 +1,7 @@
 \beamer@sectionintoc {1}{Introduction to Chapter 9}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Harmonic Input Function}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Why Study Frequency Response?}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{Frequency Response and Transfer Function}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Frequency Response and the Transfer Function}{5}{0}{1}
 \beamer@sectionintoc {2}{Review Complex Numbers}{6}{0}{2}
 \beamer@subsectionintoc {2}{1}{The Complex Plane}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Complex Number Algebra}{7}{0}{2}
@@ -12,3 +12,5 @@
 \beamer@subsectionintoc {3}{4}{Steady State Time Response}{11}{0}{3}
 \beamer@subsectionintoc {3}{5}{Amplitude Ratio}{12}{0}{3}
 \beamer@subsectionintoc {3}{6}{Amplitude Ratio and Phase Angle}{13}{0}{3}
+\beamer@subsectionintoc {3}{7}{Graph of Frequency Response}{14}{0}{3}
+\beamer@subsectionintoc {3}{8}{MATLAB code}{15}{0}{3}

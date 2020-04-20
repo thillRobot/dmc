@@ -16,6 +16,19 @@
 \usepackage{amssymb}
 
 
+\lstdefinestyle{myCustomMatlabStyle}{
+  language=Matlab,
+  numbers=left,
+  stepnumber=1,
+  numbersep=10pt,
+  tabsize=4,
+  showspaces=false,
+  showstringspaces=false
+}
+\lstset{basicstyle=\ttfamily\tiny,style=myCustomMatlabStyle}
+%lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+
 
 \beamertemplateballitem
 
@@ -79,7 +92,7 @@
 	
 	\item Frequency Response of First Order Systems\vspc %Section 3
 
-	\item The Bode Plot\vspace{2mm} % Section 4
+	\item Graph of System Response\vspace{2mm} % Section 4
 
 \end{itemize}
 
@@ -93,7 +106,8 @@
 \frame{
 \frametitle{Harmonic Input Function}
 
-\large The term {\bf frequency response} is used to describe a system's response to a periodic input. Frequency response analysis focuses on a system's response to {\it harmonic} input such as sines and cosines. The input (forcing) function is written below.\vspcc
+\small 
+The term {\bf frequency response} is used to describe a system's response to a periodic input. Frequency response analysis focuses on a system's response to {\it harmonic} input such as sines and cosines. The input (forcing) function is written below.\vspcc
 
 
 \begin{framed}
@@ -112,7 +126,7 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 \subsection{Why Study Frequency Response?}
 \frame{
 \frametitle{Why Study Frequency Response?}
-
+\small
  Why do we care about the way a system responds to harmonic excitation? Why is {\bf frequency analysis} important? \\
 \begin{itemize}
 \item
@@ -130,9 +144,9 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 
 }
 
-\subsection{Frequency Response and Transfer Function}
+\subsection{Frequency Response and the Transfer Function}
 \frame{
-\frametitle{Frequency Response and Transfer Function}
+\frametitle{Frequency Response and the Transfer Function}
 
 A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that describes the {\bf input-output} relationship of the system. Under sinusoidal excitation (input) with frequency $\omega$ if the system is stable the transient affects in the response (output) will eventually disappear leaving the {\bf steady state sinusoidal response} of the same frequency as the input but with a phase shift w.r.t. the input.
 
@@ -146,7 +160,7 @@ A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that 
 \frame{
 \frametitle{The Complex Plane}
 
-In an underdamped system the roots of the characteristic polynomial are complex. Before we proceed we need to review some rules of arithmetic and complex numbers. \vspccc
+In an underdamped system the roots of the characteristic polynomial are complex. Before we proceed we need to review some rules of arithmetic and complex numbers. \vspc
 
 \begin{multicols}{2}
 \includegraphics[scale=0.175]{lecture1_fig1.png}
@@ -227,13 +241,11 @@ This considers a {\it generalized} input function $f(t)$ and zero ICs.
 
 Our model is now excited by a sinusoidal input (forcing) function. \vspc
 
-\scalebox{1}{$\tau\dot{y}+y=f(t)=Asin\left(\omega t\right)$} \vspcc
+\scalebox{1}{$\tau\dot{y}+y=f(t)=Asin\left(\omega t\right)$} \vspc
 
-Take the Laplace Transform of the equation. \vspc
+Take the Laplace Transform. Then, solve for $Y(s)$ and expand.\vspc
 
 \scalebox{1}{$\tau sY(s)+Y(s)=\frac{A\omega}{s^2+\omega^2}$}  \vspc
-
-Solve for $Y(s)$ and expand. \vspc
 
 \scalebox{1}{$Y(s)=\frac{A\omega}{\left(s^2+\omega^2\right)\left(\tau s+1\right)}=\frac{C_1}{\tau s+1}+\frac{C_2s}{\left(s^2+\omega^2\right)}+\frac{C_3\omega}{\left(s^2+\omega^2\right)}$} \vspc
 
@@ -292,7 +304,7 @@ Fortunately we can find the {\bf amplitude ratio} and {\bf phase shift} directly
 
 \scalebox{1}{$|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}=M$}\vspc
 
-\scalebox{1}{$\angle T\left(j\omega\right)=\angle 1-\angle\left(1+j\omega\tau\right)=tan^{-1}\left(\frac{0}{1}\right)-tan^{-1}\left(\frac{\omega\tau}{1}\right)=-tan^{-1}\left(\frac{\omega\tau}{1}\right)=\phi$}\vspcc
+\scalebox{1}{$\angle T\left(j\omega\right)=\angle 1-\angle\left(1+j\omega\tau\right)=tan^{-1}\left(\frac{0}{1}\right)-tan^{-1}\left(\frac{\omega\tau}{1}\right)=-tan^{-1}\left(\omega\tau\right)=\phi$}\vspcc
 
 Substitute $s=j\omega$ into the transfer function and solve for the magnitude and phase angle of this complex number which represent the magnitude ratio and phase shift. \vspc
 
@@ -303,16 +315,74 @@ Therefore the steady state response is written as follows.  \vspc
 Wasn't that fun? Can you believe we used to do that on the board?!?! \vspc
 }
 
+\subsection{Graph of Frequency Response}
+\frame{
+\frametitle{Graph of Frequency Response}
+
+\small
+
+\includegraphics[scale=.275]{lecture1_fig6.png} \hspc \includegraphics[scale=.275]{lecture1_fig5.png}  \vspc
+
+What determines the amplitude of the system response? \vspc
+
+}
+
+
+\subsection{MATLAB code}
+
+\frame[containsverbatim]{
+\frametitle{MATLAB code}
+
+\begin{lstlisting}
+% ME3050 - Spring 2020 Tennessee Technological Univ.
+clear variables;clc;close all
+
+% define the system parameters
+m=20;c=25;
+tau=m/c;
+
+% define the amplitude input frequency and
+A=1;omega=1/2;
+
+% calculate the magnitude ratio
+M=1/sqrt(1+omega^2*tau^2);
+phi=-tan(omega*tau);
+
+
+\end{lstlisting}
+
+}
+\frame[containsverbatim]{
+\frametitle{MATLAB code}
+
+\begin{lstlisting}
+%consider a range of time values
+dt=0.01;tstop=50;
+time=0:dt:tstop;
+ 
+%calculate the input and response curves
+fin=A*sin(omega*time);
+yout=M*A*sin(omega*time+phi);
+
+% show the results in a figure
+figure(1);hold on
+plot(time,fin,'r')
+plot(time,yout,'b')
+
+\end{lstlisting}
+
+}
 % references is not a section for now, for looks and it would be a waste of space
 \frame{
 
 \frametitle{References}
 
 \begin{itemize}
-	\item System Dynamics, Palm III, Third Edition - Chapter 8 - System Response in the Time Domain
+	\item System Dynamics, Palm III, Third Edition - Chapter 9 - System Response in the Frequency Domain
 \end{itemize}
 
 }
+
 \end{document}
 
 
