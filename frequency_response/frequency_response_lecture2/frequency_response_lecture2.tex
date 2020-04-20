@@ -173,6 +173,22 @@ You can see that the magnitude ratio decreases as the input frequency increases.
 
 }
 
+\subsection{Review Properties of Logarithms}
+\frame{
+\frametitle{Review Properties of Logarithms}
+
+\underline{Basic Properties of Logarithms:}\vspc
+\renewcommand{\arraystretch}{2.0}
+\begin{tabular}{cc}
+Multiplication&\scalebox{1}{$log(pq)=log(p)+log(q) $} \\
+Division&\scalebox{1}{$log(\frac{x}{y})=log(x)-log(y)$} \\
+Power&\scalebox{1}{$log(x^n)=nlog(x)$}\\
+\end{tabular}
+
+\underline{Units of Decibels for Magnitude:}\vspc
+\scalebox{1}{$m(dB)=10log(M^2)=20log(M)$ \hspccc convert back: \hspccc $M=10^{\frac{m(dB)}{20}}$}
+}
+
 \section{Magnitude Ratio in Decibels}
 
 \subsection{Magnitude Ratio on a Logarithmic Scale}
@@ -180,210 +196,24 @@ You can see that the magnitude ratio decreases as the input frequency increases.
 \frametitle{Magnitude Ratio on a Logarithmic Scale}
 
 
-These relationships are more useful shown on a logarithmic scale. Also, we make use of the properties of logorithms in our analysis. \vspc
+These relationships are more useful shown on a logarithmic scale. We can make use of the properties of logorithms in our analysis. \vspcc
 
-}
-
-
-
-\subsection{Complex Number Algebra}
-\frame{
-\frametitle{Complex Number Algebra}
- 
- Consider two points $\mathbf{P_1}$ and $\mathbf{P_2}$ on the complex plane. \vspc
- 
- \scalebox{1}{$\mathbf{P_1}=x_1+jy_1$\hspc and \hspc$\mathbf{P_2}=x_2+jy_2$} \vspccc
-\renewcommand{\arraystretch}{1.75}
- \begin{tabular}{cc}
- Addition:& \scalebox{1}{$\mathbf{P_1}+\mathbf{P_2}=(x_1+x_2)+j(y_1+y_2)$}\\
- Multiplication:& \scalebox{1}{$\mathbf{P_1P_2}=|\mathbf{P_1P_2}|\angle\left(\theta_1+\theta_2\right)$}\\
- Division:&\scalebox{1}{$\frac{\mathbf{P_1}}{\mathbf{P_2}}=(x_1+x_2)+j(y_1+y_2)$}\\
-\end{tabular}
-
-}
-
-
-% section 3: Frequency Response of First Order Systems
-
-\section{Frequency Response of First Order Systems}
-
-\subsection{Frequency Response of First Order Systems}
-\frame{
-\frametitle{Frequency Response of First Order Systems}
-
-\includegraphics[scale=.15]{porsche.png}
-
-Consider our $1^{\underline{st}}$ order mass damper system. \vspc
-
-\scalebox{1}{$m\dot{v}+cv=f(t)$} \hspcc with a {\bf time constant} \scalebox{1}{$\tau=\frac{m}{c}$} \vspcc
-
-The system is commonly re-written as shown below. \vspc
-
-\scalebox{1}{$m\dot{v}+cv=f(t)\hspc\rightarrow\hspc\tau\dot{y}+y=f(t)$} \vspc
-
-}
-
-\subsection{Obtain the Transfer Function}
-\frame{
-\frametitle{Obtain the Transfer Function}
-
-\small
-
-\scalebox{1}{$\tau\dot{y}+y=f(t)$} \vspcc
-
-Take the Laplace transform of the ODE. \vspcc
-
-\scalebox{1}{$\LT\{\tau\dot{y}+y\}=\LT\{f(t)\}$} \vspcc
-
-\scalebox{1}{$\tau\left(sY(s)+y_0)\right)+Y(s)=F(s)$}\hspccc The initial conditions are zero. \vspcc
-
+\scalebox{1}{$m\left(dB\right)=20log\left(\frac{1}{\sqrt{1+\omega^2\tau^2}}\right)=20\left(log\left(1\right)-log\sqrt{1+\omega^2\tau^2}\right)$}\vspc
+\scalebox{1}{$m\left(dB\right)=20log\left(1\right)-10log\left(1+\omega^2\tau^2\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc
 \begin{framed}
-\scalebox{1}{$T(s)=\frac{Y(s)}{F(s)}=\frac{1}{\tau s+1}$}\hspccc First Order Transfer Function
+\scalebox{1}{$m\left(dB\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc magnitude ratio in decibels
 \end{framed}
-
-This considers a {\it generalized} input function $f(t)$ and zero ICs.
 }
 
-\subsection{Sinusoidal Input Function}
+\subsection{Magnitude Ratio on a Logarithmic Scale}
 \frame{
-\frametitle{Sinusoidal Input Function}
-
-\small
-
-Our model is now excited by a sinusoidal input (forcing) function. \vspc
-
-\scalebox{1}{$\tau\dot{y}+y=f(t)=Asin\left(\omega t\right)$} \vspc
-
-Take the Laplace transform. Then, solve for $Y(s)$ and expand.\vspc
-
-\scalebox{1}{$\tau sY(s)+Y(s)=\frac{A\omega}{s^2+\omega^2}$}  \vspc
-
-\scalebox{1}{$Y(s)=\frac{A\omega}{\left(s^2+\omega^2\right)\left(\tau s+1\right)}=\frac{C_1}{\tau s+1}+\frac{C_2s}{\left(s^2+\omega^2\right)}+\frac{C_3\omega}{\left(s^2+\omega^2\right)}$} \vspc
-
-Now solve for the coefficients.\vspc
-
-\scalebox{1}{$C_1=\frac{A\omega\tau^2}{1+\omega^2\tau^2}\hspccc,\hspc C_2=\frac{-A\omega\tau}{1+\omega^2\tau^2}\hspccc,\hspc C_3=\frac{A}{1+\omega^2\tau^2}$} \vspc
-
-Substituting and take the inverse Laplace transform. \vspc
-\scalebox{1}{$y(t)=\frac{A\omega\tau}{1+\omega^2\tau^2}\big( e^{\frac{-t}{\tau}}-cos\omega t+\frac{1}{\omega\tau}sin\omega t\big) $}
-
+\frametitle{Magnitude Ratio on a Logarithmic Scale}
+\begin{multicols}{2}
+This is called a Bode plot.  \includegraphics[scale=.5]{hendrikbode.png} \vspc Hendrik Bode (1905-1982) 
+\includegraphics[scale=.25]{lecture2_fig7.png}
+\end{multicols}
 }
 
-\subsection{Steady State Time Response}
-\frame{
-\frametitle{Steady State Time Response}
-
-\small
-\scalebox{1}{$y(t)=\frac{A\omega\tau}{1+\omega^2\tau^2}\big( e^{\frac{-t}{\tau}}-cos\omega t+\frac{1}{\omega\tau}sin\omega t\big) $} \vspcc
-After some amount of time passes, the transient term will disappear leaving just the sinusoidal terms. \vspcc
-
-\scalebox{1}{$y(t)=\frac{A}{1+\omega^2\tau^2}\big(sin\omega t - \omega\tau cos\omega t\big) $} \vspccc
-This is re-written as a single sine term with a phase shift. \vspc
-
-\begin{framed}
-Steady State Frequency Response of First Order System\vspc
-\scalebox{1}{$y(t)=\frac{A}{\sqrt{1+\omega^2\tau^2}}sin\left(\omega t+\phi\right) \hspccc,\hspc \phi=-tan^{-1}\omega\tau$}
-\end{framed}
-
-}
-
-\subsection{Amplitude Ratio}
-\frame{
-\frametitle{Amplitude Ratio}
-
-\small
-
-\scalebox{1}{$y(t)=\frac{A}{\sqrt{1+\omega^2\tau^2}}sin\left(\omega t+\phi\right) \hspccc,\hspc \phi=-tan^{-1}\omega\tau$} \vspc
-
-Notice that the system responds at the same frequency as the input but with a different amplitude and a phase shift. The ratio of the response amplitude to the input amplitude is called the {\bf amplitude ratio, M}. \vspc
-
-\scalebox{1}{$M=\frac{\frac{A}{\sqrt{1+\omega^2\tau^2}}}{A}=\frac{1}{\sqrt{1+\omega^2\tau^2}}$} \vspc
-
-Fortunately we can find the {\bf amplitude ratio} and {\bf phase shift} directly from the transfer function. Recall the transfer function we derived. \vspc
-
-\scalebox{1}{$T(s)=\frac{1}{\tau s+1}$}\hspccc let \scalebox{1}{$s=j\omega\hspccc\implies\hspccc T(j\omega)=\frac{1}{\tau j\omega+1}$} \vspc
-
-\scalebox{1}{$|T(j\omega)|=\frac{|1|}{|\tau j\omega+1|}=\frac{1}{\sqrt{\left(\tau\omega\right)^2+1^2}}=\frac{1}{\sqrt{1+\tau^2\omega^2}}$} \hspccc \hspccc Look familiar? \vspc 
-
-}
-
-\subsection{Amplitude Ratio and Phase Angle}
-\frame{
-\frametitle{Amplitude Ratio and Phase Angle}
-
-\small
-
-\scalebox{1}{$|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}=M(\omega)$}\vspc
-
-\scalebox{1}{$\angle T\left(j\omega\right)=\angle 1-\angle\left(1+j\omega\tau\right)=tan^{-1}\left(\frac{0}{1}\right)-tan^{-1}\left(\frac{\omega\tau}{1}\right)=$}\vspc
-\scalebox{1}{$-tan^{-1}\left(\omega\tau\right)=\phi(\omega)$}\vspcc
-
-Substitute $s=j\omega$ into the transfer function and solve for the magnitude and phase angle of this complex number which represent the magnitude ratio and phase shift. \vspc
-
-Therefore the steady state response is written as follows.  \vspc
-
-\scalebox{1}{$y_{ss}\left(t\right)=A|T\left(j\omega\right)|sin\left(\omega t+\angle T\left(j\omega\right)\right)=MAsin\left(\omega t+\phi\right)$}\vspcc
-
-Wasn't that fun? Can you believe we used to do that on the board?!?! \vspc
-}
-
-\subsection{Graph of Frequency Response}
-\frame{
-\frametitle{Graph of Frequency Response}
-
-\small
-
-\includegraphics[scale=.275]{lecture1_fig6.png} \hspc \includegraphics[scale=.275]{lecture1_fig5.png}  \vspc
-
-What determines the amplitude of the system response? \vspc
-
-}
-
-
-\subsection{MATLAB code}
-
-\frame[containsverbatim]{
-\frametitle{MATLAB code}
-
-\begin{lstlisting}
-% ME3050 - Spring 2020 Tennessee Technological Univ.
-clear variables;clc;close all
-
-% define the system parameters
-m=20;c=25;
-tau=m/c;
-
-% define the amplitude input frequency and
-A=1;omega=1/2;
-
-% calculate the magnitude ratio
-M=1/sqrt(1+omega^2*tau^2);
-phi=-tan(omega*tau);
-
-
-\end{lstlisting}
-
-}
-\frame[containsverbatim]{
-\frametitle{MATLAB code}
-
-\begin{lstlisting}
-%consider a range of time values
-dt=0.01;tstop=50;
-time=0:dt:tstop;
- 
-%calculate the input and response curves
-fin=A*sin(omega*time);
-yout=M*A*sin(omega*time+phi);
-
-% show the results in a figure
-figure(1);hold on
-plot(time,fin,'r')
-plot(time,yout,'b')
-
-\end{lstlisting}
-
-}
 % references is not a section for now, for looks and it would be a waste of space
 \frame{
 
