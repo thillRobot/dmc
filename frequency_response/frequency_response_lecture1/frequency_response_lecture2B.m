@@ -32,8 +32,13 @@ end
 % fin=A*sin(omega*time);
 % yout=M*A*sin(omega*time+phi);
 
-% show the results in a figure
+% use built MATLAB bode
 figure(1)
+sys=tf(1,[tau(3) 1])
+bode(sys);grid on
+
+% show the results in a OUR figure
+figure(2)
 
 subplot(2,1,1);hold on
 plot(omega,M,'r')
@@ -45,7 +50,7 @@ axis([min(omega) max(omega) -2.0 0]);grid on
 title('Phase Shift, \Phi');
 xlabel('Input Frequency, \omega')
 
-figure(2)
+figure(3)
 % subplot(2,1,1);hold on
 semilogx(omega,mdB,'b')
 ylim([-20 10])
@@ -57,6 +62,14 @@ grid on
 % % axis([0 500 -2.0 0]);grid on
 % title('Phase Shift, \Phi');
 xlabel('Input Frequency, \omega')
+
+
+
+
+
+
+
+
 
 % str=sprintf('First Order Frequency Response, A=%.1f, omega=%.1f',A,omega);
 % title(str);xlabel('time(s)');ylabel('amplitude(?)')

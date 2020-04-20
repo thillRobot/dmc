@@ -8,3 +8,4 @@
 \beamer@sectionintoc {3}{Magnitude Ratio in Decibels}{8}{0}{3}
 \beamer@subsectionintoc {3}{1}{Magnitude Ratio on a Logarithmic Scale}{8}{0}{3}
 \beamer@subsectionintoc {3}{2}{Magnitude Ratio on a Logarithmic Scale}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Bode Plot in MATLAB}{10}{0}{3}

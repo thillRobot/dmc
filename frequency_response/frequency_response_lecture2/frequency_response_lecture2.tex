@@ -167,7 +167,7 @@ The amplitude of the response is determined by the input frequency. \vspc
 
 \includegraphics[scale=.27]{lecture2_fig2.png}
 
-You can see that the magnitude ratio decreases as the input frequency increases. The indivdual curves represent systems different time constants. 
+You can see that the magnitude ratio decreases as the input frequency increases. The individual curves represent systems with different time constants. 
 
 \end{multicols}
 
@@ -196,7 +196,7 @@ Power&\scalebox{1}{$log(x^n)=nlog(x)$}\\
 \frametitle{Magnitude Ratio on a Logarithmic Scale}
 
 
-These relationships are more useful shown on a logarithmic scale. We can make use of the properties of logorithms in our analysis. \vspcc
+These relationships are more useful shown on a logarithmic scale. We can make use of the properties of logarithms in our analysis. \vspcc
 
 \scalebox{1}{$m\left(dB\right)=20log\left(\frac{1}{\sqrt{1+\omega^2\tau^2}}\right)=20\left(log\left(1\right)-log\sqrt{1+\omega^2\tau^2}\right)$}\vspc
 \scalebox{1}{$m\left(dB\right)=20log\left(1\right)-10log\left(1+\omega^2\tau^2\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc
@@ -209,8 +209,28 @@ These relationships are more useful shown on a logarithmic scale. We can make us
 \frame{
 \frametitle{Magnitude Ratio on a Logarithmic Scale}
 \begin{multicols}{2}
-This is called a Bode plot.  \includegraphics[scale=.5]{hendrikbode.png} \vspc Hendrik Bode (1905-1982) 
-\includegraphics[scale=.25]{lecture2_fig7.png}
+
+\includegraphics[scale=.30]{lecture2_fig7.png}
+This is a Bode plot. It seems abstract but there is some very useful information shown.\vspc
+
+  \includegraphics[scale=.4]{hendrikbode.png} \vspc Hendrik Bode (1905-1982) 
+
+\end{multicols}
+}
+
+\subsection{Bode Plot in MATLAB}
+\frame[containsverbatim]{
+\frametitle{Bode Plot in MATLAB}
+
+MATLAB has a built it tool for making Bode plots.  
+\begin{multicols}{2}
+\includegraphics[scale=.25]{lecture2_fig9.png}
+
+\begin{lstlisting}
+figure(1)
+sys=tf(1,[tau(3) 1])
+bode(sys);grid on
+\end{lstlisting}
 \end{multicols}
 }
 
