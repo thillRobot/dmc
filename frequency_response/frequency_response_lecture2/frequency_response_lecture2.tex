@@ -1,6 +1,6 @@
 % Lecture Template for ME3050-001-002-Tristan Hill - Spring 2020
 % Dynamics Modeling and Controls
-% Time Response - Lecture 3
+% Frequency Response
 
 % I am finally converting my stuff to BEAMER
 
@@ -62,9 +62,9 @@
 
 \newcommand{\LT}{\mathcal{L}} % lagrangian
 
-\newcommand{\LNUM}{1} %Lecture number 1
+\newcommand{\LNUM}{2 } %Lecture number 2
 
-\newcommand{\secondtitle}{Frequency Response of First Order Systems}% second line of the title of this presentation , aka the topic of this lecture
+\newcommand{\secondtitle}{The Bode Diagram}% second line of the title of this presentation , aka the topic of this lecture
 
 \title{Frequency Response - Lecture \LNUM}
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
@@ -86,21 +86,21 @@
 
  \begin{itemize}
 
-	\item Introduction to Chapter 9\vspc % Section 1: The Step Input
+	\item Review Frequency Response\vspc % Section 1: 
 
-	\item Review Complex Numbers\vspc        % Section 2
+	\item Magnitude Ratio in Decibels\vspc % Section 2
 	
-	\item Frequency Response of First Order Systems\vspc %Section 3
+	\item The Bode Diagram\vspc %Section 3
 
-	\item Graph of System Response\vspace{2mm} % Section 4
+	\item Graph of Frequency Response in MATLAB\vspace{2mm} % Section 4
 
 \end{itemize}
 
 }
 
 
-%Section 1: Introduction to Chapter 9
-\section{Introduction to Chapter 9}
+%Section 1: Review Frequency Response
+\section{Review Frequency Response}
 
 \subsection{Harmonic Input Function}
 \frame{
@@ -108,7 +108,6 @@
 
 \small 
 The term {\bf frequency response} is used to describe a system's response to a periodic input. Frequency response analysis focuses on a system's response to {\it harmonic} input such as sines and cosines. The input (forcing) function is written below.\vspcc
-
 
 \begin{framed}
 \scalebox{1.25}{$f(t)=Asin\left(\omega t\right)$}\vspccc
@@ -122,54 +121,66 @@ Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
 
 }
 
-
-\subsection{Why Study Frequency Response?}
+\subsection{First Order Frequency Response}
 \frame{
-\frametitle{Why Study Frequency Response?}
+\frametitle{First Order Frequency Response}
+
+
 \small
- Why do we care about the way a system responds to harmonic excitation? Why is {\bf frequency analysis} important? \\
-\begin{itemize}
-\item
-\item
-\item
-\end{itemize}
 
-\vspace{3mm}What causes {\bf harmonic} (or sinusoidal) excitation in the real world? \\
 
-\begin{itemize}
-\item
-\item
-\item
-\end{itemize}
+The steady state response we derived is shown. Remember, after some amount of time passes, the transient term will disappear leaving just the sinusoidal terms. \vspc
+\begin{framed}
+\scalebox{1}{$y_{ss}\left(t\right)=A|T\left(j\omega\right)|sin\left(\omega t+\angle T\left(j\omega\right)\right)=MAsin\left(\omega t+\phi\right)$}\vspcc
+
+The magintude ratio and phase shift can be found from $T(j\omega)$. \vspcc
+
+\scalebox{1}{$M(\omega)=|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}$}\vspc
+
+\scalebox{1}{$\phi(\omega)=\angle T\left(j\omega\right)=-tan^{-1}\left(\omega\tau\right)$}\vspc
+\end{framed}
 
 }
 
-\subsection{Frequency Response and the Transfer Function}
-\frame{
-\frametitle{Frequency Response and the Transfer Function}
 
-A linear, time-invariant (LTI) system has a {\bf transfer function} $T(s)$ that describes the {\bf input-output} relationship of the system. Under sinusoidal excitation (input) with frequency $\omega$ if the system is stable the transient affects in the response (output) will eventually disappear leaving the {\bf steady state sinusoidal response} of the same frequency as the input but with a phase shift w.r.t. the input.
+\subsection{Graph of Frequency Response}
+\frame{
+\frametitle{Graph of Frequency Response}
+
+\small
+
+\includegraphics[scale=.275]{lecture1_fig6.png} \hspc \includegraphics[scale=.275]{lecture1_fig5.png}  \vspc
+
+The amplitude of the response is determined by the input frequency. \vspc
 
 }
 
-% section 2: Review Complex Numbers
 
-\section{Review Complex Numbers}
+% section 2: Magnitude Ratio in Decibels
 
-\subsection{The Complex Plane}
+\section{Magnitude Ratio in Decibels}
+
+\subsection{Dependence on Input Frequency}
 \frame{
-\frametitle{The Complex Plane}
-
-In an underdamped system the roots of the characteristic polynomial are complex. Before we proceed we need to review some rules of arithmetic and complex numbers. \vspc
-
+\frametitle{Dependence on Input Frequency}
 \begin{multicols}{2}
-\includegraphics[scale=0.175]{lecture1_fig1.png}
 
-\small
-\hspccc Cartesian Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=x+jy$}\vspc
-\hspccc Polar Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|\angle\theta$}\vspc
-\hspccc Exponential Representation:\vspc\hspccc\scalebox{.8}{$\mathbf{P}=|\mathbf{P}|e^{j\theta}=|\mathbf{P}|\left(cos\theta+jsin\theta\right)$}\vspc
+\includegraphics[scale=.27]{lecture2_fig2.png}
+
+You can see that the magnitude ratio decreases as the input frequency increases. The indivdual curves represent systems different time constants. 
+
 \end{multicols}
+
+}
+
+\section{Magnitude Ratio in Decibels}
+
+\subsection{Magnitude Ratio on a Logarithmic Scale}
+\frame{
+\frametitle{Magnitude Ratio on a Logarithmic Scale}
+
+
+These relationships are more useful shown on a logarithmic scale. Also, we make use of the properties of logorithms in our analysis. \vspc
 
 }
 
