@@ -145,18 +145,18 @@ The transfer function can easily be found by taking the Laplace transform of the
 In an \underline{ overdamped} system, both roots are real and distinct.\vspcc
 The transfer function is shown below in terms of the system parameters\vspc
 
-\scalebox{1.0}{$T(s)=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{(\tau_1 s+1)(\tau_2 s+1)} \hspace{5mm} \tau_1,\tau_2$ - time constants of the roots}\vspc
+\scalebox{1.0}{$T(s)=\frac{X(s)}{F(s)}=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{(\tau_1 s+1)(\tau_2 s+1)} \hspace{5mm} \tau_1,\tau_2$ - time constants}\vspc
 
 Substitute $s=j\omega$ into the transfer function.\vspc
 \scalebox{1.0}{$T(s) \rightarrow T(j\omega) =\frac{1/k}{\left(\tau_1j\omega+1\right)\left(\tau_1j\omega+1\right)}$}\vspc
 
-Now find the magnitude ratio anf phase angle. Convert to nunits of decibels and use log rules to expand.\vspc
+Now find the amplitude ratio and phase angle. Convert to nunits of decibels and use log rules to expand.\vspc
 \scalebox{1}{$M\left(\omega\right)=|T\left(j\omega\right)|=\frac{|1/k|}{|\tau_1j\omega+1||\tau_2j\omega+1|}$} \vspc
 \scalebox{1}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}
 
 }
 
-\subsection{The Bode Diagram}
+\subsection{The Bode Diagram }
 \frame{
 \frametitle{The Bode Diagram}
 \small
@@ -169,65 +169,49 @@ This shows that the magnitude ratio of the system across different regions of th
 
 }
 
-\subsection{Dependence on Input Frequency}
+% section 3: Frequency Response of Underdamped Systems
+
+\section{Frequency Response of Underdamped Systems}
+
+\subsection{The Underdamped System}
 \frame{
-\frametitle{Dependence on Input Frequency}
-\begin{multicols}{2}
+\frametitle{The Underdamped System}
 
-\includegraphics[scale=.27]{lecture2_fig2.png}
+\small
 
-You can see that the magnitude ratio decreases as the input frequency increases. The individual curves represent systems with different time constants. 
+In an \underline{underdamped} system, the roots are complex conjugates.\vspcc
+The transfer function is shown below in terms of the system parameters\vspc
 
-\end{multicols}
+\scalebox{1.0}{$T(s)=\frac{X(s)}{F(s)}=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{\left(\frac{s}{\omega_n}\right)^2+2\zeta\left(\frac{s}{\omega_n}\right)+1}$} \vspc
+\scalebox{1.0}{$T(s)=\frac{kX(s)}{F(s)}=\frac{\omega_n^2}{s^2+2\zeta\omega_ns+\omega_n^2}$}\vspc
 
+Notice we factored out $k$ to form the ratio of output displacement $X(s)$ to input displacement $\frac{F(s)}{k}$. You can see this with Hooke's Law $F=kx\implies x=\frac{F}{k}$. \vspc
+
+This also allows us to define the transfer function in terms of $\zeta$ and $\omega_n$. Substitue $s=j\omega$ and mulitply the equation $\frac{1/\omega_n^2}{1/\omega_n^2}$.
+\scalebox{1.0}{$T(s)\rightarrow T(j\omega)=\frac{1}{\left(\frac{j\omega}{\omega_n}\right)^2+\left(\frac{2\zeta}{\omega_n}\right)j\omega+1}=\frac{1}{1-\left(\frac{\omega}{\omega_n}\right)^2+\left(\frac{2\zeta\omega}{\omega_n}\right)j}$} \vspc
 }
 
-\subsection{Review Properties of Logarithms}
+
+\subsection{The Frequency Ratio}
 \frame{
-\frametitle{Review Properties of Logarithms}
+\frametitle{The Frequency Ratio}
 
-\underline{Basic Properties of Logarithms:}\vspc
-\renewcommand{\arraystretch}{2.0}
-\begin{tabular}{cc}
-Multiplication&\scalebox{1}{$log(pq)=log(p)+log(q) $} \\
-Division&\scalebox{1}{$log(\frac{x}{y})=log(x)-log(y)$} \\
-Power&\scalebox{1}{$log(x^n)=nlog(x)$}\\
-\end{tabular}
+\small 
 
-\underline{Units of Decibels for Magnitude:}\vspc
-\scalebox{1}{$m(dB)=10log(M^2)=20log(M)$ \hspccc convert back: \hspccc $M=10^{\frac{m(dB)}{20}}$}
+To simplify this expression we define another new quantity the frequency ratio, $r$ as the ratio of input frequency to natural frequency of the system. \vspc
+
+\scalebox{1.0}{$r=\frac{\omega}{\omega_n} \hspc\rightarrow\hspc T\left(j\omega\right) \hspc\rightarrow\hspc T\left(r\right)=\frac{1}{1-r^2+2\zeta rj}$} \vspc
+
+The transfer function and amplitude ratio are functions of the frequency ratio, $r$ as shown. \vspc
+
+
+
+
+\scalebox{1}{$M=|T\left(r\right)|=\frac{1}{\sqrt{\left(1-r^2\right)^2+\left(2\zeta rj\right)}}$}\vspc
+\scalebox{1}{$\implies m=20logM=-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$} \vspc
+
 }
-
-\section{Magnitude Ratio in Decibels}
-
-\subsection{Magnitude Ratio on a Logarithmic Scale}
-\frame{
-\frametitle{Magnitude Ratio on a Logarithmic Scale}
-
-
-These relationships are more useful shown on a logarithmic scale. We can make use of the properties of logarithms in our analysis. \vspcc
-
-\scalebox{1}{$m\left(dB\right)=20log\left(\frac{1}{\sqrt{1+\omega^2\tau^2}}\right)=20\left(log\left(1\right)-log\sqrt{1+\omega^2\tau^2}\right)$}\vspc
-\scalebox{1}{$m\left(dB\right)=20log\left(1\right)-10log\left(1+\omega^2\tau^2\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc
-\begin{framed}
-\scalebox{1}{$m\left(dB\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc magnitude ratio in decibels
-\end{framed}
-}
-
-\subsection{Magnitude Ratio on a Logarithmic Scale}
-\frame{
-\frametitle{Magnitude Ratio on a Logarithmic Scale}
-\begin{multicols}{2}
-
-\includegraphics[scale=.30]{lecture2_fig7.png}
-This is a Bode plot. It seems abstract but there is some very useful information shown.\vspc
-
-  \includegraphics[scale=.4]{hendrikbode.png} \vspc Hendrik Bode (1905-1982) 
-
-\end{multicols}
-}
-
-\subsection{Bode Plot in MATLAB}
+% section 4: Bode Plots in MATLAB
 \frame[containsverbatim]{
 \frametitle{Bode Plot in MATLAB}
 
