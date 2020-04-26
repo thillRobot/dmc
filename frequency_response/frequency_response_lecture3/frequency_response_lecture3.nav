@@ -35,12 +35,16 @@
 \headcommand {\beamer@subsectionentry {0}{3}{2}{8}{The Frequency Ratio}}
 \headcommand {\slideentry {3}{2}{1}{8/8}{The Frequency Ratio}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {3}{2}{2}{9/9}{The Frequency Ratio}{0}}
+\headcommand {\beamer@subsectionpages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{9}{The Bode Diagram }}
+\headcommand {\slideentry {3}{3}{1}{9/9}{The Bode Diagram }{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {3}{2}{3}{10/10}{The Frequency Ratio}{0}}
+\headcommand {\slideentry {3}{3}{2}{10/10}{The Bode Diagram }{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\beamer@partpages {1}{10}}
-\headcommand {\beamer@subsectionpages {8}{10}}
-\headcommand {\beamer@sectionpages {7}{10}}
-\headcommand {\beamer@documentpages {10}}
-\headcommand {\gdef \inserttotalframenumber {10}}
+\headcommand {\slideentry {3}{3}{3}{11/11}{The Bode Diagram }{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@partpages {1}{11}}
+\headcommand {\beamer@subsectionpages {9}{11}}
+\headcommand {\beamer@sectionpages {7}{11}}
+\headcommand {\beamer@documentpages {11}}
+\headcommand {\gdef \inserttotalframenumber {11}}

@@ -142,18 +142,20 @@ The transfer function can easily be found by taking the Laplace transform of the
 
 \small
 
-In an \underline{ overdamped} system, both roots are real and distinct.\vspcc
+In an \underline{overdamped} system, both roots are real and distinct.\vspcc
 The transfer function is shown below in terms of the system parameters\vspc
 
 \scalebox{1.0}{$T(s)=\frac{X(s)}{F(s)}=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{(\tau_1 s+1)(\tau_2 s+1)} \hspace{5mm} \tau_1,\tau_2$ - time constants}\vspc
 
-Substitute $s=j\omega$ into the transfer function.\vspc
+Substitute $s=j\omega$ into the transfer function and find the amplitude ratio and phase angle.\vspc
+
 \scalebox{1.0}{$T(s) \rightarrow T(j\omega) =\frac{1/k}{\left(\tau_1j\omega+1\right)\left(\tau_1j\omega+1\right)}$}\vspc
 
-Now find the amplitude ratio and phase angle. Convert to nunits of decibels and use log rules to expand.\vspc
+\begin{framed}
 \scalebox{1}{$M\left(\omega\right)=|T\left(j\omega\right)|=\frac{|1/k|}{|\tau_1j\omega+1||\tau_2j\omega+1|}$} \vspc
-\scalebox{1}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}
-
+\scalebox{1}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}\vspc
+\scalebox{1}{$\phi\left(\omega\right)=\angle\frac{1}{k}-\angle\left(\tau_1\omega j+1\right)-\angle\left(\tau_2\omega_j+1\right)$}
+\end{framed}
 }
 
 \subsection{The Bode Diagram }
@@ -198,24 +200,38 @@ This also allows us to define the transfer function in terms of $\zeta$ and $\om
 
 \small 
 
-To simplify this expression we define another new quantity the frequency ratio, $r$ as the ratio of input frequency to natural frequency of the system. \vspc
+To simplify this expression we define another new quantity the frequency ratio, $r$ as the ratio of input frequency to natural frequency of the system. The transfer function is re-written in terms of the frequency ratio. \vspc
 
-\scalebox{1.0}{$r=\frac{\omega}{\omega_n} \hspc\rightarrow\hspc T\left(j\omega\right) \hspc\rightarrow\hspc T\left(r\right)=\frac{1}{1-r^2+2\zeta rj}$} \vspc
+\scalebox{1.0}{$r=\frac{\omega}{\omega_n} \hspc\rightarrow\hspc T\left(j\omega\right) \hspc\rightarrow\hspc T\left(r\right)=\frac{1}{1-r^2+2\zeta rj}$} \vspcc
 
-The transfer function and amplitude ratio are functions of the frequency ratio, $r$ as shown. \vspc
+Now the amplitude ratio and phase are written in tems of $r$. \vspcc
 
-
-
-
+\begin{framed}
 \scalebox{1}{$M=|T\left(r\right)|=\frac{1}{\sqrt{\left(1-r^2\right)^2+\left(2\zeta rj\right)}}$}\vspc
-\scalebox{1}{$\implies m=20logM=-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$} \vspc
+\scalebox{1}{$\implies m=20logM=-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$} \vspcc
+\scalebox{1}{$\phi=\angle 1 - \angle\left(1-r^2+2\zeta rj\right)\implies \phi=-tan\left(\frac{2\zeta r}{1-r^2}\right)$}\vspc
+\end{framed}
 
 }
+
+\subsection{The Bode Diagram }
+\frame{
+\frametitle{The Bode Diagram}
+\small
+
+In the underdamped second order sytem only two regions are present in the Bode diagram. 
+
+\includegraphics[scale=.27]{lecture3_fig4.png}  \includegraphics[scale=.27]{lecture3_fig5.png} 
+
+As the damping ratio decreases something significant happens. This Bode diagram shows something that the others before have not.
+
+}
+
 % section 4: Bode Plots in MATLAB
 \frame[containsverbatim]{
 \frametitle{Bode Plot in MATLAB}
 
-MATLAB has a built it tool for making Bode plots.  
+MATLAB has a built in tool for making Bode plots.  
 \begin{multicols}{2}
 \includegraphics[scale=.25]{lecture2_fig9.png}
 
