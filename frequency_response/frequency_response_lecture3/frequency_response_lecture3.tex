@@ -219,7 +219,7 @@ Now the amplitude ratio and phase are written in tems of $r$. \vspcc
 \frametitle{The Bode Diagram}
 \small
 
-In the underdamped second order sytem only two regions are present in the Bode diagram. 
+In the underdamped second order system only two regions are present in the Bode diagram. 
 
 \includegraphics[scale=.27]{lecture3_fig4.png}  \includegraphics[scale=.27]{lecture3_fig5.png} 
 
@@ -229,18 +229,28 @@ As the damping ratio decreases something significant happens. This Bode diagram 
 
 % section 4: Bode Plots in MATLAB
 \frame[containsverbatim]{
-\frametitle{Bode Plot in MATLAB}
+\frametitle{Bode Plots in MATLAB}
 
-MATLAB has a built in tool for making Bode plots.  
-\begin{multicols}{2}
-\includegraphics[scale=.25]{lecture2_fig9.png}
+Vary the system parameter in the scripts to make the plots shown. 
 
 \begin{lstlisting}
+clear variables;clc;close all
+
+% define the system parameters
+m=2;c=1;k=20;
+zeta=c/(2*sqrt(m*k));
+
+% create a system object from the transfer function
+sys=tf(1/k,[(m/k) (c/k) 1]);
+
+% use built-in MATLAB Bode Plot
 figure(1)
-sys=tf(1,[tau(3) 1])
+
 bode(sys);grid on
+str=sprintf('Bode Diagram, zeta=%.2f',zeta);
+title(str)
 \end{lstlisting}
-\end{multicols}
+
 }
 
 % references is not a section for now, for looks and it would be a waste of space
