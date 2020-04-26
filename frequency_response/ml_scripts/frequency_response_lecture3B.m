@@ -5,7 +5,7 @@ clear variables;clc;close all
 % define the system parameters
 % this is an underdamped system
 
-m=2;c=1;k=20;
+m=2;c=.1;k=20;
 
 zeta=c/(2*sqrt(m*k));
 

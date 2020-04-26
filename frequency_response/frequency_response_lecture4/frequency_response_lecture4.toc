@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{Review 2$^{nd}$ Order Frequency Response}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Transfer Function of 2$^{nd}$ Order System}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Overdamped vs. Underdamped Systems}{4}{0}{1}
+\beamer@sectionintoc {2}{The Resonace Phenomenon}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{The Resonace Spike}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{The Effects of Resonance}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Resonance can be Destructive}{7}{0}{2}
