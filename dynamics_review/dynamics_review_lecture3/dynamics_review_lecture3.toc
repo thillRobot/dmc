@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Degrees of Freedom}{3}{0}{1}
+\beamer@sectionintoc {2}{Translation}{4}{0}{2}
+\beamer@sectionintoc {3}{Dynamics in Mechanical Engineering}{5}{0}{3}
+\beamer@sectionintoc {4}{Examples}{6}{0}{4}
