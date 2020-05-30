@@ -1,4 +1,4 @@
-\beamer@sectionintoc {1}{Simplify Complex Systems}{3}{0}{1}
+\beamer@sectionintoc {1}{Using Different Coordinate Systems}{3}{0}{1}
 \beamer@sectionintoc {2}{Increase Compexity Incrementally}{4}{0}{2}
 \beamer@sectionintoc {3}{Solid Mechanics and Dynamics}{5}{0}{3}
 \beamer@sectionintoc {4}{Thermal and Fluid Systems}{6}{0}{4}
