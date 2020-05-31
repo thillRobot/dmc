@@ -3,7 +3,7 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020
-% Dyanmics Review - Topic 5 - Particles and Bodies
+% Dyanmics Review - Topic 6 - Particles and Bodies
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -39,26 +39,28 @@
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
 
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
+\author{ME3050 - Dynamics Modeling and Controls}%\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\TNUM}{6\hspace{2mm}} % topic Number 
-\newcommand{\firsttitle}{Dynamics Review - Topic \TNUM} % first line of title (used by beamer)
-\newcommand{\secondtitle}{Particles and Bodies}% second line of the title of this presentation (used by TWH)
+\newcommand{\topictitle}{Particles and Bodies } % first line of title (used by beamer)
+\newcommand{\sectiontitle}{Dynamics Review }% second line of the title of this presentation (used by TWH)
 
-\title{\firsttitle}
+\title{\sectiontitle - \topictitle}
 
-\date{May 29, 2020}
+\date{May 31, 2020}
 
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
+\frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
+
 % Section 0: Outline
-\frame{\titlepage \center\textbf{\secondtitle}\vspace{5mm}\\}
+
 
 \frame{
 
-\large \textbf{Topic \TNUM - \secondtitle} \vspace{3mm}\\
+\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
@@ -66,72 +68,86 @@
 	\item Particle Motion\vspace{3mm}\\ % Section 1
 	\item Rigid Body Motion\vspace{3mm}\\% Section 2
 	\item Is rigid body motion realistic?\vspace{3mm}\\ %Section 3
-	\item Examples\vspace{3mm}\\ % Section 4
-	%\item Example\vspace{3mm}\\ % Section 5 - 5 is almost too many...
+	\item Motion in ME3050\vspace{3mm}\\ % Section 4
 \end{itemize}
 }
 
-% Section 1: What is a Rigid Body?
+% Section 1: 
+\section{Particle Motion}
+
+\frame{
+\frametitle{Particle Motion}
+
+In your dynamics course you derived and used these equations. \vspcc
+
+			\scalebox{1.5}{$\vec{v}(t)=\frac{d\vec{r}}{dt}=v\hat{e_t}$}  \vspc
+
+			\scalebox{1.5}{$\vec{a}(t)=\frac{d\vec{v}}{dt}=\dot{v}\hat{e_t}+\vec{v}\frac{ds}{dt}\frac{d\hat{e_t}}{ds}=\dot{v}\hat{e_t}+\frac{\nu^2}{\rho}\hat{e_n}$}  \vspc
+		
+			\scalebox{1.5}{$\frac{d\hat{e_t}}{ds}=\kappa \hat{e_n} $}\vspcc
+
+Do you remeber these? Do they make sense to you?
+
+}
+
+% Section 2: 
 \section{Rigid Body Motion}
 
 \frame{
-
 \frametitle{Rigid Body Motion}
 
+\scalebox{1.25}{$\frac{d}{dt}|r_{pq}|^2=\frac{d}{dt}(\vec{r}_{pq}\cdotp\vec{r}_{pq})=2\vec{r}_{pq}\cdotp\frac{d\vec{r}_{pq}}{dt}=0$} \vspccc
+
 In a rigid body motion, the body remains rigid and does not deform. This is intuitive but In mechanics a different definition is used. \vspc
-{\bf Mathematical Definition:}
+%{\bf Mathematical Definition:}
 
 In a rigid body motion all points on a single body rotate about a common point in space at the same anguar velocity. This point is known as the instantaneous center of rotation (ICR).
+	
 }
 
-
+% Section 3: 
+\section{Is rigid body motion realistic?}
 \frame{
 
-\frametitle{Example of Non-Rigid Body Motion}
+\frametitle{Is rigid body motion realistic?}
 
- Traditionally engineers build machines that are strong and stiff. These machines are controlled with embedded mechatronics systems or programmable logic controllers. \vspc
+Consider a typical hobbyist quadcopter. Is the frame rigid?  \vspc
 
- Can you think of a machine or system that relies on non-rigid body motion or systems?
-\begin{itemize}
+Is flight a rigid body motion?  \vspcc
 
-\item
-\item
-\item
-
-
-\end{itemize}
-
+\includegraphics[scale=0.35]{dji_phantom.jpg} \includegraphics[scale=0.20]{beam_bending_01.png}\hspccc \scalebox{6}{?} 
 
 }
 
-
-% Section 2: What is Dynamics?
-\section{What is Dynamics?}
 \frame{
+\frametitle{Example of Non-Rigid Body Motion or System}
 
+\begin{multicols}{2}
+ Traditionally engineers build machines that are strong and stiff. Name one machine that must be as strong and stiff as possible. \vspcc
 
+ Can you think of a machine or system that relies on a non-rigid body motion or system?
+\includegraphics[scale=.20]{baxter_fig1.jpg}
+\end{multicols}
 
 }
 
-% Section 3: Dynamics in Mechanical Engineering
-\section{Dynamics in Mechanical Engineering}
+% Section 4: 
+\section{Motion in ME3050}
+
 \frame{
+\frametitle{Motion in ME3050}
 
-\frametitle{Dynamics in Mechanical Engineering}
-
-\Large{Why are we studying Dynamics?} \vspace{5mm} \\
-
-}
-
-% Section 4: Examples
-\section{Examples}
-\frame{
-
-\frametitle{Examples}
-
-\Large{Cool Stuff...} \vspace{5mm} \\
+In DMC we will study systems that undergo simple motions. \vspc
+ 
+Therefore, we will focus on the system dynamics of translational and rotational engineering problems in which the motion is contrained to straightline or circlar paths. 
 
 }
+
+
+
+
+
+
 %	\item \textbf{ \LARGE \B Dynamic\K} \\
 %			
 %			\Large{"Dynamics is the study of how moving objects behave. Dynamics is the part of mechanics that studies movement and its causes. The study of the causes of motion and changes in motion is known as dynamics. Dynamics is the study of how moving objects behave."} \vspace{5mm} \\

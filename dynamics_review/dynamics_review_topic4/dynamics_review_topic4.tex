@@ -67,28 +67,15 @@
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
-	\item Degrees of Freedom\vspace{3mm}\\ % Section 1
-	\item Translation\vspace{3mm}\\% Section 2
-	\item Rotation\vspace{3mm}\\ %Section 3
-	%\item Coordinate Systems\vspace{3mm}\\ % Section 4
-	%\item Example\vspace{3mm}\\ % Section 5 - 5 is almost too many...
+	\item Translation\vspace{3mm}\\ % Section 1
+	\item Rotation\vspace{3mm}\\% Section 2
+	\item Degrees of Freedom\vspace{3mm}\\ %Section 3
+	\item DOF Examples\vspace{3mm}\\ %Section 4
 \end{itemize}
 }
 
 % Section 1:
-\section{Degrees of Freedom}
 
-\frame{
-\frametitle{Degrees of Freedom}
-
-
-The Degrees of Freedom is the number of independent motions that exist in a system. \vspc
-
-OR \vspc
-
-The Degrees of Freedom is the minimum number of coordinates required to completely describe motion or state of the system.
-
-}
 
 % Section 2: 
 \section{Translation}
@@ -96,12 +83,14 @@ The Degrees of Freedom is the minimum number of coordinates required to complete
 \frame{
 \frametitle{Translation}
 
+\begin{multicols}{2}
 Translational motion is: \vspc
 \begin{itemize}
 \item motion along a straight line.
-\item rotation about a point really far away? \vspace{3mm}
-
+\item rotation about a point far away? \vspace{3mm}
 \end{itemize}
+\includegraphics[scale=0.5]{translation.png}
+\end{multicols}
 
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|l|l|} \hline
@@ -112,42 +101,74 @@ Acceleration&$a_x(t)=\frac{dv(t)}{dt}=\frac{d^2x(t)}{dt^2}=\ddot{x}$ \\ \hline
 
 }
 
-% Section 3: 
+% Section 2: 
 \section{Rotation}
 
 \frame{
 \frametitle{Rotation}
 
+\begin{multicols}{2}
 Rotational motion is: \vspc
 \begin{itemize}
 \item motion along a circular path about a fixed point or axis
 \item acceleration towards the center of rotation  \vspace{3mm}
-
 \end{itemize}
+
+\includegraphics[scale=0.4]{rotation.png}
+\end{multicols}
 
 \renewcommand{\arraystretch}{1.5}
 \begin{tabular}{|l|l|} \hline
 Angular Position&$\theta_z(t)$\\ \hline
 Angular Velocity&$\omega_z(t)=\frac{d\theta(t)}{dt}=\dot{\theta}$\\ \hline
-Acceleration&$\alpha_z(t)=\frac{d\omega(t)}{dt}=\frac{d^2\theta(t)}{dt^2}=\ddot{\theta}$ \\ \hline
+Angular Acceleration&$\alpha_z(t)=\frac{d\omega(t)}{dt}=\frac{d^2\theta(t)}{dt^2}=\ddot{\theta}$ \\ \hline
 \end{tabular}
 
 }
-
 
 \section{Equations of Rotation}
 
 \frame{
 \frametitle{Equations of Rotation}
 
-Youused these important relationships in your dynamics course. \vspcc
+You used these important relationships in your dynamics course. \vspcc
 
 \scalebox{1}{$\vec{v}=\vec{r}\times\vec{\omega}$} 
+
+With the planar motion assumption this vector equation can be reduced to scalar equation. \vspc
+
+\scalebox{1}{$v=r\omega$}
+
+}
+
+%Section 3:
+\section{Degrees of Freedom}
+
+\frame{
+\frametitle{Degrees of Freedom}
+
+The Degrees of Freedom is the number of independent motions that exist in a system. \vspc
+
+OR \vspc
+
+The Degrees of Freedom is the minimum number of coordinates required to completely describe motion or state of the system.
 
 
 }
 
+%Section 4:
+\section{DOF Examples}
 
+\frame{
+\frametitle{DOF Examples}
+
+Find the degrees of freedom for each of the following systems. \vspcc
+
+\scalebox{.7}{Wittener Metronome \hspace{10mm}Passenger Aircraft \hspace{10mm} Ackermann Steeting Mechanism} \vspc
+\includegraphics[scale=.25]{Wittner_metronome.jpg} \hspc \includegraphics[scale=.125]{airbus_a320.jpg} \hspc \includegraphics[scale=.25]{Ackermann_turning.png}
+
+{\tiny \href{https://en.wikipedia.org/wiki/Metronome}{Image: Wikipedia}  \hspace{20mm}\href{https://en.wikipedia.org/wiki/Airliner}{Image: Wikipedia} \hspace{20mm}\href{https://en.wikipedia.org/wiki/Ackermann_steering_geometry}{Image: Wikipedia} }
+}	
 	
 \end{document}
 

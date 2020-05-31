@@ -1,5 +1,5 @@
 \beamer@sectionintoc {1}{Using Different Coordinate Systems}{3}{0}{1}
 \beamer@sectionintoc {2}{Cartesian}{4}{0}{2}
-\beamer@sectionintoc {3}{Polar and Cylindrical}{5}{0}{3}
-\beamer@sectionintoc {4}{Spherical}{6}{0}{4}
-\beamer@sectionintoc {5}{Others ?}{7}{0}{5}
+\beamer@sectionintoc {3}{Polar and Cylindrical}{6}{0}{3}
+\beamer@sectionintoc {4}{Spherical}{7}{0}{4}
+\beamer@sectionintoc {5}{Others ?}{8}{0}{5}

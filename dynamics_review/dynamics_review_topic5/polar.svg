@@ -17,7 +17,7 @@
    viewBox="0 0 214.69034 214.69034"
    height="214.69034mm"
    width="214.69034mm"
-   inkscape:export-filename="/home/thill/lectures/dmc_lectures/dynamics_review/dynamics_review_topic5/cartesian.png"
+   inkscape:export-filename="/home/thill/lectures/dmc_lectures/dynamics_review/dynamics_review_topic5/polar.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <sodipodi:namedview
@@ -30,9 +30,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="549.76934"
-     inkscape:cx="715.88046"
-     inkscape:zoom="0.64"
+     inkscape:cy="620.17052"
+     inkscape:cx="676.69051"
+     inkscape:zoom="1.28"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -44,8 +44,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0">
     <inkscape:grid
-       originy="-80.046598"
-       originx="22.720985"
+       originy="-80.046592"
+       originx="22.720983"
        id="grid5219"
        type="xygrid" />
   </sodipodi:namedview>
