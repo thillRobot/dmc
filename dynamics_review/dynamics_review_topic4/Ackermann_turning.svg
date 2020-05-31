@@ -13,10 +13,13 @@
    height="341.54846"
    id="svg5806"
    sodipodi:version="0.32"
-   inkscape:version="0.47 r22583"
-   sodipodi:docname="Ackermann.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Ackermann_turning.svg"
    version="1.0"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/thill/lectures/dmc_lectures/dynamics_review/dynamics_review_topic4/Ackermann_turning.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs5808" />
   <sodipodi:namedview
@@ -29,15 +32,15 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.68706537"
-     inkscape:cx="247.5324"
-     inkscape:cy="331.70841"
+     inkscape:zoom="1.3741307"
+     inkscape:cx="261.94987"
+     inkscape:cy="186.7687"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     inkscape:window-width="1600"
-     inkscape:window-height="878"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
      showgrid="false"
      inkscape:window-maximized="1" />
   <metadata
@@ -48,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,11 +74,11 @@
        sodipodi:cy="896.18378"
        sodipodi:rx="11.930761"
        sodipodi:ry="11.930761"
-       d="m 111.48858,896.18378 c 0,6.58917 -5.34158,11.93076 -11.930757,11.93076 -6.589177,0 -11.930761,-5.34159 -11.930761,-11.93076 0,-6.58918 5.341584,-11.93076 11.930761,-11.93076 6.589177,0 11.930757,5.34158 11.930757,11.93076 z"
+       d="M 111.48858,896.18378 A 11.930761,11.930761 0 0 1 99.557823,908.11454 11.930761,11.930761 0 0 1 87.627062,896.18378 11.930761,11.930761 0 0 1 99.557823,884.25302 11.930761,11.930761 0 0 1 111.48858,896.18378 Z"
        transform="matrix(1,0,0,0.988701,-11.5937,9.99156)" />
     <text
        xml:space="preserve"
-       style="font-size:15px;font-family:Times New Roman"
+       style="line-height:0%;font-family:'Times New Roman'"
        x="105.837"
        y="908.61902"
        id="text3035"
@@ -83,7 +86,8 @@
          sodipodi:role="line"
          id="tspan3037"
          x="105.837"
-         y="908.61902">Centre of turning circle</tspan></text>
+         y="908.61902"
+         style="font-size:15px;line-height:1.25">Centre of turning circle</tspan></text>
     <path
        transform="matrix(0.774631,-0.632414,0.632414,0.774631,37.8408,497.286)"
        sodipodi:nodetypes="csssssscc"
@@ -109,7 +113,7 @@
        style="fill:#de9261;fill-opacity:1;stroke:#000000;stroke-width:0.28346401;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <path
        transform="translate(211.936,338.047)"
-       d="m 142.52301,328.58173 c 0,2.48732 -2.01637,4.50369 -4.50369,4.50369 -2.48732,0 -4.50369,-2.01637 -4.50369,-4.50369 0,-2.48732 2.01637,-4.50369 4.50369,-4.50369 2.48732,0 4.50369,2.01637 4.50369,4.50369 z"
+       d="m 142.52301,328.58173 a 4.5036898,4.5036898 0 0 1 -4.50369,4.50369 4.5036898,4.5036898 0 0 1 -4.50369,-4.50369 4.5036898,4.5036898 0 0 1 4.50369,-4.50369 4.5036898,4.5036898 0 0 1 4.50369,4.50369 z"
        sodipodi:ry="4.5036898"
        sodipodi:rx="4.5036898"
        sodipodi:cy="328.58173"
@@ -119,7 +123,7 @@
        sodipodi:type="arc" />
     <path
        transform="translate(366.539,338.047)"
-       d="m 142.52301,328.58173 c 0,2.48732 -2.01637,4.50369 -4.50369,4.50369 -2.48732,0 -4.50369,-2.01637 -4.50369,-4.50369 0,-2.48732 2.01637,-4.50369 4.50369,-4.50369 2.48732,0 4.50369,2.01637 4.50369,4.50369 z"
+       d="m 142.52301,328.58173 a 4.5036898,4.5036898 0 0 1 -4.50369,4.50369 4.5036898,4.5036898 0 0 1 -4.50369,-4.50369 4.5036898,4.5036898 0 0 1 4.50369,-4.50369 4.5036898,4.5036898 0 0 1 4.50369,4.50369 z"
        sodipodi:ry="4.5036898"
        sodipodi:rx="4.5036898"
        sodipodi:cy="328.58173"

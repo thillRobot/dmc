@@ -44,10 +44,10 @@
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\TNUM}{2\hspace{2mm}} % topic Number 
-\newcommand{\firsttitle}{Dynamics Review - Topic \TNUM} % first line of title (used by beamer)
-\newcommand{\secondtitle}{Units and Conversions}% second line of the title of this presentation (used by TWH)
+\newcommand{\topictitle}{Topic \TNUM - Units and Conversions} % first line of title (used by beamer)
+\newcommand{\sectiontitle}{Dynamics Review }% second line of the title of this presentation (used by TWH)
 
-\title{\firsttitle}
+\title{\sectiontitle - Topic \TNUM}
 
 \date{May 29, 2020}
 
@@ -55,12 +55,14 @@
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
+\frame{\titlepage \center\textbf{\topictitle}\vspace{5mm}\\}
+
 % Section 0: Outline
-\frame{\titlepage \center\textbf{\secondtitle}\vspace{5mm}\\}
+
 
 \frame{
 
-\large \textbf{Topic \TNUM - \secondtitle} \vspace{3mm}\\
+\large \textbf{\topictitle} \vspace{3mm}\\
 
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
@@ -78,6 +80,20 @@
 \frame{
 \frametitle{Standard Units}
 
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|} \hline
+\textbf{Quantity}&\textbf{Unit(SI)} &\textbf{ Symbol(SI)}&\textbf{Unit(US)}&\textbf{Symbol(US)}\\ \hline
+time&second&(s)&second&(sec)\\ \hline
+length&meter&(m)&foot&(ft)\\ \hline
+force&newton&(N)&pound&(lb)\\ \hline
+mass&kilogram&(kg)&slug&(?) \\\hline
+energy&joule&(J)&foot-pound&(ft-lb)\\ \hline
+power&watt&(W)&?&(ft-lb/sec)\\ \hline
+temp.&degrees&$^\circ C$, $^\circ K$&degrees&$^\circ F$, $^\circ R$ \\ \hline
+\end{tabular}
+
+\vspace{3mm}When possible work in the {\it base} units. SI is prefered but in the US we must know both systems.
+
 }
 
 % Section 2
@@ -85,6 +101,15 @@
 
 \frame{
 \frametitle{Unit Conversions}
+
+If you are unsure about the units, WRITE THEM OUT!
+
+I prefer to write them out as fractions and cancel. \vspc
+
+\underline{Example}: Find exactly how many seconds are in 3 days. \vspcc
+
+\scalebox{1.0}{$3$ Days $=$} 
+
 
 }
 
@@ -94,6 +119,15 @@
 \frame{
 \frametitle{Frequency and Circular Frequency}
 
+\begin{multicols}{2}
+
+\includegraphics[scale=.35]{circular_frequency.png}
+
+Frequency ($Hz$) and circular-frequency ($\frac{rad}{s}$) are both commonly used.  \vspace{15mm}
+
+You can easily convert from one to the other.
+\end{multicols}
+
 }
 
 % Section 4
@@ -102,7 +136,8 @@
 \frame{
 \frametitle{Famous Example - Units Matter !!!}
 
-Once upon a time NASA built a really fancy robot...
+\includegraphics[scale=.1]{mars_orbiter.jpg}
+The Mars Climate Orbiter (formerly the Mars Surveyor '98 Orbiter) was a 638-kilogram (1,407 lb)[1] robotic space probe launched by NASA on December 11, 1998 to study the Martian climate, Martian atmosphere, and surface changes and to act as the communications relay in the Mars Surveyor '98 program for Mars Polar Lander. {\tiny \href{https://en.wikipedia.org/wiki/Mars_Climate_Orbiter}{Full Story: Wikipedia} }
 
 }
 
