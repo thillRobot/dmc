@@ -39,7 +39,7 @@
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
 
-\author{ME3050 - Dynamics Modeling and Controls\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
+\author{ME3050 - Dynamics Modeling and Controls}%\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\TNUM}{5\hspace{2mm}} % topic Number 
 \newcommand{\topictitle}{Coordinate Systems } % first line of title (used by beamer)
@@ -67,9 +67,9 @@
 \begin{itemize}
 	\item Using Different Coordinate Systems\vspace{3mm}\\ % Section 1
 	\item Cartesian\vspace{3mm}\\% Section 2
-	\item Circular or Cylindrical\vspace{3mm}\\ %Section 3
+	\item Polar and Cylindrical\vspace{3mm}\\ %Section 3
 	\item Spherical \vspace{3mm}\\  %Section 4
-	\item Others \vspace{3mm}\\  %Section 5
+	\item Others ? \vspace{3mm}\\  %Section 5
 \end{itemize}
 }
 
@@ -86,59 +86,51 @@ You, the engineer and designer must choose the coordinate system.
 }
 
 % Section 2: 
-\section{Increase Compexity Incrementally}
+\section{Cartesian}
 
 \frame{
-\frametitle{Increase Compexity Incrementally}
+\frametitle{Cartesian}
 
-You cannot solve a complex problem in your head or all at once. \vspc
+The \href{https://en.wikipedia.org/wiki/Cartesian_coordinate_system}{Cartesian Coordinate System} was invented by Ren\'e Descartes in 1637.  This intuitive coordinate system is still widely used today.\vspc
 
-Engineers model and analyse complex systesm one peice at a time on a component level. \vspc
-
-In system dynamics we study the system behavior by modeling the interations and responses of the different components involved.
+\includegraphics[scale=.15]{Descartes.jpg}
+\includegraphics[scale=.2]{cartesian.png}
 
 }
 
 % Section 3: 
-\section{Solid Mechanics and Dynamics}
+\section{Polar and Cylindrical}
 
 \frame{
-\frametitle{Solid Mechanics and Dynamics}
+\frametitle{Polar and Cylindrical}
 
-\begin{itemize}
-\item Frictionless Sliding
-\item Pure Roll - No Slip
-\item Planar Motion
-\item
-\end{itemize}
+For problems involving rotation it is convient to use polar or cylindrical coordinate systems. Conversion from Cartesian to polar  is straightforward using trigonometry. 
+
+\includegraphics[scale=.2]{polar.png} \hspc
+\includegraphics[scale=.3]{cylindrical.png}
 
 }
 
 % Section 4:
-\section{Thermal and Fluid Systems}
+\section{Spherical}
 
 \frame{
-\frametitle{Thermal and Fluid Systems}
+\frametitle{Spherical}
 
-\begin{itemize}
-\item Viscous Boundary Layer
-\item Insulated or Constant Flux Boundaries
-\item
-\end{itemize}
+``The spherical coordinate system generalizes the two-dimensional polar coordinate system...'' {\tiny \href{https://en.wikipedia.org/wiki/Spherical_coordinate_system}{Wikipedia} }
+
+\includegraphics[scale=.3]{spherical_fig1.png} \hspc
+\includegraphics[scale=.2]{spherical_fig2.png}
 
 }
 
 % Section 5:
-\section{Electrical and Power Systems}
+\section{Others ?}
 
 \frame{
-\frametitle{Electrical and Power Systems}
+\frametitle{Others ?}
 
-\begin{itemize}
-\item Zero Heat Loss or Generation
-\item Zero Resistance Conductors
-\item
-\end{itemize}
+Do of any other systems that are used?
 
 }
 	

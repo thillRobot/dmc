@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  30 MAY 2020 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  31 MAY 2020 09:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,14 +722,6 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box80
 \mc@col@check@num=\count170
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 42.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 42.
-
 (./dynamics_review_topic5.aux)
 \openout1 = `dynamics_review_topic5.aux'.
 
@@ -911,60 +903,54 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 \c@lstlisting=\count178
  (./dynamics_review_topic5.nav)
-Overfull \hbox (54.6419pt too wide) in paragraph at lines 52--52
- [][]  
- []
-
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+] [2
 
-]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
-
-[2
+] [3
 
 ]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
+<Descartes.jpg, id=144, 803.0pt x 939.51pt>
+File: Descartes.jpg Graphic file (type jpg)
+<use Descartes.jpg>
+Package pdftex.def Info: Descartes.jpg  used on input line 99.
+(pdftex.def)             Requested size: 120.4448pt x 140.92041pt.
+<cartesian.png, id=145, 610.53094pt x 610.53094pt>
+File: cartesian.png Graphic file (type png)
+<use cartesian.png>
+Package pdftex.def Info: cartesian.png  used on input line 99.
+(pdftex.def)             Requested size: 122.10402pt x 122.10402pt.
+ [4
 
-[3
+ <./Descartes.jpg> <./cartesian.png>]
+<polar.png, id=178, 610.53094pt x 610.53094pt>
+File: polar.png Graphic file (type png)
+<use polar.png>
+Package pdftex.def Info: polar.png  used on input line 112.
+(pdftex.def)             Requested size: 122.10402pt x 122.10402pt.
+<cylindrical.png, id=179, 404.26031pt x 437.38406pt>
+File: cylindrical.png Graphic file (type png)
+<use cylindrical.png>
+Package pdftex.def Info: cylindrical.png  used on input line 112.
+(pdftex.def)             Requested size: 121.27902pt x 131.21622pt.
+ [5
 
-]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
+ <./polar.png> <./cylindrical.png>]
+<spherical_fig1.png, id=213, 420.82219pt x 389.20406pt>
+File: spherical_fig1.png Graphic file (type png)
+<use spherical_fig1.png>
+Package pdftex.def Info: spherical_fig1.png  used on input line 125.
+(pdftex.def)             Requested size: 126.24762pt x 116.76212pt.
+<spherical_fig2.png, id=214, 519.44063pt x 517.935pt>
+File: spherical_fig2.png Graphic file (type png)
+<use spherical_fig2.png>
+Package pdftex.def Info: spherical_fig2.png  used on input line 125.
+(pdftex.def)             Requested size: 103.88628pt x 103.58516pt.
+ [6
 
-[4
-
-]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
-
-[5
-
-]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
-
-[6
-
-]
-Overfull \hbox (54.6419pt too wide) has occurred while \output is active
- [][]  
- []
-
-[7
+ <./spherical_fig1.png> <./spherical_fig2.png>] [7
 
 ]
 \tf@nav=\write6
@@ -976,36 +962,31 @@ Overfull \hbox (54.6419pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `dynamics_review_topic5.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./dynamics_review_topic5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
+Package rerunfilecheck Info: File `dynamics_review_topic5.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `dynamics_review_topic5.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dynamics_review_topic5.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  C0E9A29804A9BCA35A18CCAF847BE362;322.
+(rerunfilecheck)             Checksum: F87290E84536E1948CB660F5BC4976FE;256.
  ) 
 Here is how much of TeX's memory you used:
- 18236 strings out of 492982
- 341764 string characters out of 6134896
- 447812 words of memory out of 5000000
- 21403 multiletter control sequences out of 15000+600000
+ 18274 strings out of 492982
+ 342381 string characters out of 6134896
+ 447361 words of memory out of 5000000
+ 21433 multiletter control sequences out of 15000+600000
  6935 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,818b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on dynamics_review_topic5.pdf (7 pages, 52712 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on dynamics_review_topic5.pdf (7 pages, 663042 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+ 302 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
  20 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
