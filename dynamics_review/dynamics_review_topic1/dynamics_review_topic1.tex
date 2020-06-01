@@ -27,8 +27,6 @@
 
 %\usefonttheme{professionalfonts}
 
-\newcommand{\TNUM}{1\hspace{2mm}} % topic Number 
-
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
@@ -43,24 +41,26 @@
 
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
+\newcommand{\TNUM}{1\hspace{2mm}} % topic Number 
+\newcommand{\topictitle}{What is System Dynamics?} % first line of title (used by beamer)
+\newcommand{\sectiontitle}{Dynamics Review }% second line of the title of this presentation (used by TWH)
 
-\newcommand{\firsttitle}{Dynamics Review - Topic \TNUM}
-\newcommand{\secondtitle}{What is System Dynamics?}% second line of the title of this presentation , aka the topic of this topic
+\title{\sectiontitle - \topictitle}
 
-\title{\firsttitle}
-
-\date{May 27, 2020}
+\date{May 29, 2020}
 
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
+\frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
+
 % Section 0: Outline
-\frame{\titlepage \center\textbf{\secondtitle}\vspace{5mm}\\}
+
 
 \frame{
 
-\large \textbf{Topic \TNUM - \secondtitle} \vspace{3mm}\\
+\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 %Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
@@ -83,7 +83,7 @@
 \begin{itemize}
 \item Things are going to be different but we will still learn! \vspace{3mm}\\
 \item These new outlines should help keep me/us on track.  \vspace{3mm}\\
-\item The material will be organized in 10-15 min videos, and you can watch them at anytime. \vspace{3mm}\\
+\item The material will be organized in $\sim 10$ min videos, and you can watch them at anytime. \vspace{3mm}\\
 \end{itemize}
 
 }
@@ -105,6 +105,20 @@ or \vspcc
 
 {\it system dynamics} is the study of {\bf modeling} and {\bf analysis} of dynamical systems as a function of time.\vspc
 
+
+
+}
+
+\frame{
+\frametitle{Dynamics vs System Dynamics}
+
+\large
+Dynamics: find state of \underline{object} at \underline{a specific instant in time} \vspccc
+
+System Dynamics: find state of \underline{system} as a \underline{function of time}  \vspc
+
+$\rightarrow$ Leads to use of differential equations. $m\ddot{x}+c\dot{x}+kx=f(t)$
+
 }
 
 % Section 3
@@ -114,7 +128,7 @@ or \vspcc
 \frametitle{What is Mathematical Modeling?}
 
 A mathematical model is a description of a system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical {\bf modeling} ... \vspc
-...  are used in the natural sciences and engineering disciplines ...  \href{https://en.wikipedia.org/wiki/Mathematical_model}{\tiny Wikipedia}
+...  used in the natural sciences and engineering disciplines ...  \href{https://en.wikipedia.org/wiki/Mathematical_model}{\tiny Wikipedia}
 
 \begin{itemize}
 \item Model Simplification
@@ -132,10 +146,10 @@ A mathematical model is a description of a system using mathematical concepts an
 {\bf Analysis} is the process of breaking a complex topic or substance into smaller parts in order to gain a better understanding of it... \href{https://en.wikipedia.org/wiki/Analysis}{\tiny Wikipedia}
 
 \begin{itemize}
-\item Model Simplification
-\item Force and Loading Analysis with FBDs
-\item Fundamental Laws Lead to Equations of Motion
-\item Newton's Second Law and Conservation of Energy
+\item Study Model to find  of System Response
+\item Time-Domain analysis: examine system response in time to various inputs and initial conditions
+\item Frequency-Domain analysis: examine system response when subject to sinusoidal inputs
+
 
 \end{itemize}
 
@@ -149,119 +163,13 @@ A mathematical model is a description of a system using mathematical concepts an
 
 Model-Based Design (MBD) is a mathematical and visual method of addressing problems associated with designing complex control, signal processing and communication systems. It is used in many motion control, industrial equipment, aerospace, and automotive applications... \href{https://en.wikipedia.org/wiki/Model-based_design}{\tiny Wikipedia}
 
-
-\includegraphics[scale=.25]{dji_phantom.jpg}\hspccc
+\includegraphics[scale=.08]{dji_phantom_fig2.jpg}\hspccc
 \includegraphics[scale=.025,angle=-90,origin=c]{jeep_01.jpg} \hspccc
-\includegraphics[scale=.15]{falcon9.jpg} \\
-
+\includegraphics[scale=.1]{falcon9_fig2.jpg} \\
+{\tiny\href{https://en.wikipedia.org/wiki/Phantom_(UAV)}{Image: Wikipedia} \hspace{20mm}Image: TH \hspace{20mm}\href{https://en.wikipedia.org/wiki/SpaceX\#/media/File:CRS-18_Mission_(48380511427).jpg}{Image: Wikipedia} }
 }
 
-
-
 \end{document}
-%	\item \textbf{ \LARGE \B Dynamic\K} \\
-%			
-%			\Large{"Dynamics is the study of how moving objects behave. Dynamics is the part of mechanics that studies movement and its causes. The study of the causes of motion and changes in motion is known as dynamics. Dynamics is the study of how moving objects behave."} \vspace{5mm} \\
-%
-%			\Large{"The dynamical system concept is a mathematical formalization for any fixed "rule" which describes the time dependence of a point's position in its ambient space. "} \vspace{5mm} \\
-%
-%	\item \textbf{ \Large Translational Motion } 
-%\begin{itemize}
-%\item Position
-%\item Velocity 
-%\item Acceleration \vspace{2mm}\\
-%\end{itemize} 
-%
-%	\item \textbf{ \Large Rotational Motion }
-%\begin{itemize}
-%\item Position
-%\item Velocity 
-%\item Acceleration \vspace{2mm}\\
-%\end{itemize} 		
-%	
-%	\item \textbf{ \Large Particle Motion } 
-%\begin{itemize}
-%\item What do mean by this? \vspace{2mm}\\
-%\end{itemize}
-%\item \textbf{ \Large Rigid-Body Motion } 
-%\begin{itemize}
-%\item What do mean by this specifically? Mathematically?
-%\end{itemize}
-%
-%\newpage
-%\item \textbf{ \Large Degrees of Freedom (DOF) } 
-%	\begin{itemize}
-%\item What does this mean? \vspace{25mm}\\
-%\item Examples:
-%\end{itemize}
-%
-%\newpage
-%	\item \textbf{ \Large The \B dynamics \K are represented as ordinary \vspace{3mm}\\
-%differential equations called the \\\\ \underline{\hspace{60mm}} of \underline{\hspace{60mm}}.} \vspace{2mm}\\
-%
-%	\item \textbf{ \Large Deriving the 	\underline{\hspace{60mm}} of \underline{\hspace{60mm}} \vspace{1mm}\\is typically done in one of two ways.} \\
-%	\begin{enumerate}
-%		\item Newtonian Approach - Vector Based Method \vspace{3mm}\\
-%		\begin{itemize}
-%\item Translational\\
-%\item Rotational  \vspace{10mm}\\
-%\end{itemize} 
-%\item Conservation of Energy Approach - Energy Based Method \vspace{3mm}\\
-%		\begin{itemize}
-%\item Kinetic Energy\\
-%\item Potential Energy\\  
-%\end{itemize} 
-%	\end{enumerate}
-%
-%\newpage
-%
-%\item \textbf{ \Large  Example:} DJI Phantom with 3-axis Camera Gimbal \\
-%
-%\includegraphics[scale=1]{dji_phantom.jpg}
-%
-%
-%\newpage
-%
-%\item \textbf{ \Large  Simpler Example:} Quarter Car Suspension Model\\
-%
-%\includegraphics[scale=.1,angle=-90,origin=c]{jeep_01.jpg} \includegraphics[scale=.1,angle=-90,origin=c]{jeep_02.jpg} \\
-%\begin{itemize}
-%\item \textbf{ \Large \underline{Problem Statement} -  Derive the \B equations of motion \K using (1) Newton's approach and validate using the (2) Conservation of Energy.}\\
-%
-%\item \textbf{ \Large \underline{Assumptions} - List the assumptions used in the modeling process.  } 
-%
-%
-%\newpage
-%
-%\item \textbf{ \Large \underline{Figure(s)} - Draw a \B free body diagram (FBD) \K and/or a sketch of the system. Some problems will require more than one. You need at least one per \B degree of freedom \K.} 
-%
-%\newpage
-%
-%\item \textbf{ \Large \underline{Newton's Approach} }\\
-%\begin{enumerate}
-%\item Draw a Free Body Diagram \vspace{20mm}\\
-%\item Determine all \B forces \K acting on the system and their \B directions\K. \vspace{20mm}\\
-%\item Write \B Newton's second law \K for the appropriate DOF. \vspace{70mm}\\
-%\item Re-write the ODE in the \B standard form \K of a system equation.
-%\end{enumerate}
-%
-%\newpage
-%\item \textbf{ \Large \underline{Conservation of Energy Approach} }\\
-%\begin{enumerate}
-%\item Draw a Free Body Diagram \vspace{20mm}\\
-%\item Determine all \B energies \K present in the system and their \B type\K. \vspace{20mm}\\
-%\item Write \B Conservation of Energy \K for system. Call this equation 1.\vspace{70mm}\\
-%\item Re-write the ODE in the \B standard form \K of a system equation.
-%\end{enumerate}
-%
-%
-%\end{itemize}
-%
-%
-%\end{itemize}
-
-
-	
 
 
 

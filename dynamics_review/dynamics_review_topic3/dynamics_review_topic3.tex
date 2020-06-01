@@ -39,7 +39,7 @@
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
 
-\author{ME3050 - Dynamics Modeling and Controls\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
+\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\TNUM}{3\hspace{2mm}} % topic Number 
 \newcommand{\topictitle}{Modeling Assumptions } % first line of title (used by beamer)
@@ -78,21 +78,25 @@
 
 \frame{
 \frametitle{Simplify Complex Systems}
+\begin{multicols}{2}
+Engineers encounter complex systems and these systems are difficult to model and analyze.  Analysis requires multiple steps or processes and modeling requires iteration. Typically, you cannot solve these complex problems in your head alone. \vspc
 
-Engineers encounter complex systems and these systems are difficult to model. Do we run away? No!
+\includegraphics[scale=.15]{fanuc_robot.jpg}
+\end{multicols}
+{\tiny \hspace{60mm} \href{https://en.wikipedia.org/wiki/Articulated_robot}{Images: Wikipedia} }
+
 }
 
 % Section 2: 
-\section{Increase Compexity Incrementally}
+\section{Increase Complexity Incrementally}
 
 \frame{
-\frametitle{Increase Compexity Incrementally}
+\frametitle{Increase Complexity Incrementally}
 
-You cannot solve a complex problem in your head or all at once. \vspc
 
-Engineers model and analyse complex systesm one peice at a time on a component level. \vspc
+Engineers model and analyze complex systems one piece at a time on a component level. \vspc
 
-In system dynamics we study the system behavior by modeling the interations and responses of the different components involved.
+In system dynamics we study the behavior of complex systems by modeling the iterations and responses of the different components involved. Our models will start simple and build in complexity as the theory is presented. 
 
 }
 
@@ -102,12 +106,18 @@ In system dynamics we study the system behavior by modeling the interations and 
 \frame{
 \frametitle{Solid Mechanics and Dynamics}
 
+\begin{multicols}{2}
 \begin{itemize}
-\item Frictionless Sliding
-\item Pure Roll - No Slip
-\item Planar Motion
-\item
+\item Frictionless Sliding  
+\item Pure Roll - No Slip 
+\item Planar Motion \\
 \end{itemize}
+
+\includegraphics[scale=0.209]{sliding_block.png}
+ \includegraphics[scale=0.125]{pure_roll_no_slip.png} 
+ \includegraphics[scale=0.17]{cartesian_3d.png}
+\end{multicols}
+\hspace{60mm}{\tiny \href{https://en.wikipedia.org/wiki/Cartesian_coordinate_system}{Image: Wikipedia} }
 
 }
 
@@ -132,9 +142,9 @@ In system dynamics we study the system behavior by modeling the interations and 
 \frametitle{Electrical and Power Systems}
 
 \begin{itemize}
-\item Zero Heat Loss or Generation
-\item Zero Resistance Conductors
-\item
+\item No Heat Loss or Generation
+\item Ideal Conductors
+\item Zero Order System Behavior
 \end{itemize}
 
 }
