@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Welcome Back!}{3}{0}{1}
+\beamer@sectionintoc {2}{Definition of Dynamics}{4}{0}{2}
+\beamer@sectionintoc {3}{Modeling and Analysis}{6}{0}{3}
+\beamer@sectionintoc {4}{Model Based Design}{8}{0}{4}
