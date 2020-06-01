@@ -86,13 +86,11 @@
 
  \begin{itemize}
 
-	\item Review Frequency Response\vspc % Section 1: 
-
-	\item Magnitude Ratio in Decibels\vspc % Section 2
+	\item Review Frequency Response\vspcc % Section 1: 
 	
-	\item The Bode Diagram\vspc %Section 3
+	\item The Bode Diagram\vspcc %Section 2
 
-	\item Graph of Frequency Response in MATLAB\vspace{2mm} % Section 4
+	\item Frequency Response in MATLAB\vspcc % Section 3
 
 \end{itemize}
 
@@ -156,9 +154,9 @@ The amplitude of the response is determined by the input frequency. \vspc
 }
 
 
-% section 2: Magnitude Ratio in Decibels
+% section 2: The Bode Diagram
 
-\section{Magnitude Ratio in Decibels}
+\section{The Bode Diagram}
 
 \subsection{Dependence on Input Frequency}
 \frame{
@@ -178,7 +176,7 @@ You can see that the magnitude ratio decreases as the input frequency increases.
 \frametitle{Review Properties of Logarithms}
 
 \underline{Basic Properties of Logarithms:}\vspc
-\renewcommand{\arraystretch}{2.0}
+\renewcommand{\arraystretch}{1.5}
 \begin{tabular}{cc}
 Multiplication&\scalebox{1}{$log(pq)=log(p)+log(q) $} \\
 Division&\scalebox{1}{$log(\frac{x}{y})=log(x)-log(y)$} \\
@@ -186,10 +184,13 @@ Power&\scalebox{1}{$log(x^n)=nlog(x)$}\\
 \end{tabular}
 
 \underline{Units of Decibels for Magnitude:}\vspc
-\scalebox{1}{$m(dB)=10log(M^2)=20log(M)$ \hspccc convert back: \hspccc $M=10^{\frac{m(dB)}{20}}$}
+\scalebox{1}{$m(dB)=10log(M^2)=20log(M)$ \hspccc convert back: \hspccc $M=10^{\frac{m(dB)}{20}}$}\vspc
+
+\small
+Decibel (dB), unit for expressing the ratio between two physical quantities, usually amounts of acoustic or electric power, or for measuring the relative loudness of sounds. One decibel (0.1 bel) equals 10 times the common logarithm of the power ratio. - Britannica.com
+
 }
 
-\section{Magnitude Ratio in Decibels}
 
 \subsection{Magnitude Ratio on a Logarithmic Scale}
 \frame{
@@ -218,6 +219,8 @@ This is a Bode plot. It seems abstract but there is some very useful information
 \end{multicols}
 }
 
+\section{Frequency Response in MATLAB}
+
 \subsection{Bode Plot in MATLAB}
 \frame[containsverbatim]{
 \frametitle{Bode Plot in MATLAB}
@@ -231,7 +234,11 @@ figure(1)
 sys=tf(1,[tau(3) 1])
 bode(sys);grid on
 \end{lstlisting}
+
 \end{multicols}
+
+So what? What can you do with a Bode diagram?
+
 }
 
 % references is not a section for now, for looks and it would be a waste of space

@@ -6,11 +6,9 @@
 \beamer@subsectionintoc {2}{1}{The Complex Plane}{6}{0}{2}
 \beamer@subsectionintoc {2}{2}{Complex Number Algebra}{7}{0}{2}
 \beamer@sectionintoc {3}{Frequency Response of First Order Systems}{8}{0}{3}
-\beamer@subsectionintoc {3}{1}{Frequency Response of First Order Systems}{8}{0}{3}
-\beamer@subsectionintoc {3}{2}{Obtain the Transfer Function}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{First Order Mass Damper}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{First Order Transfer Function}{9}{0}{3}
 \beamer@subsectionintoc {3}{3}{Sinusoidal Input Function}{10}{0}{3}
 \beamer@subsectionintoc {3}{4}{Steady State Time Response}{11}{0}{3}
-\beamer@subsectionintoc {3}{5}{Amplitude Ratio}{12}{0}{3}
-\beamer@subsectionintoc {3}{6}{Amplitude Ratio and Phase Angle}{13}{0}{3}
-\beamer@subsectionintoc {3}{7}{Graph of Frequency Response}{14}{0}{3}
-\beamer@subsectionintoc {3}{8}{MATLAB code}{15}{0}{3}
+\beamer@subsectionintoc {3}{5}{Amplitude Ratio and Phase Angle}{12}{0}{3}
+\beamer@subsectionintoc {3}{6}{Graph of Frequency Response}{14}{0}{3}
