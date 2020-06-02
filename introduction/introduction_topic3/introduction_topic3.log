@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  31 MAY 2020 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  2 JUN 2020 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dynamics_review_topic3.tex
-(./dynamics_review_topic3.tex
+**introduction_topic3.tex
+(./introduction_topic3.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -722,8 +722,8 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box80
 \mc@col@check@num=\count170
 )
-(./dynamics_review_topic3.aux)
-\openout1 = `dynamics_review_topic3.aux'.
+No file introduction_topic3.aux.
+\openout1 = `introduction_topic3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -739,7 +739,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -819,10 +818,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
-
-(./dynamics_review_topic3.out) (./dynamics_review_topic3.out)
 \@outlinefile=\write5
-\openout5 = `dynamics_review_topic3.out'.
+\openout5 = `introduction_topic3.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
@@ -902,15 +899,16 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./dynamics_review_topic3.nav)
+
+No file introduction_topic3.nav.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-<fanuc_robot.jpg, id=112, 963.6pt x 722.7pt>
+<fanuc_robot.jpg, id=72, 963.6pt x 722.7pt>
 File: fanuc_robot.jpg Graphic file (type jpg)
 <use fanuc_robot.jpg>
 Package pdftex.def Info: fanuc_robot.jpg  used on input line 88.
@@ -920,17 +918,17 @@ Package pdftex.def Info: fanuc_robot.jpg  used on input line 88.
  <./fanuc_robot.jpg>] [4
 
 ]
-<sliding_block.png, id=176, 335.00156pt x 250.68657pt>
+<sliding_block.png, id=130, 335.00156pt x 250.68657pt>
 File: sliding_block.png Graphic file (type png)
 <use sliding_block.png>
 Package pdftex.def Info: sliding_block.png  used on input line 122.
 (pdftex.def)             Requested size: 70.01503pt x 52.39326pt.
-<pure_roll_no_slip.png, id=178, 663.98062pt x 341.02406pt>
+<pure_roll_no_slip.png, id=132, 663.98062pt x 341.02406pt>
 File: pure_roll_no_slip.png Graphic file (type png)
 <use pure_roll_no_slip.png>
 Package pdftex.def Info: pure_roll_no_slip.png  used on input line 122.
 (pdftex.def)             Requested size: 82.99736pt x 42.6279pt.
-<cartesian_3d.png, id=179, 466.74374pt x 451.6875pt>
+<cartesian_3d.png, id=133, 466.74374pt x 451.6875pt>
 File: cartesian_3d.png Graphic file (type png)
 <use cartesian_3d.png>
 Package pdftex.def Info: cartesian_3d.png  used on input line 122.
@@ -942,7 +940,7 @@ Package pdftex.def Info: cartesian_3d.png  used on input line 122.
 [6
 
 ]
-<rc_circuit.png, id=244, 369.63094pt x 242.40562pt>
+<rc_circuit.png, id=192, 369.63094pt x 242.40562pt>
 File: rc_circuit.png Graphic file (type png)
 <use rc_circuit.png>
 Package pdftex.def Info: rc_circuit.png  used on input line 154.
@@ -951,39 +949,45 @@ Package pdftex.def Info: rc_circuit.png  used on input line 154.
 
  <./rc_circuit.png>]
 \tf@nav=\write6
-\openout6 = `dynamics_review_topic3.nav'.
+\openout6 = `introduction_topic3.nav'.
 
 \tf@toc=\write7
-\openout7 = `dynamics_review_topic3.toc'.
+\openout7 = `introduction_topic3.toc'.
 
 \tf@snm=\write8
-\openout8 = `dynamics_review_topic3.snm'.
+\openout8 = `introduction_topic3.snm'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
- (./dynamics_review_topic3.aux)
+ (./introduction_topic3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
-Package rerunfilecheck Info: File `dynamics_review_topic3.out' has not changed.
 
-(rerunfilecheck)             Checksum: FF367EB02ED9CA2E065B2F36B44A0BF9;313.
+
+Package rerunfilecheck Warning: File `introduction_topic3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `introduction_topic3.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FF367EB02ED9CA2E065B2F36B44A0BF9;313.
  ) 
 Here is how much of TeX's memory you used:
- 18268 strings out of 492982
- 342339 string characters out of 6134896
- 447531 words of memory out of 5000000
- 21428 multiletter control sequences out of 15000+600000
+ 18204 strings out of 492982
+ 341229 string characters out of 6134897
+ 445203 words of memory out of 5000000
+ 21372 multiletter control sequences out of 15000+600000
  6935 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,57p,818b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,57p,815b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on dynamics_review_topic3.pdf (7 pages, 369833 bytes).
+Output written on introduction_topic3.pdf (7 pages, 365250 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
  20 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
