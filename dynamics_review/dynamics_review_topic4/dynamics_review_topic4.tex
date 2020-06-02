@@ -3,7 +3,7 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020
-% Dyanmics Review - Topic 4 - Describing Motion
+% Dyanmics Review - Topic 4 - Rotation and Translation
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -12,6 +12,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
+\usepackage{framed}
 
 \beamertemplateballitem
 
@@ -43,11 +44,12 @@
 
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\TNUM}{4\hspace{2mm}} % topic Number 
-\newcommand{\topictitle}{Topic \TNUM - Describing Motion } % first line of title (used by beamer)
-\newcommand{\sectiontitle}{Dynamics Review }% second line of the title of this presentation (used by TWH)
+\newcommand{\MNUM}{2\hspace{2mm}} % Module number
+\newcommand{\TNUM}{4\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Dynamics Review }
+\newcommand{\topictitle}{Rotation and Translation } 
 
-\title{\sectiontitle - Topic \TNUM}
+\title{Module \MNUM - \moduletitle}
 
 \date{May 29, 2020}
 
@@ -55,16 +57,13 @@
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-\frame{\titlepage \center\textbf{\topictitle}\vspace{5mm}\\}
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
 
-
 \frame{
 
-\large \textbf{\topictitle} \vspace{3mm}\\
-
-%Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
+\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
 	\item Translation\vspace{3mm}\\ % Section 1

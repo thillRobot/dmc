@@ -12,6 +12,7 @@
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
+\usepackage{framed}
 
 \beamertemplateballitem
 
@@ -41,28 +42,26 @@
 
 \author{ME3050 - Dynamics Modeling and Controls}%\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\TNUM}{6\hspace{2mm}} % topic Number 
-\newcommand{\topictitle}{Particles and Bodies } % first line of title (used by beamer)
-\newcommand{\sectiontitle}{Dynamics Review }% second line of the title of this presentation (used by TWH)
+\newcommand{\MNUM}{2\hspace{2mm}} % Module number
+\newcommand{\TNUM}{6\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Dynamics Review }
+\newcommand{\topictitle}{Particles and Bodies } 
 
-\title{\sectiontitle - \topictitle}
+\title{Module \MNUM - \moduletitle}
 
-\date{May 31, 2020}
+\date{May 29, 2020}
 
 \begin{document}
 
 \lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
-\frame{\titlepage \center\textbf{Topic \TNUM - \topictitle}\vspace{5mm}\\}
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
 % Section 0: Outline
-
 
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
-%Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
 	\item Particle Motion\vspace{3mm}\\ % Section 1
