@@ -6,8 +6,8 @@
 % Introduction - Topic 1 - What is System Dynamics?
 %
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+%\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -39,6 +39,7 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{1\hspace{2mm}} % Module number
@@ -58,9 +59,12 @@
 
 % Section 0: Outline
 
+
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+
+%Topics : \vspace{3mm}\\ % ' topics' are beamer 'sections' - TWH
 
 \begin{itemize}
 	\item Welcome Back!\vspace{3mm}\\ % Section 1
@@ -94,11 +98,11 @@
 
 \large
 Dynamics is ...\vspcc
-
-the study of how moving objects behave, \vspcc
-or \vspcc
-an area of mechanics that studies movement and its causes,\vspcc
-or \vspcc
+\vspace{20mm}
+%the study of how moving objects behave, \vspcc
+%or \vspcc
+%an area of mechanics that studies movement and its causes,\vspcc
+%or \vspcc
 %\Large{"The dynamical system concept is a mathematical formalization for any fixed "rule" which describes the time dependence of a point's position in its ambient space. "} \vspace{5mm} \\
 
 {\it system dynamics} is the study of {\bf modeling} and {\bf analysis} of dynamical systems as a function of time.\vspc
@@ -111,9 +115,9 @@ or \vspcc
 \frametitle{Dynamics vs System Dynamics}
 
 \large
-Dynamics: find state of \underline{object} at \underline{a specific instant in time} \vspccc
+Dynamics: find state of \underline{object} at  a \underline{\hspace{40mm}}\vspccc
 
-System Dynamics: find state of \underline{system} as a \underline{function of time}  \vspc
+System Dynamics: find state of \underline{system} as a \underline{\hspace{30mm}}  \vspc
 
 $\rightarrow$ Leads to use of differential equations. $m\ddot{x}+c\dot{x}+kx=f(t)$
 
@@ -125,8 +129,9 @@ $\rightarrow$ Leads to use of differential equations. $m\ddot{x}+c\dot{x}+kx=f(t
 \frame{
 \frametitle{What is Mathematical Modeling?}
 
-A mathematical model is a description of a system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical {\bf modeling} ... \vspc
-...  used in the natural sciences and engineering disciplines ...  \href{https://en.wikipedia.org/wiki/Mathematical_model}{\tiny Wikipedia}
+A mathematical model is\vspace{20mm}\\% a description of a system using mathematical concepts and language. The process of developing a mathematical model is termed mathematical {\bf modeling} ... \vspc
+%...  used in the natural sciences and engineering disciplines ...  
+%\href{https://en.wikipedia.org/wiki/Mathematical_model}{\tiny Wikipedia}
 
 \begin{itemize}
 \item Model Simplification
@@ -141,7 +146,7 @@ A mathematical model is a description of a system using mathematical concepts an
 \frame{
 \frametitle{What is Analysis?}
 
-{\bf Analysis} is the process of breaking a complex topic or substance into smaller parts in order to gain a better understanding of it... \href{https://en.wikipedia.org/wiki/Analysis}{\tiny Wikipedia}
+{\bf Analysis} is\vspace{20mm}\\%  the process of breaking a complex topic or substance into smaller parts in order to gain a better understanding of it... \href{https://en.wikipedia.org/wiki/Analysis}{\tiny Wikipedia}
 
 \begin{itemize}
 \item Study Model to find System Response
