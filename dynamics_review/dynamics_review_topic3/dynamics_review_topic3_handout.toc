@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Particle Motion}{3}{0}{1}
+\beamer@sectionintoc {2}{Rigid Body Motion}{4}{0}{2}
+\beamer@sectionintoc {3}{Is rigid body motion realistic?}{5}{0}{3}
+\beamer@sectionintoc {4}{Motion in ME3050}{7}{0}{4}

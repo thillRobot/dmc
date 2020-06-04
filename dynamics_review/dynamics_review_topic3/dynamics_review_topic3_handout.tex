@@ -3,11 +3,11 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020
-% Dyanmics Review - Topic 6 - Particles and Bodies
+% Dyanmics Review - Topic 3 - Particles and Bodies
 %
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+%\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
@@ -30,6 +30,8 @@
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
+
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -43,13 +45,13 @@
 \author{ME3050 - Dynamics Modeling and Controls}%\\Tennessee Technological University \\} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
-\newcommand{\TNUM}{6\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Dynamics Review }
 \newcommand{\topictitle}{Particles and Bodies } 
 
 \title{Module \MNUM - \moduletitle}
 
-\date{May 29, 2020}
+\date{June 03, 2020}
 
 \begin{document}
 
@@ -100,7 +102,7 @@ Do you remember these? Do they make sense to you?
 In a rigid body motion, the body remains rigid and does not deform. This is intuitive but In mechanics a different definition is used. \vspc
 %{\bf Mathematical Definition:}
 
-In a rigid body motion all points on a single body rotate about a common point in space at the same anguar velocity. This point is known as the instantaneous center of rotation (ICR).
+In a rigid body motion 
 	
 }
 
@@ -122,9 +124,9 @@ Is flight a rigid body motion?  \vspcc
 \frametitle{Example of Non-Rigid Body Motion or System}
 
 \begin{multicols}{2}
- Traditionally engineers build machines that are strong and stiff. Name one machine that must be as strong and stiff as possible. \vspcc
+ Traditionally engineers build machines that are ...
+ 
 
- Can you think of a machine or system that relies on a non-rigid body motion or system?
 \includegraphics[scale=.20]{baxter_fig1.jpg}
 \end{multicols}
 
