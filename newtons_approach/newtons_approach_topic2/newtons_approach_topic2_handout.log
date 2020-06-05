@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  3 JUN 2020 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dynamics_review_topic2_handout.tex
-(./dynamics_review_topic2_handout.tex
+**newtons_approach_topic2_handout.tex
+(./newtons_approach_topic2_handout.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -730,23 +730,23 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen261
 \FrameSep=\dimen262
 )
-(./dynamics_review_topic2_handout.aux)
-\openout1 = `dynamics_review_topic2_handout.aux'.
+(./newtons_approach_topic2_handout.aux)
+\openout1 = `newtons_approach_topic2_handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -814,7 +814,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -824,66 +824,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 
-(./dynamics_review_topic2_handout.out) (./dynamics_review_topic2_handout.out)
+(./newtons_approach_topic2_handout.out) (./newtons_approach_topic2_handout.out)
 \@outlinefile=\write5
-\openout5 = `dynamics_review_topic2_handout.out'.
+\openout5 = `newtons_approach_topic2_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 78.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 54.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 54.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 78.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 78.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 78.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 78.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 5
-4.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-54.
+78.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 54.
+ut line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -910,101 +910,90 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count178
- (./dynamics_review_topic2_handout.nav)
+ (./newtons_approach_topic2_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-] [3
-
 ]
-<cartesian.png, id=83, 610.53094pt x 610.53094pt>
-File: cartesian.png Graphic file (type png)
-<use cartesian.png>
-Package pdftex.def Info: cartesian.png  used on input line 99.
-(pdftex.def)             Requested size: 106.84451pt x 106.84451pt.
-<Descartes.jpg, id=85, 803.0pt x 939.51pt>
-File: Descartes.jpg Graphic file (type jpg)
-<use Descartes.jpg>
-Package pdftex.def Info: Descartes.jpg  used on input line 99.
-(pdftex.def)             Requested size: 100.37476pt x 117.43846pt.
- [4
+<quadcopter.jpg, id=105, 1084.05pt x 722.7pt>
+File: quadcopter.jpg Graphic file (type jpg)
+<use quadcopter.jpg>
+Package pdftex.def Info: quadcopter.jpg  used on input line 108.
+(pdftex.def)             Requested size: 108.41135pt x 72.27423pt.
+<flight_dynamics.png, id=106, 963.6pt x 722.7pt>
+File: flight_dynamics.png Graphic file (type png)
+<use flight_dynamics.png>
+Package pdftex.def Info: flight_dynamics.png  used on input line 108.
+(pdftex.def)             Requested size: 96.36565pt x 72.27423pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
- <./cartesian.png> <./Descartes.jpg>]
-<sliding_block.png, id=99, 335.00156pt x 250.68657pt>
-File: sliding_block.png Graphic file (type png)
-<use sliding_block.png>
-Package pdftex.def Info: sliding_block.png  used on input line 108.
-(pdftex.def)             Requested size: 133.99825pt x 100.27284pt.
- [5
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
- <./sliding_block.png>]
-<polar.png, id=112, 610.53094pt x 610.53094pt>
-File: polar.png Graphic file (type png)
-<use polar.png>
-Package pdftex.def Info: polar.png  used on input line 122.
-(pdftex.def)             Requested size: 109.89082pt x 109.89082pt.
-<cylindrical.png, id=113, 404.26031pt x 437.38406pt>
-File: cylindrical.png Graphic file (type png)
-<use cylindrical.png>
-Package pdftex.def Info: cylindrical.png  used on input line 122.
-(pdftex.def)             Requested size: 111.16884pt x 120.27765pt.
- [6
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 108.
 
- <./polar.png> <./cylindrical.png>]
-<spherical_fig1.png, id=128, 420.82219pt x 389.20406pt>
-File: spherical_fig1.png Graphic file (type png)
-<use spherical_fig1.png>
-Package pdftex.def Info: spherical_fig1.png  used on input line 136.
-(pdftex.def)             Requested size: 126.24762pt x 116.76212pt.
-<spherical_fig2.png, id=129, 519.44063pt x 517.935pt>
-File: spherical_fig2.png Graphic file (type png)
-<use spherical_fig2.png>
-Package pdftex.def Info: spherical_fig2.png  used on input line 136.
-(pdftex.def)             Requested size: 103.88628pt x 103.58516pt.
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[3
 
-[7
+ <./quadcopter.jpg> <./flight_dynamics.png>] [4
 
- <./spherical_fig1.png> <./spherical_fig2.png>] [8
+] [5
+
+] [6
+
+] [7
 
 ]
 \tf@nav=\write6
-\openout6 = `dynamics_review_topic2_handout.nav'.
+\openout6 = `newtons_approach_topic2_handout.nav'.
 
 \tf@toc=\write7
-\openout7 = `dynamics_review_topic2_handout.toc'.
+\openout7 = `newtons_approach_topic2_handout.toc'.
 
 \tf@snm=\write8
-\openout8 = `dynamics_review_topic2_handout.snm'.
+\openout8 = `newtons_approach_topic2_handout.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
 
-(./dynamics_review_topic2_handout.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
-Package rerunfilecheck Info: File `dynamics_review_topic2_handout.out' has not 
-changed.
-(rerunfilecheck)             Checksum: F87290E84536E1948CB660F5BC4976FE;256.
+(./newtons_approach_topic2_handout.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package rerunfilecheck Info: File `newtons_approach_topic2_handout.out' has not
+ changed.
+(rerunfilecheck)             Checksum: A099DB58931F117904C27D2EFF17EFD5;261.
  ) 
 Here is how much of TeX's memory you used:
- 18318 strings out of 492982
- 342727 string characters out of 6134897
- 446781 words of memory out of 5000000
- 21470 multiletter control sequences out of 15000+600000
- 6935 words of font info for 25 fonts, out of 8000000 for 9000
+ 18411 strings out of 492982
+ 345247 string characters out of 6134897
+ 451386 words of memory out of 5000000
+ 21547 multiletter control sequences out of 15000+600000
+ 14157 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,57p,826b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on dynamics_review_topic2_handout.pdf (8 pages, 669228 bytes).
+ 56i,19n,57p,827b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on newtons_approach_topic2_handout.pdf (7 pages, 415712 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 294 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

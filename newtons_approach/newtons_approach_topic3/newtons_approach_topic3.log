@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 02:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,7 +974,7 @@ Package rerunfilecheck Info: File `newtons_approach_topic3.out' has not changed
 Here is how much of TeX's memory you used:
  18416 strings out of 492982
  345195 string characters out of 6134897
- 452365 words of memory out of 5000000
+ 452366 words of memory out of 5000000
  21553 multiletter control sequences out of 15000+600000
  16565 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -986,7 +986,7 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on newtons_approach_topic3.pdf (8 pages, 97694 bytes).
+Output written on newtons_approach_topic3.pdf (8 pages, 97696 bytes).
 PDF statistics:
  319 PDF objects out of 1000 (max. 8388607)
  286 compressed objects within 3 object streams

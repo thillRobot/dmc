@@ -4,7 +4,7 @@
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020
 % Module 3 - Newton's Approach 
-% Topic 2 - The Velocity Model 
+% Topic 2 - Vector vs. Energy Approach 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -48,6 +48,8 @@
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
+
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -60,14 +62,14 @@
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{3\hspace{2mm}} % Module number
-\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Newton's Approach }
-\newcommand{\topictitle}{The Velocity Model } 
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Newton's Approach}
+\newcommand{\topictitle}{Equations of Motion} 
 
-\newcommand{\sectiontitleI}{Example Problem - Quadcoptor Model}
-\newcommand{\sectiontitleII}{Mathematical Modeling}
+\newcommand{\sectiontitleI}{Modeling Rigid Body Mechanical Systems}
+\newcommand{\sectiontitleII}{Derive Equations of Motion}
 \newcommand{\sectiontitleIII}{Newton's Second Law Approach}
-\newcommand{\sectiontitleIV}{Derived Equations of Motion}
+\newcommand{\sectiontitleIV}{Convervation of Energy Method}
 
 \title{Module \MNUM - \moduletitle}
 
@@ -85,7 +87,7 @@
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
 \begin{itemize}
-	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleI	 	\vspc % Section I
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
@@ -98,13 +100,11 @@
 \frame{
 \frametitle{\sectiontitleI}
 
-\includegraphics[scale=0.35]{dji_phantom.jpg}
-\begin{framed}
-\underline{Problem Statement} -  Derive the {\B equations of motion} using Newton's Second Law for the quadcopter velocity model.\vspc
+\includegraphics[scale=.1]{quadcopter.jpg} \includegraphics[scale=.10]{flight_dynamics.png}
 
-\end{framed}
+{\it When modeling the motion of objects, the bending or twisting of the object is often negligible, and we can model the object as a rigid body. We begin this chapter by reviewing Newton's laws of motion and applying them to rigid bodies where the object;s motion is relatively uncomplicated, simple translations and simple rotations about a fixed axis.} {\tiny \underline{System Dynamics, Third Edition}, Palm - Pg. 117} 
 
-{\tiny Image: source needed}
+
 }
 
 % Section II:
@@ -113,16 +113,14 @@
 \frame{
 \frametitle{\sectiontitleII}
 
-First, consider the physical problem and list all simplifying assumptions necessary or desired. In general, the designed should start simple and add complexity incrementally. \vspc
+To analyze the dynamics (motion and forces) of a system we start by deriving the {\B equations of motion} (EOM). This is typically done in one of two ways. \vspc
 
-\underline{Quadcopter Model Assumptions:}
-
-\begin{enumerate}
-\item
-\item
-\item
-\end{enumerate}
-
+\begin{itemize}
+	\item  \vspace{3mm}
+	\item  \vspace{3mm}
+\end{itemize}
+\vspace{3mm}
+The \hspcu \hspcu \hspcu are \hspcu\hspcu\hspcu describing the dynamic relationships between the bodies in the system.
 }
 
 % Section III:
@@ -131,26 +129,11 @@ First, consider the physical problem and list all simplifying assumptions necess
 \frame{
 \frametitle{\sectiontitleIII}
 
-\textbf{ \Large \underline{Newton's Second Law Approach} }\\
+To derive the equations of motion with Newton's Second Law:
 \begin{enumerate}
-\item Draw a {\BR Free Body Diagram}\vspc
-\item Make an {\G assumption of motion}\vspc
-\item Determine all {\B forces} acting on the system and their {\B directions}. \vspc
-\item Write {\PR Newton's second law} for the appropriate DOF. \vspc\
-\item Re-write the ODE in the {\PN standard form} of a system equation.
+\item Draw a {\PR free body diagram} (FBD) for each body in the system. Identify all forces acting on the bodies in the system. \vspc
+\item Apply Newton's Second Law for each {\PN DOF}. 
 \end{enumerate}
-
-}
-
-\frame{
-\frametitle{\sectiontitleIII \hspace{1mm} - Steps 1,2 and 3}
-
-
-}
-	
-\frame{
-\frametitle{\sectiontitleIII \hspace{1mm} - Steps 4,5}
-
 
 \begin{tabular}{ccc}
 Translation:&$\Sigma {\bf F}=m{\bf a}$&$ \Sigma F_x=ma_x$\\
@@ -159,18 +142,40 @@ Translation:&$\Sigma {\bf F}=m{\bf a}$&$ \Sigma F_x=ma_x$\\
 &&\\
 Rotation: &$\Sigma {\bf M}=I_o{\bf \alpha}$&$\Sigma M_o=I_o\alpha_z$\\
 \end{tabular}
+}
 
-}	
-	
 % Section IV:
 \section{\sectiontitleIV}
 
 \frame{
 \frametitle{\sectiontitleIV}
 
+Alternatively with Conservation of Energy:
+
+\begin{enumerate}
+\item Draw a {\PR free body diagram} (FBD) for each body in the system. Identify all {\R kinetic} and {\B potential} energies present in the system.
+
+\item Write the {\BR total energy} equation as the sum of all energies for a particular body.
+
+
+
+\item If no \hspcu forces are considered, Conservation of Energy states the change in the \hspcu must equal zero. \hspcu\hspcu\hspcu\hspcu. This relation is used to the derive the EOM(s).\vspc
+\end{enumerate}
+
+}
+	
+\frame{
+\frametitle{\sectiontitleIV}
+
+\textbf{Note:}\vspc
+
+Either method can be used and for some problem types one or the other is preferred. We will look at several examples of both but the course will primarily focus on the Newton's Second Law approach. \vspc
+
+The Conservation of Energy method, which is based upon Newton's law, is commonly used in advanced dynamics courses. \\
 
 
 }	
+	
 	
 \end{document}
 

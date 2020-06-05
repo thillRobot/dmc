@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -918,6 +918,16 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ] [2
 
 ]
+<quadcopter.jpg, id=105, 1084.05pt x 722.7pt>
+File: quadcopter.jpg Graphic file (type jpg)
+<use quadcopter.jpg>
+Package pdftex.def Info: quadcopter.jpg  used on input line 106.
+(pdftex.def)             Requested size: 108.41135pt x 72.27423pt.
+<flight_dynamics.png, id=106, 963.6pt x 722.7pt>
+File: flight_dynamics.png Graphic file (type png)
+<use flight_dynamics.png>
+Package pdftex.def Info: flight_dynamics.png  used on input line 106.
+(pdftex.def)             Requested size: 96.36565pt x 72.27423pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -937,7 +947,7 @@ thkerncmss.
 )
 [3
 
-] [4
+ <./quadcopter.jpg> <./flight_dynamics.png>] [4
 
 ] [5
 
@@ -957,7 +967,8 @@ thkerncmss.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 178.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 178.
- (./newtons_approach_topic2.aux)
+
+(./newtons_approach_topic2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 178.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 178.
 Package rerunfilecheck Info: File `newtons_approach_topic2.out' has not changed
@@ -965,10 +976,10 @@ Package rerunfilecheck Info: File `newtons_approach_topic2.out' has not changed
 (rerunfilecheck)             Checksum: A099DB58931F117904C27D2EFF17EFD5;261.
  ) 
 Here is how much of TeX's memory you used:
- 18398 strings out of 492982
- 344911 string characters out of 6134897
- 451373 words of memory out of 5000000
- 21538 multiletter control sequences out of 15000+600000
+ 18410 strings out of 492982
+ 345122 string characters out of 6134897
+ 451374 words of memory out of 5000000
+ 21546 multiletter control sequences out of 15000+600000
  14157 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,819b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -979,10 +990,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on newtons_approach_topic2.pdf (7 pages, 91379 bytes).
+Output written on newtons_approach_topic2.pdf (7 pages, 415844 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
+ 294 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
  19 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
