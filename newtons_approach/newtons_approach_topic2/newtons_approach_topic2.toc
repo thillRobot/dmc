@@ -1,4 +1,4 @@
-\beamer@sectionintoc {1}{Section I}{3}{0}{1}
-\beamer@sectionintoc {2}{Section II}{4}{0}{2}
-\beamer@sectionintoc {3}{Section III}{5}{0}{3}
-\beamer@sectionintoc {4}{Section IV}{6}{0}{4}
+\beamer@sectionintoc {1}{Modeling Rigid Body Mechanical Systems}{3}{0}{1}
+\beamer@sectionintoc {2}{Derive Equations of Motion}{4}{0}{2}
+\beamer@sectionintoc {3}{Newton's Second Law Approach}{5}{0}{3}
+\beamer@sectionintoc {4}{Convervation of Energy Method}{6}{0}{4}
