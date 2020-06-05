@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 00:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  5 JUN 2020 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -917,31 +917,40 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 ] [2
 
-] [3
-
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 118.
+<dji_phantom.jpg, id=104, 356.33125pt x 201.75375pt>
+File: dji_phantom.jpg Graphic file (type jpg)
+<use dji_phantom.jpg>
+Package pdftex.def Info: dji_phantom.jpg  used on input line 108.
+(pdftex.def)             Requested size: 124.71779pt x 70.61487pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 118.
+LaTeX Font Info:    Try loading font information for U+msb on input line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 118.
+line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[4
+[3
+
+ <./dji_phantom.jpg>] [4
 
 ] [5
 
 ] [6
+
+] [7
+
+] [8
 
 ]
 \tf@nav=\write6
@@ -953,30 +962,34 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `newtons_approach_topic3.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./newtons_approach_topic3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `newtons_approach_topic3.out' has not changed
 .
-(rerunfilecheck)             Checksum: CCE92B37382BD39E489FB66DA0CB662D;180.
+(rerunfilecheck)             Checksum: 420BCE5CFA48439B70B273BD69D9C3F6;250.
  ) 
 Here is how much of TeX's memory you used:
- 18359 strings out of 492982
- 344039 string characters out of 6134897
- 448028 words of memory out of 5000000
- 21504 multiletter control sequences out of 15000+600000
- 12167 words of font info for 44 fonts, out of 8000000 for 9000
+ 18416 strings out of 492982
+ 345195 string characters out of 6134897
+ 452365 words of memory out of 5000000
+ 21553 multiletter control sequences out of 15000+600000
+ 16565 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,819b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on newtons_approach_topic3.pdf (6 pages, 47549 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on newtons_approach_topic3.pdf (8 pages, 97694 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

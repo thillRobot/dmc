@@ -64,10 +64,10 @@
 \newcommand{\moduletitle}{Newton's Approach }
 \newcommand{\topictitle}{The Velocity Model } 
 
-\newcommand{\sectiontitleI}{Section I}
-\newcommand{\sectiontitleII}{Section II}
-\newcommand{\sectiontitleIII}{Section III}
-\newcommand{\sectiontitleIV}{Section IV}
+\newcommand{\sectiontitleI}{Example Problem - Quadcoptor Model}
+\newcommand{\sectiontitleII}{Mathematical Modeling}
+\newcommand{\sectiontitleIII}{Newton's Second Law Approach}
+\newcommand{\sectiontitleIV}{Derived Equations of Motion}
 
 \title{Module \MNUM - \moduletitle}
 
@@ -98,6 +98,13 @@
 \frame{
 \frametitle{\sectiontitleI}
 
+\includegraphics[scale=0.35]{dji_phantom.jpg}
+\begin{framed}
+\underline{Problem Statement} -  Derive the {\B equations of motion} using Newton's Second Law for the quadcopter velocity model.\vspc
+
+\end{framed}
+
+{\tiny Image: source needed}
 }
 
 % Section II:
@@ -106,14 +113,15 @@
 \frame{
 \frametitle{\sectiontitleII}
 
-\textbf{Simple Example:} Quarter Car Suspension Model\\
+First, consider the physical problem and list all simplifying assumptions necessary or desired. In general, the designed should start simple and add complexity incrementally. \vspc
 
+\underline{Quadcopter Model Assumptions:}
 
-\begin{itemize}
-\item \textbf{ \underline{Problem Statement} -  Derive the \B equations of motion \K using (1) Newton's approach and validate using the (2) Conservation of Energy.}\\
-
-\item \textbf{ \underline{Assumptions} - List the assumptions used in the modeling process.  } 
-\end{itemize}
+\begin{enumerate}
+\item
+\item
+\item
+\end{enumerate}
 
 }
 
@@ -123,15 +131,46 @@
 \frame{
 \frametitle{\sectiontitleIII}
 
+\textbf{ \Large \underline{Newton's Second Law Approach} }\\
+\begin{enumerate}
+\item Draw a {\BR Free Body Diagram}\vspc
+\item Make an {\G assumption of motion}\vspc
+\item Determine all {\B forces} acting on the system and their \B directions\K. \vspc
+\item Write {\PR Newton's second law} for the appropriate DOF. \vspc\
+\item Re-write the ODE in the {\PN standard form} of a system equation.
+\end{enumerate}
+
 }
 
+\frame{
+\frametitle{\sectiontitleIII \hspace{1mm} - Steps 1,2 and 3}
+
+
+}
+	
+\frame{
+\frametitle{\sectiontitleIII \hspace{1mm} - Steps 4,5}
+
+
+\begin{tabular}{ccc}
+Translation:&$\Sigma {\bf F}=m{\bf a}$&$ \Sigma F_x=ma_x$\\
+&&$\Sigma F_y=ma_y$\\
+&&$\Sigma F_z=ma_z$ \\
+&&\\
+Rotation: &$\Sigma {\bf M}=I_o{\bf \alpha}$&$\Sigma M_o=I_o\alpha_z$\\
+\end{tabular}
+
+}	
+	
 % Section IV:
 \section{\sectiontitleIV}
 
 \frame{
 \frametitle{\sectiontitleIV}
 
-}
+
+
+}	
 	
 \end{document}
 

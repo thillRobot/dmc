@@ -1,4 +1,4 @@
-\beamer@sectionintoc {1}{Section I}{3}{0}{1}
-\beamer@sectionintoc {2}{Section II}{4}{0}{2}
-\beamer@sectionintoc {3}{Section III}{5}{0}{3}
-\beamer@sectionintoc {4}{Section IV}{6}{0}{4}
+\beamer@sectionintoc {1}{Example Problem - Quadcoptor Model}{3}{0}{1}
+\beamer@sectionintoc {2}{Mathematical Modeling}{4}{0}{2}
+\beamer@sectionintoc {3}{Newton's Second Law Approach}{5}{0}{3}
+\beamer@sectionintoc {4}{Derived Equations of Motion}{8}{0}{4}
