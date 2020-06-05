@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Brief Biography}{3}{0}{1}
+\beamer@sectionintoc {2}{First Law}{7}{0}{2}
+\beamer@sectionintoc {3}{Second Law}{8}{0}{3}
+\beamer@sectionintoc {4}{Third Law}{9}{0}{4}
