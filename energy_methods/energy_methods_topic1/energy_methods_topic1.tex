@@ -61,6 +61,9 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
+\newcommand{\eqscl}{0.9}     % small horizontal space
+
+
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{4\hspace{2mm}} % Module number
@@ -71,7 +74,7 @@
 \newcommand{\sectiontitleI}{Brief History}
 \newcommand{\sectiontitleII}{Second Law Derivation}
 \newcommand{\sectiontitleIII}{Non-Conservatve Forces}
-\newcommand{\sectiontitleIV}{Engineering Applications}
+\newcommand{\sectiontitleIV}{Use in Engineering }
 
 % custom box
 \newsavebox{\mybox}
@@ -148,6 +151,7 @@ to be possible only under the most extreme of physical conditions ...
 \frametitle{\sectiontitleII}
 
 
+\small
 
 A mass moves in the x direction with only the force of gravity acting on it. Netwon's Second Law combined with the definition of differential work done  by a force through a distance gives a relation between kinetic energy and work done by the external force.
 
@@ -155,12 +159,12 @@ A mass moves in the x direction with only the force of gravity acting on it. Net
 
 \includegraphics[scale=.4]{conservation_energy_fig1.png}
 
-\scalebox{0.8}{${\bf f}=m{\bf a}=m\frac{d {\bf v}}{dt}$} \vspace{1mm}\\
-\scalebox{0.8}{$dW={\bf f}d{\bf x}$}\vspace{1mm}\\
-\scalebox{0.8}{$dW={\bf f}d{\bf x}=m{\bf a}d{\bf x}=md{\bf v}\frac{d{\bf x}}{dt}=md{\bf v}{\bf v}$}\vspace{1mm}\\
-\scalebox{0.8}{$\rightarrow dW=mv_xdv_x$}\vspace{1mm}\\
-\scalebox{0.8}{$W_{12}=\int_{x_1}^{x_2} mv_xdv_x=\frac{1}{2}mv_x^2|_{x_1}^{x_2}$}\vspace{3mm}\\
-\scalebox{0.90}{$W_{12}=\frac{1}{2}mv_{x_2}^2-\frac{1}{2}mv_{x_1}^2=KE_1-KE_2$}
+\scalebox{\eqscl}{${\bf f}=m{\bf a}=m\frac{d {\bf v}}{dt}$} \vspace{1mm}\\
+\scalebox{\eqscl}{$dW={\bf f}d{\bf x}$}\vspace{1mm}\\
+\scalebox{\eqscl}{$dW={\bf f}d{\bf x}=m{\bf a}d{\bf x}=md{\bf v}\frac{d{\bf x}}{dt}=md{\bf v}{\bf v}$}\vspace{1mm}\\
+\scalebox{\eqscl}{$\rightarrow dW=mv_xdv_x$}\vspace{1mm}\\
+\scalebox{\eqscl}{$W_{12}=\int_{x_1}^{x_2} mv_xdv_x=\frac{1}{2}mv_x^2|_{x_1}^{x_2}$}\vspace{3mm}\\
+\scalebox{\eqscl}{$W_{12}=\frac{1}{2}mv_{x_2}^2-\frac{1}{2}mv_{x_1}^2=KE_1-KE_2\hspace{5mm}{\B (1)}$}
 
 \end{multicols}
 
@@ -169,21 +173,19 @@ A mass moves in the x direction with only the force of gravity acting on it. Net
 \frame{
 \frametitle{\sectiontitleII}
 
-Alternativley, subsitute the distance traveled into the differential work relation. Now you are left with the familar relation between work done by gravity and the potential energy in the system. 
+Now, subsitute the distance traveled into the differential work relation and you are left with the familar relation between work done by gravity and the potential energy in the system. 
 
 \begin{multicols}{2}
 
 \includegraphics[scale=.35]{conservation_energy_fig1.png}
 
-\scalebox{0.8}{$dW={\bf f}d{\bf x}$}\vspace{1mm}\\
-\scalebox{0.8}{$W_{12}=\int_{x_1}^{x_2}{\bf f}d{\bf x}=(-mg)|_{x_1}^{x_2}=(-mg)(x_2-x_1)$}\vspace{1mm}\\
-\scalebox{0.8}{$W_{12}=-mg(x_2-x_1)$}\vspc
+\scalebox{\eqscl}{$dW={\bf f}d{\bf x}$}\vspace{1mm}\\
+\scalebox{\eqscl}{$W_{12}=\int_{x_1}^{x_2}{\bf f}d{\bf x}=(-mg)|_{x_1}^{x_2}$}\vspace{1mm}\\
+\scalebox{\eqscl}{$W_{12}=-mg(x_2-x_1)\hspace{20mm}{\B (2)}$}\vspc
 
-Now we can see that \vspace{1mm}\\
+Combine ${\B (1)}$ and ${\B (2)}$. \vspace{1mm}\\
 
-\scalebox{0.8}{$W_{12}=-mg(x_2-x_1)=\frac{1}{2}mv_{x_2}^2-\frac{1}{2}mv_{x_1}^2$}\vspc
-
-\scalebox{0.8}{$ \Delta KE +\Delta PE = 0 $}
+\scalebox{\eqscl}{$W_{12}=-mg(x_2-x_1)=\frac{1}{2}mv_{x_2}^2-\frac{1}{2}mv_{x_1}^2$}\vspc
 
 \end{multicols}
 
@@ -192,16 +194,13 @@ Now we can see that \vspace{1mm}\\
 \frame{
 \frametitle{\sectiontitleII}
 
-
-
-	The resulting equation clearly shows the conservation of energy for a 1DOF particle moving in the direction of gravity. This derivation is often shown in more genralized form but this version is easy to understand and will work for our purposes. \vspcc
-
+The resulting equation clearly shows the conservation of energy for a 1DOF particle moving in the direction of gravity. This derivation is often shown in more genralized form but this version is easy to understand and will work for our purposes. \vspc
+\begin{framed}
 \scalebox{1.0}{$ \Delta KE +\Delta PE = 0 $} \hspcc or \hspcc \scalebox{1.0}{$ KE + PE = Constant $} \vspc
-
-with \hspc \scalebox{1.0}{$KE=\frac{1}{2}mv^2$} \hspc and \hspc \scalebox{1.0}{$PE=mgh$} \vspcc
+with \hspc \scalebox{1.0}{$KE=\frac{1}{2}mv^2$} \hspc and \hspc \scalebox{1.0}{$PE=mgh$} 
+\end{framed}
 	
 While deriving dynamics (EOMs) for many systems the alternate form shown the right will be used.
-
 
 }
 
@@ -212,7 +211,7 @@ While deriving dynamics (EOMs) for many systems the alternate form shown the rig
 \frame{
 \frametitle{\sectiontitleIII}
 
-Lastly, this derivation relies on the fact that $f$ is a conservative force that can be derived from a function $V(x)$ which is defined as follows. \vspc
+Lastly, this derivation relies on the fact that $f$ is a conservative force that can be derived from a function $V(x)$ which is defined as follows. (see page 119)\vspc
 
 \scalebox{1}{$V(x)=\int dV=-f(x)dx$} \vspc
 
@@ -228,7 +227,13 @@ In this class we will only use the energy based methods in systems with no non c
 \frame{
 \frametitle{\sectiontitleIV}
 
-The conservation of mechanical energy can be used to derive the equations of motion for many dynamic systems.
+The conservation of mechanical energy can be used to simlify the  modeling of the dynamics of mechanical systems. \vspc
+\begin{itemize}
+	
+	\item Equivalent Mass and Inertia
+	\item 
+	
+\end{itemize}
 
 }
 	

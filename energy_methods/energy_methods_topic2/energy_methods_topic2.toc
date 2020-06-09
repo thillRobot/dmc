@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Conservation of Energy}{3}{0}{1}
+\beamer@sectionintoc {2}{Change in Total Energy}{4}{0}{2}
+\beamer@sectionintoc {3}{Chain Chain Chain}{5}{0}{3}
+\beamer@sectionintoc {4}{Resulting Equations of Motion}{6}{0}{4}
