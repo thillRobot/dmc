@@ -19,7 +19,7 @@
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <sodipodi:namedview
-     inkscape:snap-text-baseline="false"
+     inkscape:snap-text-baseline="true"
      inkscape:document-rotation="0"
      fit-margin-bottom="0"
      fit-margin-right="0"
@@ -267,7 +267,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
