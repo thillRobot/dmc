@@ -3,8 +3,8 @@
 %
 % Spring 2020 - Summer 2020
 % Tristan Hill, May 07, 2020
-% Module 4 - Energy Methods
-% Topic 2 - 
+% Module 3 - Energy Methods
+% Topic 1 - 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -64,14 +64,15 @@
 \author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{4\hspace{2mm}} % Module number
-\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Energy Methods }
-\newcommand{\topictitle}{Deriving EOMS from Energy} 
+\newcommand{\topictitle}{Example: Swinging Pendulum} 
 
-\newcommand{\sectiontitleI}{System Model}
-\newcommand{\sectiontitleII}{Collect Kinetic and Potential}
-\newcommand{\sectiontitleIII}{Change in Total Energy}
-\newcommand{\sectiontitleIV}{Example: Falling Mass }
+\newcommand{\sectiontitleI}{Model Description and Assumptions}
+\newcommand{\sectiontitleII}{Sketches and FBDs}
+\newcommand{\sectiontitleIII}{Kinetic and Potential Energies}
+\newcommand{\sectiontitleIV}{Apply Convervation of Energy}
+\newcommand{\sectiontitleV}{Standard Form of EOM}
 
 % custom box
 \newsavebox{\mybox}
@@ -97,6 +98,7 @@
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
+	\item \sectiontitleV 	\vspc %Section V
 \end{itemize}
 %\includegraphics[scale=.25]{newton_portrait.jpg}
 
@@ -110,19 +112,25 @@
 \frame{
 \frametitle{\sectiontitleI}
 
-The modeling process begins with a {\PR description} of the system and the modeling {\PN assumptions} that will be used. Typically a diagram of the system is included. \vspcc
+\begin{multicols}{2}
 
-In rigid body motion, one {\B free body diagram} (FBD) per body is required for derivation of the {\G  equations of motion} of the system. 
- 
-However, the vector analysis of the forces inlvolved is {\it not required} as it is in Newton's method. \vspcc
+\underline{Model:}\vspc A Swinging Pendulum \vspc
 
+\includegraphics[scale=.6]{pendulum_fig1.png} \vspace{20mm}
 
-\underline{Question:} Why is the vector analysis not required for this method? 
+\underline{Description:}\vspc A mass is suspended by a rigid link from a pin. \vspc
 
-%All forces that do {\OR work} on the sytem and all {\BR stored} energies storages m
-	
+\underline{Assumptions:} 
+\begin{itemize}
+\item the mass is treated as a point mass
+\item the link is rigid aand mass-less
+\item the pin is frictionless
+\item the air drag is negligable
+\end{itemize}
+
+\end{multicols}
+
 }
-
 
 % Section II:
 \section{\sectiontitleII}
@@ -130,21 +138,14 @@ However, the vector analysis of the forces inlvolved is {\it not required} as it
 \frame{
 \frametitle{\sectiontitleII}
 
-After the model has been established, all kinetic energies associated with motion and all stored potential energies must be identified.  \vspc
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{lll}
-Kinetic Energy & (translation) & \scalebox{1}{$T = \frac{1}{2}mv^2$} \\
-&(rotation)& \scalebox{1}{$T = \frac{1}{2}m\omega^2$\hspc } \\
-Potential Energy &(gravity)& \scalebox{1}{$V = mgx$} \\
-&(spring)& \scalebox{1}{$V = \frac{1}{2}kx^2$} \\
-&(electrical)&\scalebox{1}{$V = \kappa Qq/r$} {\tiny (typically per unit charge is used)}
-\end{tabular}
+\begin{multicols}{2}
+First {\it separate} the bodies of interest to draw a {\bf free} body diagram. \ 
 
-\vspace{3mm}
-A {\R Zero Energy Reference} is required to properly define the potential energy function, $V(x)$.  
-
+\includegraphics[scale=.5]{pendulum_fig2.png} \vspace{20mm}
+\end{multicols}
 
 }
+
 
 
 
@@ -154,21 +155,9 @@ A {\R Zero Energy Reference} is required to properly define the potential energy
 \frame{
 \frametitle{\sectiontitleIII}
 
-The conservation of energy can be usee for deriving the dynamics (EOMs) for many systems. In some situations this is simler that using Newton's method, however both methods will produce equivalent equations of motion. \vspc
 
-\begin{framed}
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{llc}
-We know &\scalebox{1.0}{$ \Delta KE +\Delta PE = 0 $}& {\B(1)} \\
-implies & \scalebox{1.0}{$ KE + PE = Constant $} & {\B(2)}\\
-as well as & \scalebox{1}{$\frac{d}{dt}\left( KE + PE \right) = \frac{d}{dt}\left(Constant\right) = 0$} & {\B(3)}\\
-\end{tabular}
-\end{framed}
-
-We will use equation {\B(3)} to derive the equations of motion.
 
 }
-
 
 % Section IV:
 \section{\sectiontitleIV}
@@ -176,24 +165,17 @@ We will use equation {\B(3)} to derive the equations of motion.
 \frame{
 \frametitle{\sectiontitleIV}
 
-You may recognize this problem from dynamics or physics class.\vspc However, today we will use the {\PR Conservation of Energy} to derive the equations of motion which contain the dynamic relationships between the system variables as functions of time.  \vspc
 
-\includegraphics[scale=.3]{conservation_energy_fig2.png} 
-
-\vspace{10mm}
-{\tiny Images: T.Hill}
 }
+	
+% Section V:
+\section{\sectiontitleV}
 
 \frame{
-\frametitle{\sectiontitleIV}
+\frametitle{\sectiontitleV}
 
-This a simple problem, but it shows the method clearly. To ensure correctness, validate the result with {\B Newton's Approach} \vspcc
 
-\includegraphics[scale=.3]{conservation_energy_fig3.png} 
-
-\vspace{10mm}
-{\tiny Images: T.Hill}
-}
+}	
 	
 \end{document}
 
