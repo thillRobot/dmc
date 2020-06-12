@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  12 JUN 2020 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  12 JUN 2020 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,11 +920,11 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ] [2
 
 ]
-<moment_inertia_fig3.png, id=104, 805.02496pt x 400.31296pt>
+<moment_inertia_fig3.png, id=104, 805.02496pt x 400.94139pt>
 File: moment_inertia_fig3.png Graphic file (type png)
 <use moment_inertia_fig3.png>
 Package pdftex.def Info: moment_inertia_fig3.png  used on input line 125.
-(pdftex.def)             Requested size: 181.13509pt x 90.07263pt.
+(pdftex.def)             Requested size: 181.13509pt x 90.21404pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -942,7 +942,7 @@ line 125.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \vbox (1.16309pt too high) detected at line 125
+Overfull \vbox (1.30449pt too high) detected at line 125
  []
 
 [3
@@ -1017,7 +1017,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmssi8.pfb>
-Output written on rotating_systems_topic2.pdf (7 pages, 337329 bytes).
+Output written on rotating_systems_topic2.pdf (7 pages, 341025 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  261 compressed objects within 3 object streams

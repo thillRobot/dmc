@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  12 JUN 2020 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  12 JUN 2020 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,18 +920,23 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 118.
+<moment_inertia_fig5.png, id=104, 321.7586pt x 430.47783pt>
+File: moment_inertia_fig5.png Graphic file (type png)
+<use moment_inertia_fig5.png>
+Package pdftex.def Info: moment_inertia_fig5.png  used on input line 120.
+(pdftex.def)             Requested size: 72.39746pt x 96.8599pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 118.
+LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 118.
+line 120.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -939,13 +944,28 @@ thkerncmss.
 )
 [3
 
-] [4
+ <./moment_inertia_fig5.png>]
+<moment_inertia_fig8.png, id=140, 223.72278pt x 196.70009pt>
+File: moment_inertia_fig8.png Graphic file (type png)
+<use moment_inertia_fig8.png>
+Package pdftex.def Info: moment_inertia_fig8.png  used on input line 136.
+(pdftex.def)             Requested size: 55.93054pt x 49.1749pt.
+ [4
 
-] [5
+ <./moment_inertia_fig8.png>]
+<moment_inertia_fig6.png, id=173, 432.99156pt x 397.17078pt>
+File: moment_inertia_fig6.png Graphic file (type png)
+<use moment_inertia_fig6.png>
+Package pdftex.def Info: moment_inertia_fig6.png  used on input line 150.
+(pdftex.def)             Requested size: 97.4255pt x 89.36562pt.
+<moment_inertia_fig7.png, id=174, 466.92705pt x 431.7347pt>
+File: moment_inertia_fig7.png Graphic file (type png)
+<use moment_inertia_fig7.png>
+Package pdftex.def Info: moment_inertia_fig7.png  used on input line 150.
+(pdftex.def)             Requested size: 105.06117pt x 97.1427pt.
+ [5
 
-] [6
-
-] [7
+ <./moment_inertia_fig6.png> <./moment_inertia_fig7.png>] [6
 
 ]
 \tf@nav=\write6
@@ -957,21 +977,21 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `rotating_systems_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./rotating_systems_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `rotating_systems_topic1.out' has not changed
 .
-(rerunfilecheck)             Checksum: 564855E402E8F292CE274A87E0BC72C9;281.
+(rerunfilecheck)             Checksum: B8E1057046FAFBB10F1AEB7912732878;242.
  ) 
 Here is how much of TeX's memory you used:
- 18381 strings out of 492982
- 344372 string characters out of 6134897
- 449443 words of memory out of 5000000
- 21523 multiletter control sequences out of 15000+600000
- 11873 words of font info for 43 fonts, out of 8000000 for 9000
+ 18394 strings out of 492982
+ 344841 string characters out of 6134897
+ 449304 words of memory out of 5000000
+ 21533 multiletter control sequences out of 15000+600000
+ 12229 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,819b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -979,11 +999,12 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on rotating_systems_topic1.pdf (7 pages, 73666 bytes).
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on rotating_systems_topic1.pdf (6 pages, 181331 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
- 20 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 228 compressed objects within 3 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
