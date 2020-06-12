@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Newton's Second in Rotation}{3}{0}{1}
+\beamer@sectionintoc {2}{Fixed Axis Rotation}{5}{0}{2}
+\beamer@sectionintoc {3}{Energy of Rotation}{6}{0}{3}
+\beamer@sectionintoc {4}{Energy of Rotation}{6}{0}{4}
+\beamer@sectionintoc {5}{Engineering Applications}{7}{0}{5}

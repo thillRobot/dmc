@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Mathematical Defintion}{3}{0}{1}
+\beamer@sectionintoc {2}{Table of Common Geometries}{5}{0}{2}
+\beamer@sectionintoc {3}{The Parallel Axis Theorem}{6}{0}{3}
+\beamer@sectionintoc {4}{Equivalent Inertia}{7}{0}{4}
