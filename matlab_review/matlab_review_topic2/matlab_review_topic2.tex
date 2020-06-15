@@ -33,9 +33,8 @@
 \newcommand{\G}{\color{mygreen}}
 \newcommand{\PR}{\color{mypurple}}
 \newcommand{\PN}{\color{mypink}}
-\newcommand{\OR}{\color{TTU}}
+\newcommand{\OR}{\color{orange}}
 \newcommand{\GD}{\color{TTUgold}}
-
 
 \setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
 \setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
@@ -63,7 +62,7 @@
 
 \author{ME3060 - Dynamics Modeling and Controls Lab} % original formatting from Mike Renfro, September 21, 2004
 
-\newcommand{\MNUM}{6\hspace{2mm}} % Module number
+\newcommand{\MNUM}{1\hspace{2mm}} % Module number
 \newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{MATLAB Review }
 \newcommand{\topictitle}{Using Simulink} 
@@ -76,7 +75,7 @@
 % custom box
 \newsavebox{\mybox}
 
-\title{Module \MNUM - \moduletitle}
+\title{Demonstration \MNUM - \moduletitle}
 
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
@@ -91,6 +90,7 @@
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
 
+\begin{multicols}{2}
 \begin{itemize}
 
 	\item \sectiontitleI		\vspc % Section I
@@ -100,6 +100,8 @@
 
 \end{itemize}
 
+\includegraphics[scale=.2]{matlab_logo.png}
+\end{multicols}
 }
 
 % Section I:
@@ -109,7 +111,7 @@
 \frame{
 \frametitle{\sectiontitleI}
 
-Simulink is a MATLAB-based graphical programming environment for modeling, simulating and analyzing multidomain dynamical systems. Its primary interface is a graphical block diagramming tool and a customizable set of block libraries. It offers tight integration with the rest of the MATLAB environment and can either drive MATLAB or be scripted from it. Simulink is widely used in automatic control and digital signal processing for multidomain simulation and model-based design.[2][3] 
+Simulink is a MATLAB-based {\PR graphical programming} environment for {\B modeling}, {\B simulating} and {\B analyzing} multidomain dynamical systems. Its primary interface is a graphical {\OR block diagramming} tool and a customizable set of block libraries. It offers tight integration with the rest of the MATLAB {\R environment} and can either {\PN drive} MATLAB or be {\PN scripted} from it. Simulink is widely used in {\G automatic control} and digital {\G signal processing} for multidomain simulation and model-based design.[2][3] 
 
 \vspace{5mm}
 {\tiny Text: \href{https://en.wikipedia.org/wiki/Simulink}{Wikipedia} } 
@@ -119,22 +121,39 @@ Simulink is a MATLAB-based graphical programming environment for modeling, simul
 % Section II:
 \section{\sectiontitleII}
 
+% Section II - Frame I:
 \frame{
 \frametitle{\sectiontitleII}
  
 \begin{itemize}
 
-\item Upon installing of MATLAB you can choose to install simulink. If you did not can can install it through the {\it Add-Ons Explorer} in the home tab. \vspc
+\item While {\PR installing} MATLAB you can choose to include simulink. If you did not can can {\PN install} it through the {\it Add-Ons Explorer} in the home tab. \vspc
 
-\item Open MATLAB and find the command window and start simulink by entering the following. \vspc
+\item Open MATLAB and {\G start simulink} by entering the following in to the command window. \vspc
 
 \scalebox{1.0}{{\fontfamily{qcr}\selectfont  \hspace{5mm} >>  simulink}} \vspc
 
-\item A Simulink is intended for {\B Model Based Design} \\ $\rightarrow$ a simulink file is called a {\it model} 
+\item {\R Wait} for Simulink to open, and then click {\B blank model}. \vspc $\rightarrow$ A simulink file is called a {\it model}\hspc (.slx) 
 
 \end{itemize}
 
 }
+
+% Section II - Frame II:
+\frame{
+\frametitle{\sectiontitleII}
+
+You begin with a blank model (as you selected) and the possibilities are endless. Alternatively you could start with a {\BR template}.  \vspc
+
+Click on  the {\OR Library Browser} to find components to add  to the model. \vspc
+
+
+\vspace{30mm}
+
+}
+
+
+
 
 % Section III:
 \section{\sectiontitleIII}
