@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Springs in Series}{3}{0}{1}
+\beamer@sectionintoc {2}{Springs in Parallel}{4}{0}{2}
+\beamer@sectionintoc {3}{Example}{5}{0}{3}
+\beamer@sectionintoc {4}{---}{6}{0}{4}
