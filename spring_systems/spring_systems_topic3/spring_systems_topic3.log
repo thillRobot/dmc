@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  16 JUN 2020 01:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 02:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,20 +973,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
 (./spring_systems_topic3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
-
-
-Package rerunfilecheck Warning: File `spring_systems_topic3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `spring_systems_topic3.out':
-(rerunfilecheck)             Before: 5186951AB20E3131F44F35C6A38A2DA3;177
-(rerunfilecheck)             After:  1C35B35D1BA44952123CBB2F5B26D76D;187.
+Package rerunfilecheck Info: File `spring_systems_topic3.out' has not changed.
+(rerunfilecheck)             Checksum: 1C35B35D1BA44952123CBB2F5B26D76D;187.
  ) 
 Here is how much of TeX's memory you used:
  19409 strings out of 481239
  364525 string characters out of 5920377
- 804632 words of memory out of 5000000
+ 804663 words of memory out of 5000000
  34217 multiletter control sequences out of 15000+600000
  535633 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -995,7 +988,7 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on spring_systems_topic3.pdf (6 pages, 53818 bytes).
+Output written on spring_systems_topic3.pdf (6 pages, 53836 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  216 compressed objects within 3 object streams

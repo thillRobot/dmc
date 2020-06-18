@@ -1,10 +1,9 @@
 % 
 % Lecture Template for ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 07, 2020 - June 12, 2020
+% Tristan Hill, % Spring 2020 - Summer 2020
 % Module 6 - Spring Systems
-% Topic 1 - 
+% Topic 2 - Combinations of Springs
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -37,15 +36,13 @@
 \newcommand{\OR}{\color{TTU}}
 \newcommand{\GD}{\color{TTUgold}}
 
-
+% Beamer colors
 \setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
 \setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
 \setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
 \setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
-
-%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -59,27 +56,22 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
-\newcommand{\eqscl}{0.9}     % small horizontal space
-
-
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
-
 \newcommand{\MNUM}{6\hspace{2mm}} % Module number
-\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Spring Systems}
 \newcommand{\topictitle}{Combinations of Springs} 
 
 \newcommand{\sectiontitleI}{Springs in Series}
 \newcommand{\sectiontitleII}{Springs in Parallel}
-\newcommand{\sectiontitleIII}{Example}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleIII}{Torsional Springs}
+\newcommand{\sectiontitleIV}{Various Types}
 
 % custom box
 \newsavebox{\mybox}
 
 \title{Module \MNUM - \moduletitle}
-
 \date{Mechanical Engineering\vspc Tennessee Technological University}
+\author{ME3050 - Dynamics Modeling and Controls}
 
 \begin{document}
 
@@ -91,62 +83,77 @@
 \frame{
 
 \large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
+\begin{multicols}{2}
 \begin{itemize}
 
-	\item \sectiontitleI		\vspc % Section I
+	\item \sectiontitleI    \vspc % Section I
 	\item \sectiontitleII 	\vspc % Section II
 	\item \sectiontitleIII 	\vspc %Section III
 	\item \sectiontitleIV 	\vspc %Section IV
 
 \end{itemize}
+\includegraphics[scale=.4]{five_springs.png}
+\end{multicols}
+
 
 }
 
-% Section I:
+% Section I
 \section{\sectiontitleI}
 
-% Section I - Frame I
-\frame{
-\frametitle{\sectiontitleI}
+	% Section I - Frame I
+	\frame{
+		\frametitle{\sectiontitleI}
+		
+		\includegraphics[scale=.08]{springs_series.png}		
+		
+		\vspace{10mm}
+		{\tiny Images: T. HIll}
+	}
 
-\vspace{10mm}
-{\tiny Images: ---}
-}
 
-
-% Section II:
+% Section II
 \section{\sectiontitleII}
+	
+	% Section II - Frame I
+	\frame{
+		\frametitle{\sectiontitleII}
+		
+		\includegraphics[scale=.08]{springs_parallel.png}	
+		\vspace{15mm}
+		{\tiny Images: T. Hill}
+		
+	}
 
-% Section II - Frame I
-\frame{
-\frametitle{\sectiontitleII}
-
-
-\vspace{15mm}
-{\tiny Images: }
-
-}
-
-% Section III:
+% Section III
 \section{\sectiontitleIII}
+	
+	% Section III - Frame I
+	\frame{
+		\frametitle{\sectiontitleIII}
+		\includegraphics[scale=.15]{mousetrap.jpg}	
+		{\tiny Images: \href{https://en.wikipedia.org/wiki/Torsion_spring}{Wikipedia}}
+	}
 
-% Section III - Frame I
-\frame{
-\frametitle{\sectiontitleIII}
-
-
-}
-
-% Section IV:
+% Section IV
 \section{\sectiontitleIV}
-
-% Section IV - Frame I
-\frame{
-\frametitle{\sectiontitleIV}
-
-
-}
+	
+	% Section IV - Frame I
+	\frame{
+		\frametitle{\sectiontitleIV}
+		\begin{multicols}{2}
+		\begin{itemize}	
+			\item Leaf Spring
+			\item Constant Force Spring
+			\item Belleville Washer
+			\item Volute Spring
+			\item and many more ...
+		\end{itemize}
+	
+		\includegraphics[scale=.25]{leaf_springs.jpg}		
+		\end{multicols}	
+	
+	}
 	
 \end{document}
 

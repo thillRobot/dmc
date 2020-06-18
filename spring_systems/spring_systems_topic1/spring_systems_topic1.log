@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 00:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,22 +768,22 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./spring_systems_topic1.aux)
 \openout1 = `spring_systems_topic1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -843,7 +843,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box124
-Package hyperref Info: Link coloring OFF on input line 79.
+Package hyperref Info: Link coloring OFF on input line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -856,66 +856,66 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count336
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
 
 (./spring_systems_topic1.out) (./spring_systems_topic1.out)
 \@outlinefile=\write5
 \openout5 = `spring_systems_topic1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 79.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 79.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 79.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 79.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 79.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 79.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 77.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 79.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 77.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 79.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 79.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 77.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 77.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-9.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-9.
+7.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 79.
+ut line 77.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -953,12 +953,12 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 <Hooke_microscope.png, id=104, 627.34375pt x 695.59875pt>
 File: Hooke_microscope.png Graphic file (type png)
 <use Hooke_microscope.png>
-Package pdftex.def Info: Hooke_microscope.png  used on input line 127.
+Package pdftex.def Info: Hooke_microscope.png  used on input line 125.
 (pdftex.def)             Requested size: 94.09749pt x 104.33531pt.
 <Hooke_Signature.png, id=105, 306.14375pt x 114.4275pt>
 File: Hooke_Signature.png Graphic file (type png)
 <use Hooke_Signature.png>
-Package pdftex.def Info: Hooke_Signature.png  used on input line 127.
+Package pdftex.def Info: Hooke_Signature.png  used on input line 125.
 (pdftex.def)             Requested size: 91.84383pt x 34.3285pt.
  [3
 
@@ -968,31 +968,31 @@ Package pdftex.def Info: Hooke_Signature.png  used on input line 127.
 <hookes_law_fig1.png, id=171, 341.77687pt x 278.54062pt>
 File: hookes_law_fig1.png Graphic file (type png)
 <use hookes_law_fig1.png>
-Package pdftex.def Info: hookes_law_fig1.png  used on input line 156.
+Package pdftex.def Info: hookes_law_fig1.png  used on input line 154.
 (pdftex.def)             Requested size: 119.62369pt x 97.49066pt.
 <hookes_law_fig2.png, id=173, 341.77687pt x 278.54062pt>
 File: hookes_law_fig2.png Graphic file (type png)
 <use hookes_law_fig2.png>
-Package pdftex.def Info: hookes_law_fig2.png  used on input line 156.
+Package pdftex.def Info: hookes_law_fig2.png  used on input line 154.
 (pdftex.def)             Requested size: 119.62369pt x 97.49066pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 156
+LaTeX Font Info:    Trying to load font information for U+msa on input line 154
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 156
+LaTeX Font Info:    Trying to load font information for U+msb on input line 154
 .
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 156.
+ut line 154.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \vbox (16.10582pt too high) detected at line 156
+Overfull \vbox (16.10582pt too high) detected at line 154
  []
 
 [5
@@ -1001,20 +1001,20 @@ Overfull \vbox (16.10582pt too high) detected at line 156
 <coil_spring.jpg, id=208, 150.0807pt x 73.4745pt>
 File: coil_spring.jpg Graphic file (type jpg)
 <use coil_spring.jpg>
-Package pdftex.def Info: coil_spring.jpg  used on input line 179.
+Package pdftex.def Info: coil_spring.jpg  used on input line 177.
 (pdftex.def)             Requested size: 52.52902pt x 25.71645pt.
 <shear_modulus.png, id=209, 726.715pt x 628.3475pt>
 File: shear_modulus.png Graphic file (type png)
 <use shear_modulus.png>
-Package pdftex.def Info: shear_modulus.png  used on input line 179.
+Package pdftex.def Info: shear_modulus.png  used on input line 177.
 (pdftex.def)             Requested size: 145.34042pt x 125.66727pt.
 <types_of_springs.png, id=211, 616.3025pt x 707.64375pt>
 File: types_of_springs.png Graphic file (type png)
 <use types_of_springs.png>
-Package pdftex.def Info: types_of_springs.png  used on input line 179.
+Package pdftex.def Info: types_of_springs.png  used on input line 177.
 (pdftex.def)             Requested size: 135.58696pt x 155.6821pt.
 
-Overfull \vbox (8.00731pt too high) detected at line 179
+Overfull \vbox (8.00731pt too high) detected at line 177
  []
 
 [6
@@ -1023,7 +1023,7 @@ Overfull \vbox (8.00731pt too high) detected at line 179
 <nonlinear_spring.png, id=243, 993.15372pt x 515.57567pt>
 File: nonlinear_spring.png Graphic file (type png)
 <use nonlinear_spring.png>
-Package pdftex.def Info: nonlinear_spring.png  used on input line 195.
+Package pdftex.def Info: nonlinear_spring.png  used on input line 193.
 (pdftex.def)             Requested size: 198.62721pt x 103.1133pt.
  [7
 
@@ -1039,19 +1039,19 @@ Package pdftex.def Info: nonlinear_spring.png  used on input line 195.
 \tf@snm=\write8
 \openout8 = `spring_systems_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
  (./spring_systems_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 Package rerunfilecheck Info: File `spring_systems_topic1.out' has not changed.
 (rerunfilecheck)             Checksum: CBE67007FA1F17253660E2D7D2E32812;209.
  ) 
 Here is how much of TeX's memory you used:
- 19547 strings out of 481239
- 367465 string characters out of 5920377
- 805810 words of memory out of 5000000
- 34319 multiletter control sequences out of 15000+600000
+ 19546 strings out of 481239
+ 367460 string characters out of 5920377
+ 805805 words of memory out of 5000000
+ 34318 multiletter control sequences out of 15000+600000
  541232 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,863b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1061,7 +1061,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb>
-Output written on spring_systems_topic1.pdf (8 pages, 532769 bytes).
+Output written on spring_systems_topic1.pdf (8 pages, 532989 bytes).
 PDF statistics:
  334 PDF objects out of 1000 (max. 8388607)
  289 compressed objects within 3 object streams
