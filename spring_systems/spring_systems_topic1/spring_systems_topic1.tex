@@ -1,10 +1,9 @@
 % 
 % Lecture Template for ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 07, 2020 - June 12, 2020
-% Module 5 - Spring Systems
-% Topic 1 - 
+% Tristan Hill, May 07, 2020 - June 12, 2020, % Spring 2020 - Summer 2020
+% Module 6 - Spring Systems
+% Topic 1 - The Ideal Spring 
 %
 
 \documentclass{beamer}                         % for presentation (has nav buttons at bottom)
@@ -37,7 +36,7 @@
 \newcommand{\OR}{\color{TTU}}
 \newcommand{\GD}{\color{TTUgold}}
 
-
+% beamer colors
 \setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
 \setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
 \setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
@@ -45,7 +44,6 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-%\usefonttheme{professionalfonts}
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -61,24 +59,21 @@
 
 \newcommand{\eqscl}{0.9}     % small horizontal space
 
+\newsavebox{\mybox} % custom box
 
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
 
 \newcommand{\MNUM}{5\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Spring Systems}
+\newcommand{\moduletitle}{Spring Systems} % Titles and Stuff
 \newcommand{\topictitle}{The Ideal Spring} 
 
-\newcommand{\sectiontitleI}{Robert Hooke}
-\newcommand{\sectiontitleII}{---}
-\newcommand{\sectiontitleIII}{Energy in Springs}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleI}{Robert Hooke} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Hooke's law of Springs}
+\newcommand{\sectiontitleIII}{The Spring Model}
+\newcommand{\sectiontitleIV}{Structure Stiffness}
 
-% custom box
-\newsavebox{\mybox}
-
+\author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
-
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
@@ -87,66 +82,128 @@
 
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
-% Section 0: Outline
+% Section 0 - Outline
 \frame{
-
-\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
-\begin{itemize}
-
-	\item \sectiontitleI		\vspc % Section I
-	\item \sectiontitleII 	\vspc % Section II
-	\item \sectiontitleIII 	\vspc %Section III
-	\item \sectiontitleIV 	\vspc %Section IV
-
-\end{itemize}
+	
+	\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \sectiontitleI    \vspc % Section I
+		\item \sectiontitleII 	\vspc % Section II
+		\item \sectiontitleIII 	\vspc %Section III
+		\item \sectiontitleIV 	\vspc %Section IV
+	
+	\end{itemize}
 
 }
 
-% Section I:
+% Section I
 \section{\sectiontitleI}
 
-% Section I - Frame I
-\frame{
-\frametitle{\sectiontitleI}
+	% Section I - Frame I
+	\frame{
+		\frametitle{\sectiontitleI}
+		
+		\begin{multicols}{2}
+		\includegraphics[scale=.15]{Hooke_microscope.png}\vspc
+		\includegraphics[scale=.3]{Hooke_Signature.png}
+			
+		\begin{itemize}
+		    \item Mechanics
+		    \item Gravitation
+		    \item Horology
+		    \item Microscopy
+		    \item Palaeontology
+		    \item Astronomy
+		    \item Memory
+		\end{itemize}
+		
+		
+		\end{multicols}
+		
+		\vspace{1mm}
+		{\tiny Images: \href{https://en.wikipedia.org/wiki/Robert_Hooke}{Wikipedia}}
+	}
+	
+	% Section I - Frame I
+	\frame{
+		\frametitle{\sectiontitleI}
+		
+		\small
+		Robert Hooke FRS (...1635 ...1703) was an English natural philosopher, architect and polymath. As a young adult, he was a financially impoverished scientific inquirer, but came into wealth and good reputation following his actions as Surveyor to the City of London after the great fire of 1666 (in which he appears to have performed more than half of all the surveys after the fire). At that time, he was also the curator of experiments of the Royal Society, a member of its council, and the Gresham Professor of Geometry. He was also an important architect of his time—though few of his buildings now survive and some of those are generally misattributed—and was instrumental in devising a set of planning controls for London, the influence of which remains today. Allan Chapman has characterised him as "England's Leonardo".[1]
+		
+		{\tiny Text: \href{https://en.wikipedia.org/wiki/Robert_Hooke}{Wikipedia}}
+	}
 
-\vspace{10mm}
-{\tiny Images: ---}
-}
-
-
-% Section II:
+% Section II
 \section{\sectiontitleII}
+	
+	% Section II - Frame I
+	\frame{
+		\frametitle{\sectiontitleII}
+		\vspace{3mm}
+		\includegraphics[scale=.35]{hookes_law_fig1.png}\hspace{10mm}		\includegraphics[scale=.35]{hookes_law_fig2.png} \vspc
+		
+		The simple and effective model of spring behavior is called the {\PR linear force-deflection model}. \vspc
+		
+		\begin{framed}
+		\scalebox{1}{$f = kx$} \hspc , \hspc {\it force equals spring constant times deflection} \vspc
+		\end{framed}
+		
+		\vspace{1mm}
+		{\tiny Images: T. Hill }
+	}
+	
+	
+	% Section II - Frame II
+	\frame{ 
+		\frametitle{\sectiontitleII}
+		
+		\begin{multicols}{2}
+		
+		\includegraphics[scale=.35]{coil_spring.jpg} \hspc \scalebox{1}{$k = \frac{Gd^4}{64nR^3}$} \vspc
+		
+		\includegraphics[scale=.2]{shear_modulus.png} \vspc
+		
+		\vspace{1mm}
+		{\tiny Data: \href{https://us.misumi-ec.com/pdf/tech/mech/US2010_fa_p3501_3502.pdf}{MISUMI} }
+		\vspace{2mm}
 
-% Section II - Frame I
-\frame{
-\frametitle{\sectiontitleII}
+		\includegraphics[scale=.22]{types_of_springs.png}
+		\vspace{2mm}
+		{\tiny Images:  Wikipedia, System Dynamics}		
+		
+		\end{multicols}
+	
+	}
 
-
-\vspace{15mm}
-{\tiny Images: }
-
-}
-
-% Section III:
+% Section III
 \section{\sectiontitleIII}
-
-% Section III - Frame I
-\frame{
-\frametitle{\sectiontitleIII}
-
-
-}
-
+	
+	% Section III - Frame I
+	\frame{
+		\frametitle{\sectiontitleIII}
+		
+		The ideal {\PR linear force-deflection model} is only an approximation of the true behavior. However, homogeneous isotropic materials do behave this way in the {\it linear elastic region}. \vspc
+		
+		%\includegraphics[scale=.3]{stress_strain_fig1.png} \scalebox{1}{$\rightarrow$} %
+		\includegraphics[scale=.2]{nonlinear_spring.png}
+		
+		\vspace{1mm}
+		{\tiny Images: T. Hill }
+		}
+		
 % Section IV:
 \section{\sectiontitleIV}
 
-% Section IV - Frame I
-\frame{
-\frametitle{\sectiontitleIV}
-
-
-}
+	% Section IV - Frame I
+	\frame{
+		\frametitle{\sectiontitleIV}
+	
+		All physical structures deform under load, and as we know, every force as reaction force. Therefore any structure {\it acts} like a spring under load.  
+	
+	}
 	
 \end{document}
 
