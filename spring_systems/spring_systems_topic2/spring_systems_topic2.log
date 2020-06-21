@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 02:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,37 +956,47 @@ Package pdftex.def Info: five_springs.png  used on input line 99.
  [2
 
  <./five_springs.png>]
-<springs_series.png, id=107, 1541.00719pt x 1309.89375pt>
+<springs_series.png, id=107, 3432.07219pt x 1064.47687pt>
 File: springs_series.png Graphic file (type png)
 <use springs_series.png>
-Package pdftex.def Info: springs_series.png  used on input line 112.
-(pdftex.def)             Requested size: 123.2831pt x 104.79364pt.
+Package pdftex.def Info: springs_series.png  used on input line 114.
+(pdftex.def)             Requested size: 274.57138pt x 85.15988pt.
  [3
 
  <./springs_series.png>]
-<springs_parallel.png, id=139, 2084.53781pt x 1143.52219pt>
+<springs_parallel.png, id=138, 3389.16188pt x 1056.19594pt>
 File: springs_parallel.png Graphic file (type png)
 <use springs_parallel.png>
-Package pdftex.def Info: springs_parallel.png  used on input line 126.
-(pdftex.def)             Requested size: 166.76643pt x 91.48364pt.
- [4
+Package pdftex.def Info: springs_parallel.png  used on input line 129.
+(pdftex.def)             Requested size: 271.13849pt x 84.49739pt.
+
+Overfull \vbox (16.59726pt too high) detected at line 129
+ []
+
+[4
 
  <./springs_parallel.png>]
-<mousetrap.jpg, id=171, 1144.275pt x 722.7pt>
+<mousetrap.jpg, id=170, 1144.275pt x 722.7pt>
 File: mousetrap.jpg Graphic file (type jpg)
 <use mousetrap.jpg>
-Package pdftex.def Info: mousetrap.jpg  used on input line 136.
-(pdftex.def)             Requested size: 171.63383pt x 108.40031pt.
+Package pdftex.def Info: mousetrap.jpg  used on input line 140.
+(pdftex.def)             Requested size: 137.30707pt x 86.72025pt.
+<Alarm_Clock_Balance_Wheel.jpg, id=171, 960.58875pt x 722.7pt>
+File: Alarm_Clock_Balance_Wheel.jpg Graphic file (type jpg)
+<use Alarm_Clock_Balance_Wheel.jpg>
+Package pdftex.def Info: Alarm_Clock_Balance_Wheel.jpg  used on input line 140.
+
+(pdftex.def)             Requested size: 144.08209pt x 108.40031pt.
  [5
 
- <./mousetrap.jpg>]
-<leaf_springs.jpg, id=202, 602.25pt x 425.59pt>
+ <./mousetrap.jpg> <./Alarm_Clock_Balance_Wheel.jpg>]
+<leaf_springs.jpg, id=203, 602.25pt x 425.59pt>
 File: leaf_springs.jpg Graphic file (type jpg)
 <use leaf_springs.jpg>
-Package pdftex.def Info: leaf_springs.jpg  used on input line 156.
+Package pdftex.def Info: leaf_springs.jpg  used on input line 160.
 (pdftex.def)             Requested size: 150.56212pt x 106.39723pt.
 
-Overfull \hbox (1.91719pt too wide) in paragraph at lines 156--156
+Overfull \hbox (1.91719pt too wide) in paragraph at lines 160--160
 [][]  
  []
 
@@ -1002,19 +1012,19 @@ Overfull \hbox (1.91719pt too wide) in paragraph at lines 156--156
 \tf@snm=\write8
 \openout8 = `spring_systems_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./spring_systems_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `spring_systems_topic2.out' has not changed.
 (rerunfilecheck)             Checksum: BE7E7ABA0D1A8ABF5ACF03C8A05FE810;206.
  ) 
 Here is how much of TeX's memory you used:
- 19440 strings out of 481239
- 365121 string characters out of 5920377
- 804740 words of memory out of 5000000
- 34241 multiletter control sequences out of 15000+600000
+ 19446 strings out of 481239
+ 365314 string characters out of 5920377
+ 804741 words of memory out of 5000000
+ 34246 multiletter control sequences out of 15000+600000
  535633 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,817b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1022,10 +1032,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on spring_systems_topic2.pdf (6 pages, 1134811 bytes).
+Output written on spring_systems_topic2.pdf (6 pages, 1919573 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
  17 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
