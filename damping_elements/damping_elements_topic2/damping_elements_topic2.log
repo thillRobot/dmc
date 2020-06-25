@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  24 JUN 2020 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  25 JUN 2020 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,19 +949,61 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 
 ] [2
 
-] [3
+]
+<fancy_mass_spring.png, id=104, 652.839pt x 402.303pt>
+File: fancy_mass_spring.png Graphic file (type png)
+<use fancy_mass_spring.png>
+Package pdftex.def Info: fancy_mass_spring.png  used on input line 123.
+(pdftex.def)             Requested size: 110.98116pt x 68.3906pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
+.
 
-] [4
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
+.
 
-] [5
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 123.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[3
+
+ <./fancy_mass_spring.png>]
+<time_axis.png, id=141, 1461.46pt x 648.824pt>
+File: time_axis.png Graphic file (type png)
+<use time_axis.png>
+Package pdftex.def Info: time_axis.png  used on input line 132.
+(pdftex.def)             Requested size: 292.28682pt x 129.7625pt.
+ [4
+
+ <./time_axis.png>]
+File: time_axis.png Graphic file (type png)
+<use time_axis.png>
+Package pdftex.def Info: time_axis.png  used on input line 143.
+(pdftex.def)             Requested size: 292.28682pt x 129.7625pt.
+ [5
 
 ] [6
 
 ] [7
 
-] [8
-
 ]
+<rain.jpg, id=264, 568.1225pt x 722.7pt>
+File: rain.jpg Graphic file (type jpg)
+<use rain.jpg>
+Package pdftex.def Info: rain.jpg  used on input line 193.
+(pdftex.def)             Requested size: 113.62248pt x 144.53743pt.
+ [8
+
+ <./rain.jpg>]
 \tf@nav=\write6
 \openout6 = `damping_elements_topic2.nav'.
 
@@ -971,38 +1013,36 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 \tf@snm=\write8
 \openout8 = `damping_elements_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
-
-(./damping_elements_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
-
-
-Package rerunfilecheck Warning: File `damping_elements_topic2.out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `damping_elements_topic2.out':
-(rerunfilecheck)             Before: BD76C74239CF0185D6D8625501820977;156
-(rerunfilecheck)             After:  EC8D75741F3D5317F3AF243C5B997D23;197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+ (./damping_elements_topic2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package rerunfilecheck Info: File `damping_elements_topic2.out' has not changed
+.
+(rerunfilecheck)             Checksum: 4B63F8FA317E87C1BC22044B5AF8A983;206.
  ) 
 Here is how much of TeX's memory you used:
- 19416 strings out of 481239
- 364626 string characters out of 5920377
- 803642 words of memory out of 5000000
- 34220 multiletter control sequences out of 15000+600000
- 535633 words of font info for 35 fonts, out of 8000000 for 9000
+ 19513 strings out of 481239
+ 366722 string characters out of 5920377
+ 805806 words of memory out of 5000000
+ 34291 multiletter control sequences out of 15000+600000
+ 540571 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,819b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on damping_elements_topic2.pdf (8 pages, 48320 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssi8.pfb>
+Output written on damping_elements_topic2.pdf (8 pages, 372183 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 333 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  21 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

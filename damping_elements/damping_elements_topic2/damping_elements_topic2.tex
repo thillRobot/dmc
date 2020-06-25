@@ -68,7 +68,7 @@
 \newcommand{\sectiontitleI}{A Better Model} % More Titles and Stuff
 \newcommand{\sectiontitleII}{Oscillation and Decay}
 \newcommand{\sectiontitleIII}{Sources of Damping}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleIV}{Dampers Damp!}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -104,13 +104,31 @@
 		\frametitle{\sectiontitleI}
 		
 
+\begin{multicols}{2}
+Previously we derived the free response of the mass spring system.
+
+\includegraphics[scale=.17]{fancy_mass_spring.png}
+\end{multicols}
+%\begin{framed}
+Equation of Motion: \vspc
+
+\scalebox{1}{$m\ddot{x}+kx=0 \hspace{1mm},\hspc x(0)\hspace{1mm} ,\hspc \dot{x}(0)$}  \vspc
+
+
+
+Free Response: \vspc
+\scalebox{1}{$x(t)=Asin\left(\sqrt{\frac{k}{m}}t\right)+Bcos\left(\sqrt{\frac{k}{m}}t\right)$} \vspc
+
+
 	}
 	
 	% Section I - Frame II
 	\frame{
 		\frametitle{\sectiontitleI}
-
-
+	
+		\scalebox{1}{$x(t)=Asin\left(\sqrt{\frac{k}{m}}t\right)+Bcos\left(\sqrt{\frac{k}{m}}t\right)$} \vspc
+		\includegraphics[scale=.20]{time_axis.png} \vspc
+	Is this valid? Do you believe it? \vspc
 	}
 
 % Section II
@@ -119,13 +137,15 @@
 	% Section II - Frame I
 	\frame{
 		\frametitle{\sectiontitleII}
-
+		\scalebox{1}{$x(t)=e^{\alpha t}\left[Asin\left(\sqrt{\frac{k}{m}}t\right)+Bcos\left(\sqrt{\frac{k}{m}}t\right)\right]$} \vspc
+		\includegraphics[scale=.20]{time_axis.png} \vspc
+	This is much more realistic. \vspc
 	}
-	
 	
 	% Section II - Frame II
 	\frame{ 
 		\frametitle{\sectiontitleII}
+How fast does the system response decay? What is steady state value?
 	
 	
 	}
@@ -136,6 +156,18 @@
 	% Section III - Frame I
 	\frame{
 		\frametitle{\sectiontitleIII}
+		
+		Damping is a natural phenomenon that cannot be avoided. However in some situations the its influence is significant and in others it is not. \vspc
+		\begin{itemize}
+			\item		
+			\item
+		\end{itemize}
+		
+		The design of many machines depends on the concept of damping and often a mechanical damper is an intentional component of the design.
+		 \begin{itemize}
+			\item		
+			\item
+		\end{itemize}
 
 		}
 		
@@ -145,6 +177,18 @@
 	% Section IV - Frame I
 	\frame{
 		\frametitle{\sectiontitleIV}
+
+
+	\begin{multicols}{2}
+
+	\includegraphics[scale=.20]{rain.jpg}
+	
+	Dampers Damp!\vspcc
+	Rain Dampens...
+		
+	\end{multicols}
+	{\tiny Image: \href{ https://commons.wikimedia.org/w/index.php?curid=19371740}{Wikimedia}}
+	
 
 	}
 	
