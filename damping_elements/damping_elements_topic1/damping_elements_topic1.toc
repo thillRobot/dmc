@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Solve Equation of Motion}{3}{0}{1}
+\beamer@sectionintoc {2}{Free Response}{5}{0}{2}
+\beamer@sectionintoc {3}{Response Equation}{7}{0}{3}
+\beamer@sectionintoc {4}{Natural Frequency}{8}{0}{4}
