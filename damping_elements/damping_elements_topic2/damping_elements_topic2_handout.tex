@@ -3,17 +3,19 @@
 %
 % Tristan Hill, May 07, 2020 - June 12, 2020, % Spring 2020 - Summer 2020
 % Module 7 - Damping Elements
-% Topic 3 - Mass Spring Damper Model
+% Topic 2 - Mechanical Damping
 %
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+%\documentclass[fleqn]{beamer}                         % for presentation (has nav buttons at bottom)
+\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
-\usepackage{bm}
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+
+\usepackage{amsmath}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -48,9 +50,7 @@
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
-\newcommand{\hspcu}{\underline{\hspace{15mm}}} % large horizontal space w underline
-\newcommand{\hspcuu}{\underline{\hspace{22mm}}} % larger horizontal space w underline
-
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -64,14 +64,14 @@
 
 
 \newcommand{\MNUM}{7\hspace{2mm}} % Module number
-\newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Damping Elements} % Titles and Stuff
-\newcommand{\topictitle}{Mass Spring Damper Model} 
+\newcommand{\topictitle}{Mechanical Damping} 
 
-\newcommand{\sectiontitleI}{Standard Model Form} % More Titles and Stuff
-\newcommand{\sectiontitleII}{Engineering Applications}
-\newcommand{\sectiontitleIII}{Example: Automobile Suspension}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleI}{A Better Model} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Oscillation and Decay}
+\newcommand{\sectiontitleIII}{Sources of Damping}
+\newcommand{\sectiontitleIV}{Dampers Damp!}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -93,7 +93,7 @@
 		\item \sectiontitleI    \vspc % Section I
 		\item \sectiontitleII 	\vspc % Section II
 		\item \sectiontitleIII 	\vspc %Section III
-%		\item \sectiontitleIV 	\vspc %Section IV
+		\item \sectiontitleIV 	\vspc %Section IV
 	
 	\end{itemize}
 
@@ -103,115 +103,94 @@
 \section{\sectiontitleI}
 
 	% Section I - Frame I
-	\frame{
+	\frame{ \small
 		\frametitle{\sectiontitleI}
+
+		\begin{multicols}{2}
 		
-		The EOMs we have derived can be represented in the following standard form. \\
-	%		\begin{framed}
-		\[a_n\frac{d^n}{dt^n}x(t)+a_{n-1}\frac{d^{n-1}}{dt^{n-1}}x(t)+...+a_2\frac{d^2}{dt^2}x(t)+a_1\frac{d}{dt}x(t)+a_0x(t)=f(t)\] \vspc		
-	%		\end{framed}
-		
-		\begin{itemize}
-			\item The dependent variable $x$ and its derivatives depend on $t$. \vspc 
-			\item The coefficients $a_n$ through $a_0$ are functions of the physical parameters in the system.
-			\item The function f(t) is called the \hspcuu \hspc \hspcuu
-			\item The system is linear if ...
-		\end{itemize}
+		\includegraphics[scale=.17]{fancy_mass_spring.png}
+			
+		Previously we derived the free response of the mass spring system.
+	
+		\end{multicols}
+
+		Equation of Motion: \\		
+		\[m\ddot{x}+kx=0 \hspace{1mm},\hspc x(0)\hspace{1mm} ,\hspc \dot{x}(0)\] \\
+				
+		Free Response: \\
+		\[ x(t)=Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \]
 
 	}
 	
 	% Section I - Frame II
-	\frame{
+	\frame{ \small
 		\frametitle{\sectiontitleI}
-		
-		In solid mechanics and dynamics the standard form of the model becomes the generalized mass spring damper model. \vspc
-		
-			\[ a_nx^{(n)}+a_{n-1}x^{(n-1)}+...+a_{2}x''+a_{1}x'+a_0x=f(t) \] \\
-			\[ \rightarrow \hspccc m\ddot{x}+c\dot{x}+k\dot{x}=f(t) \hspc \rightarrow \hspc {\bm M}\ddot{\bf x} +{\bm C}\dot{x}+{\bm K}\dot{x}={\bm f}(t)\]\vspc
-			
-		This is a fundamental equation that we will investigate throughout the rest of the semester.
-
+	
+		\[ x(t)=Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \] \\
+		\includegraphics[scale=.18]{time_axis.png} \vspc
+	Is this valid? Do you believe it? \vspc
 	}
 
 % Section II
 \section{\sectiontitleII}
 	
 	% Section II - Frame I
-	\frame{
+	\frame{ \small
 		\frametitle{\sectiontitleII}
-
-		The mass spring damper model can be applied to most mechanics problems.
-
-		\begin{itemize}
-			\item
-			
-			\item
-			
-			\item
-		\end{itemize}
-
-
-	}\Large
-
+		\[x(t)=e^{\alpha t}\left[ Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \right]\] \\
+		\includegraphics[scale=.18]{time_axis.png} \vspc
+		This is much more realistic. \vspc
+	}
+	
+	% Section II - Frame II
+	\frame{ 
+		\frametitle{\sectiontitleII}
+How fast does the system response decay? \vspc What is steady state value?
+	
+	
+	}
 
 % Section III
 \section{\sectiontitleIII}
 	
-		% Section III - Frame I
-	\frame{ \small
+	% Section III - Frame I
+	\frame{
 		\frametitle{\sectiontitleIII}
-		\begin{multicols}{2}
-		\includegraphics[scale=.05,angle=-90,origin=c]{jeep_01.jpg}	
 		
-		\textbf{  \underline{Newton's Second Law Approach} }\\
-		\begin{enumerate}
-			\item Draw a {\BR Free Body Diagram}
-			\item Make an {\G assumption of motion}
-			\item Determine all {\B forces} acting on the system and their {\B directions}. 
-			\item Write {\PR Newton's second law} for the appropriate DOF. 
-			\item Re-write the ODE in the {\PN standard form} of a system equation.
-		\end{enumerate}
+		Damping is a natural phenomenon that cannot be avoided. However in some situations the its influence is significant and in others it is not. \vspc
+		\begin{itemize}
+			\item		
+			\item
+		\end{itemize}
+		
+		The design of many machines depends on the concept of damping and often a mechanical damper is an intentional component of the design.
+		 \begin{itemize}
+			\item		
+			\item
+		\end{itemize}
 
-		\end{multicols}
+		}
+		
+% Section IV:
+\section{\sectiontitleIV}
+
+	% Section IV - Frame I
+	\frame{
+		\frametitle{\sectiontitleIV}
+
+
+	\begin{multicols}{2}
+
+	\includegraphics[scale=.20]{rain.jpg}
+	
+	Dampers Damp!\vspcc
+	Rain Dampens...
+		
+	\end{multicols}
+	{\tiny Image: \href{ https://commons.wikimedia.org/w/index.php?curid=19371740}{Wikimedia}}
+	
+
 	}
-	
-	% Section III - Frame II	
-	\frame{
-		\frametitle{\sectiontitleIII \hspace{1mm} - Steps 1,2 and 3}
-		\includegraphics[scale=.05,angle=-90,origin=c]{jeep_01.jpg}	
-	}
-	
-	% Section III - Frame III		
-	\frame{
-		\frametitle{\sectiontitleIII \hspace{1mm} - Steps 4,5}
-		
-	}	
-	% Section III - Frame IV		
-	\frame{
-		\frametitle{---}
-		
-	}	
-	% Section II - Frame V		
-	\frame{
-		\frametitle{---}
-		
-	}	
-		
-%% Section IV
-%\section{\sectiontitleIV}
-%	
-%	% Section IV - Frame I
-%	\frame{
-%		\frametitle{\sectiontitleIV}
-%		
-%		
-%	}
-%	
-
-
-	
-\end{document}	
-	
 	
 \end{document}
 

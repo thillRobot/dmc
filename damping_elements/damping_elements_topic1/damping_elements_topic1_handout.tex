@@ -3,19 +3,16 @@
 %
 % Tristan Hill, May 07, 2020 - June 12, 2020, % Spring 2020 - Summer 2020
 % Module 7 - Damping Elements
-% Topic 2 - Mechanical Damping
+% Topic 1 - System Response
 %
 
-\documentclass[fleqn]{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+%\documentclass[fleqn]{beamer}                         % for presentation (has nav buttons at bottom)
+\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
-
-\usepackage{amsmath}
-\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -64,14 +61,14 @@
 
 
 \newcommand{\MNUM}{7\hspace{2mm}} % Module number
-\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Damping Elements} % Titles and Stuff
-\newcommand{\topictitle}{Mechanical Damping} 
+\newcommand{\topictitle}{System Response} 
 
-\newcommand{\sectiontitleI}{A Better Model} % More Titles and Stuff
-\newcommand{\sectiontitleII}{Oscillation and Decay}
-\newcommand{\sectiontitleIII}{Sources of Damping}
-\newcommand{\sectiontitleIV}{Dampers Damp!}
+\newcommand{\sectiontitleI}{Solve Equation of Motion} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Free Response}
+\newcommand{\sectiontitleIII}{Response Equation}
+\newcommand{\sectiontitleIV}{Natural Frequency}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -103,49 +100,77 @@
 \section{\sectiontitleI}
 
 	% Section I - Frame I
-	\frame{ \small
+	\frame{
 		\frametitle{\sectiontitleI}
 
+		We have previously derived the accepted equation of motion for this simple but fundamental system.\vspcc 		
 		\begin{multicols}{2}
+		\includegraphics[scale=.20]{fancy_mass_spring.png}
 		
-		\includegraphics[scale=.17]{fancy_mass_spring.png}
-			
-		Previously we derived the free response of the mass spring system.
-	
+		\[m\ddot{x}+kx=0\]
 		\end{multicols}
-
-		Equation of Motion: \\		
-		\[m\ddot{x}+kx=0 \hspace{1mm},\hspc x(0)\hspace{1mm} ,\hspc \dot{x}(0)\] \\
-				
-		Free Response: \\
-		\[ x(t)=Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \]
 
 	}
 	
 	% Section I - Frame II
-	\frame{ \small
+	\frame{
 		\frametitle{\sectiontitleI}
-	
-		\[ x(t)=Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \] \\
-		\includegraphics[scale=.18]{time_axis.png} \vspc
-	Is this valid? Do you believe it? \vspc
+\small
+		\underline{Dynamic Simulation}	\vspc
+		A simulation is an approximate imitation of the operation of a process or system;[1] that represents its operation over time. {\tiny definition \href{https://en.wikipedia.org/wiki/Simulation}{Wikipedia}} \vspc
+		
+	\underline{System Analysis in the Time Domain}
+	\begin{framed}
+				{\bf We study the motion and forces in the system as they change over time in response to various initial conditions and external forces}. \vspc
+				This idea is known as the {\B time response} and we will discuss the derivations and resulting {\PN response equations} for a generalized system model as we proceed (System Dynamics, Ch. 8). \vspcc
+	\end{framed}
+				    
+
 	}
 
 % Section II
 \section{\sectiontitleII}
 	
 	% Section II - Frame I
-	\frame{ \small
+	\frame{
 		\frametitle{\sectiontitleII}
-		\[x(t)=e^{\alpha t}\left[ Acos\sqrt{\frac{k}{m}}t+Bsin\sqrt{\frac{k}{m}}t \right]\] \\
-		\includegraphics[scale=.18]{time_axis.png} \vspc
-		This is much more realistic. \vspc
+		\small
+		\begin{multicols}{2}
+
+Imagine you displaced the mass, and then released it from rest.
+
+\begin{framed}
+Equation of Motion:
+\[m\ddot{x}+kx=0\] \\
+
+Initial Position:
+\[x(t=0)=x(0)=x_0\]\\
+
+Initial Velocity:
+\[\dot{x}(t=0)=v(0)=v_0\]
+\end{framed}
+
+\hspace{20mm}\includegraphics[scale=.20]{mass_spring_waxis.png} 
+		\end{multicols}	
+				
 	}
-	
+		
 	% Section II - Frame II
 	\frame{ 
 		\frametitle{\sectiontitleII}
-How fast does the system response decay? \vspc What is steady state value?
+		\small
+	The {\PR free response} is found as the {\it solution the differential equation} subject to known initial conditions with zero external forced applied. \vspc
+
+\[m\ddot{x}+kx=0\hspc,\hspccc x(0)=x_0\hspc,\hspccc \dot{x}(0)=v_0\]
+
+
+	\vspace{30mm}
+	
+	}
+
+	% Section II - Frame III
+	\frame{ 
+		\frametitle{\sectiontitleII}
 	
 	
 	}
@@ -156,19 +181,9 @@ How fast does the system response decay? \vspc What is steady state value?
 	% Section III - Frame I
 	\frame{
 		\frametitle{\sectiontitleIII}
-		
-		Damping is a natural phenomenon that cannot be avoided. However in some situations the its influence is significant and in others it is not. \vspc
-		\begin{itemize}
-			\item		
-			\item
-		\end{itemize}
-		
-		The design of many machines depends on the concept of damping and often a mechanical damper is an intentional component of the design.
-		 \begin{itemize}
-			\item		
-			\item
-		\end{itemize}
-
+	
+		\[x(t)=\]\\
+		\includegraphics[scale=.2]{time_axis.png}
 		}
 		
 % Section IV:
@@ -177,18 +192,8 @@ How fast does the system response decay? \vspc What is steady state value?
 	% Section IV - Frame I
 	\frame{
 		\frametitle{\sectiontitleIV}
-
-
-	\begin{multicols}{2}
-
-	\includegraphics[scale=.20]{rain.jpg}
-	
-	Dampers Damp!\vspcc
-	Rain Dampens...
 		
-	\end{multicols}
-	{\tiny Image: \href{ https://commons.wikimedia.org/w/index.php?curid=19371740}{Wikimedia}}
-	
+		Look at the system response subject to various initial conditions. What determines the amplitude and frequency of oscillation?
 
 	}
 	

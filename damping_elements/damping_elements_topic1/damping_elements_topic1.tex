@@ -2,11 +2,11 @@
 % Lecture Template for ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
 %
 % Tristan Hill, May 07, 2020 - June 12, 2020, % Spring 2020 - Summer 2020
-% Module 6 - Damping Elements
+% Module 7 - Damping Elements
 % Topic 1 - System Response
 %
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
+\documentclass[fleqn]{beamer}                         % for presentation (has nav buttons at bottom)
 %\documentclass[handout]{beamer}  % for handout 
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
@@ -60,7 +60,7 @@
 \newsavebox{\mybox} % custom box
 
 
-\newcommand{\MNUM}{6\hspace{2mm}} % Module number
+\newcommand{\MNUM}{7\hspace{2mm}} % Module number
 \newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Damping Elements} % Titles and Stuff
 \newcommand{\topictitle}{System Response} 
@@ -107,7 +107,7 @@
 		\begin{multicols}{2}
 		\includegraphics[scale=.20]{fancy_mass_spring.png}
 		
-		\scalebox{1}{$m\ddot{x}+kx=0$}
+		\[m\ddot{x}+kx=0\]
 		\end{multicols}
 
 	}
@@ -119,7 +119,7 @@
 		\underline{Dynamic Simulation}	\vspc
 		A simulation is an approximate imitation of the operation of a process or system;[1] that represents its operation over time. {\tiny definition \href{https://en.wikipedia.org/wiki/Simulation}{Wikipedia}} \vspc
 		
-	\underline{System Response in the Time Domain}
+	\underline{System Analysis in the Time Domain}
 	\begin{framed}
 				{\bf We study the motion and forces in the system as they change over time in response to various initial conditions and external forces}. \vspc
 				This idea is known as the {\B time response} and we will discuss the derivations and resulting {\PN response equations} for a generalized system model as we proceed (System Dynamics, Ch. 8). \vspcc
@@ -137,36 +137,41 @@
 		\small
 		\begin{multicols}{2}
 
-Imagine you displaced the mass, and then released from rest.
+Imagine you displaced the mass, and then released it from rest.
 
 \begin{framed}
 Equation of Motion:
-\scalebox{1}{$m\ddot{x}+kx=0$} \vspc
+\[m\ddot{x}+kx=0\] \\
 
 Initial Position:
-\scalebox{1}{$x(t=0)=x(0)=x_0$} \vspc
+\[x(t=0)=x(0)=x_0\]\\
 
 Initial Velocity:
-\scalebox{1}{$\dot{x}(t=0)=v(0)=v_0$}
+\[\dot{x}(t=0)=v(0)=v_0\]
 \end{framed}
 
 \hspace{20mm}\includegraphics[scale=.20]{mass_spring_waxis.png} 
 		\end{multicols}	
-		
 				
 	}
-	
-	
+		
 	% Section II - Frame II
 	\frame{ 
 		\frametitle{\sectiontitleII}
 		\small
 	The {\PR free response} is found as the {\it solution the differential equation} subject to known initial conditions with zero external forced applied. \vspc
 
-\scalebox{1}{$m\ddot{x}+kx=0\hspc,\hspccc x(0)=x_0\hspc,\hspccc \dot{x}(0)=v_0$} \vspc
+\[m\ddot{x}+kx=0\hspc,\hspccc x(0)=x_0\hspc,\hspccc \dot{x}(0)=v_0\]
 
 
 	\vspace{30mm}
+	
+	}
+
+	% Section II - Frame III
+	\frame{ 
+		\frametitle{\sectiontitleII}
+	
 	
 	}
 
@@ -177,7 +182,7 @@ Initial Velocity:
 	\frame{
 		\frametitle{\sectiontitleIII}
 	
-		\scalebox{1}{$x(t)=$} \vspc
+		\[x(t)=\]\\
 		\includegraphics[scale=.2]{time_axis.png}
 		}
 		

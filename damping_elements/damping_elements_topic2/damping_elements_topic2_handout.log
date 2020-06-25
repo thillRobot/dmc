@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  25 JUN 2020 12:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  25 JUN 2020 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**damping_elements_topic3.tex
-(./damping_elements_topic3.tex
+**damping_elements_topic2_handout.tex
+(./damping_elements_topic2_handout.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -655,21 +655,7 @@ Package: amsthm 2017/10/31 v2.20.4
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemestructurebold.st
-y))
-\sympureletters=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup7
-\symboldletters=\mathgroup8
-\symboldsymbols=\mathgroup9
-\symboldpureletters=\mathgroup10
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 209.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+y)) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count311
 \lst@gtempboxa=\box73
 \lst@token=\toks43
@@ -772,6 +758,20 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen292
 \FrameSep=\dimen293
 )
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 19.
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
 \mybox=\box121
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
@@ -779,8 +779,8 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count329
 \l__pdf_internal_box=\box122
 )
-(./damping_elements_topic3.aux)
-\openout1 = `damping_elements_topic3.aux'.
+No file damping_elements_topic2_handout.aux.
+\openout1 = `damping_elements_topic2_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
@@ -798,7 +798,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
 LaTeX Font Info:    ... okay on input line 80.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -873,10 +872,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 80.
 LaTeX Info: Redefining \pageref on input line 80.
 LaTeX Info: Redefining \nameref on input line 80.
-
-(./damping_elements_topic3.out) (./damping_elements_topic3.out)
 \@outlinefile=\write5
-\openout5 = `damping_elements_topic3.out'.
+\openout5 = `damping_elements_topic2_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 80.
@@ -958,122 +955,116 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count337
- (./damping_elements_topic3.nav)
+
+No file damping_elements_topic2_handout.nav.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121
+<fancy_mass_spring.png, id=32, 652.839pt x 402.303pt>
+File: fancy_mass_spring.png Graphic file (type png)
+<use fancy_mass_spring.png>
+Package pdftex.def Info: fancy_mass_spring.png  used on input line 123.
+(pdftex.def)             Requested size: 110.98116pt x 68.3906pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 121.
+ut line 123.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (12.91212pt too wide) detected at line 121
-\OT1/mathkerncmss/m/sl/10.95 a[][]x\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/
-10.95 t\OT1/cmss/m/n/10.95 ) + \OT1/mathkerncmss/m/sl/10.95 a[][]x\OT1/cmss/m/n
-/10.95 (\OT1/mathkerncmss/m/sl/10.95 t\OT1/cmss/m/n/10.95 ) + \OML/cmm/m/it/10.
-95 ::: \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 a[][]x\OT1/cmss/m/n/1
-0.95 (\OT1/mathkerncmss/m/sl/10.95 t\OT1/cmss/m/n/10.95 ) + \OT1/mathkerncmss/m
-/sl/10.95 a[][]x\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/10.95 t\OT1/cmss/m/
-n/10.95 ) + \OT1/mathkerncmss/m/sl/10.95 a[]x\OT1/cmss/m/n/10.95 (\OT1/mathkern
-cmss/m/sl/10.95 t\OT1/cmss/m/n/10.95 ) = \OT1/mathkerncmss/m/sl/10.95 f\OT1/cms
-s/m/n/10.95 (\OT1/mathkerncmss/m/sl/10.95 t\OT1/cmss/m/n/10.95 )
- []
-
 [3
 
-]
+ <./fancy_mass_spring.png>]
+<time_axis.png, id=45, 1461.46pt x 648.824pt>
+File: time_axis.png Graphic file (type png)
+<use time_axis.png>
+Package pdftex.def Info: time_axis.png  used on input line 132.
+(pdftex.def)             Requested size: 263.05145pt x 116.78328pt.
+ [4
 
-LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/m/n' instead on input line 134.
+ <./time_axis.png>]
+File: time_axis.png Graphic file (type png)
+<use time_axis.png>
+Package pdftex.def Info: time_axis.png  used on input line 143.
+(pdftex.def)             Requested size: 263.05145pt x 116.78328pt.
+ [5
 
-[4
+] [6
 
-] [5
-
-]
-<jeep_01.jpg, id=190, 3276.24pt x 2457.18pt>
-File: jeep_01.jpg Graphic file (type jpg)
-<use jeep_01.jpg>
-Package pdftex.def Info: jeep_01.jpg  used on input line 176.
-(pdftex.def)             Requested size: 163.8216pt x 122.8662pt.
- [6
-
- <./jeep_01.jpg>]
-File: jeep_01.jpg Graphic file (type jpg)
-<use jeep_01.jpg>
-Package pdftex.def Info: jeep_01.jpg  used on input line 182.
-(pdftex.def)             Requested size: 163.8216pt x 122.8662pt.
- [7
-
-] [8
-
-] [9
-
-] [10
+] [7
 
 ]
+<rain.jpg, id=76, 568.1225pt x 722.7pt>
+File: rain.jpg Graphic file (type jpg)
+<use rain.jpg>
+Package pdftex.def Info: rain.jpg  used on input line 193.
+(pdftex.def)             Requested size: 113.62248pt x 144.53743pt.
+ [8
+
+ <./rain.jpg>]
 \tf@nav=\write6
-\openout6 = `damping_elements_topic3.nav'.
+\openout6 = `damping_elements_topic2_handout.nav'.
 
 \tf@toc=\write7
-\openout7 = `damping_elements_topic3.toc'.
+\openout7 = `damping_elements_topic2_handout.toc'.
 
 \tf@snm=\write8
-\openout8 = `damping_elements_topic3.snm'.
+\openout8 = `damping_elements_topic2_handout.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
- (./damping_elements_topic3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
-Package rerunfilecheck Info: File `damping_elements_topic3.out' has not changed
-.
-(rerunfilecheck)             Checksum: F3BE270AF5DB6D859BDD6FBC29451684;178.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+ (./damping_elements_topic2_handout.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Package rerunfilecheck Warning: File `damping_elements_topic2_handout.out' has 
+changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `damping_elements_topic2_handout.out
+':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  4B63F8FA317E87C1BC22044B5AF8A983;206.
  ) 
 Here is how much of TeX's memory you used:
- 19663 strings out of 481239
- 368841 string characters out of 5920377
- 809121 words of memory out of 5000000
- 34417 multiletter control sequences out of 15000+600000
- 555620 words of font info for 94 fonts, out of 8000000 for 9000
+ 19511 strings out of 481239
+ 365911 string characters out of 5920377
+ 802078 words of memory out of 5000000
+ 34286 multiletter control sequences out of 15000+600000
+ 544347 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,19n,67p,819b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso1000.pfb>
-Output written on damping_elements_topic3.pdf (10 pages, 2636366 bytes).
+ 58i,15n,67p,827b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmssi8.pfb>
+Output written on damping_elements_topic2_handout.pdf (8 pages, 360528 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 340 compressed objects within 4 object streams
- 24 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
