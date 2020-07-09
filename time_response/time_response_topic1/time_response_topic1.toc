@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Model and EOM}{3}{0}{1}
+\beamer@sectionintoc {2}{Solve with Laplace Transforms Method}{5}{0}{2}
+\beamer@sectionintoc {3}{Sketch the Response Equation}{8}{0}{3}
