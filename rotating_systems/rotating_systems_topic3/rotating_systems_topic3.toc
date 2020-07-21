@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Example Problem - Pendulum Model}{3}{0}{1}
+\beamer@sectionintoc {2}{Mathematical Modeling}{4}{0}{2}
+\beamer@sectionintoc {3}{Newton's Second Law Approach}{5}{0}{3}
+\beamer@sectionintoc {4}{Derived Equations of Motion}{10}{0}{4}

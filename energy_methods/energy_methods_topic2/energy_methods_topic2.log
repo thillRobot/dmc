@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.30)  9 JUN 2020 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  10 JUN 2020 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,15 +919,52 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 ] [2
 
-] [3
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
-] [4
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 124.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+[3
+
+]
+Overfull \hbox (9.14958pt too wide) in paragraph at lines 147--147
+[][]  
+ []
+
+[4
 
 ] [5
 
-] [6
-
 ]
+<conservation_energy_fig2.png, id=198, 242.40562pt x 272.51813pt>
+File: conservation_energy_fig2.png Graphic file (type png)
+<use conservation_energy_fig2.png>
+Package pdftex.def Info: conservation_energy_fig2.png  used on input line 185.
+(pdftex.def)             Requested size: 72.72223pt x 81.75606pt.
+ [6
+
+ <./conservation_energy_fig2.png>]
+<conservation_energy_fig3.png, id=230, 153.57375pt x 266.49562pt>
+File: conservation_energy_fig3.png Graphic file (type png)
+<use conservation_energy_fig3.png>
+Package pdftex.def Info: conservation_energy_fig3.png  used on input line 196.
+(pdftex.def)             Requested size: 46.07246pt x 79.9493pt.
+ [7
+
+ <./conservation_energy_fig3.png>]
 \tf@nav=\write6
 \openout6 = `energy_methods_topic2.nav'.
 
@@ -937,30 +974,33 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 \tf@snm=\write8
 \openout8 = `energy_methods_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
-
-(./energy_methods_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+ (./energy_methods_topic2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `energy_methods_topic2.out' has not changed.
-(rerunfilecheck)             Checksum: F92E3D2E2C003BFD002C96D4A9D0E6B7;230.
+(rerunfilecheck)             Checksum: DDA547B0BD2EE99F8702B43F46605A7E;225.
  ) 
 Here is how much of TeX's memory you used:
- 18300 strings out of 492982
- 342550 string characters out of 6134896
- 449258 words of memory out of 5000000
- 21466 multiletter control sequences out of 15000+600000
- 6935 words of font info for 25 fonts, out of 8000000 for 9000
+ 18388 strings out of 492982
+ 344625 string characters out of 6134897
+ 451265 words of memory out of 5000000
+ 21527 multiletter control sequences out of 15000+600000
+ 12229 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,57p,817b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on energy_methods_topic2.pdf (6 pages, 46156 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssi8.pfb>
+Output written on energy_methods_topic2.pdf (7 pages, 103044 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
