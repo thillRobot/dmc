@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{The Complex Plane}{3}{0}{1}
+\beamer@sectionintoc {2}{Along a Vertical Line}{4}{0}{2}
+\beamer@sectionintoc {3}{Along a Horizontal Line}{5}{0}{3}
+\beamer@sectionintoc {4}{Along a Diagonal Line}{6}{0}{4}

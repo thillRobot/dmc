@@ -1,0 +1,136 @@
+% Lecture Template for ME3050-001-002-Tristan Hill - Spring 2020
+% Dynamics Modeling and Controls
+% Second Order Time Response - Module 12 - Topic 4
+
+% I am finally converting my stuff to BEAMER
+
+% Document settings
+
+%\documentclass{beamer}                  % for presentation ?
+\documentclass[handout]{beamer}  % for handout ?
+\usepackage{beamerthemesplit}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{framed}
+
+\beamertemplateballitem
+
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary)
+
+\setbeamercolor{palette primary}{bg=TTUpurple,fg=TTUgold}
+\setbeamercolor{palette secondary}{bg=black,fg=TTUgold}
+\setbeamercolor{palette tertiary}{bg=black,fg=TTUpurple}
+\setbeamercolor{palette quaternary}{bg=TTUgold,fg=black}
+\setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
+\setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
+
+%\usefonttheme{professionalfonts}
+
+\newcommand{\Lagr}{\mathcal{L}} % lagrangian
+
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
+\newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
+\newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
+\newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
+
+\newcommand{\hspcccc}{\hspace{10mm}} % large horizontal space
+\newcommand{\hspccc}{\hspace{6mm}} % large horizontal space
+\newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
+\newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
+
+\newsavebox{\mybox} % custom box
+
+\newcommand{\MNUM}{10\hspace{2mm}} % Module number
+\newcommand{\TNUM}{2\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{The Laplace Transform} % Titles and Stuff
+\newcommand{\topictitle}{Laplace Transforms Method} 
+
+\newcommand{\sectiontitleI}{Step 1 - Apply Laplace Transform} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Step 2 - Solve for $X(s)$}
+\newcommand{\sectiontitleIII}{Step 3 - Rearrange to Find Invertable Form}
+\newcommand{\sectiontitleIV}{Step 4 - Invert for Final Answer}
+
+\author{ME3050 - Dynamics Modeling and Controls}
+\title{Module \MNUM - \moduletitle}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\begin{document}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+
+\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
+
+% Section 0 - Outline
+\frame{
+	
+	\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \sectiontitleI    \vspc % Section I
+		\item \sectiontitleII 	\vspc % Section II
+		\item \sectiontitleIII 	\vspc %Section III
+		\item \sectiontitleIV 	\vspc %Section IV
+	
+	\end{itemize}
+
+}
+
+
+\section{\sectiontitleI}
+
+\frame{
+\frametitle{\sectiontitleI}
+
+Example:
+
+Solve the first order differential equation using the Laplace Transforms Method with the initial condition given. =
+\[4\dot{x}=sin\left(t\right) \hspccc with \hspccc x\left(t=0\right)=x_0 \] 
+Apply the Laplace Transform to both sides of the differential equation. 
+
+
+}
+
+\section{\sectiontitleII}
+\frame{
+\frametitle{\sectiontitleII}
+This step can seem open ended...
+\[X(s)=\frac{1}{4s\left(s^2+1\right)}+\frac{x_0}{s} \] 
+
+}
+
+\section{\sectiontitleIII}
+\frame{
+\frametitle{\sectiontitleIII}
+
+Write $X\left(s\right)$ in a form that can be inverted using the table of Laplace transform pairs. This typically involves partial fraction decomposition. 
+\[\frac{1}{4s\left(s^2+1 \right)}=\frac{1/4}{s\left(s^2+1\right)} =\frac{a}{s}+\frac{bs+c}{s^2+1} \] 
+
+Mulitply through by the denominator $4s\left(s^2+1\right)$:
+\[ 1=4as\left(s^2+1\right)+4s\left(bs+c\right)=4\left(a+b \right)s^2 + 4cs +4a \]
+
+Solve for the coefficients by {\it equating coefficients}.
+
+\[ \left( a+b\right)=0 \hspcc c=0 \hspcc a=\frac{1}{4} \implies a=\frac{1}{4} \hspcc b=-\frac{1}{4} \hspcc c=0 \]
+}
+
+\section{\sectiontitleIV}
+\frame{
+\frametitle{\sectiontitleIV}
+
+Substitute the coefficients into $X(s)$,
+
+\[ X(s) =\frac{x_0}{s}+\frac{1}{4s}-\frac{s}{4\left(s^2+1\right)} \]
+
+and use the inverse transform to solve for $x(t)$. Use the Table.
+
+\[ \Lagr^{-1} \left( X\left( s\right)\right)=x(t)= \]
+\[ = x_0+\frac{1}{4}-\frac{1}{4}cos\left(t\right)=x_0+\frac{1}{4}\left(1-cos\left(t\right) \right) \]
+
+This method works for complex problems but it can get messy...
+}
+
+\end{document}
+

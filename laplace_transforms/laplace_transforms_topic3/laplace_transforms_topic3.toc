@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{General Polynomial Form}{3}{0}{1}
+\beamer@sectionintoc {2}{Case 1 - Distinct Roots}{4}{0}{2}
+\beamer@sectionintoc {3}{Case 2 - Repeated Roots}{5}{0}{3}
+\beamer@sectionintoc {4}{Special Case - Complex Roots}{7}{0}{4}
