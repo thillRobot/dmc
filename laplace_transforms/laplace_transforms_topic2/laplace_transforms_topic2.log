@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  21 JUL 2020 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  21 JUL 2020 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,11 +973,11 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 97.
 
 [4
 
@@ -995,11 +995,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \tf@snm=\write8
 \openout8 = `laplace_transforms_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (./laplace_transforms_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `laplace_transforms_topic2.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 0771C87100833A03E134794DFB2F69AF;271.
@@ -1023,7 +1023,7 @@ ype1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb>
-Output written on laplace_transforms_topic2.pdf (6 pages, 108390 bytes).
+Output written on laplace_transforms_topic2.pdf (6 pages, 108541 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams

@@ -48,9 +48,9 @@
 \newcommand{\topictitle}{Definition of the Laplace Transform} 
 
 \newcommand{\sectiontitleI}{An Integral Transform} % More Titles and Stuff
-\newcommand{\sectiontitleII}{---}
-\newcommand{\sectiontitleIII}{---}
-\newcommand{\sectiontitleIV}{---}
+\newcommand{\sectiontitleII}{Laplace Transform of A Derivative}
+\newcommand{\sectiontitleIII}{Properties of an Integral}
+\newcommand{\sectiontitleIV}{Table of Transform Pairs}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -81,10 +81,10 @@
 
 \section{\sectiontitleI}
 
-\frame{
-\frametitle{---}
+\frame{ 
+\frametitle{\sectiontitleI}
 
- \textbf{ The Laplace Transform is an Integral Transform: } \\
+The Laplace Transform is an Integral Transform
 
 Given a function $x(t)$ in the time domain where $t\geq0$, \\ the Laplace Transform is defined as follows: \\
 
@@ -94,6 +94,7 @@ And its inverse is similarly defined as: \\
 
 \[ \Lagr^{-1}{\{X(s)\}}=x(t) \]\\
 
+The Laplace Domain variable $s$ is a complex number: \[ s=\sigma+j\omega \] 
 
 }
 
@@ -102,44 +103,52 @@ And its inverse is similarly defined as: \\
 
 \section{\sectiontitleII}
 \frame{
-\frametitle{---}
+\frametitle{\sectiontitleII}
 
-The Laplace Domain variable $s$ is a complex number: \[ s=\sigma+j\omega \] 
+
 
 It is useful to find the laplace transform of the derivative of a function: 
-
 \[ \Lagr{\{\frac{d}{dt}(x(t))\} }=\Lagr{\{\dot{x}(t)\}} =s\Lagr{\{x(t)\} }-x(t=0) \]
-
 \[ \hspace{52mm} =sX(s)-x(t=0) \]
-
-\[ \hspace{52mm} =sX(s)-x_0 \]
+\[ \hspace{52mm}\Lagr{\{ \dot{x} \left(t\right) \}} =sX(s)-x_0 \]
 
 \[ \Lagr{\{\frac{d^2}{dt^2}(x(t))\} }=\Lagr{\{\ddot{x}(t)\}} = s^2\Lagr{\{x(t)\} }-sx(t=0)-\dot{x}(t=0) \]
-
 \[ \hspace{52mm} = s^2X(s)-sx(t=0)-\dot{x}(t=0) \]
-
-\[ \hspace{52mm} = s^2X(s)-sx_0-\dot{x}_0  \]
+\[ \hspace{52mm} \Lagr{\{ \ddot{x} \left(t\right) \}}= s^2X(s)-sx_0-\dot{x}_0  \]
 
 
 }
 
-
-
 \section{\sectiontitleIII}
 \frame{
-\frametitle{---}
+\frametitle{\sectiontitleIII}
 
+Also, remember that the transform inherits the properties of an integral.
 
+\[ \int\left[ x(t)+y(t) \right]dt =\int x(t)dt + \int y(t)dt \]
+\[ \int Kx(t)dt = K\int x(t)dt \hspcc (K \hspc is \hspc constant)\]
 
+Therefore these properties can be used with the Laplace transform.
 }
 
 \section{\sectiontitleIV}
 \frame{
-\frametitle{---}
+\frametitle{\sectiontitleIV}
 
+\includegraphics[scale=.35]{laplace_table_part1.png}
 
 
 }
+
+\frame{
+\frametitle{\sectiontitleIV}
+
+\includegraphics[scale=.35]{laplace_table_part2.png}
+
+
+}
+
+
 
 \end{document}
 
