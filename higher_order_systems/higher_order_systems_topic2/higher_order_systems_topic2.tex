@@ -53,7 +53,7 @@
 \newcommand{\sectiontitleI}{State Space Models} % More Titles and Stuff
 \newcommand{\sectiontitleII}{The State Space Equation}
 \newcommand{\sectiontitleIII}{The Output Equation}
-\newcommand{\sectiontitleIV}{Simulation and Control}
+\newcommand{\sectiontitleIV}{Simulation and Control Applications}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -102,29 +102,28 @@
 
 
 \frame{
-  \frametitle{\sectiontitleI}
-  
-\textbf{ Higher Order Differential Equations} - An $N^{th}$ order differential equation can be decomposed into a system of $N$ first order differential equations. The resulting system is equivalent to the original equation. \vspace{30mm}
+  	\frametitle{\sectiontitleI}
+	\textbf{ Higher Order Differential Equations} - An $N^{th}$ order differential equation can be decomposed into a system of $N$ first order differential equations. The resulting system is equivalent to the original equation. \vspace{30mm}
 
 }
 
 \section{\sectiontitleII}
 
 \frame{
-  \frametitle{\sectiontitleII}
-\textbf{  The State Equation} 
+  	\frametitle{\sectiontitleII}
+	\textbf{The State Equation} 
 	After the system of differential equations consists of first order equations only, these equations form the state equation.  
 
 }
 
+
 \frame{
-  \frametitle{\sectiontitleII}
-\textbf{  The State Equation} 
+  	\frametitle{\sectiontitleII}
+	\textbf{The State Equation} 
 
 	\[ \bm{ \dot{x} } = \bm{Ax} + \bm{Bu} \]
 
 	\begin{itemize}
-
 		\item there are n {\it state variables} or {\it states} called $x_1 - x_n$ 
 		\item there are m {\it inputs} called $u_1 - u_m$ 
 		\item the {\it state vector} $\bm{x}$ is a collumn vector with {\it n} rows
@@ -140,28 +139,28 @@
 \section{\sectiontitleIII}
 
 \frame{
-  \frametitle{\sectiontitleIII}
-\textbf{ The Output Equation} 
+  	\frametitle{\sectiontitleIII}
+	\textbf{The Output Equation} 
 
-	\[ \bm{y } = \bm{Cx} + \bm{Du} \]
+	\[ \bm{y} = \bm{Cx} + \bm{Du} \]
 
 	\begin{itemize}
-
 		\item the {\it output vector} $\bm{y}$ is a collumn vector with {\it p} rows
 		\item the {\it output matrix} $\bm{C}$ is a square matrix {\it p} rows and {\it n} columns.
 		\item the {\it control matrix} $\bm{D}$ is a matrix with {\it p} rows and {\it m} columns.
-
 	\end{itemize}
+
+\vspace{5mm}
+	The designer chooses any combination of dependent variables or derived quantities for the output equation for your individual purposes. The number of outputs is flexible. \vspc
+	  
+
 
 }
 
 
 \frame{  
-  \frametitle{\sectiontitleIII}
-  
-  You can choose any combination of dependent variables or derived quantities for the output equation for your individual purposes. \vspc
-  
-  This makes the state space model very useful to the designer. 
+	\frametitle{\sectiontitleIII}
+	  
 
 }
 
@@ -183,19 +182,19 @@
 
 	\end{itemize}
 
-
 }
 
 % references is not a section for now, for looks and it would be a waste of space
 \frame{
 
-\frametitle{References}
-
-\begin{itemize}
-	\item System Dynamics, Palm III, Third Edition - Chapter 4 - Spring and Damper Elements in Mechanical Systems - pg. 208
-\end{itemize}
+	\frametitle{References}
+	
+	\begin{itemize}
+		\item System Dynamics, Palm III, Third Edition - Chapter 4 - Spring and Damper Elements in Mechanical Systems - pg. 208
+	\end{itemize}
 
 }
+
 \end{document}
 
 

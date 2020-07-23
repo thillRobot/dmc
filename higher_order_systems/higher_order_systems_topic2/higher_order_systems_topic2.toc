@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{State Space Models}{3}{0}{1}
 \beamer@sectionintoc {2}{The State Space Equation}{5}{0}{2}
 \beamer@sectionintoc {3}{The Output Equation}{7}{0}{3}
-\beamer@sectionintoc {4}{Simulation and Control}{9}{0}{4}
+\beamer@sectionintoc {4}{Simulation and Control Applications}{9}{0}{4}

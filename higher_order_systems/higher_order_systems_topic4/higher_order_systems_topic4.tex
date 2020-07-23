@@ -14,6 +14,11 @@
 \usepackage{multicol}
 \usepackage{framed}
 
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
+
+
 \beamertemplateballitem
 
 \definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
@@ -50,7 +55,7 @@
 \newcommand{\sectiontitleI}{Control Systems Toolbox} % More Titles and Stuff
 \newcommand{\sectiontitleII}{SS function and Dynamic System Object}
 \newcommand{\sectiontitleIII}{Step, and Impulse Function}
-\newcommand{\sectiontitleIV}{Response Graphs}
+\newcommand{\sectiontitleIV}{Example: 1DOF Simulation}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -84,7 +89,9 @@
 \frame{
   \frametitle{\sectiontitleI}
 
-Control System Toolbox provides algorithms and apps for systematically analyzing, designing, and tuning linear control systems. You can specify your system as a transfer function, state-space, zero-pole-gain, or frequency-response model. 
+Control System Toolbox provides algorithms and apps for systematically analyzing, designing, and tuning linear control systems. You can specify your system as a transfer function, state-space, zero-pole-gain, or frequency-response model. \vspcc
+
+It may have been included when you installed MATLAB but if is it not you can easily install it using the add-ins manager in the home tab.
 
 }
 
@@ -92,33 +99,43 @@ Control System Toolbox provides algorithms and apps for systematically analyzing
 \frame{  
   \frametitle{\sectiontitleI}
 
+	Some Toolbox Functions (\href{ https://www.mathworks.com/help/control/referencelist.html?type=function&listtype=cat&category=index&blocktype=all&capability=}{full list})
+	\begin{itemize}
+		\item ss
+		\item tf
+		\item pid
+		\item initial
+		\item step
+		\item impulse
+	\end{itemize}
+
+\vspace{5mm}The Toolbox also contains specialized blocks for Simulink
+
 }
 
 
 \section{\sectiontitleII}
 
-
 \frame[containsverbatim]{
 \frametitle{\sectiontitleII}
 
-{\large Create a dynamic system object the file with the {\bf ss()} function\vspc}
+Create a dynamic system object with the {\bf ss()} function\vspc
 
 \begin{framed}
 \begin{lstlisting}
-[SYS]=ss(A,B,C,D)
+[Y,T]=step(SYS,TSPAN,OPTIONS)
 \end{lstlisting}
 \end{framed}
 
 	\begin{itemize}
 
-		\item \underline{Input 1:} A - the name of the file to open \vspc
-		\item \underline{Input 2:} B - direction  of access 'r' or 'w'  \vspc
-		\item \underline{Input 3:} C - the name of the file to open \vspc
-		\item \underline{Input 4:} D - direction  of access 'r' or 'w'  \vspc
-		\item \underline{Output 1:} FID -  the file identifier \vspc
+		\item \underline{Input 1:} SYS - dynamic system object\vspc
+		\item \underline{Input 2:} TSPAN - array of time values for simulation  \vspc
+		\item \underline{Input 3:} OPTIONS - created by stepDataOptions function \vspc
+		\item \underline{Output 1:} Y - simulation response as array \vspc
+		\item \underline{Output 2:} T - simulation time as array\vspc
 
 	\end{itemize}
-
 
 }
 
@@ -126,33 +143,143 @@ Control System Toolbox provides algorithms and apps for systematically analyzing
 \frame{  
   \frametitle{\sectiontitleII}
 
+	SYS - dynamic system object 
+	
+	\vspace{40mm}
+
+
 }
 
 \section{\sectiontitleIII}
 
-\frame{
-  \frametitle{\sectiontitleIII}
+\frame[containsverbatim]{
+\frametitle{\sectiontitleIII}
 
+Simulate the step response of dynamic system with the {\bf step()} function\vspc
+
+\begin{framed}
+\begin{lstlisting}
+[Y,T]=step(SYS,TSPAN,OPTIONS)
+\end{lstlisting}
+\end{framed}
+
+	\begin{itemize}
+
+		\item \underline{Input 1:} SYS - dynamic system object\vspc
+		\item \underline{Input 2:} TSPAN - array of time values for simulation  \vspc
+		\item \underline{Input 3:} OPTIONS - created by stepDataOptions function \vspc
+		\item \underline{Output 1:} Y - simulation response as array \vspc
+		\item \underline{Output 2:} T - simulation time as array\vspc
+
+	\end{itemize}
 
 }
 
+\frame[containsverbatim]{
+\frametitle{\sectiontitleIII}
 
-\frame{  
-  \frametitle{\sectiontitleIII}
+Simulate the step response of dynamic system with the {\bf step()} function\vspc
+
+\begin{framed}
+\begin{lstlisting}
+[Y,T]=impulse(SYS,TSPAN)
+\end{lstlisting}
+\end{framed}
+
+	\begin{itemize}
+
+		\item \underline{Input 1:} SYS - dynamic system object\vspc
+		\item \underline{Input 2:} TSPAN - array of time values for simulation  \vspc
+		 - use IMPULSEPLOT for more options 
+		\item \underline{Output 1:} Y - simulation response as array \vspc
+		\item \underline{Output 2:} T - simulation time as array\vspc
+
+	\end{itemize}
 
 }
 
 \section{\sectiontitleIV}
 
 \frame{
-  \frametitle{\sectiontitleIV}
-
+	\frametitle{\sectiontitleIV}
+		Consider the 1DOF Quarter-Car model with displacement input from the profile of the road.\vspc
+	
+	\begin{multicols}{2}
+		
+	
+		\includegraphics[scale=.4]{quarter_car_1dof_02.png} \vspc
+		The standard EOM becomes:
+		\[ m\ddot{x} +c(\dot{x}-\dot{y})+k(x-y)=0 \]
+	
+		The second order EOM can be decomposed into a system of first order differential equations and written as a state space model. \vspc
+	
+	\end{multicols}
 
 }
 
 
 \frame{  
-  \frametitle{\sectiontitleIV}
+	\frametitle{\sectiontitleIV}
+	The displacement input requires a {\it clever} substitution.  
+ 	\begin{fleqn}
+		\[ m\ddot{x}+c(\dot{x}-\dot{y})+k(x-y)=0 \] 
+		\[ z_1=x \hspc and \hspc z_2=\dot{x}-\frac{c}{m}y \]
+		\[ \dot{z}_2=-\frac{c}{m}(z_2+\frac{c}{m}y)-\frac{k}{m}z_1+\frac{k}{m}y \hspc and \hspc \dot{z}_1=z_2+\frac{c}{m}y \] 
+	\end{fleqn}
+	
+	Finally, write the state equation.
+	\[
+	\begin{bmatrix}
+	\dot{z}_{1} \vspace{3mm}\\
+	\dot{z}_{2}
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+	0& 1\vspace{3mm}\\
+	-\frac{k}{m} & -\frac{c}{m}
+	\end{bmatrix}
+	\begin{bmatrix}
+	z_1\vspace{3mm}\\
+	z_2
+	\end{bmatrix}
+	+
+	\begin{bmatrix}
+	\frac{c}{m}\vspace{3mm}\\
+	-(\frac{c}{m})^2+\frac{k}{m}
+	\end{bmatrix}
+	y(t)
+	\]
+}
+
+\frame{
+\frametitle{\sectiontitleIV}
+It is important that you keep the same substitutions when writing the output equations.\vspc
+
+Output 1 - Position:\hspc $ y_{O1}=x=z_1 $\vspc
+
+Output 2 - Velocity:\hspc $ y_{O2}=\dot{x}=\dot{z}_1=z_2+\frac{c}{m}y $\vspc
+
+\[
+\begin{bmatrix}
+\dot{y}_{O1} \vspace{3mm}\\
+\dot{z}_{O2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+1& 0\vspace{3mm}\\
+0 & 1
+\end{bmatrix}
+\begin{bmatrix}
+z_1\vspace{3mm}\\
+z_2
+\end{bmatrix}
++
+\begin{bmatrix}
+0\vspace{3mm}\\
+\frac{c}{m}
+\end{bmatrix}
+y(t)
+\]
 
 }
 

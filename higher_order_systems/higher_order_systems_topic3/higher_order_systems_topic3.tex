@@ -15,6 +15,8 @@
 \usepackage{framed}
 \usepackage{amsmath, nccmath}
 \usepackage{geometry}
+\usepackage{bm}
+
 
 \beamertemplateballitem
 
@@ -105,9 +107,10 @@
 \frame{  
   \frametitle{\sectiontitleI}
 
-	Make a substitution for each dependent variable and its first derivative then re-write the system of equations as four first order differential equations. \vspc
+	Make a substitution for each dependent variable and its first derivative then re-write the system of equations as four first order differential equations. \vspccc
 	let $ z_1=x_1$ and $z_2=x_2$ \vspc
-	also $z_3=\dot{x}_1$ and $z_4=\dot{x}_2$  
+	also $z_3=\dot{x}_1$ and $z_4=\dot{x}_2$ \vspccc
+	You are choosing the {\it states} of your model during this process. 
 
 }
 
@@ -115,9 +118,14 @@
 \section{\sectiontitleII}
 
 \frame{
-  \frametitle{\sectiontitleII}
+  	\frametitle{\sectiontitleII}
 
-
+	Write the the State Equation.
+	\begin{fleqn}
+	\[ \bm{ \dot{x} } = \bm{Ax} + \bm{Bu} \]
+	\end{fleqn}
+	
+	
 }
 
 
