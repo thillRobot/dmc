@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  21 JUL 2020 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  22 JUL 2020 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -986,6 +986,22 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ] [6
 
 ]
+<laplace_table_part1.png, id=122, 761.84625pt x 488.82625pt>
+File: laplace_table_part1.png Graphic file (type png)
+<use laplace_table_part1.png>
+Package pdftex.def Info: laplace_table_part1.png  used on input line 143.
+(pdftex.def)             Requested size: 266.65018pt x 171.09174pt.
+ [7
+
+ <./laplace_table_part1.png>]
+<laplace_table_part2.png, id=136, 755.82375pt x 493.845pt>
+File: laplace_table_part2.png Graphic file (type png)
+<use laplace_table_part2.png>
+Package pdftex.def Info: laplace_table_part2.png  used on input line 151.
+(pdftex.def)             Requested size: 264.54227pt x 172.84833pt.
+ [8
+
+ <./laplace_table_part2.png>]
 \tf@nav=\write6
 \openout6 = `laplace_transforms_topic2.nav'.
 
@@ -995,20 +1011,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \tf@snm=\write8
 \openout8 = `laplace_transforms_topic2.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
- (./laplace_transforms_topic2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+
+(./laplace_transforms_topic2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `laplace_transforms_topic2.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 0771C87100833A03E134794DFB2F69AF;271.
+(rerunfilecheck)             Checksum: 3508F0C610EA41CA7C018FB61B93B084;310.
  ) 
 Here is how much of TeX's memory you used:
- 19489 strings out of 481239
- 366187 string characters out of 5920377
- 805877 words of memory out of 5000000
- 34271 multiletter control sequences out of 15000+600000
+ 19515 strings out of 481239
+ 366617 string characters out of 5920377
+ 806059 words of memory out of 5000000
+ 34289 multiletter control sequences out of 15000+600000
  548021 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,22n,67p,821b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1023,10 +1040,10 @@ ype1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb>
-Output written on laplace_transforms_topic2.pdf (6 pages, 108541 bytes).
+Output written on laplace_transforms_topic2.pdf (8 pages, 187354 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

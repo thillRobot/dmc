@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Laplace Transform of A Derivative}{4}{0}{2}
 \beamer@sectionintoc {3}{Properties of an Integral}{5}{0}{3}
 \beamer@sectionintoc {4}{Table of Transform Pairs}{6}{0}{4}
+\beamer@sectionintoc {5}{---}{8}{0}{5}

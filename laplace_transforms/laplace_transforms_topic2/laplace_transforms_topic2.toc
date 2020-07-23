@@ -2,3 +2,4 @@
 \beamer@sectionintoc {2}{Step 2 - Solve for $X(s)$}{4}{0}{2}
 \beamer@sectionintoc {3}{Step 3 - Rearrange to Find Invertable Form}{5}{0}{3}
 \beamer@sectionintoc {4}{Step 4 - Invert for Final Answer}{6}{0}{4}
+\beamer@sectionintoc {5}{---}{7}{0}{5}

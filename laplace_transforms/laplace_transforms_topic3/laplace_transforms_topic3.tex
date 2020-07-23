@@ -165,7 +165,7 @@ Example:
 
 The solution can be found by forming two perfect squares in the denominator.
 
-\[ X(s)=\frac{1}{4} \left[ \frac{3s+7}{\left(s+3\right)^2+s^2}\right] \]
+\[ X(s)=\frac{1}{4} \left[ \frac{3s+7}{\left(s+3\right)^2+5^2}\right] \]
 
 
 }
@@ -175,11 +175,11 @@ The solution can be found by forming two perfect squares in the denominator.
 
 Now this can be expanded into the following terms which can be found in the table!
 
-\[ X(s)=\frac{1}{4}  \left[ C_1 \frac{3s+7}{\left(s+3\right)^2+s^2} +C_2 \frac{3s+7}{\left(s+3\right)^2+s^2}\right] \]
+\[ X(s)=\frac{1}{4}  \left[ C_1 \frac{5}{\left(s+3\right)^2+5^2} +C_2 \frac{s+3}{\left(s+3\right)^2+5^2}\right] \]
 
 Multiply by the denominator and solve for $C_1$ and $C_2$.
 
-\[ 3s+7 = 5C_1 +C_2\left( s+3)\right) = 5C_1 +c_2s+3C_2 \implies C_2=3, C_1 = \frac{-2}{5} \]
+\[ 3s+7 = 5C_1 +C_2\left( s+3\right) = 5C_1 +c_2s+3C_2 \implies C_2=3, C_1 = -\frac{2}{5} \]
 
 }
 
@@ -188,8 +188,9 @@ Multiply by the denominator and solve for $C_1$ and $C_2$.
 
 Finally substitute and invert using the table. 
 
-\[ X(s)=\frac{1}{4}  \left[\frac{-2}{5}frac{3s+7}{\left(s+3\right)^2+s^2} +3 \frac{3s+7}{\left(s+3\right)^2+s^2}\right] \]
+\[ X(s)=\frac{1}{4}  \left[-\frac{2}{5}\frac{5}{\left(s+3\right)^2+s^2} +3 \frac{s+3}{\left(s+3\right)^2+s^2}\right] \] \vspc
 
+Write the final answer in the time domain.
 \[ x(t) =-\frac{1}{10}e^{-3t}sin\left(5t\right)+\frac{3}{4}e^{-3t}cos\left(5t\right) \]
 
 

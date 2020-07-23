@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Motivation - Physical Models}{3}{0}{1}
+\beamer@sectionintoc {2}{Model Description}{5}{0}{2}
+\beamer@sectionintoc {3}{Newton's Approach}{6}{0}{3}
+\beamer@sectionintoc {4}{Equation of Motion}{8}{0}{4}
