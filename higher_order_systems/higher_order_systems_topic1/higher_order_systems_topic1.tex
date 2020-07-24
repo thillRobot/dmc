@@ -15,6 +15,7 @@
 \usepackage{framed}
 \usepackage{amsmath, nccmath}
 \usepackage{geometry}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -28,7 +29,26 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-%\usefonttheme{professionalfonts}
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
+\definecolor{mygray}{rgb}{.6, .6, .6}
+\definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
+\definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
+\definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
+
+% color commands
+\newcommand{\R}{\color{red}}
+\newcommand{\B}{\color{blue}}
+\newcommand{\BR}{\color{mybrown}}
+\newcommand{\K}{\color{black}}
+\newcommand{\G}{\color{mygreen}}
+\newcommand{\PR}{\color{mypurple}}
+\newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{TTU}}
+\newcommand{\GD}{\color{TTUgold}}
+
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
@@ -52,7 +72,7 @@
 \newcommand{\sectiontitleI}{Motivation - Physical Models} % More Titles and Stuff
 \newcommand{\sectiontitleII}{Model Description}
 \newcommand{\sectiontitleIII}{Newton's Approach}
-\newcommand{\sectiontitleIV}{Equation of Motion}
+\newcommand{\sectiontitleIV}{Equations of Motion}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
@@ -97,20 +117,20 @@
 }
 
 
-\frame{
-  \frametitle{\sectiontitleI}
-\textbf{ Automobile Suspension} - This is a common approximation of a typical automobile suspension known as the {\it quarter car model}.  
-
-\begin{multicols}{3}
-
-	\includegraphics[scale=.04,angle=-90,origin=c]{jeep_01.jpg} \
+\frame{ \small
+	\frametitle{\sectiontitleI}
+	\textbf{ Automobile Suspension} - This is a common approximation of a typical automobile suspension known as the {\it quarter car model}.  
 	
-	\includegraphics[scale=.4]{mass_spring_2dof.png}\\
+	\begin{multicols}{3}
 	
-	Is this valid? \vspc Why? Why Not?\vspcc
-	What does the response look like? How can you find out?
-
-\end{multicols}
+		\includegraphics[scale=.04,angle=-90,origin=c]{jeep_01.jpg} 
+		
+		\includegraphics[scale=.4]{mass_spring_2dof.png}\\
+		
+		Is this valid? \vspc Why? Why Not?\vspcc
+		What does the response look like? How can you find out?
+	
+	\end{multicols}
 
 }
 
@@ -152,7 +172,12 @@
 \frame{  
   \frametitle{\sectiontitleIII}
   
-	Write Newton's Second Law for each body. \vspace{40mm}  	
+	Write Newton's Second Law for each body. 	
+	\begin{fleqn}
+		\[ \underline{+\uparrow \sum F_{x_1}=ma_1 }\] \vspace{10mm}
+		\[ \underline{+\uparrow \sum F_{x_2}=ma_2 }\] 		
+	\end{fleqn}
+
 }
 
 \section{\sectiontitleIV}
@@ -180,7 +205,10 @@
 
 \frame{  
   	\frametitle{\sectiontitleIV}
-	matrix form of the equations of motion:
+	Re-write the equations of motion in matrix form. 
+	
+	\[ \bm{M}\bm{\ddot{x}}+\bm{C}\bm{\dot{x}}+\bm{K}\bm{x}=\bm{F(t)} \] 
+	
 	\vspace{30mm}
 
 }
