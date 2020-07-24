@@ -141,17 +141,17 @@ Create a dynamic system object with the {\bf ss()} function\vspc
 
 \begin{framed}
 \begin{lstlisting}
-[Y,T]=step(SYS,TSPAN,OPTIONS)
+[SYS]=ss(A,B,C,D)
 \end{lstlisting}
 \end{framed}
 
 	\begin{itemize}
 
-		\item \underline{Input 1:} SYS - dynamic system object\vspc
-		\item \underline{Input 2:} TSPAN - array of time values for simulation  \vspc
-		\item \underline{Input 3:} OPTIONS - created by stepDataOptions function \vspc
-		\item \underline{Output 1:} Y - simulation response as array \vspc
-		\item \underline{Output 2:} T - simulation time as array\vspc
+		\item \underline{Input 1:} A - System Matrix\vspc
+		\item \underline{Input 2:} B - Input Matrix  \vspc
+		\item \underline{Input 3:} C - Output Matrix \vspc
+		\item \underline{Input 4:} D - Control Matrix
+		\item \underline{Output 1:} SYS - dynamic system object \vspc
 
 	\end{itemize}
 

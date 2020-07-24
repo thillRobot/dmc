@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  23 JUL 2020 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  24 JUL 2020 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1036,10 +1036,10 @@ nged.
 (rerunfilecheck)             Checksum: CC7110421EB46E03D404AB3F05D15732;250.
  ) 
 Here is how much of TeX's memory you used:
- 20521 strings out of 481239
- 376813 string characters out of 5920377
+ 20526 strings out of 481239
+ 376844 string characters out of 5920377
  811233 words of memory out of 5000000
- 35274 multiletter control sequences out of 15000+600000
+ 35279 multiletter control sequences out of 15000+600000
  546490 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,67p,823b,1697s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1052,7 +1052,7 @@ ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on higher_order_systems_topic4.pdf (12 pages, 114657 bytes).
+Output written on higher_order_systems_topic4.pdf (12 pages, 115031 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams
