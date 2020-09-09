@@ -1,18 +1,22 @@
 % 
-% Lecture Template for ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
+% topic Template for ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
 %
-% Spring 2020 - Summer 2020
-% Tristan Hill, May 07, 2020
-% Introduction - Topic 3 - Modeling Assumptions
-%
+% Lecture Template for ME3050-001-002-Tristan Hill - Spring 2020 - Summer
+% Dynamics Modeling and Controls
+% Module 1 Introduction - Topic 3 - Modeling Assumptions
 
-\documentclass{beamer}                         % for presentation (has nav buttons at bottom)
-%\documentclass[handout]{beamer}  % for handout 
+% Document settings
+
+%\documentclass{beamer}                  % for presentation ?
+\documentclass[handout]{beamer}  % for handout ?
 \usepackage{beamerthemesplit}
 \usepackage{amsmath}
 \usepackage{listings}
 \usepackage{multicol}
 \usepackage{framed}
+\usepackage{amsmath, nccmath}
+\usepackage{geometry}
+\usepackage{bm}
 
 \beamertemplateballitem
 
@@ -26,10 +30,30 @@
 \setbeamercolor{structure}{fg=TTUpurple} % itemize, enumerate, etc
 \setbeamercolor{section in toc}{fg=TTUpurple} % TOC sections
 
-%\usefonttheme{professionalfonts}
+% custom colors
+\definecolor{TTUpurple}{rgb}{0.3098, 0.1607, 0.5176} % TTU Purple (primary)
+\definecolor{TTUgold}{rgb}{1.0000, 0.8666, 0.0000} % TTU Gold (primary) 
+\definecolor{mygray}{rgb}{.6, .6, .6}
+\definecolor{mypurple}{rgb}{0.6,0.1961,0.8}
+\definecolor{mybrown}{rgb}{0.5451,0.2706,0.0745}
+\definecolor{mygreen}{rgb}{0, .39, 0}
+\definecolor{mypink}{rgb}{0.9960, 0, 0.9960}
+
+% color commands
+\newcommand{\R}{\color{red}}
+\newcommand{\B}{\color{blue}}
+\newcommand{\BR}{\color{mybrown}}
+\newcommand{\K}{\color{black}}
+\newcommand{\G}{\color{mygreen}}
+\newcommand{\PR}{\color{mypurple}}
+\newcommand{\PN}{\color{mypink}}
+\newcommand{\OR}{\color{orange}}
+\newcommand{\GD}{\color{TTUgold}}
+
 
 \newcommand{\Lagr}{\mathcal{L}} % lagrangian
 
+\newcommand{\hspcu}{\underline{\hspace{20mm}}} % large horizontal space w underline
 \newcommand{\vspccc}{\vspace{6mm}\\} % large vertical space
 \newcommand{\vspcc}{\vspace{4mm}\\}   % medium vertical space
 \newcommand{\vspc}{\vspace{2mm}\\}     % small vertical space
@@ -39,17 +63,23 @@
 \newcommand{\hspcc}{\hspace{4mm}}   % medium horizontal space
 \newcommand{\hspc}{\hspace{2mm}}     % small horizontal space
 
-
-\author{ME3050 - Dynamics Modeling and Controls} % original formatting from Mike Renfro, September 21, 2004
+\newsavebox{\mybox} % custom box
 
 \newcommand{\MNUM}{1\hspace{2mm}} % Module number
 \newcommand{\TNUM}{3\hspace{2mm}} % Topic number 
-\newcommand{\moduletitle}{Introduction }
-\newcommand{\topictitle}{Modeling Assumptions } 
+\newcommand{\moduletitle}{Introduction} % Titles and Stuff
+\newcommand{\topictitle}{Modeling Assumptions} 
 
+\newcommand{\sectiontitleI}{Simplify Complex Systems} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Increase Complexity Incrementally}
+\newcommand{\sectiontitleIII}{Solid Mechanics and Dynamics}
+\newcommand{\sectiontitleIV}{Thermal and Fluid Systems}
+\newcommand{\sectiontitleV}{Electrical and Power Systems}
+
+
+\author{ME3050 - Dynamic Modeling and Controls}
 \title{Module \MNUM - \moduletitle}
-
-\date{May 29, 2020}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
 
 \begin{document}
 
@@ -57,19 +87,21 @@
 
 \frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
 
-% Section 0: Outline
-
+% Section 0 - Outline
 \frame{
+	
+	\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \sectiontitleI    \vspc % Section I
+		\item \sectiontitleII 	\vspc % Section II
+		\item \sectiontitleIII 	\vspc %Section III
+		\item \sectiontitleIV 	\vspc %Section IV
+		\item \sectiontitleV 	\vspc %Section V
+	
+	\end{itemize}
 
-\large \textbf{Topic \TNUM - \topictitle} \vspace{3mm}\\
-
-\begin{itemize}
-	\item Simplify Complex Systems\vspace{3mm}\\ % Section 1
-	\item Increase Complexity Incrementally\vspace{3mm}\\% Section 2
-	\item Solid Mechanics and Dynamics\vspace{3mm}\\ %Section 3
-	\item Thermal and Fluid Systems \vspace{3mm}\\  %Section 4
-	\item Electrical and Power Systems \vspace{3mm}\\  %Section 5
-\end{itemize}
 }
 
 % Section 1:

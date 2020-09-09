@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Second Order Free Response}{3}{0}{1}
+\beamer@sectionintoc {2}{Second Order Step Response}{6}{0}{2}
+\beamer@sectionintoc {3}{Response and System Stability}{7}{0}{3}
+\beamer@sectionintoc {4}{Components }{9}{0}{4}

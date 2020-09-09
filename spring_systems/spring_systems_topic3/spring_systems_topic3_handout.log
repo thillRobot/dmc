@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.6.13)  18 JUN 2020 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.7.29)  8 SEP 2020 06:59
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **spring_systems_topic3_handout.tex
 (./spring_systems_topic3_handout.tex
@@ -765,7 +765,7 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count329
 \l__pdf_internal_box=\box122
 )
-No file spring_systems_topic3_handout.aux.
+(./spring_systems_topic3_handout.aux)
 \openout1 = `spring_systems_topic3_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -784,6 +784,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -858,6 +859,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 77.
 LaTeX Info: Redefining \pageref on input line 77.
 LaTeX Info: Redefining \nameref on input line 77.
+
+(./spring_systems_topic3_handout.out) (./spring_systems_topic3_handout.out)
 \@outlinefile=\write5
 \openout5 = `spring_systems_topic3_handout.out'.
 
@@ -939,14 +942,13 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count337
-
-No file spring_systems_topic3_handout.nav.
+ (./spring_systems_topic3_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<jeep_02.jpg, id=46, 3276.24pt x 2457.18pt>
+]
+<jeep_02.jpg, id=76, 3276.24pt x 2457.18pt>
 File: jeep_02.jpg Graphic file (type jpg)
 <use jeep_02.jpg>
 Package pdftex.def Info: jeep_02.jpg  used on input line 100.
@@ -954,7 +956,7 @@ Package pdftex.def Info: jeep_02.jpg  used on input line 100.
  [2
 
  <./jeep_02.jpg>]
-<leaf_springs.jpg, id=73, 602.25pt x 425.59pt>
+<leaf_springs.jpg, id=106, 602.25pt x 425.59pt>
 File: leaf_springs.jpg Graphic file (type jpg)
 <use leaf_springs.jpg>
 Package pdftex.def Info: leaf_springs.jpg  used on input line 125.
@@ -993,7 +995,7 @@ thkerncmss.
 ] [6
 
 ]
-<jeep_01.jpg, id=184, 3276.24pt x 2457.18pt>
+<jeep_01.jpg, id=227, 3276.24pt x 2457.18pt>
 File: jeep_01.jpg Graphic file (type jpg)
 <use jeep_01.jpg>
 Package pdftex.def Info: jeep_01.jpg  used on input line 186.
@@ -1019,34 +1021,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./spring_systems_topic3_handout.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
-
-
-Package rerunfilecheck Warning: File `spring_systems_topic3_handout.out' has ch
-anged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `spring_systems_topic3_handout.out':
-
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  CCBF73F3658A55EDDAE55262406AC44E;218.
+Package rerunfilecheck Info: File `spring_systems_topic3_handout.out' has not c
+hanged.
+(rerunfilecheck)             Checksum: CCBF73F3658A55EDDAE55262406AC44E;218.
  ) 
 Here is how much of TeX's memory you used:
- 19480 strings out of 481239
- 366256 string characters out of 5920377
- 804709 words of memory out of 5000000
- 34263 multiletter control sequences out of 15000+600000
+ 19545 strings out of 481239
+ 367438 string characters out of 5920377
+ 807896 words of memory out of 5000000
+ 34320 multiletter control sequences out of 15000+600000
  544969 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,15n,67p,825b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,67p,825b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on spring_systems_topic3_handout.pdf (9 pages, 4734821 bytes).
+Output written on spring_systems_topic3_handout.pdf (9 pages, 4737403 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
+ 341 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
  23 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
