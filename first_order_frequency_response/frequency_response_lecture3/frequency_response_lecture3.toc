@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Review Transfer Functions}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Equivalent System Representations}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Transfer Function of 2$^{nd}$ Order System}{4}{0}{1}
+\beamer@sectionintoc {2}{Frequency Response of Overdamped Systems}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{The Overdamped System}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{The Bode Diagram }{6}{0}{2}
+\beamer@sectionintoc {3}{Frequency Response of Underdamped Systems}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{The Underdamped System}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{The Frequency Ratio}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Bode Diagram }{9}{0}{3}

@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Review Transfer Function}{3}{0}{1}
+\beamer@sectionintoc {2}{Overdamped Systems}{5}{0}{2}
+\beamer@sectionintoc {3}{Underdamped Systems}{7}{0}{3}
