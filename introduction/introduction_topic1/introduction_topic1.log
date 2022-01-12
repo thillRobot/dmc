@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  11 JAN 2022 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  12 JAN 2022 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2102,34 +2102,34 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 
 ] [2
 
+] [3
+
+] [4
+
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+LaTeX Font Info:    Try loading font information for U+msa on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 66.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 66.
+line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[3
-
-] [4
-
-] [5
+[5
 
 ] [6
 
@@ -2139,17 +2139,17 @@ thkerncmss.
 <dji_phantom_fig2.jpg, id=130, 1084.05pt x 722.7pt>
 File: dji_phantom_fig2.jpg Graphic file (type jpg)
 <use dji_phantom_fig2.jpg>
-Package pdftex.def Info: dji_phantom_fig2.jpg  used on input line 147.
+Package pdftex.def Info: dji_phantom_fig2.jpg  used on input line 143.
 (pdftex.def)             Requested size: 86.72577pt x 57.81717pt.
 <jeep_01.jpg, id=131, 3276.24pt x 2457.18pt>
 File: jeep_01.jpg Graphic file (type jpg)
 <use jeep_01.jpg>
-Package pdftex.def Info: jeep_01.jpg  used on input line 147.
+Package pdftex.def Info: jeep_01.jpg  used on input line 143.
 (pdftex.def)             Requested size: 81.8858pt x 61.41435pt.
 <falcon9_fig2.jpg, id=132, 1084.05pt x 722.7pt>
 File: falcon9_fig2.jpg Graphic file (type jpg)
 <use falcon9_fig2.jpg>
-Package pdftex.def Info: falcon9_fig2.jpg  used on input line 147.
+Package pdftex.def Info: falcon9_fig2.jpg  used on input line 143.
 (pdftex.def)             Requested size: 108.41135pt x 72.27423pt.
  [8
 
@@ -2163,27 +2163,28 @@ Package pdftex.def Info: falcon9_fig2.jpg  used on input line 147.
 \tf@snm=\write9
 \openout9 = `introduction_topic1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
- (./introduction_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
+
+(./introduction_topic1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
 Package rerunfilecheck Info: File `introduction_topic1.out' has not changed.
 (rerunfilecheck)             Checksum: B2330F4789CA80D7D8E0BC1AB6C788D3;214.
  ) 
 Here is how much of TeX's memory you used:
  34683 strings out of 492982
  684846 string characters out of 6134897
- 785185 words of memory out of 5000000
+ 785184 words of memory out of 5000000
  37594 multiletter control sequences out of 15000+600000
  551089 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,19n,73p,10368b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/mnsymbol/MnSymbolD.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
+ist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
+s/mnsymbol/MnSymbolA.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
 mbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 si12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share
@@ -2193,7 +2194,7 @@ ublic/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1
 texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx12
 00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on introduction_topic1.pdf (8 pages, 2947930 bytes).
+Output written on introduction_topic1.pdf (8 pages, 2946431 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
