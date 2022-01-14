@@ -18,6 +18,7 @@
 \newcommand{\sectiontitleII}{Complementary Solution}
 \newcommand{\sectiontitleIII}{Particular Solution}
 \newcommand{\sectiontitleIV}{Apply Initial Conditions}
+\newcommand{\sectiontitleV}{Summary - 3 Cases}
 
 \author{ME3050 - Dynamic Modeling and Controls}
 \title{Lecture Module - \moduletitle}
@@ -82,7 +83,7 @@ This is an {\bf analytical} method that you learned in calculus but it may have 
 
 \[a_2y''+a_1y'+a_0y=f \hspace{5mm}\rightarrow\hspace{5mm} a_2y''+a_1y'+a_0y=0\] 
 
-Assume an exponential solution for the complementary part. \[y_{complementary}=y_c(t)=\] 
+Assume an exponential solution for the complementary part. \[y_{complementary}=y_c(x)=\] 
 
 Substitute this solution into the ODE (LHS=0).
 	}
@@ -107,9 +108,9 @@ Substitute this solution into the ODE (LHS=0).
 
 The {\it form of the particular part} follows the RHS of  the ODE. \vspc
 
-\[y_{particular}=y_p(t)=\]  
+\[y_{particular}=y_p(x)=\]  
 
-Substitute this solution into the ODE above and solve for any unknown constants in $ y_p(t) $. 
+Substitute this solution into the ODE above and solve for any unknown constants in $ y_p(x) $. 
 		}
 		
 		% Section III - Frame II
@@ -158,4 +159,47 @@ This {\bf initial value problem} requires \underline{\hspace{10mm}} intial condi
 
 \includegraphics[scale=0.15]{lecture1_fig2.png}\hspace{5mm} \includegraphics[scale=0.15]{lecture1_fig2.png}
 }
+
+	% Section V - Frame I
+\frame{ \small
+	\frametitle{\sectiontitleV}
+	If the differential equation is first and linear, the complementary solution takes the following form. \\
+
+	\[y(x)=Ae^{sx}\] 
+
+	}
+
+	% Section V - Frame II
+\frame{ \small
+	\frametitle{\sectiontitleV}
+	If the differential equation is second order and linear, the {\bf complementary solution } takes one of the following forms. \vspace{2mm}\\
+
+	Case 1: $s_1,s_2\in\mathbb{R} \hspc,\hspc s_1\neq s_2$ 
+	\[y(x)=c_1e^{s_1x}+c_2e^{s_2x}\] \vspace{2mm}
+	Case 2: $s_1,s_2\in\mathbb{R} \hspc,\hspc s_1=s_2=s$
+	\[y(x)=c_1e^{sx}+c_2xe^{sx}\] \vspace{2mm}
+	Case 3: $s_1,s_2\notin\mathbb{R} \hspc,\hspc s_1,s_2 = \alpha\pm\beta$
+	\[y(x)=e^{\alpha x}\left(c_1 cos\left(\beta x\right)+c_2 sin\left(\beta x\right) \right)\]
+
+}
+
+	% Section V - Frame III
+\frame{ \small
+	\frametitle{\sectiontitleV}
+	The {\bf particular solution} takes the form of the right hand side of the equation. \vspace{2mm}\\ 
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{ccc}
+		
+		Example & Form & Particular Solution \\ \hline
+		
+		$... = 10$   & Constant & $y_p=B$ \\
+		$... = 12x$  & Linear   & $y_p=Bx+C$\\
+		$... = 20e^{2x} $ & Exponential & $y_p=Be^{2x}$ \\
+		
+	\end{tabular}
+
+	
+}
+
+
 \end{document}
