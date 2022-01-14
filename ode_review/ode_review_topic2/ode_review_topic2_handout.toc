@@ -1,5 +1,2 @@
 \beamer@sectionintoc {1}{Review}{3}{0}{1}
-\beamer@sectionintoc {2}{Engineering Example - Analytical Solution}{4}{0}{2}
-\beamer@subsectionintoc {2}{1}{Problem Statement}{4}{0}{2}
-\beamer@subsectionintoc {2}{2}{Separation of Variables}{5}{0}{2}
-\beamer@subsectionintoc {2}{3}{Solution}{6}{0}{2}
+\beamer@sectionintoc {2}{Separation of Variables}{4}{0}{2}
