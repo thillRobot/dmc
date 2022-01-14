@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  13 JAN 2022 20:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.3.1)  13 JAN 2022 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introduction_topic1.tex
-(./introduction_topic1.tex
+**ode_review_topic2_handout.tex
+(./ode_review_topic2_handout.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1903,30 +1903,30 @@ Package hyperref Info: Option `pdfmenubar' set `true' on input line 104.
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 104.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 104.
 Package hyperref Info: Option `colorlinks' set `true' on input line 104.
-) (./introduction_topic1.aux)
-\openout1 = `introduction_topic1.aux'.
+) (./ode_review_topic2_handout.aux)
+\openout1 = `ode_review_topic2_handout.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1994,7 +1994,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box114
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2004,71 +2004,71 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count370
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
-(./introduction_topic1.out) (./introduction_topic1.out)
+(./ode_review_topic2_handout.out) (./ode_review_topic2_handout.out)
 \@outlinefile=\write6
-\openout6 = `introduction_topic1.out'.
+\openout6 = `ode_review_topic2_handout.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 26.
 \symnumbers=\mathgroup11
 \sympureletters=\mathgroup12
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 29.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 29.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 29.
+(Font)                  T1/cmss/bx/n --> T1/cmss/bx/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 29.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 29.
+(Font)                  T1/cmss/m/it --> T1/cmss/bx/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 29.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 26.
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 29
+(Font)              `pureletters' in the math version `normal' on input line 26
 .
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 29
+(Font)                  T1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 26
 .
 LaTeX Font Info:    Encoding `T1' has changed to `OT1' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 29.
+(Font)              `pureletters' in the math version `bold' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  T1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 2
-9.
+6.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 29.
+ut line 26.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -2095,109 +2095,112 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count371
- (./introduction_topic1.nav)
+ (./ode_review_topic2_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ] [2
 
-] [3
-
-] [4
-
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 95.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 95.
+line 58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+[3
+
+]
+<ferrari.jpg, id=75, 803.0pt x 552.0625pt>
+File: ferrari.jpg Graphic file (type jpg)
+<use ferrari.jpg>
+Package pdftex.def Info: ferrari.jpg  used on input line 78.
+(pdftex.def)             Requested size: 120.4448pt x 82.8058pt.
+<lecture1_fig2.png, id=76, 934.49126pt x 739.76375pt>
+File: lecture1_fig2.png Graphic file (type png)
+<use lecture1_fig2.png>
+Package pdftex.def Info: lecture1_fig2.png  used on input line 78.
+(pdftex.def)             Requested size: 93.45459pt x 73.9807pt.
+ [4
+
+ <./ferrari.jpg> <./lecture1_fig2.png>]
+Overfull \vbox (4.76349pt too high) detected at line 90
+ []
+
 [5
 
 ] [6
 
-] [7
+]
+File: lecture1_fig2.png Graphic file (type png)
+<use lecture1_fig2.png>
+Package pdftex.def Info: lecture1_fig2.png  used on input line 113.
+(pdftex.def)             Requested size: 140.16763pt x 110.95976pt.
+ [7
 
 ]
-<dji_phantom_fig2.jpg, id=130, 1084.05pt x 722.7pt>
-File: dji_phantom_fig2.jpg Graphic file (type jpg)
-<use dji_phantom_fig2.jpg>
-Package pdftex.def Info: dji_phantom_fig2.jpg  used on input line 143.
-(pdftex.def)             Requested size: 86.72577pt x 57.81717pt.
-<jeep_01.jpg, id=131, 3276.24pt x 2457.18pt>
-File: jeep_01.jpg Graphic file (type jpg)
-<use jeep_01.jpg>
-Package pdftex.def Info: jeep_01.jpg  used on input line 143.
-(pdftex.def)             Requested size: 81.8858pt x 61.41435pt.
-<falcon9_fig2.jpg, id=132, 1084.05pt x 722.7pt>
-File: falcon9_fig2.jpg Graphic file (type jpg)
-<use falcon9_fig2.jpg>
-Package pdftex.def Info: falcon9_fig2.jpg  used on input line 143.
-(pdftex.def)             Requested size: 108.41135pt x 72.27423pt.
- [8
-
- <./dji_phantom_fig2.jpg> <./jeep_01.jpg> <./falcon9_fig2.jpg>]
 \tf@nav=\write7
-\openout7 = `introduction_topic1.nav'.
+\openout7 = `ode_review_topic2_handout.nav'.
 
 \tf@toc=\write8
-\openout8 = `introduction_topic1.toc'.
+\openout8 = `ode_review_topic2_handout.toc'.
 
 \tf@snm=\write9
-\openout9 = `introduction_topic1.snm'.
+\openout9 = `ode_review_topic2_handout.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
-
-(./introduction_topic1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
-Package rerunfilecheck Info: File `introduction_topic1.out' has not changed.
-(rerunfilecheck)             Checksum: B2330F4789CA80D7D8E0BC1AB6C788D3;214.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+ (./ode_review_topic2_handout.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package rerunfilecheck Info: File `ode_review_topic2_handout.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: F71C66A7DC95920BF3B34FAB75BBB26C;312.
  ) 
 Here is how much of TeX's memory you used:
- 34683 strings out of 492982
- 684846 string characters out of 6134897
- 785185 words of memory out of 5000000
- 37594 multiletter control sequences out of 15000+600000
- 551089 words of font info for 73 fonts, out of 8000000 for 9000
+ 34670 strings out of 492982
+ 684805 string characters out of 6134897
+ 784059 words of memory out of 5000000
+ 37585 multiletter control sequences out of 15000+600000
+ 549954 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,73p,10368b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf-d
-ist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf-dist/fonts
-/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
-s/mnsymbol/MnSymbolA.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
-mbol/MnSymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-si12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1
-200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on introduction_topic1.pdf (8 pages, 2946431 bytes).
+ 67i,19n,73p,10374b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/mnsymbol/MnSymbolD.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+mnsymbol/MnSymbol8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.
+pfb>
+Output written on ode_review_topic2_handout.pdf (7 pages, 385183 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
