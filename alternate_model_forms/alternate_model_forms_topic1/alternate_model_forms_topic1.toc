@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Equivalent Model Concept}{3}{0}{1}
+\beamer@sectionintoc {2}{Differential Equations}{5}{0}{2}
+\beamer@sectionintoc {3}{State-Variable (Space) Models}{7}{0}{3}
+\beamer@sectionintoc {4}{Block Diagrams}{8}{0}{4}
+\beamer@sectionintoc {5}{Computer Models}{9}{0}{5}
