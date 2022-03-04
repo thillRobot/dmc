@@ -1,0 +1,184 @@
+% ME3050 -  Dynamics Modeling and Controls - Tennessee Technological University
+% Tristan Hill - Spring 2020 - Summer 2020 - Spring 2022
+% Dynamics Modeling and Controls
+% Lecture Module - Alternate Model Forms  - Topic 1  - Equivalent Models
+
+% Document settings
+
+\documentclass{beamer}                  % for presentation ?
+%\documentclass[handout]{beamer}  % for handout ?
+
+\usepackage{/home/thill/Documents/lectures/dmc_lectures/dmc_lectures}
+
+\newcommand{\MNUM}{2\hspace{2mm}} % Module number
+\newcommand{\TNUM}{1\hspace{2mm}} % Topic number 
+\newcommand{\moduletitle}{Alternate Model Forms} % Titles and Stuff
+\newcommand{\topictitle}{Equivalent Models} 
+
+\newcommand{\sectiontitleI}{Equivalent Model Concept} % More Titles and Stuff
+\newcommand{\sectiontitleII}{Differential Equations}
+\newcommand{\sectiontitleIII}{Transfer Functions and Block Diagrams}
+\newcommand{\sectiontitleIV}{State-Space (Variable) Models}
+\newcommand{\sectiontitleV}{Computer Models}
+
+\author{ME3050 - Dynamic Modeling and Controls}
+\title{Lecture Module - \moduletitle}
+\date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\begin{document}
+	
+	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
+	
+	\frame{\titlepage \center\begin{framed}\Large \textbf{Topic \TNUM - \topictitle}\end{framed} \vspace{5mm}}
+	
+	% Section 0 - Outline
+\frame{
+	
+	\large \textbf{\moduletitle} \vspace{3mm}\\
+	
+	\begin{itemize}
+	
+		\item \hyperlink{sectionI}{\sectiontitleI} \vspc % Section I
+		\item \hyperlink{sectionII}{\sectiontitleII} \vspc % Section II
+		\item \hyperlink{sectionIII}{\sectiontitleIII} \vspc %Section III
+		\item \hyperlink{sectionIV}{\sectiontitleIV} \vspc %Section IV	
+		\item \hyperlink{sectionV}{\sectiontitleV} \vspc %Section V
+	
+	\end{itemize}
+
+}
+
+% Section I
+\section{\sectiontitleI}
+
+	% Section I - Frame I
+	\begin{frame}[label=sectionI] \small
+		\frametitle{\sectiontitleI}
+
+		\vspace{3mm}
+		A mathematical model is an expression derived from basic principles that describes a physical or simulated system. \vspace{2mm}\\ 
+		Models appear in different forms.  
+
+		\begin{itemize}
+		 	\item
+		 	\item
+		 	\item
+
+		\end{itemize} 
+		\vspace*{8mm}
+		{\it Each form has its own advantages and disadvantages. We can convert one form into another, with differing degrees of difficulty.} - Palm  
+
+		\btVFill
+		\tiny{System Dynamics, Palm, 4$^{th}$}	
+
+	\end{frame}
+
+	%\section{\sectiontitleII}	
+	
+	% Section I - Frame II
+	\begin{frame}[label=sectionI] \small
+		\frametitle{\sectiontitleI}
+		%\bigskip
+		
+
+		\btVFill
+		\tiny{System Dynamics, Palm, 4$^{th}$}		
+		
+	\end{frame}
+
+% Section II
+\section{\sectiontitleII}
+
+	% Section II - Frame I
+	\begin{frame}[label=sectionII,containsverbatim] \small
+%		\frametitle{\sectiontitleII}
+	
+		\frametitle{Standard Form of an ODE}
+
+		Ordinary Differential Equations are written in the following form.\vspace{1mm}
+
+		\[a_n\frac{dy^{(n)}}{d^{(n)}x}+a_{n-1}\frac{dy^{(n-1)}}{d^{(n-1)}x}+...+a_{2}\frac{dy^{2}}{d^{2}x}+a_{1}\frac{dy}{dx}+a_0y=f(x)\] \vspace{1mm}		
+
+		The apostrophe is commonly used for the derivative. \vspace{1mm}
+
+		\[a_ny^{(n)}+a_{n-1}y^{(n-1)}+...+a_2y'' +a_1y'+a_0y=f(x)\] \vspace{1mm}
+
+		The overdot notation implies that time is the independent variable. \vspace{1mm}
+
+		\[a_2\ddot{y} +a_1\dot{y}+a_0y=f(t)\] \vspace{1mm}
+
+	\end{frame}
+
+	%Section II - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleII}
+			
+	\end{frame}	
+
+% Section III
+\section{\sectiontitleIII}
+
+	% Section III - Frame I
+	\begin{frame}[label=sectionIII] \small
+		\frametitle{\sectiontitleIII}
+		\vspace{3mm}
+		The transfer function is a way of describing a system that can be used to analyze the system response to an external input with the assumption of zero intial conditions.  
+
+			
+		\[ T(s)=\frac{X(s)}{F(s)} \]
+		\vspace{10mm}
+		Does this look familiar? How can we find the transfer function?		
+
+		\btVFill
+	\end{frame}	
+	
+	%Section III - Frame II
+	\begin{frame} \small
+		\frametitle{\sectiontitleIII}
+		\vspace{3mm}	
+		A block diagram is a visual representation of the transfer function concept. Here are the four basic symbols.
+
+		\vspace{5mm}
+
+		\includegraphics[scale=.04]{four_basic_symbols.png} \vspace{2mm}\\
+
+		Mathematical operations can be represented as block diagrams. \vspace{2mm}\\
+
+		\includegraphics[scale=.04]{two_types_blocks.png}
+
+		\btVFill
+	\end{frame}	
+
+	%Section III - Frame III
+	\begin{frame} \small
+		\frametitle{\sectiontitleIII}
+
+		Complex systems can be desribed by block diagrams. \vspace{5mm} \\
+		
+		\includegraphics[scale=0.04]{control_loop_example.png}
+
+			
+	\end{frame}	
+
+% Section IV
+\section{\sectiontitleIV}
+
+	% Section IV - Frame I
+	\begin{frame}[label=sectionIV] \small
+		\frametitle{\sectiontitleIV}
+		
+	\end{frame}	
+
+% Section V
+\section{\sectiontitleV}
+
+	% Section V - Frame I
+	\begin{frame}[label=sectionV] \small
+		\frametitle{\sectiontitleV}
+		
+	\end{frame}	
+
+\end{document}
+
+
+
