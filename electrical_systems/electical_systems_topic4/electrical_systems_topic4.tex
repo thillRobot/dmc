@@ -7,8 +7,9 @@
 
 \documentclass{beamer}                  % for presentation ?
 %\documentclass[handout]{beamer}  % for handout ?
-
-\usepackage{/home/thill/Documents/lectures/dmc_lectures/dmc_lectures}
+ 
+%\usepackage{/home/thill/Documents/lectures/dmc_lectures/dmc_lectures}
+\usepackage{/home/tntech.edu/thill/courses/dmc/dmc_lectures}
 
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
 \newcommand{\TNUM}{4\hspace{2mm}} % Topic number 
@@ -76,18 +77,70 @@
 
 % Section II
 \section{\sectiontitleII}
-
+	
 	% Section II - Frame I
 	\begin{frame}[label=sectionII,containsverbatim] \small
-%		\frametitle{\sectiontitleII}
-	
+        \frametitle{\sectiontitleII}
+		Armature Controlled Brushed DC Motor \vspc
+
+		\includegraphics[scale=.85]{paL40056_06_05_03_cropped.png}
+
+		\btVFill
+		\tiny{Image: System Dynamics, Palm, 4$^{th}$, Pg. 376-378}
 		
 	\end{frame}
 
-	%Section II - Frame II
+	% Section II - Frame I
+	\begin{frame}[label=sectionII,containsverbatim] \small
+        \frametitle{\sectiontitleII}
+		Armature Controlled Brushed DC Motor \vspc
+
+		\begin{multicols}{2}
+
+		\includegraphics[scale=.65]{paL40056_06_05_04_cropped.png}
+		$v_a$ : armature voltage (input)\vspc
+        $R_a$ : armature resistance
+
+        Torque on armature
+        \[T=\left(nBLi_a \right)r=\left(nBLr\right)i_a=K_Ti_a \hspc (6.5.3) \] 
+        Back EMF (electromotive force) voltage
+        \[v_b=nBLv=\left(nBLr\right)\omega=K_b\omega \hspc (6.5.4)\]	
+
+        \end{multicols}
+
+		\btVFill
+		\tiny{Image: System Dynamics, Palm, 4$^{th}$, Pg. 376-378}
+		
+	\end{frame}
+
+	% Section II - Frame II
+	\begin{frame}[label=sectionII,containsverbatim] \small
+        \frametitle{\sectiontitleII}
+		Armature Controlled Brushed DC Motor \vspc
+
+		\includegraphics[scale=.65]{paL40056_06_05_05_cropped.png}
+
+        Kirchoff's Voltage Law 
+        \[ v_a-R_ai_a-L_a\frac{di_a}{dt}-K_b\omega=0 \hspc (6.5.5)\] 
+
+        Newtons's Second Law  
+        \[ I\frac{d\omega}{dt}=T-c\omega-T_L=K_Ti_a-c\omega-T_L\hspc (6.5.4)\]	
+
+		\btVFill
+		\tiny{Image: System Dynamics, Palm, 4$^{th}$, Pg. 376-378}
+		
+	\end{frame}	
+
+	%Section II - Frame III
 	\begin{frame} \small
 		\frametitle{\sectiontitleII}
-			
+
+		\includegraphics[scale=.25]{Electric_motor_cycle_2.png}
+
+		\href{https://en.wikipedia.org/wiki/DC_motor}{Animation on Web} 
+
+		\btVFill
+		\tiny{source: \href{https://en.wikipedia.org/wiki/DC_motor}{wikipedia}}
 	\end{frame}	
 
 % Section III
