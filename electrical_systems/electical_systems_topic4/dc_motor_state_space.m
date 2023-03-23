@@ -29,12 +29,14 @@ D=[0 0
 Va=12;
 TL=0;
 ia_ss=(c*Va+Kb*TL)/(c*Ra+Kb*KT)
+w_ss=(KT*Va-Ra*TL)/(c*Ra+Kb*KT)
+
 
 % create a state space model object
 sys1=ss(A,B,C,D);
 
 % simulate a step response 
 figure(1)
-time=0:0.001:1;
+time=0:0.001:0.25;
 opts=stepDataOptions('StepAmplitude',Va);
 step(sys1,time,opts); grid on

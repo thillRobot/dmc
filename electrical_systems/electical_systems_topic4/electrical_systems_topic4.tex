@@ -14,7 +14,7 @@
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
 \newcommand{\TNUM}{4\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Electrical Systems} % Titles and Stuff
-\newcommand{\topictitle}{Example: DC Motor} 
+\newcommand{\topictitle}{Example: Brushed DC Motor} 
 
 \newcommand{\sectiontitleI}{Brushed DC Motor}
 \newcommand{\sectiontitleII}{Model Derivation}
@@ -201,7 +201,7 @@
 		\textbf{Final Value Theorem:} 
 		To find the value of a function $x(t)$ as $t\rightarrow \infty$  
 
-		\[x\left(\infty\right)=\lim_{x\to\infty} f(x)\]
+		\[x\left(\infty\right)=\lim_{x\to\infty} f(x) = \lim_{s\to 0} sX\left(s\right)\]
 
 		Use final value theorem to find steady state value to step input on $V_a$, $T_L$
 		\[i_a=\frac{cV_a + K_bT_L}{cR_a+K_bK_T}\]
@@ -272,7 +272,28 @@ opts=stepDataOptions('StepAmplitude',Va);
 step(sys1,time,opts); grid on
 		\end{lstlisting}
 
-
 	\end{frame}	
+
+% Section V - Frame III
+	\begin{frame}[containsverbatim,label=sectionV] \small
+		\frametitle{\sectiontitleV}
+		
+		\begin{multicols}{2}
+
+		\includegraphics[scale=0.25]{dc_motor_state_space_figure1.png}	
+
+		\begin{lstlisting}
+ia_ss =
+
+    4.0000
+
+w_ss =
+
+   200
+		\end{lstlisting}
+
+		\end{multicols}
+
+	\end{frame}
 
 \end{document}
