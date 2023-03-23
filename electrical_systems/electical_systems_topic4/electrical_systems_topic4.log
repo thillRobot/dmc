@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -101,6 +101,16 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks15
 )
+(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\dimen158
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
@@ -122,15 +132,15 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks16
-\pgfutil@tempdima=\dimen160
-\pgfutil@tempdimb=\dimen161
+\pgfutil@tempdima=\dimen161
+\pgfutil@tempdimb=\dimen162
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -153,16 +163,16 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 ex
 \pgfkeys@tmptoks=\toks19
 ))
-\pgf@x=\dimen162
-\pgf@y=\dimen163
-\pgf@xa=\dimen164
-\pgf@ya=\dimen165
-\pgf@xb=\dimen166
-\pgf@yb=\dimen167
-\pgf@xc=\dimen168
-\pgf@yc=\dimen169
-\pgf@xd=\dimen170
-\pgf@yd=\dimen171
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count195
@@ -218,7 +228,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen172
+\pgfmath@dimen=\dimen173
 \pgfmath@count=\count268
 \pgfmath@box=\box55
 \pgfmath@toks=\toks23
@@ -249,32 +259,32 @@ thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen173
-\pgf@picmaxx=\dimen174
-\pgf@picminy=\dimen175
-\pgf@picmaxy=\dimen176
-\pgf@pathminx=\dimen177
-\pgf@pathmaxx=\dimen178
-\pgf@pathminy=\dimen179
-\pgf@pathmaxy=\dimen180
-\pgf@xx=\dimen181
-\pgf@xy=\dimen182
-\pgf@yx=\dimen183
-\pgf@yy=\dimen184
-\pgf@zx=\dimen185
-\pgf@zy=\dimen186
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen187
-\pgf@path@lasty=\dimen188
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen189
-\pgf@shorten@start@additional=\dimen190
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -287,14 +297,14 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen191
+\pgflinewidth=\dimen192
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen192
-\pgf@pt@y=\dimen193
-\pgf@pt@temp=\dimen194
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -310,11 +320,11 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen195
+\pgfarrowsep=\dimen196
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen196
+\pgf@max=\dimen197
 \pgf@sys@shading@range@num=\count271
 \pgf@shadingcount=\count272
 )
@@ -385,7 +395,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen197
+\@linkdim=\dimen198
 \Hy@linkcounter=\count275
 \Hy@pagecounter=\count276
 
@@ -419,7 +429,7 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen198
+\XeTeXLinkMargin=\dimen199
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -429,8 +439,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count280
-\Field@Width=\dimen199
-\Fld@charsize=\dimen256
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -505,14 +515,14 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 \beamer@zoombox=\box62
 \beamer@zoomcount=\count291
 \beamer@zoomframecount=\count292
-\beamer@frametextheight=\dimen257
+\beamer@frametextheight=\dimen258
 \c@subsectionslide=\count293
 \beamer@frametopskip=\skip51
 \beamer@framebottomskip=\skip52
 \beamer@frametopskipautobreak=\skip53
 \beamer@framebottomskipautobreak=\skip54
 \beamer@envbody=\toks27
-\framewidth=\dimen258
+\framewidth=\dimen259
 \c@framenumber=\count294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
@@ -521,7 +531,7 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box63
 \beamer@autobreakcount=\count295
-\beamer@autobreaklastheight=\dimen259
+\beamer@autobreaklastheight=\dimen260
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
@@ -543,12 +553,12 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 \bmb@boxshadow=\box68
 \bmb@boxshadowball=\box69
 \bmb@boxshadowballlarge=\box70
-\bmb@temp=\dimen260
-\bmb@dima=\dimen261
-\bmb@dimb=\dimen262
-\bmb@prevheight=\dimen263
+\bmb@temp=\dimen261
+\bmb@dima=\dimen262
+\bmb@dimb=\dimen263
+\bmb@prevheight=\dimen264
 )
-\beamer@blockheadheight=\dimen264
+\beamer@blockheadheight=\dimen265
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
@@ -561,7 +571,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \belowcaptionskip=\skip56
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen265
+\beamer@section@min@dim=\dimen266
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -575,11 +585,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen266
+\ex@=\dimen267
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen267
+\pmbraise@=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -596,7 +606,7 @@ LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box71
 \strutbox@=\box72
-\big@size=\dimen268
+\big@size=\dimen269
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count303
@@ -609,12 +619,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \column@=\count308
 \maxfields@=\count309
 \andhelp@=\toks34
-\eqnshift@=\dimen269
-\alignsep@=\dimen270
-\tagshift@=\dimen271
-\tagwidth@=\dimen272
-\totwidth@=\dimen273
-\lineht@=\dimen274
+\eqnshift@=\dimen270
+\alignsep@=\dimen271
+\tagshift@=\dimen272
+\tagwidth@=\dimen273
+\totwidth@=\dimen274
+\lineht@=\dimen275
 \@envbody=\toks35
 \multlinegap=\skip58
 \multlinetaggap=\skip59
@@ -641,8 +651,8 @@ Package: amsthm 2017/10/31 v2.20.4
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
-\beamer@dima=\dimen275
-\beamer@dimb=\dimen276
+\beamer@dima=\dimen276
+\beamer@dimb=\dimen277
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
 (/home/tntech.edu/thill/courses/dmc/dmc_lectures.sty
@@ -654,27 +664,27 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip63
 \multirow@cntb=\count311
 \multirow@dima=\skip64
-\bigstrutjot=\dimen277
+\bigstrutjot=\dimen278
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count312
 \mult@box=\box73
-\multicol@leftmargin=\dimen278
+\multicol@leftmargin=\dimen279
 \c@unbalance=\count313
 \c@collectmore=\count314
 \doublecol@number=\count315
 \multicoltolerance=\count316
 \multicolpretolerance=\count317
-\full@width=\dimen279
-\page@free=\dimen280
-\premulticols=\dimen281
-\postmulticols=\dimen282
+\full@width=\dimen280
+\page@free=\dimen281
+\premulticols=\dimen282
+\postmulticols=\dimen283
 \multicolsep=\skip65
 \multicolbaselineskip=\skip66
 \partial@page=\box74
 \last@line=\box75
-\maxbalancingoverflow=\dimen283
+\maxbalancingoverflow=\dimen284
 \mult@rightbox=\box76
 \mult@grightbox=\box77
 \mult@gfirstbox=\box78
@@ -719,9 +729,9 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@minrows=\count318
 \c@columnbadness=\count319
 \c@finalcolumnbadness=\count320
-\last@try=\dimen284
-\multicolovershoot=\dimen285
-\multicolundershoot=\dimen286
+\last@try=\dimen285
+\multicolovershoot=\dimen286
+\multicolundershoot=\dimen287
 \mult@nat@firstbox=\box117
 \colbreak@box=\box118
 \mc@col@check@num=\count321
@@ -734,9 +744,9 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks46
 \SOUL@token=\toks47
 \SOUL@spaceskip=\skip67
-\SOUL@ttwidth=\dimen287
-\SOUL@uldp=\dimen288
-\SOUL@ulht=\dimen289
+\SOUL@ttwidth=\dimen288
+\SOUL@uldp=\dimen289
+\SOUL@ulht=\dimen290
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
@@ -750,10 +760,10 @@ Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip68
-\fb@frw=\dimen290
-\fb@frh=\dimen291
-\FrameRule=\dimen292
-\FrameSep=\dimen293
+\fb@frw=\dimen291
+\fb@frh=\dimen292
+\FrameRule=\dimen293
+\FrameSep=\dimen294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemesplit.sty
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
@@ -785,8 +795,8 @@ Package pdftex.def Info: keystroke_right.pdf  used on input line 173.
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box124
 \sift@deathcycles=\count325
-\@vwid@loff=\dimen294
-\@vwid@roff=\dimen295
+\@vwid@loff=\dimen295
+\@vwid@roff=\dimen296
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -806,7 +816,7 @@ Package: xparse 2020-02-14 L3 Experimental document command parser
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2020-02-14 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen296
+\l__xtemplate_tmp_dim=\dimen297
 \l__xtemplate_tmp_int=\count331
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip69
@@ -820,16 +830,16 @@ Package: tasks 2020/01/11 v1.1a horizontally columned lists
 \l__tasks_item_columns_int=\count337
 \g__tasks_env_int=\count338
 \l__tasks_start_int=\count339
-\l__tasks_item_indent_dim=\dimen297
-\l__tasks_item_default_indent_dim=\dimen298
-\l__tasks_item_width_dim=\dimen299
-\l__tasks_label_width_dim=\dimen300
-\l__tasks_label_default_width_dim=\dimen301
-\l__tasks_label_offset_dim=\dimen302
-\l__tasks_label_default_offset_dim=\dimen303
-\l__tasks_column_sep_dim=\dimen304
-\l__tasks_correction_dim=\dimen305
-\l__tasks_full_width_dim=\dimen306
+\l__tasks_item_indent_dim=\dimen298
+\l__tasks_item_default_indent_dim=\dimen299
+\l__tasks_item_width_dim=\dimen300
+\l__tasks_label_width_dim=\dimen301
+\l__tasks_label_default_width_dim=\dimen302
+\l__tasks_label_offset_dim=\dimen303
+\l__tasks_label_default_offset_dim=\dimen304
+\l__tasks_column_sep_dim=\dimen305
+\l__tasks_correction_dim=\dimen306
+\l__tasks_full_width_dim=\dimen307
 \l__tasks_after_item_skip=\skip70
 \l__tasks_custom_after_item_skip=\skip71
 \l__tasks_before_list_skip=\skip72
@@ -847,6 +857,20 @@ Package xtemplate Info: Declaring object type 'tasks' taking 3 argument(s) on
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.sty
+
+LaTeX Warning: inputting `fleqn.clo' instead of obsolete `fleqn.sty'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\dimen308
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup6
@@ -870,8 +894,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen307
-\pgf@nodesepend=\dimen308
+\pgf@nodesepstart=\dimen309
+\pgf@nodesepend=\dimen310
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -885,8 +909,8 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen309
-\pgffor@skip=\dimen310
+\pgffor@iter=\dimen311
+\pgffor@skip=\dimen312
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
@@ -897,16 +921,16 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count343
-\pgfplotmarksize=\dimen311
+\pgfplotmarksize=\dimen313
 )
-\tikz@lastx=\dimen312
-\tikz@lasty=\dimen313
-\tikz@lastxsaved=\dimen314
-\tikz@lastysaved=\dimen315
-\tikz@lastmovetox=\dimen316
-\tikz@lastmovetoy=\dimen317
-\tikzleveldistance=\dimen318
-\tikzsiblingdistance=\dimen319
+\tikz@lastx=\dimen314
+\tikz@lasty=\dimen315
+\tikz@lastxsaved=\dimen316
+\tikz@lastysaved=\dimen317
+\tikz@lastmovetox=\dimen318
+\tikz@lastmovetoy=\dimen319
+\tikzleveldistance=\dimen320
+\tikzsiblingdistance=\dimen321
 \tikz@figbox=\box131
 \tikz@figbox@bg=\box132
 \tikz@tempbox=\box133
@@ -941,7 +965,7 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen320
+\arrowsize=\dimen322
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -949,14 +973,14 @@ zlibrarydecorations.pathmorphing.code.tex
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen321
-\pgfdecoratedremainingdistance=\dimen322
-\pgfdecoratedinputsegmentcompleteddistance=\dimen323
-\pgfdecoratedinputsegmentremainingdistance=\dimen324
-\pgf@decorate@distancetomove=\dimen325
+\pgfdecoratedcompleteddistance=\dimen323
+\pgfdecoratedremainingdistance=\dimen324
+\pgfdecoratedinputsegmentcompleteddistance=\dimen325
+\pgfdecoratedinputsegmentremainingdistance=\dimen326
+\pgf@decorate@distancetomove=\dimen327
 \pgf@decorate@repeatstate=\count352
-\pgfdecorationsegmentamplitude=\dimen326
-\pgfdecorationsegmentlength=\dimen327
+\pgfdecorationsegmentamplitude=\dimen328
+\pgfdecorationsegmentlength=\dimen329
 )
 \tikz@lib@dec@box=\box135
 )
@@ -966,21 +990,21 @@ decorations.pathmorphing.code.tex))
 zlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-\l__tikzsymbols_Moai_thickness_dim=\dimen328
+\l__tikzsymbols_Moai_thickness_dim=\dimen330
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count353
 \lst@gtempboxa=\box136
 \lst@token=\toks50
 \lst@length=\count354
-\lst@currlwidth=\dimen329
+\lst@currlwidth=\dimen331
 \lst@column=\count355
 \lst@pos=\count356
-\lst@lostspace=\dimen330
-\lst@width=\dimen331
+\lst@lostspace=\dimen332
+\lst@width=\dimen333
 \lst@newlines=\count357
 \lst@lineno=\count358
-\lst@maxwidth=\dimen332
+\lst@maxwidth=\dimen334
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
@@ -1006,7 +1030,10 @@ Package hyperref Info: Option `pdfmenubar' set `true' on input line 105.
 Package hyperref Info: Option `pdffitwindow' set `false' on input line 105.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
-) (./electrical_systems_topic4.aux
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+(./electrical_systems_topic4.aux
 
 LaTeX Warning: Label `sectionII<1>' multiply defined.
 
@@ -1025,25 +1052,31 @@ LaTeX Warning: Label `sectionIV<1>' multiply defined.
 
 LaTeX Warning: Label `sectionIV' multiply defined.
 
+
+LaTeX Warning: Label `sectionV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionV' multiply defined.
+
 )
 \openout1 = `electrical_systems_topic4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1082,13 +1115,13 @@ LaTeX Font Info:    ... okay on input line 36.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count361
-\scratchdimen=\dimen333
+\scratchdimen=\dimen335
 \scratchbox=\box138
 \nofMPsegments=\count362
 \nofMParguments=\count363
 \everyMPshowfont=\toks51
 \MPscratchCnt=\count364
-\MPscratchDim=\dimen334
+\MPscratchDim=\dimen336
 \MPnumerator=\count365
 \makeMPintoPDFobject=\count366
 \everyMPtoPDFconversion=\toks52
@@ -1103,7 +1136,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box139
-Package hyperref Info: Link coloring ON on input line 36.
+Package hyperref Info: Link coloring ON on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1116,56 +1149,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./electrical_systems_topic4.out) (./electrical_systems_topic4.out)
 \@outlinefile=\write6
 \openout6 = `electrical_systems_topic4.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 38.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 36.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 36.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 38.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 36.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 36.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 38.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 36.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1192,32 +1225,30 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count368
- (./electrical_systems_topic4.nav)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ (./electrical_systems_topic4.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pd
+ftex.map}
 
 ] [2
 
 ]
-<paL40056_06_05_03_cropped.png, id=128, 212.9556pt x 146.949pt>
+<paL40056_06_05_03_cropped.png, id=129, 212.9556pt x 146.949pt>
 File: paL40056_06_05_03_cropped.png Graphic file (type png)
 <use paL40056_06_05_03_cropped.png>
-Package pdftex.def Info: paL40056_06_05_03_cropped.png  used on input line 67.
+Package pdftex.def Info: paL40056_06_05_03_cropped.png  used on input line 69.
 (pdftex.def)             Requested size: 181.01309pt x 124.90723pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 70
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 72
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
@@ -1225,10 +1256,10 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [3
 
  <./paL40056_06_05_03_cropped.png>]
-<Electric_motor_cycle_2.png, id=167, 602.25pt x 602.25pt>
+<Electric_motor_cycle_2.png, id=168, 602.25pt x 602.25pt>
 File: Electric_motor_cycle_2.png Graphic file (type png)
 <use Electric_motor_cycle_2.png>
-Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 84.
+Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 86.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
  [4
 
@@ -1236,22 +1267,32 @@ Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 84.
 e identifier (name{sectionII<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 ...}[label=sectionII,containsverbatim] \small
+l.92 ...}[label=sectionII,containsverbatim] \small
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{sectionII}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.90 ...}[label=sectionII,containsverbatim] \small
+l.92 ...}[label=sectionII,containsverbatim] \small
                                                   
-<paL40056_06_05_04_cropped.png, id=202, 218.9781pt x 138.2766pt>
+<paL40056_06_05_04_cropped.png, id=203, 218.9781pt x 138.2766pt>
 File: paL40056_06_05_04_cropped.png Graphic file (type png)
 <use paL40056_06_05_04_cropped.png>
-Package pdftex.def Info: paL40056_06_05_04_cropped.png  used on input line 96.
+Package pdftex.def Info: paL40056_06_05_04_cropped.png  used on input line 98.
 (pdftex.def)             Requested size: 153.28362pt x 96.79294pt.
 
-Overfull \hbox (4.63869pt too wide) in paragraph at lines 96--96
+Overfull \hbox (4.63869pt too wide) in paragraph at lines 98--98
 [][]  
+ []
+
+
+Overfull \hbox (17.44pt too wide) detected at line 105
+$ []$ 
+ []
+
+
+Overfull \hbox (1.54987pt too wide) detected at line 107
+$ []$ 
  []
 
 [5
@@ -1260,23 +1301,33 @@ Overfull \hbox (4.63869pt too wide) in paragraph at lines 96--96
 same identifier (name{sectionII<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 ...[label=sectionII,containsverbatim] \small
+l.117 ...[label=sectionII,containsverbatim] \small
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{sectionII}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.115 ...[label=sectionII,containsverbatim] \small
+l.117 ...[label=sectionII,containsverbatim] \small
                                                   
-<paL40056_06_05_05_cropped.png, id=239, 297.9933pt x 85.0377pt>
+<paL40056_06_05_05_cropped.png, id=240, 297.9933pt x 85.0377pt>
 File: paL40056_06_05_05_cropped.png Graphic file (type png)
 <use paL40056_06_05_05_cropped.png>
-Package pdftex.def Info: paL40056_06_05_05_cropped.png  used on input line 119.
+Package pdftex.def Info: paL40056_06_05_05_cropped.png  used on input line 121.
 
 (pdftex.def)             Requested size: 193.69334pt x 55.27383pt.
  [6
 
- <./paL40056_06_05_05_cropped.png>] [7
+ <./paL40056_06_05_05_cropped.png>]
+Overfull \hbox (23.65263pt too wide) detected at line 167
+$ []$ 
+ []
+
+
+Overfull \hbox (12.17336pt too wide) detected at line 167
+$ []$ 
+ []
+
+[7
 
 ] [8
 
@@ -1284,15 +1335,46 @@ Package pdftex.def Info: paL40056_06_05_05_cropped.png  used on input line 119.
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 	\end{frame}
+l.195 	\end{frame}
                   	pdfTeX warning (ext4): destination with the same identifier 
 (name{sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 	\end{frame}
+l.195 	\end{frame}
                   	 [9
 
-] [10
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+06.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [10
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionV<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.221 ...}[containsverbatim,label=sectionV] \small
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{sectionV}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.221 ...}[containsverbatim,label=sectionV] \small
+                                                   [11
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionV<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.241 ...}[containsverbatim,label=sectionV] \small
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{sectionV}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.241 ...}[containsverbatim,label=sectionV] \small
+                                                   [12
 
 ]
 \tf@nav=\write7
@@ -1304,11 +1386,12 @@ l.193 	\end{frame}
 \tf@snm=\write9
 \openout9 = `electrical_systems_topic4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
- (./electrical_systems_topic4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+
+(./electrical_systems_topic4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `electrical_systems_topic4.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: B146D71AC2298A5C3963854D961E0355;259.
@@ -1318,38 +1401,39 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25831 strings out of 483183
- 512022 string characters out of 5966292
- 993988 words of memory out of 5000000
- 40201 multiletter control sequences out of 15000+600000
+ 26698 strings out of 483183
+ 521261 string characters out of 5966292
+ 1014902 words of memory out of 5000000
+ 41054 multiletter control sequences out of 15000+600000
  551594 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,19n,73p,792b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,792b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIII} has been referenced but does not exis
 t, replaced by a fixed one
 
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecsi0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf
--var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.edu/thill/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home/tntech.edu/
-thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home
-/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.6
+ </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+t1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecss0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecsi0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.edu/
+thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home
+/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.6
 00pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill/.
-texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on electrical_systems_topic4.pdf (10 pages, 522041 bytes).
+c/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.
+texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech
+.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on electrical_systems_topic4.pdf (12 pages, 544256 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 39 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

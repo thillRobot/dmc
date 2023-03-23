@@ -5,7 +5,7 @@
 
 % Document settings
 
-\documentclass{beamer}                  % for presentation ?
+\documentclass[fleqn]{beamer}                  % for presentation ?
 %\documentclass[handout]{beamer}  % for handout ?
  
 %\usepackage{/home/thill/Documents/lectures/dmc_lectures/dmc_lectures}
@@ -25,6 +25,8 @@
 \author{ME3050 - Dynamic Modeling and Controls}
 \title{Lecture Module - \moduletitle}
 \date{Mechanical Engineering\vspc Tennessee Technological University}
+
+\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
 
 \makeatletter
 \renewcommand*\env@matrix[1][\arraystretch]{%
@@ -156,7 +158,7 @@
 		Write the state equation in matrix form with states $x_1=i_a$, and $x_2=\omega$
 		\[
 		  \begin{bmatrix}\dot{x}_1 \\ \dot{x}_2\end{bmatrix} 
-		  =\begin{bmatrix}[1.5] \frac{R_a}{L_a} & -\frac{K_b}{L_a} \\ \frac{K_T}{I} & -\frac{c}{I}\end{bmatrix}
+		  =\begin{bmatrix}[1.5] -\frac{R_a}{L_a} & -\frac{K_b}{L_a} \\ \frac{K_T}{I} & -\frac{c}{I}\end{bmatrix}
 		  \begin{bmatrix} x_1 \\ x_2\end{bmatrix}
 		  +\begin{bmatrix}[1.5] \frac{1}{L_a} & 0 \\ 0 & -\frac{1}{I}\end{bmatrix}
 		  \begin{bmatrix}v_a \\T_L \end{bmatrix}
@@ -196,9 +198,59 @@
 \section{\sectiontitleV}
 
 	% Section V - Frame I
-	\begin{frame}[label=sectionV] \small
+	\begin{frame}[containsverbatim,label=sectionV] \small
 		\frametitle{\sectiontitleV}
+
+		The following MATLAB code defines a state space system object and simulates the system response to various inputs.
 		
+		\begin{lstlisting}
+% DC Motor Example (System Dynamics 4th ed., Palm, Pg 376-378)  
+clear; close all; clc
+
+% define system parameters
+KT=0.05;  % (N*m/A)
+Kb=KT;    % (N*m/A)
+c=10e-4;  % (N*m*s/rad)   
+Ra=0.5;   % (Ohm)
+La=2e-3;  % (H)
+I=9e-5;   % (kg*m^2)
+		\end{lstlisting}
+\end{frame}	
+
+% Section V - Frame II
+	\begin{frame}[containsverbatim,label=sectionV] \small
+		\frametitle{\sectiontitleV}
+		\begin{lstlisting}
+% define components of the state equation
+A=[-Ra/La -Kb/La
+   KT/I -c/I];
+% B matrix is 2x2 because u vector is 2x1
+B=[1/La 0 
+   0 -1/I];
+
+% use first two states as outputs
+C=[1 0
+   0 1];
+% the D matrix shape of B matrix 
+D=[0 0
+   0 0];
+		\end{lstlisting}
+	\end{frame}
+
+% Section V - Frame III
+	\begin{frame}[containsverbatim,label=sectionV] \small
+		\frametitle{\sectiontitleV}
+		\begin{lstlisting}
+% create a state space model object
+sys1=ss(A,B,C,D);
+
+% simulate a step response 
+figure(1)
+step(sys1)
+grid on; xlabel('time(s)')
+		\end{lstlisting}
+
+
 	\end{frame}	
 
 \end{document}
