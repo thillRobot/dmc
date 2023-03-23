@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,12 +1008,6 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 ) (./electrical_systems_topic4.aux
 
-LaTeX Warning: Label `sectionI<1>' multiply defined.
-
-
-LaTeX Warning: Label `sectionI' multiply defined.
-
-
 LaTeX Warning: Label `sectionII<1>' multiply defined.
 
 
@@ -1024,26 +1018,32 @@ LaTeX Warning: Label `sectionII<1>' multiply defined.
 
 
 LaTeX Warning: Label `sectionII' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV' multiply defined.
 
 )
 \openout1 = `electrical_systems_topic4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1103,7 +1103,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box139
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1116,56 +1116,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count367
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./electrical_systems_topic4.out) (./electrical_systems_topic4.out)
 \@outlinefile=\write6
 \openout6 = `electrical_systems_topic4.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 36.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 29.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 29.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 29.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 29.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 29.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 29.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 29.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1200,107 +1200,99 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 ] [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+<paL40056_06_05_03_cropped.png, id=128, 212.9556pt x 146.949pt>
+File: paL40056_06_05_03_cropped.png Graphic file (type png)
+<use paL40056_06_05_03_cropped.png>
+Package pdftex.def Info: paL40056_06_05_03_cropped.png  used on input line 67.
+(pdftex.def)             Requested size: 181.01309pt x 124.90723pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 63
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 70
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) [3
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionI<1>}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.76 	\end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{sectionI}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.76 	\end{frame}
-                  [4
+ <./paL40056_06_05_03_cropped.png>]
+<Electric_motor_cycle_2.png, id=167, 602.25pt x 602.25pt>
+File: Electric_motor_cycle_2.png Graphic file (type png)
+<use Electric_motor_cycle_2.png>
+Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 84.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+ [4
 
-]
-<paL40056_06_05_03_cropped.png, id=193, 212.9556pt x 146.949pt>
-File: paL40056_06_05_03_cropped.png Graphic file (type png)
-<use paL40056_06_05_03_cropped.png>
-Package pdftex.def Info: paL40056_06_05_03_cropped.png  used on input line 86.
-(pdftex.def)             Requested size: 181.01309pt x 124.90723pt.
- [5
-
- <./paL40056_06_05_03_cropped.png>]pdfTeX warning (ext4): destination with the 
-same identifier (name{sectionII<1>}) has been already used, duplicate ignored
+ <./Electric_motor_cycle_2.png>]pdfTeX warning (ext4): destination with the sam
+e identifier (name{sectionII<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 ...}[label=sectionII,containsverbatim] \small
+l.90 ...}[label=sectionII,containsverbatim] \small
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{sectionII}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.94 ...}[label=sectionII,containsverbatim] \small
+l.90 ...}[label=sectionII,containsverbatim] \small
                                                   
-<paL40056_06_05_04_cropped.png, id=230, 218.9781pt x 138.2766pt>
+<paL40056_06_05_04_cropped.png, id=202, 218.9781pt x 138.2766pt>
 File: paL40056_06_05_04_cropped.png Graphic file (type png)
 <use paL40056_06_05_04_cropped.png>
-Package pdftex.def Info: paL40056_06_05_04_cropped.png  used on input line 100.
-
+Package pdftex.def Info: paL40056_06_05_04_cropped.png  used on input line 96.
 (pdftex.def)             Requested size: 153.28362pt x 96.79294pt.
 
-Overfull \hbox (4.63869pt too wide) in paragraph at lines 100--100
+Overfull \hbox (4.63869pt too wide) in paragraph at lines 96--96
 [][]  
  []
 
-[6
+[5
 
  <./paL40056_06_05_04_cropped.png>]pdfTeX warning (ext4): destination with the 
 same identifier (name{sectionII<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120 ...[label=sectionII,containsverbatim] \small
+l.115 ...[label=sectionII,containsverbatim] \small
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{sectionII}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.120 ...[label=sectionII,containsverbatim] \small
+l.115 ...[label=sectionII,containsverbatim] \small
                                                   
-<paL40056_06_05_05_cropped.png, id=268, 297.9933pt x 85.0377pt>
+<paL40056_06_05_05_cropped.png, id=239, 297.9933pt x 85.0377pt>
 File: paL40056_06_05_05_cropped.png Graphic file (type png)
 <use paL40056_06_05_05_cropped.png>
-Package pdftex.def Info: paL40056_06_05_05_cropped.png  used on input line 124.
+Package pdftex.def Info: paL40056_06_05_05_cropped.png  used on input line 119.
 
 (pdftex.def)             Requested size: 193.69334pt x 55.27383pt.
- [7
+ [6
 
- <./paL40056_06_05_05_cropped.png>]
-<Electric_motor_cycle_2.png, id=302, 602.25pt x 602.25pt>
-File: Electric_motor_cycle_2.png Graphic file (type png)
-<use Electric_motor_cycle_2.png>
-Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 147.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
- [8
+ <./paL40056_06_05_05_cropped.png>] [7
 
- <./Electric_motor_cycle_2.png>] [9
+] [8
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 	\end{frame}
+                  	pdfTeX warning (ext4): destination with the same identifier 
+(name{sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 	\end{frame}
+                  	 [9
 
 ] [10
-
-] [11
-
-] [12
-
-] [13
 
 ]
 \tf@nav=\write7
@@ -1312,48 +1304,52 @@ Package pdftex.def Info: Electric_motor_cycle_2.png  used on input line 147.
 \tf@snm=\write9
 \openout9 = `electrical_systems_topic4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
-
-(./electrical_systems_topic4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+ (./electrical_systems_topic4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `electrical_systems_topic4.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: C980C2C8E3F8ED3EB6658F8F68249075;265.
+(rerunfilecheck)             Checksum: B146D71AC2298A5C3963854D961E0355;259.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25854 strings out of 483183
- 512408 string characters out of 5966292
- 985169 words of memory out of 5000000
- 40217 multiletter control sequences out of 15000+600000
+ 25831 strings out of 483183
+ 512022 string characters out of 5966292
+ 993988 words of memory out of 5000000
+ 40201 multiletter control sequences out of 15000+600000
  551594 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,792b,574s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csi0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/tntech.edu/thill/.texlive2019/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.edu/thill/.tex
-live2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home/tntech.ed
-u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </ho
-me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200
-.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on electrical_systems_topic4.pdf (13 pages, 514318 bytes).
+pdfTeX warning (dest): name{sectionIII} has been referenced but does not exis
+t, replaced by a fixed one
+
+ </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecsi0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.edu/thill/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home/tntech.edu/
+thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home
+/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.6
+00pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill/.
+texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on electrical_systems_topic4.pdf (10 pages, 522041 bytes).
 PDF statistics:
- 794 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 715 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 35 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

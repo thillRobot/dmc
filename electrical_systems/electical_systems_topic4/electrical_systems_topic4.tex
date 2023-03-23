@@ -14,18 +14,25 @@
 \newcommand{\MNUM}{2\hspace{2mm}} % Module number
 \newcommand{\TNUM}{4\hspace{2mm}} % Topic number 
 \newcommand{\moduletitle}{Electrical Systems} % Titles and Stuff
-\newcommand{\topictitle}{Mechatronics Applications} 
+\newcommand{\topictitle}{Example: DC Motor} 
 
-\newcommand{\sectiontitleI}{What is Mechatronics?} % More Titles and Stuff
-\newcommand{\sectiontitleII}{Example: DC Motor}
-\newcommand{\sectiontitleIII}{Governing Equations}
-\newcommand{\sectiontitleIV}{Model Derivation}
-\newcommand{\sectiontitleV}{Response Equation}
+\newcommand{\sectiontitleI}{Brushed DC Motor}
+\newcommand{\sectiontitleII}{Model Derivation}
+\newcommand{\sectiontitleIII}{State Space Form}
+\newcommand{\sectiontitleIV}{Transfer Functions}
+\newcommand{\sectiontitleV}{Simulated Response}
 
 \author{ME3050 - Dynamic Modeling and Controls}
 \title{Lecture Module - \moduletitle}
 \date{Mechanical Engineering\vspc Tennessee Technological University}
 
+\makeatletter
+\renewcommand*\env@matrix[1][\arraystretch]{%
+  \edef\arraystretch{#1}%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{*\c@MaxMatrixCols c}}
+\makeatother
 \begin{document}
 	
 	\lstset{language=MATLAB,basicstyle=\ttfamily\small,showstringspaces=false}
@@ -49,36 +56,10 @@
 
 }
 
-% Section I
-\section{\sectiontitleI}
+	% Section I
+	\section{\sectiontitleI}
 
 	% Section I - Frame I
-	\begin{frame}[label=sectionI] \small
-		\frametitle{\sectiontitleI}
-
-		
-		\btVFill
-		\tiny{System Dynamics, Palm, 4$^{th}$}	
-
-	\end{frame}
-
-	%\section{\sectiontitleII}	
-	
-	% Section I - Frame II
-	\begin{frame}[label=sectionI] \small
-		\frametitle{\sectiontitleI}
-		%\bigskip
-		
-
-		\btVFill
-		\tiny{System Dynamics, Palm, 4$^{th}$}		
-		
-	\end{frame}
-
-% Section II
-\section{\sectiontitleII}
-	
-	% Section II - Frame I
 	\begin{frame}[label=sectionII,containsverbatim] \small
         \frametitle{\sectiontitleII}
 		Armature Controlled Brushed DC Motor \vspc
@@ -90,6 +71,21 @@
 		
 	\end{frame}
 
+	% Section I - Frame II
+	\begin{frame}[label=sectionI] \small
+		\frametitle{\sectiontitleI}
+
+		\includegraphics[scale=.25]{Electric_motor_cycle_2.png}
+
+		\href{https://en.wikipedia.org/wiki/DC_motor}{Animation on Web} 
+
+		\btVFill
+		\tiny{source: \href{https://en.wikipedia.org/wiki/DC_motor}{wikipedia}}
+	\end{frame}	
+
+    % Section II
+    \section{\sectiontitleII}
+
 	% Section II - Frame I
 	\begin{frame}[label=sectionII,containsverbatim] \small
         \frametitle{\sectiontitleII}
@@ -98,7 +94,6 @@
 		\begin{multicols}{2}
 
 		\includegraphics[scale=.70]{paL40056_06_05_04_cropped.png}\vspace{5mm}\\
-
 
 		\small
 		$v_a$ : armature voltage (input)\vspc
@@ -134,43 +129,39 @@
 		
 	\end{frame}	
 
-	%Section II - Frame III
-	\begin{frame} \small
-		\frametitle{\sectiontitleII}
 
-		\includegraphics[scale=.25]{Electric_motor_cycle_2.png}
+	% Section III
+	\section{\sectiontitleIII}
 
-		\href{https://en.wikipedia.org/wiki/DC_motor}{Animation on Web} 
-
-		\btVFill
-		\tiny{source: \href{https://en.wikipedia.org/wiki/DC_motor}{wikipedia}}
-	\end{frame}	
-
-% Section III
-\section{\sectiontitleIII}
-
-	% Section III - Frame I
-	\begin{frame}[label=sectionIII] \small
-		\frametitle{\sectiontitleIII}
-		
-
-		\btVFill
-	\end{frame}	
-	
-	%Section III - Frame II
-	\begin{frame} \small
-		\frametitle{\sectiontitleIII}
-		
-		\btVFill
-	\end{frame}	
-
-	%Section III - Frame III
+	% Section III - Frame III
 	\begin{frame} \small
 		\frametitle{\sectiontitleIII}
 
-		
+		State-Variable (State-Space) form
+		\[\renewcommand*{\arraystretch}{1.5}
+		  \frac{di_a}{dt}=\dot{x}_1=\frac{1}{L_a}\left( v_a -R_ai_a-K_b\omega\right)
+		  = \begin{bmatrix} -\frac{R_a}{L_a} & -\frac{K_b}{L_a} \end{bmatrix}
+		  \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+		  +\begin{bmatrix} \frac{1}{L_a} & 0 \end{bmatrix}
+		  \begin{bmatrix} v_a \\ T_L \end{bmatrix}
+		\]
+		\[
+		  \frac{d\omega}{dt}=\dot{x}_2=\frac{1}{I}\left( K_Ti_a-c\omega-T_L\right)	
+		  = \begin{bmatrix} -\frac{K_T}{I} & -\frac{c}{I} \end{bmatrix}
+		  \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}
+		  +\begin{bmatrix} 0 & -\frac{1}{I} \end{bmatrix}
+		  \begin{bmatrix} v_a \\ T_L \end{bmatrix}
+		\]
 
-			
+		Write the state equation in matrix form with states $x_1=i_a$, and $x_2=\omega$
+		\[
+		  \begin{bmatrix}\dot{x}_1 \\ \dot{x}_2\end{bmatrix} 
+		  =\begin{bmatrix}[1.5] \frac{R_a}{L_a} & -\frac{K_b}{L_a} \\ \frac{K_T}{I} & -\frac{c}{I}\end{bmatrix}
+		  \begin{bmatrix} x_1 \\ x_2\end{bmatrix}
+		  +\begin{bmatrix}[1.5] \frac{1}{L_a} & 0 \\ 0 & -\frac{1}{I}\end{bmatrix}
+		  \begin{bmatrix}v_a \\T_L \end{bmatrix}
+        \]
+
 	\end{frame}	
 
 % Section IV
@@ -179,7 +170,26 @@
 	% Section IV - Frame I
 	\begin{frame}[label=sectionIV] \small
 		\frametitle{\sectiontitleIV}
+		The input-output relationships can be represented by the following transfer functions.
+
+		Armature Current to Armature Voltage
+		\[\frac{I_a\left(s\right)}{V_a\left(s\right)}=\frac{Is+c}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
 		
+		Armature Current to External Load
+		\[\frac{I_a\left(s\right)}{T_L\left(s\right)}=\frac{K_b}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
+
+	\end{frame}	
+
+	% Section IV - Frame II
+	\begin{frame}[label=sectionIV] \small
+		\frametitle{\sectiontitleIV}
+
+		Armature Angular Velocity to Armature Voltage
+		\[\frac{\Omega\left(s\right)}{V_a\left(s\right)}=\frac{K_T}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
+		
+		Armature Angular Velocity to External Load
+		\[\frac{\Omega\left(s\right)}{T_L\left(s\right)}=\frac{L_as+R_a}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
+
 	\end{frame}	
 
 % Section V
@@ -192,6 +202,3 @@
 	\end{frame}	
 
 \end{document}
-
-
-
