@@ -172,7 +172,7 @@
 	% Section IV - Frame I
 	\begin{frame}[label=sectionIV] \small
 		\frametitle{\sectiontitleIV}
-		The input-output relationships can be represented by the following transfer functions.
+		The input-output relationships can be represented by the following transfer functions.\vspc
 
 		Armature Current to Armature Voltage
 		\[\frac{I_a\left(s\right)}{V_a\left(s\right)}=\frac{Is+c}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
@@ -191,8 +191,24 @@
 		
 		Armature Angular Velocity to External Load
 		\[\frac{\Omega\left(s\right)}{T_L\left(s\right)}=\frac{L_as+R_a}{L_aIs^2+\left(R_aI+cL_a\right)s+cR_a+K_bK_T}\]
-
+		
 	\end{frame}	
+
+	% Section IV - Frame II
+	\begin{frame}[label=sectionIV] \small
+		\frametitle{\sectiontitleIV}
+
+		\textbf{Final Value Theorem:} 
+		To find the value of a function $x(t)$ as $t\rightarrow \infty$  
+
+		\[x\left(\infty\right)=\lim_{x\to\infty} f(x)\]
+
+		Use final value theorem to find steady state value to step input on $V_a$, $T_L$
+		\[i_a=\frac{cV_a + K_bT_L}{cR_a+K_bK_T}\]
+
+		\[\omega=\frac{K_TV_a-R_aT_L}{cR_a+K_bK_T}\]
+
+	\end{frame}
 
 % Section V
 \section{\sectiontitleV}
@@ -241,13 +257,19 @@ D=[0 0
 	\begin{frame}[containsverbatim,label=sectionV] \small
 		\frametitle{\sectiontitleV}
 		\begin{lstlisting}
+% calculate the steady state step response
+Va=12;
+TL=0;
+ia_ss=(c*Va+Kb*TL)/(c*Ra+Kb*KT)
+
 % create a state space model object
 sys1=ss(A,B,C,D);
 
 % simulate a step response 
 figure(1)
-step(sys1)
-grid on; xlabel('time(s)')
+time=0:0.001:1;
+opts=stepDataOptions('StepAmplitude',Va);
+step(sys1,time,opts); grid on
 		\end{lstlisting}
 
 

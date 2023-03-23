@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.8.23)  23 MAR 2023 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,6 +1053,18 @@ LaTeX Warning: Label `sectionIV<1>' multiply defined.
 LaTeX Warning: Label `sectionIV' multiply defined.
 
 
+LaTeX Warning: Label `sectionIV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIV' multiply defined.
+
+
+LaTeX Warning: Label `sectionV<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionV' multiply defined.
+
+
 LaTeX Warning: Label `sectionV<1>' multiply defined.
 
 
@@ -1343,38 +1355,50 @@ l.195 	\end{frame}
 l.195 	\end{frame}
                   	 [9
 
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIV<1>
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.211 	\end{frame}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.211 	\end{frame}
+                   [10
+
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-06.
+22.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [10
+) [11
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{sectionV<1>}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.221 ...}[containsverbatim,label=sectionV] \small
+l.237 ...}[containsverbatim,label=sectionV] \small
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{sectionV}) has been already used, duplicat
 e ignored
 <to be read again> 
                    \relax 
-l.221 ...}[containsverbatim,label=sectionV] \small
-                                                   [11
-
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionV<1>}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.241 ...}[containsverbatim,label=sectionV] \small
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{sectionV}) has been already used, duplicat
-e ignored
-<to be read again> 
-                   \relax 
-l.241 ...}[containsverbatim,label=sectionV] \small
+l.237 ...}[containsverbatim,label=sectionV] \small
                                                    [12
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionV<1>}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.257 ...}[containsverbatim,label=sectionV] \small
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{sectionV}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.257 ...}[containsverbatim,label=sectionV] \small
+                                                   [13
 
 ]
 \tf@nav=\write7
@@ -1386,12 +1410,12 @@ l.241 ...}[containsverbatim,label=sectionV] \small
 \tf@snm=\write9
 \openout9 = `electrical_systems_topic4.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
 
 (./electrical_systems_topic4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `electrical_systems_topic4.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: B146D71AC2298A5C3963854D961E0355;259.
@@ -1401,11 +1425,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26698 strings out of 483183
- 521261 string characters out of 5966292
+ 26712 strings out of 483183
+ 521397 string characters out of 5966292
  1014902 words of memory out of 5000000
- 41054 multiletter control sequences out of 15000+600000
- 551594 words of font info for 65 fonts, out of 8000000 for 9000
+ 41065 multiletter control sequences out of 15000+600000
+ 552353 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,19n,73p,792b,1776s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIII} has been referenced but does not exis
@@ -1413,27 +1437,29 @@ t, replaced by a fixed one
 
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
 t1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecss0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
-k/ljfour/jknappen/ec/ecsi0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf
--var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/thill/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home/tntech.edu/
-thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home
-/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.6
+appen/ec/ecsx1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/p
+k/ljfour/jknappen/ec/ecss0700.600pk> </home/tntech.edu/thill/.texlive2019/texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsi0700.600pk> </home/tntech.edu/thill/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1000.600pk> </home/tntech.edu/
+thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0500.600pk> </home
+/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.6
 00pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
-nts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/
-texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.
-texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech
-.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on electrical_systems_topic4.pdf (12 pages, 544256 bytes).
+c/ecss1000.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecss1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.
+texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech
+.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> <
+/home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0
+600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on electrical_systems_topic4.pdf (13 pages, 560618 bytes).
 PDF statistics:
- 851 PDF objects out of 1000 (max. 8388607)
- 483 compressed objects within 5 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 521 compressed objects within 6 object streams
+ 41 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
