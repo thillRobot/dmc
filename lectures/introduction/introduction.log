@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.1)  18 JAN 2024 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.6.1)  18 JAN 2024 21:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**introduction.tex
+**introduction
 (./introduction.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -1028,7 +1028,17 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
 Package hyperref Info: Option `colorlinks' set `true' on input line 107.
 )
 \mybox=\box138
- (./introduction.aux)
+ (./introduction.aux
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+)
 \openout1 = `introduction.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1254,20 +1264,20 @@ thkerncmss.
 ] [7
 
 ]
-<images/dji_phantom_fig2.jpg, id=296, 1084.05pt x 722.7pt>
+<images/dji_phantom_fig2.jpg, id=335, 1084.05pt x 722.7pt>
 File: images/dji_phantom_fig2.jpg Graphic file (type jpg)
 <use images/dji_phantom_fig2.jpg>
-Package pdftex.def Info: images/dji_phantom_fig2.jpg  used on input line 170.
+Package pdftex.def Info: images/dji_phantom_fig2.jpg  used on input line 172.
 (pdftex.def)             Requested size: 86.72577pt x 57.81717pt.
-<images/jeep_01.jpg, id=297, 3276.24pt x 2457.18pt>
+<images/jeep_01.jpg, id=336, 3276.24pt x 2457.18pt>
 File: images/jeep_01.jpg Graphic file (type jpg)
 <use images/jeep_01.jpg>
-Package pdftex.def Info: images/jeep_01.jpg  used on input line 170.
+Package pdftex.def Info: images/jeep_01.jpg  used on input line 172.
 (pdftex.def)             Requested size: 81.8858pt x 61.41435pt.
-<images/falcon9_fig2.jpg, id=298, 1084.05pt x 722.7pt>
+<images/falcon9_fig2.jpg, id=337, 1084.05pt x 722.7pt>
 File: images/falcon9_fig2.jpg Graphic file (type jpg)
 <use images/falcon9_fig2.jpg>
-Package pdftex.def Info: images/falcon9_fig2.jpg  used on input line 170.
+Package pdftex.def Info: images/falcon9_fig2.jpg  used on input line 172.
 (pdftex.def)             Requested size: 108.41135pt x 72.27423pt.
  [8
 
@@ -1276,62 +1286,95 @@ jpg>] [9
 
 ] [10
 
-] [11
+]
+Overfull \hbox (9.92746pt too wide) in paragraph at lines 223--223
+[][]  
+ []
 
-] [12
-
-] [13
-
-] [14
+[11
 
 pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.236 			\end{frame}
+l.223 			\end{frame}
                     ]pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 			\end{frame}
+l.238 			\end{frame}
                     	pdfTeX warning (ext4): destination with the same identifie
 r (name{sectionIIsubsectionI}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 			\end{frame}
-                    	 [15
-
-] [16
-
-] [17
-
-] [18
-
-] [19
-
-] [20
-
-] [21
-
-] [22
-
-] [23
-
-] [24
+l.238 			\end{frame}
+                    	 [12
 
 ]
-[25
+<images/circular_frequency_fig2.png, id=516, 696.35156pt x 973.38657pt>
+File: images/circular_frequency_fig2.png Graphic file (type png)
+<use images/circular_frequency_fig2.png>
+Package pdftex.def Info: images/circular_frequency_fig2.png  used on input line
+ 257.
+(pdftex.def)             Requested size: 111.41852pt x 155.74503pt.
 
-] [26
+Overfull \vbox (2.66975pt too high) detected at line 257
+ []
 
-] [27
+[13
 
-] [28
+ <./images/circular_frequency_fig2.png>]
+<images/mars_orbiter.jpg, id=553, 794.97pt x 722.7pt>
+File: images/mars_orbiter.jpg Graphic file (type jpg)
+<use images/mars_orbiter.jpg>
+Package pdftex.def Info: images/mars_orbiter.jpg  used on input line 269.
+(pdftex.def)             Requested size: 79.50165pt x 72.27423pt.
+ [14
 
-] [29
+ <./images/mars_orbiter.jpg>]
+[15
 
 ]
+<images/fanuc_robot.jpg, id=631, 963.6pt x 722.7pt>
+File: images/fanuc_robot.jpg Graphic file (type jpg)
+<use images/fanuc_robot.jpg>
+Package pdftex.def Info: images/fanuc_robot.jpg  used on input line 301.
+(pdftex.def)             Requested size: 144.53375pt x 108.40031pt.
+ [16
+
+ <./images/fanuc_robot.jpg>] [17
+
+]
+<images/sliding_block.png, id=699, 335.00156pt x 250.68657pt>
+File: images/sliding_block.png Graphic file (type png)
+<use images/sliding_block.png>
+Package pdftex.def Info: images/sliding_block.png  used on input line 334.
+(pdftex.def)             Requested size: 70.01503pt x 52.39326pt.
+<images/pure_roll_no_slip.png, id=700, 663.98062pt x 341.02406pt>
+File: images/pure_roll_no_slip.png Graphic file (type png)
+<use images/pure_roll_no_slip.png>
+Package pdftex.def Info: images/pure_roll_no_slip.png  used on input line 334.
+(pdftex.def)             Requested size: 82.99736pt x 42.6279pt.
+<images/cartesian_3d.png, id=701, 466.74374pt x 451.6875pt>
+File: images/cartesian_3d.png Graphic file (type png)
+<use images/cartesian_3d.png>
+Package pdftex.def Info: images/cartesian_3d.png  used on input line 334.
+(pdftex.def)             Requested size: 79.34538pt x 76.78586pt.
+ [18
+
+ <./images/sliding_block.png> <./images/pure_roll_no_slip.png> <./images/cartes
+ian_3d.png>] [19
+
+]
+<images/rc_circuit.png, id=772, 369.63094pt x 242.40562pt>
+File: images/rc_circuit.png Graphic file (type png)
+<use images/rc_circuit.png>
+Package pdftex.def Info: images/rc_circuit.png  used on input line 369.
+(pdftex.def)             Requested size: 92.4075pt x 60.60124pt.
+ [20
+
+ <./images/rc_circuit.png>]
 \tf@nav=\write7
 \openout7 = `introduction.nav'.
 
@@ -1341,11 +1384,11 @@ l.244 			\end{frame}
 \tf@snm=\write9
 \openout9 = `introduction.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (./introduction.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 
 
 Package rerunfilecheck Warning: File `introduction.out' has changed.
@@ -1353,35 +1396,49 @@ Package rerunfilecheck Warning: File `introduction.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `introduction.out':
-(rerunfilecheck)             Before: 3F7D466443C7408A7DC18CBA4F2DF7E1;191
-(rerunfilecheck)             After:  F9B86ABADBDD49288E516CB2D93ABACA;1026.
+(rerunfilecheck)             Before: 3B1047C5DC8F0DB592D368D8A3383521;879
+(rerunfilecheck)             After:  E9C4692F012C9DAD0F342154F008C43F;958.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26390 strings out of 481239
- 523217 string characters out of 5920378
- 996221 words of memory out of 5000000
- 40939 multiletter control sequences out of 15000+600000
- 549052 words of font info for 63 fonts, out of 8000000 for 9000
+ 26421 strings out of 481239
+ 524383 string characters out of 5920378
+ 1000149 words of memory out of 5000000
+ 40977 multiletter control sequences out of 15000+600000
+ 551746 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,83p,779b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0600.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfsx1440.pfb>
-Output written on introduction.pdf (29 pages, 2991277 bytes).
+ 67i,19n,83p,775b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Navigation21} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{sectionIIsubsectionII} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation22} has been referenced but does not exis
+t, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+ss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfsx0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
+x1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
+Output written on introduction.pdf (20 pages, 3612988 bytes).
 PDF statistics:
- 1122 PDF objects out of 1200 (max. 8388607)
- 1051 compressed objects within 11 object streams
- 90 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 886 PDF objects out of 1000 (max. 8388607)
+ 808 compressed objects within 9 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
