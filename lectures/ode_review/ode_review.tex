@@ -16,12 +16,12 @@
 
 \author{ME3050 - Dynamics Modeling and Controls}
 
-\newcommand{\MNUM}{1\hspace{2mm}} % module number 
-\newcommand{\moduletitle}{Introduction}
+\newcommand{\MNUM}{2\hspace{2mm}} % module number 
+\newcommand{\moduletitle}{ODE Review}
 
 \newcommand{\sectionItitle}{ODE Review}
 \newcommand{\sectionIItitle}{Separation of Variables}
-\newcommand{\sectionIIItitle}{}
+\newcommand{\sectionIIItitle}{The Trial Solution Method}
 
 \newcommand{\sectionIsubsectionItitle}{Definitions and Classification}
 \newcommand{\sectionIsubsectionIItitle}{Engineering Applications}
@@ -33,10 +33,11 @@
 \newcommand{\sectionIIsubsectionIIItitle}{Example}
 %\newcommand{\sectionIIsubsectionIVtitle}{-}
 
-\newcommand{\sectionIIIsubsectionItitle}{-}
-\newcommand{\sectionIIIsubsectionIItitle}{-}
-\newcommand{\sectionIIIsubsectionIIItitle}{-}
-\newcommand{\sectionIIIsubsectionIVtitle}{-}
+\newcommand{\sectionIIIsubsectionItitle}{Exponential Assumption}
+\newcommand{\sectionIIIsubsectionIItitle}{Complementary Solution}
+\newcommand{\sectionIIIsubsectionIIItitle}{Particular Solution}
+\newcommand{\sectionIIIsubsectionIVtitle}{Apply Initial Conditions}
+\newcommand{\sectionIIIsubsectionVtitle}{Summary - 3 Cases}
 
 % custom box
 \newsavebox{\mybox}
@@ -400,6 +401,7 @@ The {\bf solution} to a differential equation describes the \vspace{2mm}\\ \unde
 				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
 				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
 				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
+				\item \hyperlink{sectionIIIsubsectionV}{\sectionIIIsubsectionVtitle} \vspc % section III subsection V
 			\end{itemize}
 
 		\end{frame}
@@ -410,6 +412,13 @@ The {\bf solution} to a differential equation describes the \vspace{2mm}\\ \unde
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
 				\bigskip
+
+
+\frametitle{Trial Solution Method}
+Use the {\bf trial solution method} to solve the ODE. \vspace{2mm}\\
+This is an {\bf analytical} method that you learned in calculus but it may have been called something different. In the Zill book it is called {\it Homogenous Linear ... Constant Coefficients (4.3-4.4)}. \vspcc
+
+\[a_2y''+a_1y'+a_0y=f(x)\] 
 				
 
 				\btVFill
@@ -429,8 +438,15 @@ The {\bf solution} to a differential equation describes the \vspace{2mm}\\ \unde
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
 				\bigskip
-				
 
+				\underline{Step 1} - Find the {\bf complementary part} of the solution from the \vspace{1mm}\\ left hand side of the ODE alone (LHS=0). \\
+
+				\[a_2y''+a_1y'+a_0y=f \hspace{5mm}\rightarrow\hspace{5mm} a_2y''+a_1y'+a_0y=0\] 
+
+				Assume an exponential solution for the complementary part. \[y_{complementary}=y_c(x)=\] 
+
+				Substitute this solution into the ODE (LHS=0).
+				
 				\btVFill
 			\end{frame}
 
@@ -440,9 +456,16 @@ The {\bf solution} to a differential equation describes the \vspace{2mm}\\ \unde
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIIItitle}
 				\bigskip
-				
-				
 
+				\underline{Step 2} - Find the {\bf particular part} of the solution from the entire equation (LHS=RHS). \vspcc  
+				\[a_2y''+a_1y'+a_0y=f\] 
+
+				The {\it form of the particular part} follows the RHS of  the ODE. \vspc
+
+				\[y_{particular}=y_p(x)=\]  
+
+				Substitute this solution into the ODE above and solve for any unknown constants in $ y_p(x) $. 
+								
 				\btVFill
 			\end{frame}
 
@@ -452,7 +475,100 @@ The {\bf solution} to a differential equation describes the \vspace{2mm}\\ \unde
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIVtitle}
 				\bigskip
+
+				\underline{Step 3} - Now combine the {\bf complementary} and {\bf particular} solutions through {\it superposition}. \\
+
+				\[y(x)=y_c(x)+y_p(x)=\] 
+
+				The ODE is first order and we have \underline{\hspace{10mm}} unknown. Coincidence?\vspcc
+
+				\[y(x)=\]  
+
+				This {\bf initial value problem} requires \underline{\hspace{10mm}} intial condition.\vspace{2mm}\\
 				
+				\btVFill 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIVtitle}
+				\bigskip
+
+				\[y(x=0)=\] 
+				\[y'(x=0)=\] 
+
+		 		\btVFill 
+			\end{frame}
+			
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIVtitle}
+				\bigskip
+					What does the solution look like this time?\\
+
+				\[y(x)=\] 
+
+				\includegraphics[scale=0.15]{images/lecture1_fig2.png}\hspace{5mm} \includegraphics[scale=0.15]{images/lecture1_fig2.png}
+				
+				\btVFill 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIVtitle}
+				\bigskip
+
+				
+				
+				
+				\btVFill 
+			\end{frame}
+
+		% section III subsection V
+		\subsection{\sectionIIIsubsectionVtitle}\label{sectionIIIsubsectionV}	
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionVtitle}
+				\bigskip
+
+				If the differential equation is first and linear, the complementary solution takes the following form. \\
+
+				\[y(x)=Ae^{sx}\] 
+
+				\btVFill 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionVtitle}
+				\bigskip
+
+				If the differential equation is second order and linear, the {\bf complementary solution } takes one of the following forms. \vspace{2mm}\\
+
+				Case 1: $s_1,s_2\in\mathbb{R} \hspc,\hspc s_1\neq s_2$ 
+				\[y(x)=c_1e^{s_1x}+c_2e^{s_2x}\] \vspace{2mm}
+				Case 2: $s_1,s_2\in\mathbb{R} \hspc,\hspc s_1=s_2=s$
+				\[y(x)=c_1e^{sx}+c_2xe^{sx}\] \vspace{2mm}
+				Case 3: $s_1,s_2\notin\mathbb{R} \hspc,\hspc s_1,s_2 = \alpha\pm\beta$
+				\[y(x)=e^{\alpha x}\left(c_1 cos\left(\beta x\right)+c_2 sin\left(\beta x\right) \right)\]
+				
+				\btVFill 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionVtitle}
+				\bigskip
+
+				The {\bf particular solution} takes the form of the right hand side of the equation. \vspace{2mm}\\ 
+				\renewcommand{\arraystretch}{1.5}
+				\begin{tabular}{|c|c|c|}
+					
+					Example & Form & Particular Solution \\ \hline
+					
+					$... = 10$   & Constant & $y_p=B$ \\
+					$... = 12x$  & Linear   & $y_p=Bx+C$\\
+					$... = 20e^{2x} $ & Exponential & $y_p=Be^{2x}$ \\
+					$... = a cos\left(\beta x\right)$& Sinusoidal &$ Bcos\left(\beta x\right)+Csin\left(\beta x\right)$ \\
+					$... = a sin\left(\beta x\right)$& Sinusoidal &$ Bcos\left(\beta x\right)+Csin\left(\beta x\right)$ \\
+					
+				\end{tabular}
+
 				
 				\btVFill 
 			\end{frame}
