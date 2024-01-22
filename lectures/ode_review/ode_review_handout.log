@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  22 JAN 2024 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  22 JAN 2024 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,8 +1032,11 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 )
 \mybox=\box138
+ (./ode_review_handout.aux
 
-No file ode_review_handout.aux.
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+)
 \openout1 = `ode_review_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -1052,6 +1055,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1126,6 +1130,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 49.
 LaTeX Info: Redefining \pageref on input line 49.
 LaTeX Info: Redefining \nameref on input line 49.
+
+(./ode_review_handout.out) (./ode_review_handout.out)
 \@outlinefile=\write6
 \openout6 = `ode_review_handout.out'.
 
@@ -1197,13 +1203,12 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count368
-
-No file ode_review_handout.nav.
+ (./ode_review_handout.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
@@ -1251,7 +1256,7 @@ Overfull \hbox (2.61574pt too wide) in paragraph at lines 114--114
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/m/n' instead on input line 226.
 
-<images/ferrari.jpg, id=341, 803.0pt x 552.0625pt>
+<images/ferrari.jpg, id=462, 803.0pt x 552.0625pt>
 File: images/ferrari.jpg Graphic file (type jpg)
 <use images/ferrari.jpg>
 Package pdftex.def Info: images/ferrari.jpg  used on input line 226.
@@ -1268,7 +1273,11 @@ ectionI}) has been already used, duplicate ignored
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
 l.260 			\end{frame}
-                    ] [15
+                    ]
+Overfull \vbox (23.14919pt too high) detected at line 288
+ []
+
+[15
 
 ] [16
 
@@ -1277,18 +1286,29 @@ File: images/ferrari.jpg Graphic file (type jpg)
 <use images/ferrari.jpg>
 Package pdftex.def Info: images/ferrari.jpg  used on input line 332.
 (pdftex.def)             Requested size: 120.4448pt x 82.8058pt.
-<images/lecture1_fig2.png, id=486, 934.49126pt x 739.76375pt>
+<images/lecture1_fig2.png, id=633, 934.49126pt x 739.76375pt>
 File: images/lecture1_fig2.png Graphic file (type png)
 <use images/lecture1_fig2.png>
 Package pdftex.def Info: images/lecture1_fig2.png  used on input line 332.
 (pdftex.def)             Requested size: 93.45459pt x 73.9807pt.
  [17
 
- <./images/lecture1_fig2.png>] [18
+ <./images/lecture1_fig2.png>]
+Overfull \vbox (20.30278pt too high) detected at line 346
+ []
 
-] [19
+[18
 
 ]
+Overfull \vbox (19.00464pt too high) detected at line 360
+ []
+
+[19
+
+]
+Overfull \vbox (19.00464pt too high) detected at line 373
+ []
+
 [20
 
 ]
@@ -1347,30 +1367,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
 (./ode_review_handout.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 576.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
+Package rerunfilecheck Info: File `ode_review_handout.out' has not changed.
+(rerunfilecheck)             Checksum: 2A1F315FCFCB9AF87E4159E4A500DB72;918.
 
-
-Package rerunfilecheck Warning: File `ode_review_handout.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ode_review_handout.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2A1F315FCFCB9AF87E4159E4A500DB72;918.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25828 strings out of 483183
- 511855 string characters out of 5966292
- 984630 words of memory out of 5000000
- 40140 multiletter control sequences out of 15000+600000
+ 25969 strings out of 483183
+ 513621 string characters out of 5966292
+ 989024 words of memory out of 5000000
+ 40273 multiletter control sequences out of 15000+600000
  549196 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,15n,73p,785b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,19n,73p,785b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 css0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/j
 knappen/ec/ecss0800.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts
@@ -1381,10 +1395,10 @@ u/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.600pk> </ho
 me/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200
 .600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
 /ec/ecsx1200.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecsx0600.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
-fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive201
-9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill
-/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk></usr/share/
+our/jknappen/ec/ecsx1440.600pk> </home/tntech.edu/thill/.texlive2019/texmf-var/
+fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/tntech.edu/thill/.texlive201
+9/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/tntech.edu/thill
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600pk></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/
@@ -1393,10 +1407,10 @@ ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /symbols/msbm10.pfb>
-Output written on ode_review_handout.pdf (33 pages, 427060 bytes).
+Output written on ode_review_handout.pdf (33 pages, 444056 bytes).
 PDF statistics:
- 1344 PDF objects out of 1440 (max. 8388607)
- 976 compressed objects within 10 object streams
+ 1621 PDF objects out of 1728 (max. 8388607)
+ 1235 compressed objects within 13 object streams
  96 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
