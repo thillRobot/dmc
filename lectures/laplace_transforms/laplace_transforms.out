@@ -1,0 +1,15 @@
+\BOOKMARK [2][]{Outline0.1}{The Laplace Transform}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.4}{An Integral Transform}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.7}{Laplace Transform of A Derivative}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.3.9}{Properties of an Integral}{Outline0.1}% 4
+\BOOKMARK [3][]{Outline0.1.4.10}{Table of Transform Pairs}{Outline0.1}% 5
+\BOOKMARK [2][]{Outline0.2}{Laplace Transforms Method}{}% 6
+\BOOKMARK [3][]{Outline0.2.1.13}{Step 1 - Apply Laplace Transform}{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.2.14}{Step 2 - Solve for X\(s\)}{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.3.16}{Step 3 - Rearrange to Find Invertable Form}{Outline0.2}% 9
+\BOOKMARK [3][]{Outline0.2.4.19}{Step 4 - Invert for Final Answer}{Outline0.2}% 10
+\BOOKMARK [2][]{Outline0.3}{Partial Fraction Decomposition}{}% 11
+\BOOKMARK [3][]{Outline0.3.1.23}{General Polynomial Form}{Outline0.3}% 12
+\BOOKMARK [3][]{Outline0.3.2.25}{Case 1 - Distinct Roots}{Outline0.3}% 13
+\BOOKMARK [3][]{Outline0.3.3.26}{Case 2 - Repeated Roots}{Outline0.3}% 14
+\BOOKMARK [3][]{Outline0.3.4.28}{Special Case - Complex Roots}{Outline0.3}% 15
