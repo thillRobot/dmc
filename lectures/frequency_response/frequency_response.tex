@@ -43,7 +43,7 @@
 \newcommand{\sectionIVsubsectionItitle}{Review 2$^{nd}$ Order Frequency Response}
 \newcommand{\sectionIVsubsectionIItitle}{The Resonance Phenomenon}
 \newcommand{\sectionIVsubsectionIIItitle}{The Resonance Frequency}
-\newcommand{\sectionIVsubsectionIVtitle}{MATLAB Bode Plots}
+\newcommand{\sectionIVsubsectionIVtitle}{---}
 
 \newcommand{\LT}{\mathcal{L}} % lagrangian
 
@@ -347,7 +347,7 @@
 				\item \hyperlink{sectionIIsubsectionI}{\sectionIIsubsectionItitle} \vspc %  section II subsection I
 				\item \hyperlink{sectionIIsubsectionII}{\sectionIIsubsectionIItitle} \vspc % section II subsection II
 				\item \hyperlink{sectionIIsubsectionIII}{\sectionIIsubsectionIIItitle} \vspc % section II subsection III
-				%\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
+				\item \hyperlink{sectionIIsubsectionIV}{\sectionIIsubsectionIVtitle} \vspc % section II subsection IV
 			\end{itemize}
 
 		\end{frame}
@@ -359,7 +359,58 @@
 				\frametitle{\sectionIIsubsectionItitle}
 				\bigskip
 
+				\frametitle{Harmonic Input Function}
+
+				\small 
+				The term {\bf frequency response} is used to describe a system's response to a periodic input. Frequency response analysis focuses on a system's response to {\it harmonic} input such as sines and cosines. The input (forcing) function is written below.\vspcc
+
+				\begin{framed}
+				\scalebox{1.25}{$f(t)=Asin\left(\omega t\right)$}\vspccc
+
+				\renewcommand{\arraystretch}{1.5}
+				\begin{tabular}{ccc}
+				Amplitude of the Input, & \scalebox{1}{$A$} & \scalebox{1}{$ (N)$} \\
+				Frequency of Input, &\scalebox{1}{$\omega$} &  \scalebox{1}{$(\frac{rad}{s})$}\\
+				\end{tabular}
+				\end{framed}
 				
+				\btVFill
+			\end{frame}
+
+			\begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle}
+				\bigskip
+
+				\frametitle{First Order Frequency Response}
+
+				\small
+
+				The steady state response we derived is shown. Remember, after some amount of time passes, the transient term will disappear leaving just the sinusoidal terms. \vspc
+				\begin{framed}
+				\scalebox{1}{$y_{ss}\left(t\right)=A|T\left(j\omega\right)|sin\left(\omega t+\angle T\left(j\omega\right)\right)=MAsin\left(\omega t+\phi\right)$}\vspcc
+
+				The amplitude ratio and phase shift can be found from $T(j\omega)$. \vspcc
+
+				\scalebox{1}{$M(\omega)=|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}$}\vspc
+
+				\scalebox{1}{$\phi(\omega)=\angle T\left(j\omega\right)=-tan^{-1}\left(\omega\tau\right)$}\vspc
+				\end{framed}
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}[label=sectionIIsubsectionI]
+				\frametitle{\sectionIIsubsectionItitle}
+				\bigskip
+
+				\frametitle{Graph of Frequency Response}
+
+				\small
+
+				\includegraphics[scale=.275]{images/lecture1_fig6.png} \hspc \includegraphics[scale=.275]{images/lecture1_fig5.png}  \vspc
+
+				The amplitude of the response is determined by the input frequency. \vspc
+
 				\btVFill
 			\end{frame}
 
@@ -372,6 +423,21 @@
 				\frametitle{\sectionIIsubsectionIItitle}
 				\bigskip
 
+				\frametitle{First Order Frequency Response}
+
+				\small
+
+				The steady state response we derived is shown. Remember, after some amount of time passes, the transient term will disappear leaving just the sinusoidal terms. \vspc
+				\begin{framed}
+				\scalebox{1}{$y_{ss}\left(t\right)=A|T\left(j\omega\right)|sin\left(\omega t+\angle T\left(j\omega\right)\right)=MAsin\left(\omega t+\phi\right)$}\vspcc
+
+				The amplitude ratio and phase shift can be found from $T(j\omega)$. \vspcc
+
+				\scalebox{1}{$M(\omega)=|T(j\omega)|=\frac{1}{\sqrt{1+\tau^2\omega^2}}$}\vspc
+
+				\scalebox{1}{$\phi(\omega)=\angle T\left(j\omega\right)=-tan^{-1}\left(\omega\tau\right)$}\vspc
+				\end{framed}
+
 				\btVFill 
 			\end{frame}
 
@@ -380,6 +446,10 @@
 				\frametitle{\sectionIIsubsectionIItitle}
 				\bigskip
 
+
+				\includegraphics[scale=.275]{images/lecture1_fig6.png} \hspc \includegraphics[scale=.275]{images/lecture1_fig5.png}  \vspc
+
+				The amplitude of the response is determined by the input frequency. \vspc
 
 
 				\btVFill 
@@ -395,7 +465,15 @@
 				\frametitle{\sectionIIsubsectionIIItitle}
 				\bigskip
 
-			
+				\frametitle{Dependence on Input Frequency}
+				\begin{multicols}{2}
+
+				\includegraphics[scale=.27]{images/lecture2_fig2.png}
+
+				You can see that the amplitude ratio decreases as the input frequency increases. The individual curves represent systems with different time constants. 
+
+				\end{multicols}
+	
 				\btVFill 
 			\end{frame}	
 
@@ -404,11 +482,59 @@
 				\frametitle{\sectionIIsubsectionIItitle}
 				\bigskip
 
-				
-				
+				\frametitle{Review Properties of Logarithms}
+
+				\underline{Basic Properties of Logarithms:}\vspc
+				\renewcommand{\arraystretch}{1.5}
+				\begin{tabular}{cc}
+				Multiplication&\scalebox{1}{$log(pq)=log(p)+log(q) $} \\
+				Division&\scalebox{1}{$log(\frac{x}{y})=log(x)-log(y)$} \\
+				Power&\scalebox{1}{$log(x^n)=nlog(x)$}\\
+				\end{tabular}
+
+				\underline{Units of Decibels for Magnitude:}\vspc
+				\scalebox{1}{$m(dB)=10log(M^2)=20log(M)$ \hspccc convert back: \hspccc $M=10^{\frac{m(dB)}{20}}$}\vspc
+
+				\small
+				Decibel (dB), unit for expressing the ratio between two physical quantities, usually amounts of acoustic or electric power, or for measuring the relative loudness of sounds. One decibel (0.1 bel) equals 10 times the common logarithm of the power ratio. - Britannica.com
+								
 				\btVFill 
 			\end{frame}	
 
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+				\bigskip
+
+				\frametitle{Amplitude ratio on a Logarithmic Scale}
+
+				These relationships are more useful shown on a logarithmic scale. We can make use of the properties of logarithms in our analysis. \vspcc
+
+				\scalebox{1}{$m\left(dB\right)=20log\left(\frac{1}{\sqrt{1+\omega^2\tau^2}}\right)=20\left(log\left(1\right)-log\sqrt{1+\omega^2\tau^2}\right)$}\vspc
+				\scalebox{1}{$m\left(dB\right)=20log\left(1\right)-10log\left(1+\omega^2\tau^2\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc
+				\begin{framed}
+				\scalebox{1}{$m\left(dB\right)=-10log\left(1+\omega^2\tau^2\right)$}\vspc amplitude ratio in decibels
+				\end{framed}
+				
+				\btVFill 
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIsubsectionIIItitle}
+				\bigskip
+
+				\frametitle{Amplitude ratio on a Logarithmic Scale}
+				\begin{multicols}{2}
+
+				\includegraphics[scale=.30]{images/lecture2_fig7.png}
+				This is a Bode plot. It seems abstract but there is some very useful information shown.\vspc
+
+				  \includegraphics[scale=.4]{images/hendrikbode.png} \vspc Hendrik Bode (1905-1982) 
+
+				\end{multicols}
+								
+				\btVFill 
+			\end{frame}
 
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIIItitle}
@@ -422,31 +548,42 @@
 		% section II subsection IV
 		\subsection{\sectionIIsubsectionIVtitle}\label{sectionIIsubsectionIV}
 
+			\begin{frame}[containsverbatim]
+				\frametitle{\sectionIIsubsectionIVtitle}
+				\bigskip
+
+				\frametitle{Bode Plot in MATLAB}
+
+				MATLAB has a built it tool for making Bode plots.  
+				\begin{multicols}{2}
+				\includegraphics[scale=.25]{images/lecture2_fig9.png}
+
+				\begin{lstlisting}
+				figure(1)
+				sys=tf(1,[tau(3) 1])
+				bode(sys);grid on
+				\end{lstlisting}
+
+				\end{multicols}
+
+				So what? What can you do with a Bode diagram?
+								
+				\btVFill 
+			\end{frame}	
+
 			\begin{frame}
 				\frametitle{\sectionIIsubsectionIVtitle}
 				\bigskip
+
+				\frametitle{References}
+
+				\begin{itemize}
+					\item System Dynamics, Palm III, Third Edition - Chapter 9 - System Response in the Frequency Domain
+				\end{itemize}
 				
 
 				\btVFill 
 			\end{frame}	
-
-			\begin{frame}
-				\frametitle{\sectionIIsubsectionIVtitle}
-				\bigskip
-				
-
-				\btVFill 
-			\end{frame}	
-
-			\begin{frame}
-				\frametitle{\sectionIIsubsectionIVtitle}
-				\bigskip
-			
-
-				\btVFill 
-			\end{frame}	
-
-
 		
 	% Section III
 	\section{\sectionIIItitle}\label{sectionIII}
@@ -460,7 +597,6 @@
 				\item \hyperlink{sectionIIIsubsectionII}{\sectionIIIsubsectionIItitle} \vspc % section III subsection II
 				\item \hyperlink{sectionIIIsubsectionIII}{\sectionIIIsubsectionIIItitle} \vspc % section III subsection III
 				\item \hyperlink{sectionIIIsubsectionIV}{\sectionIIIsubsectionIVtitle} \vspc % section III subsection IV
-				%\item \hyperlink{sectionIIIsubsectionV}{\sectionIIIsubsectionVtitle} \vspc % section III subsection V
 			\end{itemize}
 
 		\end{frame}
@@ -472,6 +608,17 @@
 				\frametitle{\sectionIIIsubsectionItitle}
 				\bigskip
 
+				\frametitle{Equivalent System Representations}
+
+				\small 
+				The{\bf Transfer Function} is the input-output relationship in the frequency domain and can be found from the equation of motion of the system.\vspcc 
+
+				\scalebox{1.25}{$T(s)=\frac{X(s)}{F(s)}$}\vspcc
+
+				The Transfer Function is an equivalent representation of the system. \vspcc
+				\begin{framed}
+				\scalebox{1.25}{E.O.M$\hspace{5mm} \leftrightarrow \hspace{5mm}$ T(s)$\hspace{5mm} \leftrightarrow \hspace{5mm}$ Block Diagram}\\
+				\end{framed}
 
 				\btVFill
 			\end{frame}
@@ -479,7 +626,15 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionItitle}
 				\bigskip
-				
+
+				\frametitle{Transfer Function of 2$^{nd}$ Order System}
+
+				\scalebox{1}{$m\ddot{x}+c\dot{x}+kx=f(t)$ \hspace{5mm}with\hspace{5mm} $f(t)=Asin(\omega t)$} \vspcc
+				The transfer function can easily be found by taking the Laplace transform of the equation of motion. \vspcc
+
+				\begin{framed}
+				\scalebox{1}{$T(s)=\frac{X(s)}{F(s)}=\frac{1}{ms^2+cs+k}$ \hspace{5mm} Second Order Transfer Function} \vspc
+				\end{framed}
 
 				\btVFill
 			\end{frame}
@@ -490,8 +645,41 @@
 			\begin{frame}
 				\frametitle{\sectionIIIsubsectionIItitle}
 				\bigskip
+				\frametitle{The Overdamped System}
 
-	
+				\small
+
+				In an \underline{overdamped} system, both roots are real and distinct.\vspcc
+				The transfer function is shown below in terms of the system parameters\vspc
+
+				\scalebox{1.0}{$T(s)=\frac{X(s)}{F(s)}=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{(\tau_1 s+1)(\tau_2 s+1)} \hspace{5mm} \tau_1,\tau_2$ - time constants}\vspc
+
+				Substitute $s=j\omega$ into the transfer function and find the amplitude ratio and phase angle.\vspc
+
+				\scalebox{1.0}{$T(s) \rightarrow T(j\omega) =\frac{1/k}{\left(\tau_1j\omega+1\right)\left(\tau_1j\omega+1\right)}$}\vspc
+
+				\begin{framed}
+				\scalebox{1}{$M\left(\omega\right)=|T\left(j\omega\right)|=\frac{|1/k|}{|\tau_1j\omega+1||\tau_2j\omega+1|}$} \vspc
+				\scalebox{1}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}\vspc
+				\scalebox{1}{$\phi\left(\omega\right)=\angle\frac{1}{k}-\angle\left(\tau_1\omega j+1\right)-\angle\left(\tau_2\omega_j+1\right)$}
+				\end{framed}
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIItitle}
+				\bigskip
+
+				\frametitle{The Bode Diagram}
+				\small
+				These three terms can be seen on the Bode diagram. \vspc
+				\scalebox{1}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}\vspc
+
+				\includegraphics[scale=.30]{images/lecture3_fig3.png}
+
+				This shows that the magnitude ratio of the system across different regions of the input frequency. 
+
 				\btVFill
 			\end{frame}
 
@@ -502,8 +690,21 @@
 				\frametitle{\sectionIIIsubsectionIIItitle}
 				\bigskip
 
-		
-			
+				\frametitle{The Underdamped System}
+
+				\small
+
+				In an \underline{underdamped} system, the roots are complex conjugates.\vspcc
+				The transfer function is shown below in terms of the system parameters\vspc
+
+				\scalebox{1.0}{$T(s)=\frac{X(s)}{F(s)}=\frac{1/k}{\left(\frac{m}{k}\right)s^2+\left(\frac{c}{k}\right)s+1}=\frac{1/k}{\left(\frac{s}{\omega_n}\right)^2+2\zeta\left(\frac{s}{\omega_n}\right)+1}$} \vspc
+				\scalebox{1.0}{$T(s)=\frac{kX(s)}{F(s)}=\frac{\omega_n^2}{s^2+2\zeta\omega_ns+\omega_n^2}$}\vspc
+
+				Notice we factored out $k$ to form the ratio of output displacement $X(s)$ to input displacement $\frac{F(s)}{k}$. You can see this with Hooke's Law $F=kx\implies x=\frac{F}{k}$. \vspc
+
+				This also allows us to define the transfer function in terms of $\zeta$ and $\omega_n$. Substitue $s=j\omega$ and mulitply the equation $\frac{1/\omega_n^2}{1/\omega_n^2}$.
+				\scalebox{1.0}{$T(s)\rightarrow T(j\omega)=\frac{1}{\left(\frac{j\omega}{\omega_n}\right)^2+\left(\frac{2\zeta}{\omega_n}\right)j\omega+1}=\frac{1}{1-\left(\frac{\omega}{\omega_n}\right)^2+\left(\frac{2\zeta\omega}{\omega_n}\right)j}$} \vspc
+	
 				\btVFill
 			\end{frame}
 
@@ -511,18 +712,67 @@
 				\frametitle{\sectionIIIsubsectionIIItitle}
 				\bigskip
 
-			
+				\frametitle{The Frequency Ratio}
+
+				\small 
+
+				To simplify this expression we define another new quantity the frequency ratio, $r$ as the ratio of input frequency to natural frequency of the system. The transfer function is re-written in terms of the frequency ratio. \vspc
+
+				\scalebox{1.0}{$r=\frac{\omega}{\omega_n} \hspc\rightarrow\hspc T\left(j\omega\right) \hspc\rightarrow\hspc T\left(r\right)=\frac{1}{1-r^2+2\zeta rj}$} \vspcc
+
+				Now the amplitude ratio and phase are written in tems of $r$. \vspcc
+
+				\begin{framed}
+				\scalebox{1}{$M=|T\left(r\right)|=\frac{1}{\sqrt{\left(1-r^2\right)^2+\left(2\zeta r\right)^2}}$}\vspc
+				\scalebox{1}{$\implies m=20logM=-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$} \vspcc
+				\scalebox{1}{$\phi=\angle 1 - \angle\left(1-r^2+2\zeta rj\right)\implies \phi=-tan\left(\frac{2\zeta r}{1-r^2}\right)$}\vspc
+				\end{framed}
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIIIsubsectionIIItitle}
+				\bigskip
+
+				\frametitle{The Bode Diagram}
+				\small
+
+				In the underdamped second order system only two regions are present in the Bode diagram. 
+
+				\includegraphics[scale=.27]{images/lecture3_fig4.png}  \includegraphics[scale=.27]{images/lecture3_fig5.png} 
+
+				As the damping ratio decreases something significant happens. This Bode diagram shows something that the others before have not.
+
 				\btVFill
 			\end{frame}
 
 		% section III subsection IV
 		\subsection{\sectionIIIsubsectionIVtitle}\label{sectionIIIsubsectionIV}	
 
-			\begin{frame}
+			\begin{frame}[containsverbatim]
 				\frametitle{\sectionIIIsubsectionIVtitle}
 				\bigskip
 
-				
+				Vary the system parameter in the scripts to make the plots shown. 
+
+				\begin{lstlisting}
+				clear variables;clc;close all
+
+				% define the system parameters
+				m=2;c=1;k=20;
+				zeta=c/(2*sqrt(m*k));
+
+				% create a system object from the transfer function
+				sys=tf(1/k,[(m/k) (c/k) 1]);
+
+				% use built-in MATLAB Bode Plot
+				figure(1)
+
+				bode(sys);grid on
+				str=sprintf('Bode Diagram, zeta=%.2f',zeta);
+				title(str)
+				\end{lstlisting}
 
 				\btVFill 
 			\end{frame}
@@ -531,28 +781,14 @@
 				\frametitle{\sectionIIIsubsectionIVtitle}
 				\bigskip
 
-			
+				\frametitle{References}
 
+				\begin{itemize}
+					\item System Dynamics, Palm III, Third Edition - Chapter 9 - System Response in the Frequency Domain
+				\end{itemize}
+			
 		 		\btVFill 
 			\end{frame}
-			
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionIVtitle}
-				\bigskip
-				
-				
-					
-				\btVFill 
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIIIsubsectionIVtitle}
-				\bigskip
-			
-				
-				\btVFill 
-			\end{frame}
-    
 
 	% Section IV
 	\section{\sectionIVtitle}\label{sectionIV}
@@ -578,6 +814,16 @@
 				\frametitle{\sectionIVsubsectionItitle}
 				\bigskip
 
+				\frametitle{Transfer Function of 2$^{nd}$ Order System}
+
+				\scalebox{1}{$m\ddot{x}+c\dot{x}+kx=f(t)$ \hspace{5mm}with\hspace{5mm} $f(t)=Asin(\omega t)$} \vspcc
+				The transfer function can easily be found by taking the Laplace transform of the equation of motion. \vspcc
+
+				\begin{framed}
+				\scalebox{1}{$T(s)=\frac{X(s)}{F(s)}=\frac{1}{ms^2+cs+k}$ \hspace{5mm} Second Order Transfer Function} \vspc
+				\end{framed}
+
+				The amplitude ratio and phase angle can be found from the transfer function. Think about what $M$ means. \vspc
 
 				\btVFill
 			\end{frame}
@@ -585,8 +831,25 @@
 			\begin{frame}
 				\frametitle{\sectionIVsubsectionItitle}
 				\bigskip
-				
 
+				\frametitle{Overdamped vs. Underdamped Systems}
+
+				\small
+
+				In an \underline{overdamped} system, both roots are real and distinct.\vspc
+
+				\begin{framed}
+				\scalebox{0.75}{$M\left(\omega\right)=|T\left(j\omega\right)|=\frac{|1/k|}{|\tau_1j\omega+1||\tau_2j\omega+1|}$} \vspc
+				\scalebox{0.75}{$m\left(\omega\right)=20logM\left(\omega\right)=20log|1/k|-20log|\tau_1\omega j+1|-20log|\tau_2\omega j+1|$}\vspc
+				\scalebox{0.75}{$\phi\left(\omega\right)=\angle\frac{1}{k}-\angle\left(\tau_1\omega j+1\right)-\angle\left(\tau_2\omega_j+1\right)$}
+				\end{framed}
+				In an \underline{underdamped} system, the roots are complex conjugates.\vspc
+				\begin{framed}
+				\scalebox{0.75}{$M\left(r\right)=|T\left(r\right)|=\frac{1}{\sqrt{\left(1-r^2\right)^2+\left(2\zeta r\right)^2}}$ \hspc with \hspc$r=\frac{\omega}{\omega_n} $}\vspc
+				\scalebox{0.75}{$\implies m=20logM=-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$} \vspc
+				\scalebox{0.75}{$\phi=\angle 1 - \angle\left(1-r^2+2\zeta rj\right)\implies \phi=-tan\left(\frac{2\zeta r}{1-r^2}\right)$}\vspc
+				\end{framed}
+				
 				\btVFill
 			\end{frame}
 
@@ -597,36 +860,136 @@
 				\frametitle{\sectionIVsubsectionIItitle}
 				\bigskip
 
+				\frametitle{The Resonance Spike}
+
+				In the underdamped second order system only two regions are present separated by the point near $r=1$. \vspc
+
+				\includegraphics[scale=.18]{images/lecture4_fig1.png} 
+				\includegraphics[scale=.18]{images/lecture4_fig2.png} 
+				\includegraphics[scale=.18]{images/lecture4_fig3.png}  \vspc
+
+				As the damping ratio decreases something significant happens at this points. Remember, these are graphs of $m=20logM$. \vspc
 	
 				\btVFill
 			\end{frame}
 
-		% section IV subsection III
-		\subsection{\sectionIVsubsectionIVtitle}\label{sectionIVsubsectionIV}
-
 			\begin{frame}
-				\frametitle{\sectionIVsubsectionIVtitle}
+				\frametitle{\sectionIVsubsectionIItitle}
 				\bigskip
 
-		
-			
+				\frametitle{The Effects of Resonance}
+
+				\small
+
+				Consider the extreme case in the figure shown. What is the physical significance of the values of $m$ near $r=1$?  \vspc
+				\includegraphics[scale=.25]{images/lecture4_fig3.png}\hspace{10mm} \includegraphics[scale=.6]{images/galloping_gertie_02.jpg}  \vspc
+
 				\btVFill
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIVsubsectionIVtitle}
+				\frametitle{\sectionIVsubsectionIItitle}
 				\bigskip
 
-			
+				\frametitle{The Effects of Resonance}
+
+				\small
+
+				Consider the extreme case in the figure shown. What is the physical significance of the values of $m$ near $r=1$?  \vspc
+				\includegraphics[scale=.25]{images/lecture4_fig3.png}\hspace{10mm} \includegraphics[scale=.6]{images/galloping_gertie_02.jpg}  \vspc
+
 				\btVFill
 			\end{frame}
 
 		% section IV subsection III
-		\subsection{\sectionIVsubsectionIIItitle}\label{sectionIIIsubsectionIV}	
+		\subsection{\sectionIVsubsectionIIItitle}\label{sectionIVsubsectionIV}
 
 			\begin{frame}
 				\frametitle{\sectionIVsubsectionIIItitle}
 				\bigskip
+
+				\frametitle{Resonance can be Destructive}
+
+				\small
+
+				The resonance peak represents a amplitude  ratio greater than one meaning the output amplitude is larger that in the input amplitude. This large amplitude output displacement caused by resonance correspond to a large force in the spring members and the large forces are transmitted to the body. Large forces cause mechanical failure.
+
+				\includegraphics[scale=.20]{images/galloping_gertie_01.jpg}  \vspc
+
+			
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIIItitle}
+				\bigskip
+
+				Where on the frequency response graphs does resonance occur? It looks like it is {\it near} $r=1$.\vspc
+
+				\scalebox{1}{$M\left(r\right)=\frac{1}{\sqrt{\left(1-r^2\right)^2+\left(2\zeta r\right)^2}}$ \hspc with \hspc$r=\frac{\omega}{\omega_n}$}\vspc
+
+				The value of $M$ is maximized when the denominator is minimized. Therefore the resonance frequency is found by taking the derivative of the denominator and setting it equal to zero.  \vspc
+
+				\scalebox{1}{$M_{max}$ \hspc occurs at $r=\sqrt{1-2\zeta^2} \implies \omega=\omega_n\sqrt{1-2\zeta^2} $}\vspc
+
+				An input frequency equal to the resonance frequency causes maximum output displacement.  \vspc
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIIItitle}
+				\bigskip
+
+				\frametitle{The  Resonance Frequency}
+				The resonance event only occurs in second order systems when the radical shown is positive. This corresponds to systems with damping ratio in the range $0<\zeta< 0.707$ . \vspc
+
+				\scalebox{1}{$\omega_r=\omega_n\sqrt{1-2\zeta^2} \hspc 0<\zeta< 0.707$} \vspc
+
+				\scalebox{1}{$M_r=\frac{1}{2\zeta\sqrt{1-\zeta^2}}$\hspccc or in decibels\hspccc$m_r=-20log\left(2\zeta\sqrt{1-\zeta^2}\right)$} \vspc
+
+				The phase at resonance can also be found. \vspc
+
+				\scalebox{1}{$\phi_r=tan^{-1}\left(\frac{\sqrt{1-2\zeta^2}}{\zeta}\right)$}\vspc
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIIItitle}
+				\bigskip
+
+				It is important to note that we multiplied the transfer function by $k$ during the derivations. Therefore if me divide the expressions for $M$ and $M_r$ by $k$ to find the amplitude ratio between input force, $f(t)$ and output displacement, $x_{ss}(t)$\vspc
+
+				\scalebox{1}{$M=\frac{1}{k\sqrt{\left(1-r^2\right)^2+\left(2\zeta r\right)^2}}$}\vspc
+				\scalebox{1}{$\implies \hspcc m=-20log(k)-10log\left[\left(1-r^2\right)^2+\left(2\zeta r\right)^2\right]$}\vspc
+				\scalebox{1}{$M_r=\frac{1}{k2\zeta\sqrt{1-\zeta^2}}$}\vspc
+				\scalebox{1}{$\implies \hspcc m_r=-20log\left(k\right)-20log\left(2\zeta\sqrt{1-\zeta^2}\right) $}\vspc
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIIItitle}
+				\bigskip
+
+				\frametitle{References}
+
+				\begin{itemize}
+					\item System Dynamics, Palm III, Third Edition - Chapter 9 - System Response in the Frequency Domain
+				\end{itemize}
+
+				\btVFill
+			\end{frame}
+
+		% section IV subsection IV
+		\subsection{\sectionIVsubsectionIVtitle}\label{sectionIVsubsectionIV}	
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIVtitle}
+				\bigskip
+
+
 
 				
 
@@ -634,7 +997,7 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIVsubsectionIIItitle}
+				\frametitle{\sectionIVsubsectionIVtitle}
 				\bigskip
 
 			
@@ -643,7 +1006,7 @@
 			\end{frame}
 			
 			\begin{frame}
-				\frametitle{\sectionIVsubsectionIIItitle}
+				\frametitle{\sectionIVsubsectionIVtitle}
 				\bigskip
 				
 				
@@ -652,7 +1015,7 @@
 			\end{frame}
 
 			\begin{frame}
-				\frametitle{\sectionIVsubsectionIIItitle}
+				\frametitle{\sectionIVsubsectionIVtitle}
 				\bigskip
 			
 				

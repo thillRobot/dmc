@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  18 APR 2024 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  18 APR 2024 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,19 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
 
-LaTeX Warning: Label `sectionIIIsubsectionIV' multiply defined.
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIVsubsectionIV' multiply defined.
 
 )
 \openout1 = `frequency_response.aux'.
@@ -1369,70 +1381,177 @@ pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.364 			\end{frame}
-                    ] [17
+l.378 			\end{frame}
+                    ]pdfTeX warning (ext4): destination with the same identifie
+r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.400 			\end{frame}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.400 			\end{frame}
+                     [17
 
-] [18
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsub
+sectionI<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 			\end{frame}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.415 			\end{frame}
+                    
+<images/lecture1_fig6.png, id=748, 523.9575pt x 416.55624pt>
+File: images/lecture1_fig6.png Graphic file (type png)
+<use images/lecture1_fig6.png>
+Package pdftex.def Info: images/lecture1_fig6.png  used on input line 415.
+(pdftex.def)             Requested size: 144.08476pt x 114.55014pt.
+<images/lecture1_fig5.png, id=749, 540.0175pt x 418.56375pt>
+File: images/lecture1_fig5.png Graphic file (type png)
+<use images/lecture1_fig5.png>
+Package pdftex.def Info: images/lecture1_fig5.png  used on input line 415.
+(pdftex.def)             Requested size: 148.50114pt x 115.10219pt.
+ [18
 
-] [19
+ <./images/lecture1_fig6.png> <./images/lecture1_fig5.png>] [19
 
-] [20
+]
+File: images/lecture1_fig6.png Graphic file (type png)
+<use images/lecture1_fig6.png>
+Package pdftex.def Info: images/lecture1_fig6.png  used on input line 456.
+(pdftex.def)             Requested size: 144.08476pt x 114.55014pt.
+File: images/lecture1_fig5.png Graphic file (type png)
+<use images/lecture1_fig5.png>
+Package pdftex.def Info: images/lecture1_fig5.png  used on input line 456.
+(pdftex.def)             Requested size: 148.50114pt x 115.10219pt.
+ [20
 
-] [21
+]
+<images/lecture2_fig2.png, id=854, 532.99126pt x 412.54124pt>
+File: images/lecture2_fig2.png Graphic file (type png)
+<use images/lecture2_fig2.png>
+Package pdftex.def Info: images/lecture2_fig2.png  used on input line 478.
+(pdftex.def)             Requested size: 143.90956pt x 111.38762pt.
+ [21
 
-] [22
+ <./images/lecture2_fig2.png>]
+Overfull \hbox (8.14586pt too wide) in paragraph at lines 502--502
+[][]  
+ []
+
+[22
 
 ] [23
 
-] [24
+]
+<images/lecture2_fig7.png, id=963, 510.90875pt x 413.545pt>
+File: images/lecture2_fig7.png Graphic file (type png)
+<use images/lecture2_fig7.png>
+Package pdftex.def Info: images/lecture2_fig7.png  used on input line 537.
+(pdftex.def)             Requested size: 153.2738pt x 124.06445pt.
+
+Overfull \hbox (4.62888pt too wide) in paragraph at lines 537--537
+[][] 
+ []
+
+<images/hendrikbode.png, id=964, 121.95563pt x 155.07938pt>
+File: images/hendrikbode.png Graphic file (type png)
+<use images/hendrikbode.png>
+Package pdftex.def Info: images/hendrikbode.png  used on input line 537.
+(pdftex.def)             Requested size: 48.78137pt x 62.03064pt.
+[24
+
+ <./images/lecture2_fig7.png> <./images/hendrikbode.png>] [25
+
+]
+<images/lecture2_fig9.png, id=1033, 531.9875pt x 414.54875pt>
+File: images/lecture2_fig9.png Graphic file (type png)
+<use images/lecture2_fig9.png>
+Package pdftex.def Info: images/lecture2_fig9.png  used on input line 559.
+(pdftex.def)             Requested size: 132.99655pt x 103.63693pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+61.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [26
+
+ <./images/lecture2_fig9.png>] [27
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 452.
+(hyperref)                removing `math shift' on input line 589.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 452.
+(hyperref)                removing `superscript' on input line 589.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 452.
+(hyperref)                removing `math shift' on input line 589.
 
-[25
-
-] [26
-
-] [27
-
-] [28
+[28
 
 ] [29
 
 ] [30
 
-] [31
+]
+Overfull \hbox (9.79393pt too wide) in paragraph at lines 668--668
+[][]  
+ []
 
-] [32
 
-] [33
+Overfull \vbox (7.53775pt too high) detected at line 668
+ []
 
-] [34
-
-] [35
+[31
 
 ]
+<images/lecture3_fig3.png, id=1253, 531.9875pt x 416.55624pt>
+File: images/lecture3_fig3.png Graphic file (type png)
+<use images/lecture3_fig3.png>
+Package pdftex.def Info: images/lecture3_fig3.png  used on input line 684.
+(pdftex.def)             Requested size: 159.59747pt x 124.96783pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
+Overfull \vbox (1.35121pt too high) detected at line 684
+ []
 
+[32
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 575.
+ <./images/lecture3_fig3.png>]
+Overfull \vbox (0.525pt too high) detected at line 709
+ []
 
+[33
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 575.
+]
+Overfull \vbox (11.66148pt too high) detected at line 732
+ []
+
+[34
+
+]
+<images/lecture3_fig4.png, id=1357, 545.03625pt x 415.5525pt>
+File: images/lecture3_fig4.png Graphic file (type png)
+<use images/lecture3_fig4.png>
+Package pdftex.def Info: images/lecture3_fig4.png  used on input line 748.
+(pdftex.def)             Requested size: 147.16176pt x 112.20067pt.
+<images/lecture3_fig5.png, id=1358, 532.99126pt x 415.5525pt>
+File: images/lecture3_fig5.png Graphic file (type png)
+<use images/lecture3_fig5.png>
+Package pdftex.def Info: images/lecture3_fig5.png  used on input line 748.
+(pdftex.def)             Requested size: 143.90956pt x 112.20067pt.
+ [35
+
+ <./images/lecture3_fig4.png> <./images/lecture3_fig5.png>]
+Overfull \vbox (42.02995pt too high) detected at line 778
+ []
 
 [36
 
@@ -1440,22 +1559,100 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ] [38
 
-] [39
+]
 
-] [40
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 811.
 
-]pdfTeX warning (ext4): destination with the same identifier (name{sectionIIIsu
-bsectionIV}) has been already used, duplicate ignored
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 811.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 811.
+
+[39
+
+]
+Overfull \vbox (16.94705pt too high) detected at line 854
+ []
+
+[40
+
+]
+<images/lecture4_fig1.png, id=1575, 545.03625pt x 415.5525pt>
+File: images/lecture4_fig1.png Graphic file (type png)
+<use images/lecture4_fig1.png>
+Package pdftex.def Info: images/lecture4_fig1.png  used on input line 874.
+(pdftex.def)             Requested size: 98.1023pt x 74.79622pt.
+<images/lecture4_fig2.png, id=1576, 532.99126pt x 415.5525pt>
+File: images/lecture4_fig2.png Graphic file (type png)
+<use images/lecture4_fig2.png>
+Package pdftex.def Info: images/lecture4_fig2.png  used on input line 874.
+(pdftex.def)             Requested size: 95.93428pt x 74.79622pt.
+<images/lecture4_fig3.png, id=1577, 537.00626pt x 410.53375pt>
+File: images/lecture4_fig3.png Graphic file (type png)
+<use images/lecture4_fig3.png>
+Package pdftex.def Info: images/lecture4_fig3.png  used on input line 874.
+(pdftex.def)             Requested size: 96.65695pt x 73.89288pt.
+ [41
+
+ <./images/lecture4_fig1.png> <./images/lecture4_fig2.png> <./images/lecture4_f
+ig3.png>]
+File: images/lecture4_fig3.png Graphic file (type png)
+<use images/lecture4_fig3.png>
+Package pdftex.def Info: images/lecture4_fig3.png  used on input line 888.
+(pdftex.def)             Requested size: 134.25124pt x 102.63318pt.
+<images/galloping_gertie_02.jpg, id=1616, 200.75pt x 155.58125pt>
+File: images/galloping_gertie_02.jpg Graphic file (type jpg)
+<use images/galloping_gertie_02.jpg>
+Package pdftex.def Info: images/galloping_gertie_02.jpg  used on input line 888
+.
+(pdftex.def)             Requested size: 120.45091pt x 93.34946pt.
+ [42
+
+ <./images/galloping_gertie_02.jpg>]
+File: images/lecture4_fig3.png Graphic file (type png)
+<use images/lecture4_fig3.png>
+Package pdftex.def Info: images/lecture4_fig3.png  used on input line 902.
+(pdftex.def)             Requested size: 134.25124pt x 102.63318pt.
+File: images/galloping_gertie_02.jpg Graphic file (type jpg)
+<use images/galloping_gertie_02.jpg>
+Package pdftex.def Info: images/galloping_gertie_02.jpg  used on input line 902
+.
+(pdftex.def)             Requested size: 120.45091pt x 93.34946pt.
+ [43
+
+]
+<images/galloping_gertie_01.jpg, id=1685, 989.6975pt x 557.08125pt>
+File: images/galloping_gertie_01.jpg Graphic file (type jpg)
+<use images/galloping_gertie_01.jpg>
+Package pdftex.def Info: images/galloping_gertie_01.jpg  used on input line 921
+.
+(pdftex.def)             Requested size: 197.93599pt x 111.41428pt.
+ [44
+
+ <./images/galloping_gertie_01.jpg>] [45
+
+] [46
+
+] [47
+
+] [48
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIVsub
+sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.634 			\end{frame}
-                     [41
+l.997 			\end{frame}
+                     [49
 
-] [42
+] [50
 
-] [43
+] [51
 
-] [44
+] [52
 
 ]
 \tf@nav=\write7
@@ -1475,51 +1672,55 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `frequency_response.out' has not changed.
-(rerunfilecheck)             Checksum: 09274CE7D87C28ACA62CC1DC34304E37;1484.
+(rerunfilecheck)             Checksum: FA656DFB024C22A943A5C6CBFEB49BF6;1471.
  ) 
 Here is how much of TeX's memory you used:
- 30100 strings out of 480247
- 603494 string characters out of 5896151
- 1066445 words of memory out of 5000000
- 47284 multiletter control sequences out of 15000+600000
- 500114 words of font info for 102 fonts, out of 8000000 for 9000
+ 31081 strings out of 480247
+ 615504 string characters out of 5896151
+ 1091847 words of memory out of 5000000
+ 48230 multiletter control sequences out of 15000+600000
+ 500428 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,22n,104p,453b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,22n,104p,453b,1806s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIVsubsectionIII} has been referenced but d
 oes not exist, replaced by a fixed one
 
- </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600pk
-> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0700.600p
-k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600
-pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
-0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.6
-00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.
-600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0700
-.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi100
-0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx10
-00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1
-000.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi
-0800.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-sx1200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csx1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecss1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
-c/ecsi0500.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msam10.pfb>
-Output written on frequency_response.pdf (44 pages, 532135 bytes).
+ </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk
+> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600p
+k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0500.600
+pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0700.60
+0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.6
+00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.
+600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095
+.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx109
+5.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi07
+00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1
+000.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx
+1000.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s1000.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+si0800.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+css1200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecsx1200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecsx1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecss1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecsi0500.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecsx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb>
+Output written on frequency_response.pdf (52 pages, 999134 bytes).
 PDF statistics:
- 2192 PDF objects out of 2487 (max. 8388607)
- 1714 compressed objects within 18 object streams
- 130 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2633 PDF objects out of 2984 (max. 8388607)
+ 1998 compressed objects within 20 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 

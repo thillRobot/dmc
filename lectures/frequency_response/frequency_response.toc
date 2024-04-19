@@ -5,16 +5,16 @@
 \beamer@subsectionintoc {1}{4}{Graph of Frequency Response}{11}{0}{1}
 \beamer@sectionintoc {2}{The Bode Diagram}{15}{0}{2}
 \beamer@subsectionintoc {2}{1}{Review Frequency Response}{16}{0}{2}
-\beamer@subsectionintoc {2}{2}{Amplitude ratio in Decibels}{17}{0}{2}
-\beamer@subsectionintoc {2}{3}{The Bode Diagram}{19}{0}{2}
-\beamer@subsectionintoc {2}{4}{Frequency Response in MATLAB}{22}{0}{2}
-\beamer@sectionintoc {3}{Frequency Response of 2$^{nd}$ Order Systems}{25}{0}{3}
-\beamer@subsectionintoc {3}{1}{Review Transfer Functions}{26}{0}{3}
-\beamer@subsectionintoc {3}{2}{Frequency Response of Overdamped Systems}{28}{0}{3}
-\beamer@subsectionintoc {3}{3}{Frequency Response of Underdamped Systems}{29}{0}{3}
-\beamer@subsectionintoc {3}{4}{MATLAB Bode Plots}{31}{0}{3}
-\beamer@sectionintoc {4}{Resonance}{35}{0}{4}
-\beamer@subsectionintoc {4}{1}{Review 2$^{nd}$ Order Frequency Response}{36}{0}{4}
-\beamer@subsectionintoc {4}{2}{The Resonance Phenomenon}{38}{0}{4}
-\beamer@subsectionintoc {4}{3}{MATLAB Bode Plots}{39}{0}{4}
-\beamer@subsectionintoc {4}{4}{The Resonance Frequency}{41}{0}{4}
+\beamer@subsectionintoc {2}{2}{Amplitude ratio in Decibels}{19}{0}{2}
+\beamer@subsectionintoc {2}{3}{The Bode Diagram}{21}{0}{2}
+\beamer@subsectionintoc {2}{4}{Frequency Response in MATLAB}{26}{0}{2}
+\beamer@sectionintoc {3}{Frequency Response of 2$^{nd}$ Order Systems}{28}{0}{3}
+\beamer@subsectionintoc {3}{1}{Review Transfer Functions}{29}{0}{3}
+\beamer@subsectionintoc {3}{2}{Frequency Response of Overdamped Systems}{31}{0}{3}
+\beamer@subsectionintoc {3}{3}{Frequency Response of Underdamped Systems}{33}{0}{3}
+\beamer@subsectionintoc {3}{4}{MATLAB Bode Plots}{36}{0}{3}
+\beamer@sectionintoc {4}{Resonance}{38}{0}{4}
+\beamer@subsectionintoc {4}{1}{Review 2$^{nd}$ Order Frequency Response}{39}{0}{4}
+\beamer@subsectionintoc {4}{2}{The Resonance Phenomenon}{41}{0}{4}
+\beamer@subsectionintoc {4}{3}{The Resonance Frequency}{44}{0}{4}
+\beamer@subsectionintoc {4}{4}{---}{49}{0}{4}
