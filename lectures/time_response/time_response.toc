@@ -1,0 +1,20 @@
+\beamer@sectionintoc {1}{First Order Time Response}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Second Order Free Response}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Second Order Forced Response}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Response and System Stability}{9}{0}{1}
+\beamer@subsectionintoc {1}{4}{Equation Components}{15}{0}{1}
+\beamer@sectionintoc {2}{Second Order Time Response}{18}{0}{2}
+\beamer@subsectionintoc {2}{1}{Damped Natural Frequency and Damping Ratio}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{The Overdamped Case}{29}{0}{2}
+\beamer@subsectionintoc {2}{3}{The Critically Damped Case}{30}{0}{2}
+\beamer@subsectionintoc {2}{4}{The Underdamped Case}{31}{0}{2}
+\beamer@sectionintoc {3}{Response and Root Location}{34}{0}{3}
+\beamer@subsectionintoc {3}{1}{The Complex Plane}{35}{0}{3}
+\beamer@subsectionintoc {3}{2}{Along a Vertical Line}{37}{0}{3}
+\beamer@subsectionintoc {3}{3}{Along a Horizontal Line}{39}{0}{3}
+\beamer@subsectionintoc {3}{4}{Along a Diagonal Line}{42}{0}{3}
+\beamer@sectionintoc {4}{Specification of The Step Response}{43}{0}{4}
+\beamer@subsectionintoc {4}{1}{The Unit Step Response}{44}{0}{4}
+\beamer@subsectionintoc {4}{2}{Rise, Peak, and Settling Time}{46}{0}{4}
+\beamer@subsectionintoc {4}{3}{Maximum Overshoot and The Damping Ratio}{49}{0}{4}
+\beamer@subsectionintoc {4}{4}{System Identificatio}{54}{0}{4}
