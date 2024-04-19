@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  19 APR 2024 00:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  19 APR 2024 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,9 +1178,6 @@ LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
 
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
-
-LaTeX Warning: Label `sectionIVsubsectionIV' multiply defined.
-
 )
 \openout1 = `time_response.aux'.
 
@@ -1358,7 +1355,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ] [3
 
 ]
-<images/ferrari.jpg, id=230, 803.0pt x 552.0625pt>
+<images/ferrari.jpg, id=222, 803.0pt x 552.0625pt>
 File: images/ferrari.jpg Graphic file (type jpg)
 <use images/ferrari.jpg>
 Package pdftex.def Info: images/ferrari.jpg  used on input line 110.
@@ -1385,7 +1382,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
  <./images/ferrari.jpg>] [5
 
 ]
-<images/lecture1_fig1.png, id=312, 622.57594pt x 216.81pt>
+<images/lecture1_fig1.png, id=304, 622.57594pt x 216.81pt>
 File: images/lecture1_fig1.png Graphic file (type png)
 <use images/lecture1_fig1.png>
 Package pdftex.def Info: images/lecture1_fig1.png  used on input line 151.
@@ -1447,7 +1444,7 @@ Overfull \hbox (6.06213pt too wide) in paragraph at lines 325--325
 ] [18
 
 ]
-<images/mass_spring_01.png, id=773, 278.54062pt x 165.61874pt>
+<images/mass_spring_01.png, id=765, 278.54062pt x 165.61874pt>
 File: images/mass_spring_01.png Graphic file (type png)
 <use images/mass_spring_01.png>
 Package pdftex.def Info: images/mass_spring_01.png  used on input line 378.
@@ -1495,7 +1492,7 @@ l.434 			\end{frame}
                    \relax 
 l.434 			\end{frame}
                     
-<images/lecture2_fig2.png, id=883, 452.4403pt x 156.585pt>
+<images/lecture2_fig2.png, id=875, 452.4403pt x 156.585pt>
 File: images/lecture2_fig2.png Graphic file (type png)
 <use images/lecture2_fig2.png>
 Package pdftex.def Info: images/lecture2_fig2.png  used on input line 434.
@@ -1514,12 +1511,12 @@ l.453 			\end{frame}
                    \relax 
 l.453 			\end{frame}
                     
-<images/mass_spring_02.png, id=919, 271.0125pt x 186.6975pt>
+<images/mass_spring_02.png, id=911, 271.0125pt x 186.6975pt>
 File: images/mass_spring_02.png Graphic file (type png)
 <use images/mass_spring_02.png>
 Package pdftex.def Info: images/mass_spring_02.png  used on input line 453.
 (pdftex.def)             Requested size: 108.40306pt x 74.67767pt.
-<images/beam_bending_01.png, id=920, 471.7625pt x 256.96pt>
+<images/beam_bending_01.png, id=912, 471.7625pt x 256.96pt>
 File: images/beam_bending_01.png Graphic file (type png)
 <use images/beam_bending_01.png>
 Package pdftex.def Info: images/beam_bending_01.png  used on input line 453.
@@ -1604,7 +1601,7 @@ Overfull \hbox (9.43057pt too wide) in paragraph at lines 620--620
 ] [31
 
 ]
-<images/lecture2_fig3.png, id=1230, 636.87938pt x 215.30438pt>
+<images/lecture2_fig3.png, id=1222, 636.87938pt x 215.30438pt>
 File: images/lecture2_fig3.png Graphic file (type png)
 <use images/lecture2_fig3.png>
 Package pdftex.def Info: images/lecture2_fig3.png  used on input line 662.
@@ -1617,7 +1614,7 @@ Overfull \hbox (11.14903pt too wide) in paragraph at lines 662--662
 [32
 
  <./images/lecture2_fig3.png>]
-<images/lecture2_fig4.png, id=1266, 485.56406pt x 312.41719pt>
+<images/lecture2_fig4.png, id=1258, 485.56406pt x 312.41719pt>
 File: images/lecture2_fig4.png Graphic file (type png)
 <use images/lecture2_fig4.png>
 Package pdftex.def Info: images/lecture2_fig4.png  used on input line 674.
@@ -1627,7 +1624,7 @@ Package pdftex.def Info: images/lecture2_fig4.png  used on input line 674.
  <./images/lecture2_fig4.png>] [34
 
 ]
-<images/lecture3_fig5.png, id=1347, 485.56406pt x 312.41719pt>
+<images/lecture3_fig5.png, id=1338, 485.56406pt x 312.41719pt>
 File: images/lecture3_fig5.png Graphic file (type png)
 <use images/lecture3_fig5.png>
 Package pdftex.def Info: images/lecture3_fig5.png  used on input line 705.
@@ -1638,7 +1635,7 @@ Package pdftex.def Info: images/lecture3_fig5.png  used on input line 705.
  <./images/lecture3_fig5.png>] [36
 
 ]
-<images/lecture3_fig2.png, id=1417, 217.5628pt x 179.16937pt>
+<images/lecture3_fig2.png, id=1408, 217.5628pt x 179.16937pt>
 File: images/lecture3_fig2.png Graphic file (type png)
 <use images/lecture3_fig2.png>
 Package pdftex.def Info: images/lecture3_fig2.png  used on input line 731.
@@ -1649,7 +1646,7 @@ Package pdftex.def Info: images/lecture3_fig2.png  used on input line 731.
 [38
 
 ]
-<images/lecture3_fig3.png, id=1488, 217.5628pt x 175.40532pt>
+<images/lecture3_fig3.png, id=1479, 217.5628pt x 175.40532pt>
 File: images/lecture3_fig3.png Graphic file (type png)
 <use images/lecture3_fig3.png>
 Package pdftex.def Info: images/lecture3_fig3.png  used on input line 755.
@@ -1661,7 +1658,7 @@ Package pdftex.def Info: images/lecture3_fig3.png  used on input line 755.
 ] [41
 
 ]
-<images/lecture3_fig4.png, id=1592, 226.59656pt x 176.15813pt>
+<images/lecture3_fig4.png, id=1583, 226.59656pt x 176.15813pt>
 File: images/lecture3_fig4.png Graphic file (type png)
 <use images/lecture3_fig4.png>
 Package pdftex.def Info: images/lecture3_fig4.png  used on input line 782.
@@ -1670,21 +1667,64 @@ Package pdftex.def Info: images/lecture3_fig4.png  used on input line 782.
 
  <./images/lecture3_fig4.png>] [43
 
-] [44
+]
+<images/mass_spring_04.png, id=1665, 283.0575pt x 186.6975pt>
+File: images/mass_spring_04.png Graphic file (type png)
+<use images/mass_spring_04.png>
+Package pdftex.def Info: images/mass_spring_04.png  used on input line 837.
+(pdftex.def)             Requested size: 113.22098pt x 74.67767pt.
 
-] [45
+Overfull \hbox (37.67754pt too wide) detected at line 837
+$ []$ 
+ []
 
-] [46
+[44
 
-] [47
+ <./images/mass_spring_04.png>] [45
 
-] [48
+]
+<images/lecture3_fig1.png, id=1735, 439.6425pt x 177.66376pt>
+File: images/lecture3_fig1.png Graphic file (type png)
+<use images/lecture3_fig1.png>
+Package pdftex.def Info: images/lecture3_fig1.png  used on input line 871.
+(pdftex.def)             Requested size: 307.74765pt x 124.36377pt.
+
+Overfull \hbox (0.45778pt too wide) in paragraph at lines 871--871
+[][]  
+ []
+
+[46
+
+ <./images/lecture3_fig1.png>]
+Overfull \hbox (24.58606pt too wide) detected at line 890
+$ []$ 
+ []
+
+[47
+
+]
+Overfull \hbox (46.07014pt too wide) detected at line 905
+$ []$ 
+ []
+
+[48
 
 ] [49
 
 ] [50
 
-] [51
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.965 			\end{frame}
+                    
+? 
+[51
 
 ] [52
 
@@ -1694,8 +1734,8 @@ Package pdftex.def Info: images/lecture3_fig4.png  used on input line 782.
 sectionIV}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.908 			\end{frame}
-                     [54
+l.1006 			\end{frame}
+                      [54
 
 ] [55
 
@@ -1723,15 +1763,15 @@ Package rerunfilecheck Warning: File `time_response.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `time_response.out':
-(rerunfilecheck)             Before: 721A33A6B2FE9EAF909BF120F8207AFE;1460
-(rerunfilecheck)             After:  265BE8BE76F1A7F966D3010B65CE9C87;1460.
+(rerunfilecheck)             Before: 6B45789AC4EF68AB0C4A8FF4C1EFC46A;1299
+(rerunfilecheck)             After:  496F7BA59AF446B6E4F85F90A54B2874;1460.
  ) 
 Here is how much of TeX's memory you used:
- 30207 strings out of 480247
- 605638 string characters out of 5896151
- 1065199 words of memory out of 5000000
- 47355 multiletter control sequences out of 15000+600000
- 495812 words of font info for 93 fonts, out of 8000000 for 9000
+ 30217 strings out of 480247
+ 605961 string characters out of 5896151
+ 1065190 words of memory out of 5000000
+ 47366 multiletter control sequences out of 15000+600000
+ 496587 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,19n,104p,393b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIVsubsectionIII} has been referenced but d
@@ -1740,46 +1780,35 @@ oes not exist, replaced by a fixed one
 pdfTeX warning (dest): name{Navigation58} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline0.4.4.55} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.4.3.50} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.4.2.47} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.4.1.45} has been referenced but does not e
-xist, replaced by a fixed one
-
- </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk
-> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1440.600p
-k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.600
-pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
-0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.6
-00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095.
-600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1200
-.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss120
-0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx12
+ </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk
+> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600p
+k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1440.600
+pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.60
+0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.6
+00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.
+600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi1095
+.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi120
+0.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss12
 00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
-440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss
-1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-sx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb>
-Output written on time_response.pdf (57 pages, 637450 bytes).
+200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx
+1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
+s1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+ss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+csx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb>
+Output written on time_response.pdf (57 pages, 670875 bytes).
 PDF statistics:
- 2618 PDF objects out of 2984 (max. 8388607)
- 2140 compressed objects within 22 object streams
- 161 named destinations out of 1000 (max. 500000)
- 284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2654 PDF objects out of 2984 (max. 8388607)
+ 2134 compressed objects within 22 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 

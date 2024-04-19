@@ -16,5 +16,5 @@
 \beamer@sectionintoc {4}{Specification of The Step Response}{43}{0}{4}
 \beamer@subsectionintoc {4}{1}{The Unit Step Response}{44}{0}{4}
 \beamer@subsectionintoc {4}{2}{Rise, Peak, and Settling Time}{46}{0}{4}
-\beamer@subsectionintoc {4}{3}{Maximum Overshoot and The Damping Ratio}{49}{0}{4}
+\beamer@subsectionintoc {4}{3}{Maximum Overshoot and The Damping Ratio}{51}{0}{4}
 \beamer@subsectionintoc {4}{4}{System Identificatio}{54}{0}{4}

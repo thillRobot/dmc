@@ -812,6 +812,26 @@
 				\frametitle{\sectionIVsubsectionItitle}
 				\bigskip
 
+				\frametitle{The Mass Spring Damper}
+
+				\large Now, consider the mass-spring system with damping present subject to {\bf step} input. This models instantly turning on the input force $f(t)$.\vspc
+
+				\begin{multicols}{2}
+
+					\includegraphics[scale=.4]{images/mass_spring_04.png} \hspc  
+
+					\underline{Heavyside's Step Function}\vspc
+					\[f(t) = \begin{cases} 
+					      0 & t < 0 \\
+					      F & t\geq 0 \\
+					   \end{cases}
+					\]
+
+				\end{multicols}
+
+				\large The EOM is:
+
+					\[ m\ddot{x} +c\dot{x}+kx=f(t) \hspcc with \hspc x(t=0)=x_0 \hspcc and \hspcc v(t=0)=v_0 \] 
 
 				\btVFill
 			\end{frame}
@@ -820,6 +840,16 @@
 				\frametitle{\sectionIVsubsectionItitle}
 				\bigskip
 
+				\frametitle{Unit Step Response}
+				The {\bf unit step response} is a special case of the {\it forced response} in which $f(t)$ is the step function of unit magnitude (F=1). \vspcc
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{|c|c|}
+				Overdamped & $ x(t)=\frac{1}{k}(\frac{r_2}{r_1-r_2}e^{-r_1t}-\frac{r_1}{r_1-r_2}e^{-r_2t}+1 $ \\
+				& $r_{1,2}=-s_{1,2}$ \\
+				Critically Damped & $ x(t)=\frac{1}{K}[(-1-\omega_nt)e^{-\omega_nt}+1] $ \\
+				Underdamped & $ x(t)=\frac{1}{k}\left[\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta\omega_nt}sin(\omega_dt+\phi+1\right] $ \\
+				& $ \phi=tan^{-1}\left(\frac{\sqrt{1-\zeta^2}}{\zeta}\right)+\pi $ \\
+				\end{tabular}
 			
 				
 				\btVFill
@@ -832,15 +862,10 @@
 				\frametitle{\sectionIVsubsectionIItitle}
 				\bigskip
 
-				
-	
-				\btVFill
-			\end{frame}
 
-			\begin{frame}
-				\frametitle{\sectionIVsubsectionIItitle}
-				\bigskip
+				We are going to derive several quatities that describes the response of an underdamped system. \vspc
 
+				\includegraphics[scale=0.7]{images/lecture3_fig1.png}
 
 				\btVFill
 			\end{frame}
@@ -849,9 +874,74 @@
 				\frametitle{\sectionIVsubsectionIItitle}
 				\bigskip
 
+				\frametitle{Rise Time}
+
+				The {\bf rise time} is the time at which the response first equals the steady state value.\vspc
+
+				%\includegraphics[scale=0.35]{lecture3_fig1.png}\vspc
+				\[ x(t)=\frac{1}{k}\left[\frac{1}{\sqrt{1-\zeta^2}}e^{-\zeta\omega_nt}sin(\omega_dt+\phi)+1\right] \] 
+
+				Set the {\it transient term} to zero and solve for $t$.\vspc
+				\[ e^{-\zeta\omega_nt}sin(\omega_dt+\phi)=0 \implies sin(\omega_dt+\phi)=0\implies \omega_dt+\phi=2\pi \]
+				\[ t_{rise}=t_r=\frac{2\pi-\phi}{\omega_d} \]
+
 
 				\btVFill
 			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIItitle}
+				\bigskip
+
+				The {\bf peak time} is the time at which the response equals the maximum value. Find the derivative of the response equation and set it equal to zero. \vspc
+
+				\[ \dot{x}(t)= \]
+				\[ \left(\frac{1}{K}\frac{1}{\sqrt{1-\zeta^2}}\right)\left[ e^{-\zeta\omega_nt}(\omega_dcos(\omega_dt+\phi))+sin(\omega_dt+\phi)(-\zeta\omega_ne^{-\zeta\omega_nt})\right] \] 
+				%\includegraphics[scale=0.7]{lecture3_fig1.png}
+				\[ sin(\omega_d)t=0\implies \omega_dt=\pi \implies \hspc t_{peak}= t_p=\frac{\pi}{\omega_d} \] 
+
+
+				\btVFill
+			\end{frame}
+
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIItitle}
+				\bigskip
+
+
+				The {\bf settling time} is the time at which the response decays to a certain percentage of the steady state value.\vspc
+
+				It can be esitmated as:\vspc
+				\[ t_{settling}=t_s=-\frac{ln(tolerance)}{\zeta\omega_n} \] 
+				\[ 2\%\implies tolerance=0.02 \]
+				\[ 5\%\implies tolerance=0.05 \]
+				%\includegraphics[scale=0.7]{lecture3_fig1.png}
+
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame}
+				\frametitle{\sectionIVsubsectionIItitle}
+				\bigskip
+
+
+				The {\bf maximum overshoot} is the response beyond the steady state value. \vspc
+
+				\[ M_p=x(t_p)-x_{ss}\implies M_p=\frac{1}{k}e^{\frac{-\pi\zeta}{\sqrt{1-\zeta^2}}} \]
+
+				This is often expressed as a percentage. \vspc
+
+				\[ M_\%=\frac{x(t_p)-x_{ss}}{x_{ss}}100=100e^{\frac{-\pi\zeta}{\sqrt{1-\zeta^2}} } \]
+
+				%=100e^{-\frac{\pi\zeta}{\sqrt{1-\zeta^2}}}$}
+				%\includegraphics[scale=0.7]{lecture3_fig1.png}
+
+
+				\btVFill
+			\end{frame}
+
 
 		% section IV subsection III
 		\subsection{\sectionIVsubsectionIIItitle}\label{sectionIVsubsectionIV}
@@ -860,6 +950,17 @@
 				\frametitle{\sectionIVsubsectionIIItitle}
 				\bigskip
 
+				\frametitle{Damping Ratio from Maximum Overshoot}
+
+				The {\it damping ratio} can be determined from the maximum overshoot! \vspc
+
+				\[ M_\%=100e^{\frac{-\pi\zeta}{\sqrt{1-\zeta^2}}} \]\vspc
+
+				Solve for $\zeta$.\vspc
+
+				\[ \zeta=\frac{R}{\sqrt{\pi^2+R^2}} \hspc with \hspc R=ln\left(\frac{100}{M\%}\right) \]
+
+
 				\btVFill
 			\end{frame}
 
@@ -867,7 +968,17 @@
 				\frametitle{\sectionIVsubsectionIIItitle}
 				\bigskip
 
-			
+				\frametitle{Damping Ratio from Log Decrement}
+
+				The logarithmic decrement is the natural log of the ratio of the amplitudes of any two successive peaks: 
+				\[ \delta=\frac{1}{n}ln\frac{x(t)}{x(t+nT)} \]
+
+				x(t) is the overshoot (amplitude - final value) at time t and x(t + nT) is the overshoot of the peak n periods away. \vspc
+
+				The damping ratio is then found from the logarithmic decrement by: 
+
+				\[ \zeta=\frac{1}{\sqrt{1+\left(\frac{2\pi}{\delta}\right)^2}} \]
+
 				\btVFill
 			\end{frame}
 
@@ -875,20 +986,10 @@
 				\frametitle{\sectionIVsubsectionIIItitle}
 				\bigskip
 
+				\frametitle{Damping Ratio from Log Decrement}
 
-				\btVFill
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIVsubsectionIIItitle}
-			
-				\btVFill
-			\end{frame}
-
-			\begin{frame}
-				\frametitle{\sectionIVsubsectionIIItitle}
-				\bigskip
-
+				What is the significance of all of this? \vspc
+				Why do we care about all of these new parameters?
 
 				\btVFill
 			\end{frame}
@@ -899,10 +1000,7 @@
 			\begin{frame}
 				\frametitle{\sectionIVsubsectionIVtitle}
 				\bigskip
-
-
-
-				
+	
 
 				\btVFill 
 			\end{frame}
