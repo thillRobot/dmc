@@ -12,8 +12,8 @@
 \documentclass[fleqn]{beamer} % for presentation (has nav buttons at bottom)
 
 %\usepackage{/home/tntech.edu/thill/courses/dmc/lectures/dmc_lectures}
-%\usepackage{/home/thill/courses/dmc/lectures/dmc_lectures}
-\usepackage{/mnt/c/Users/thill/Documents/courses/dmc/lectures/dmc_lectures}
+\usepackage{/home/thill/courses/dmc/lectures/dmc_lectures}
+%\usepackage{/mnt/c/Users/thill/Documents/courses/dmc/lectures/dmc_lectures}
 
 \author{ME3050 - Dynamics Modeling and Controls}
 
@@ -95,29 +95,106 @@
 				\frametitle{\sectionIsubsectionItitle}
 				\bigskip
 
+				\textbf{Block Diagrams and Transfer Functions} 
+
+				\vspace*{5mm}
+				\includegraphics[scale=0.04]{images/four_basic_symbols.png}
+
+				\begin{multicols}{2}
+				\textbf{Generalized Feedback Loop}
+
+				\vspace*{5mm}
+				\includegraphics[scale=0.03]{images/generalized_feedback_loop.png}
+
+				\[ T(s)=\frac{X(s)}{F(s)}\]
+
+				\[ T(s)=\frac{G(S)}{1+G(s)H(s)}\]
+				\end{multicols}
+
+				\btVFill
+			\end{frame}
+
+			\begin{frame} \small
+				\frametitle{\sectionIsubsectionItitle} 
+				\bigskip
+
+				\textbf{Control System Examples:}
+                \begin{itemize}
+
+                    \item Thermal Control - HVAC - 3D Printing
+                    \item Vehicle Control - Cruise - ACC
+                    \item Precision Motion Control - Robotics - Automation  
+
+                \end{itemize}                   
+
+                \vspace*{5mm}
+                \textbf{Goal:} cause system {\it output} to go to specfied state
+
+                \vspace*{5mm}
+                \textbf{Strategy:} set the system input to appropriate value to do so
+                \begin{itemize}
+                	\item No Control 
+                	\item Bang-Bang Control
+                	\item Open-Loop Control
+                	\item Closed-Loop Control
+                \end{itemize}
+
 				\btVFill
 			\end{frame}
 
 			\begin{frame}
 				\frametitle{\sectionIsubsectionItitle}
 				\bigskip
+
+				\textbf{Open-Loop Control}
+				\begin{itemize}
+
+					\item uses prediction of model behavior, not system state
+
+					\item less complex, known as {\it sensorless} 
+
+					\item less robust to input disturbances
+
+					\item single path block diagram
+
+				\end{itemize}
+
+				\vspace*{5mm}
+				\textbf{Closed-Loop Control}
+				\begin{itemize}
+
+					\item uses measurement or estimation of model state and behavior
+
+					\item more complex, requires integrated sensor
+
+					\item can be robust to range of input disturbances 
+
+					\item feedback loop in block diagram
+
+				\end{itemize}
 
  
 				\btVFill
 			\end{frame}
 
-			\begin{frame}
+				\begin{frame}\small
 				\frametitle{\sectionIsubsectionItitle}
 				\bigskip
 
-
+				\textbf{Open-Loop Control}
+				\includegraphics[scale=0.03]{images/open_loop_control.png}
+				
+				\vspace*{5mm}
+				\textbf{Closed-Loop Control}
+				\includegraphics[scale=0.03]{images/closed_loop_control.png}
+				
 				\btVFill
+				{\tiny images: T.Hill - modified from System Dynamics, Palm 3rd Ed.}
 			\end{frame}
 
-		
+			
 
-
-
+	
 		% section I subsection II
 		\subsection{\sectionIsubsectionIItitle}\label{sectionIsubsectionII}
 
@@ -125,7 +202,11 @@
 				\frametitle{\sectionIsubsectionIItitle}
 				\bigskip
 
+				\textbf{Closed-Loop Control Terminology}
+				\includegraphics[scale=0.0375]{images/closed_loop_control_terminology.png}
+
 				\btVFill
+				{\tiny images: T.Hill - modified from System Dynamics, Palm 3rd Ed.}
 			\end{frame}
 
 				%\btVFill
@@ -160,6 +241,27 @@
 				\frametitle{\sectionIsubsectionIVtitle}
 				\bigskip
 
+				The goal of the controller is to achieve the following:
+				\begin{itemize}
+
+					\item Minimize the steady state error
+					\item Minimize the settling time
+					\item Achieve other transient specifications (see time response)
+
+				\end{itemize}
+
+				\btVFill
+				{\tiny Text: System Dynamics - Palm 3rd.}
+
+			\end{frame}	
+
+			\begin{frame}
+				\frametitle{\sectionIsubsectionIVtitle}
+				\bigskip
+
+				\textbf{The PID Control Algorithm}
+				\includegraphics[scale=0.0375]{images/closed_loop_control_pid.png}
+
 				\btVFill
 			\end{frame}	
 
@@ -167,13 +269,19 @@
 				\frametitle{\sectionIsubsectionIVtitle}
 				\bigskip
 
-				\btVFill
-			\end{frame}	
+				The {\textbf control gains} scale the calculated error to adjust the system input(s).
 
-			\begin{frame}
-				\frametitle{\sectionIsubsectionIVtitle}
-				\bigskip
-				\frametitle{Amplitude Ratio}
+				\vspace*{5mm}
+				\begin{itemize}
+
+					\item $K_P$ - {\it Proportional} Gain - Correction from current error \vspace*{5mm}
+					\item $K_I$ - {\it Integral} Gain - Correction from acculated error \vspace*{5mm}
+ 					\item $K_D$ - {\it Derivative} Gain - Correction from change in error \vspace*{5mm}
+
+				\end{itemize}
+
+				Note: P, PI, and PD controllers can be used, but the combination PID is prefered. 
+				
 
 				\btVFill
 			\end{frame}
