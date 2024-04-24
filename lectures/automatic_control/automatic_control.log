@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  23 APR 2024 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  24 APR 2024 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1120,8 +1120,26 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 )
 \mybox=\box139
+ (./automatic_control.aux
 
-No file automatic_control.aux.
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIVsubsectionIV' multiply defined.
+
+)
 \openout1 = `automatic_control.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1142,6 +1160,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1214,6 +1233,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 57.
 LaTeX Info: Redefining \pageref on input line 57.
 LaTeX Info: Redefining \nameref on input line 57.
+
+(./automatic_control.out) (./automatic_control.out)
 \@outlinefile=\write6
 \openout6 = `automatic_control.out'.
 
@@ -1285,13 +1306,12 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count463
-
-No file automatic_control.nav.
+ (./automatic_control.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [1
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+] [2
 
 ] [3
 
@@ -1438,39 +1458,33 @@ l.530 			\end{frame}
 
  (./automatic_control.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `automatic_control.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `automatic_control.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  992E4D970724C0DE413882E4AC08F6E1;1084.
+Package rerunfilecheck Info: File `automatic_control.out' has not changed.
+(rerunfilecheck)             Checksum: 60A8B2606CF3E770642D0774A314C8BC;1314.
  ) 
 Here is how much of TeX's memory you used:
- 29777 strings out of 480247
- 598943 string characters out of 5896151
- 1054905 words of memory out of 5000000
- 46998 multiletter control sequences out of 15000+600000
+ 29975 strings out of 480247
+ 601255 string characters out of 5896151
+ 1062921 words of memory out of 5000000
+ 47188 multiletter control sequences out of 15000+600000
  477869 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,15n,104p,397b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,19n,104p,397b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{sectionIVsubsectionIII} has been referenced but d
 oes not exist, replaced by a fixed one
 
  </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk
 > </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600p
-k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600
-pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.60
-0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.6
-00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.
+k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600
+pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.60
+0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.6
+00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.
 600pk>
-Output written on automatic_control.pdf (52 pages, 124716 bytes).
+Output written on automatic_control.pdf (52 pages, 163066 bytes).
 PDF statistics:
- 1674 PDF objects out of 1728 (max. 8388607)
- 1436 compressed objects within 15 object streams
+ 2192 PDF objects out of 2487 (max. 8388607)
+ 1905 compressed objects within 20 object streams
  146 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
