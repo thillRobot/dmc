@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{The Laplace Transform}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{An Integral Transform}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Laplace Transform of A Derivative}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Properties of an Integral}{9}{0}{1}
+\beamer@subsectionintoc {1}{4}{Table of Transform Pairs}{10}{0}{1}
+\beamer@sectionintoc {2}{Laplace Transforms Method}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{Step 1 - Apply Laplace Transform}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Step 2 - Solve for $X(s)$}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Step 3 - Rearrange to Find Invertable Form}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Step 4 - Invert for Final Answer}{19}{0}{2}
+\beamer@sectionintoc {3}{Partial Fraction Decomposition}{22}{0}{3}
+\beamer@subsectionintoc {3}{1}{General Polynomial Form}{23}{0}{3}
+\beamer@subsectionintoc {3}{2}{Case 1 - Distinct Roots}{25}{0}{3}
+\beamer@subsectionintoc {3}{3}{Case 2 - Repeated Roots}{26}{0}{3}
+\beamer@subsectionintoc {3}{4}{Special Case - Complex Roots}{28}{0}{3}
