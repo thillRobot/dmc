@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  29 MAY 2024 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.13)  29 MAY 2024 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ode_review.tex
-(./ode_review.tex
+**lecture_template.tex
+(./lecture_template.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1118,31 +1118,40 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
 Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 )
 \mybox=\box139
- (./ode_review.aux
+ (./lecture_template.aux
 
 LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
 
-)
-\openout1 = `ode_review.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Warning: Label `sectionIIsubsectionI<1>' multiply defined.
+
+
+LaTeX Warning: Label `sectionIIsubsectionI' multiply defined.
+
+
+LaTeX Warning: Label `sectionIVsubsectionIV' multiply defined.
+
+)
+\openout1 = `lecture_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1200,7 +1209,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1213,56 +1222,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
-(./ode_review.out) (./ode_review.out)
+(./lecture_template.out) (./lecture_template.out)
 \@outlinefile=\write6
-\openout6 = `ode_review.out'.
+\openout6 = `lecture_template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 47.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 47.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
+(Font)                  OT1/cmr/bx/n --> T1/cmss/b/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 47.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 47.
+(Font)                  OT1/cmr/m/it --> T1/cmss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 47.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
+(Font)                  OT1/cmr/bx/it --> T1/cmss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 47.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 47.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 47.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 47.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 47.
+(Font)                  T1/cmss/b/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 47.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 47.
+(Font)                  T1/cmss/m/it --> T1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 47.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1289,41 +1298,18 @@ ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 \c@lstlisting=\count463
- (./ode_review.nav)
+ (./lecture_template.nav)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1
 
-] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
+] [4
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 92
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-) [4
-
-]
-Overfull \hbox (2.61574pt too wide) in paragraph at lines 112--112
-[][] 
- []
-
-[5
+] [5
 
 ] [6
 
@@ -1333,23 +1319,14 @@ Overfull \hbox (2.61574pt too wide) in paragraph at lines 112--112
 
 ] [9
 
-] [10
+]
+[10
 
 ] [11
 
-]
+] [12
 
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 224.
-
-<images/ferrari.jpg, id=462, 803.0pt x 552.0625pt>
-File: images/ferrari.jpg Graphic file (type jpg)
-<use images/ferrari.jpg>
-Package pdftex.def Info: images/ferrari.jpg  used on input line 224.
-(pdftex.def)             Requested size: 120.4448pt x 82.8058pt.
-[12
-
- <./images/ferrari.jpg>] [13
+] [13
 
 ] [14
 
@@ -1357,51 +1334,30 @@ pdfTeX warning (ext4): destination with the same identifier (name{sectionIIsubs
 ectionI}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.258 			\end{frame}
-                    ]
-Overfull \vbox (23.14919pt too high) detected at line 286
- []
-
-[15
+l.202 			\end{frame}
+                    ]pdfTeX warning (ext4): destination with the same identifie
+r (name{sectionIIsubsectionI<1>}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 			\end{frame}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{sectionIIsubsectionI}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.210 			\end{frame}
+                     [15
 
 ] [16
 
-]
-File: images/ferrari.jpg Graphic file (type jpg)
-<use images/ferrari.jpg>
-Package pdftex.def Info: images/ferrari.jpg  used on input line 330.
-(pdftex.def)             Requested size: 120.4448pt x 82.8058pt.
-<images/lecture1_fig2.png, id=633, 934.49126pt x 739.76375pt>
-File: images/lecture1_fig2.png Graphic file (type png)
-<use images/lecture1_fig2.png>
-Package pdftex.def Info: images/lecture1_fig2.png  used on input line 330.
-(pdftex.def)             Requested size: 93.45459pt x 73.9807pt.
- [17
+] [17
 
- <./images/lecture1_fig2.png>]
-Overfull \vbox (20.30278pt too high) detected at line 344
- []
+] [18
 
-[18
+] [19
 
-]
-Overfull \vbox (19.00464pt too high) detected at line 358
- []
+] [20
 
-[19
-
-]
-Overfull \vbox (19.00464pt too high) detected at line 371
- []
-
-[20
-
-]
-File: images/lecture1_fig2.png Graphic file (type png)
-<use images/lecture1_fig2.png>
-Package pdftex.def Info: images/lecture1_fig2.png  used on input line 386.
-(pdftex.def)             Requested size: 140.16763pt x 110.95976pt.
- [21
+] [21
 
 ] [22
 
@@ -1411,22 +1367,14 @@ Package pdftex.def Info: images/lecture1_fig2.png  used on input line 386.
 
 ] [25
 
-] [26
+]
+[26
 
 ] [27
 
 ] [28
 
-]
-File: images/lecture1_fig2.png Graphic file (type png)
-<use images/lecture1_fig2.png>
-Package pdftex.def Info: images/lecture1_fig2.png  used on input line 510.
-(pdftex.def)             Requested size: 140.16763pt x 110.95976pt.
-File: images/lecture1_fig2.png Graphic file (type png)
-<use images/lecture1_fig2.png>
-Package pdftex.def Info: images/lecture1_fig2.png  used on input line 510.
-(pdftex.def)             Requested size: 140.16763pt x 110.95976pt.
- [29
+] [29
 
 ] [30
 
@@ -1436,59 +1384,70 @@ Package pdftex.def Info: images/lecture1_fig2.png  used on input line 510.
 
 ] [33
 
+] [34
+
+] [35
+
+]pdfTeX warning (ext4): destination with the same identifier (name{sectionIVsub
+sectionIV}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442 			\end{frame}
+                     [36
+
+] [37
+
 ]
 \tf@nav=\write7
-\openout7 = `ode_review.nav'.
+\openout7 = `lecture_template.nav'.
 
 \tf@toc=\write8
-\openout8 = `ode_review.toc'.
+\openout8 = `lecture_template.toc'.
 
 \tf@snm=\write9
-\openout9 = `ode_review.snm'.
+\openout9 = `lecture_template.snm'.
 
-
-(./ode_review.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+ (./lecture_template.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `ode_review.out' has not changed.
-(rerunfilecheck)             Checksum: 2A1F315FCFCB9AF87E4159E4A500DB72;918.
+
+Package rerunfilecheck Warning: File `lecture_template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `lecture_template.out':
+(rerunfilecheck)             Before: 83BCE05C0DB267DEF6C96F7809741927;948
+(rerunfilecheck)             After:  557AF426A3E5783847CBC480CB112EBA;948.
  ) 
 Here is how much of TeX's memory you used:
- 29977 strings out of 480247
- 601880 string characters out of 5896151
- 1062373 words of memory out of 5000000
- 47208 multiletter control sequences out of 15000+600000
- 486117 words of font info for 65 fonts, out of 8000000 for 9000
+ 29919 strings out of 480247
+ 600489 string characters out of 5896151
+ 1059773 words of memory out of 5000000
+ 47160 multiletter control sequences out of 15000+600000
+ 477869 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,19n,104p,390b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600
-pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.60
-0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0600.6
-00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800.
-600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095
-.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi109
-5.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss12
-00.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1
-200.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx
-1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-s1095.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
-ss1440.600pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-csx0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on ode_review.pdf (33 pages, 451146 bytes).
+ 99i,19n,104p,396b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{sectionIVsubsectionIII} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation38} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.4.37} has been referenced but does not e
+xist, replaced by a fixed one
+
+ </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk
+> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200.600p
+k> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0600.600
+pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.60
+0pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.6
+00pk> </home/thill/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.
+600pk>
+Output written on lecture_template.pdf (37 pages, 98206 bytes).
 PDF statistics:
- 1629 PDF objects out of 1728 (max. 8388607)
- 1235 compressed objects within 13 object streams
- 96 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1577 PDF objects out of 1728 (max. 8388607)
+ 1404 compressed objects within 15 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
